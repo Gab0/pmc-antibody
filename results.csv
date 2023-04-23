@@ -1,0 +1,8 @@
+Antibody ID,Agreement Rate,False Positive Rate,Search N,Benchmark N
+550280/BD Biosciences,0.19,0.81,195,527
+11-0041-82/Invitrogen,0.15,0.85,515,459
+ab183685/Abcam,0.73,0.27,297,337
+100401/BioLegend,0.05,0.95,328,332
+ab133616/Abcam,0.66,0.33,247,286
+AF1828/R&D Systems,0.89,0.10,38,60
+BAF1828/R&D Systems,0.93,0.0625,16,28
