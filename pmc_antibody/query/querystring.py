@@ -7,19 +7,47 @@ import itertools
 import re
 import sys
 
-# NOTE: This list could be loaded from a list instead;
+# NOTE: This list could be loaded from a separate file instead;
 _QUERY_STYLES = """
 $SKU $MANUFACTURER
-#$TARGET*$CLONE
-#$MANUFACTURER AND $CLONE
-#$SKU AND $MANUFACTURER
-"$TARGET \(Clone #$CLONE, $MANUFACTURER"
-"$TARGET antibody \($CLONE; $MANUFACTURER"
-"$MANUFACTURER clone $CLONE"
-"$MANUFACTURER, clone $CLONE"
-"""
+$SKU, $MANUFACTURER
+$SKU; $MANUFACTURER
 
-QUERY_STYLES = list(filter(None, _QUERY_STYLES.split("\n")))
+$TARGET \\(Clone #$CLONE, $MANUFACTURER
+$TARGET antibody \\($CLONE; $MANUFACTURER
+
+$TARGET, 1:100; #$SKU
+$TARGET \\(Cat # $SKU
+
+$TARGET \\($SKU
+
+$MANUFACTURER clone $CLONE
+$MANUFACTURER, clone $CLONE
+
+$MANUFACTURER, $SKU
+$MANUFACTURER; $SKU
+
+$CLONE, $MANUFACTURER
+$CLONE; $MANUFACTURER
+
+$SKU\\), and $TARGET
+$SKU, L3T4; $MANUFACTURER
+
+$CLONE, IgG2a, $MANUFACTURER
+
+cat. $SKU
+Cat#$SKU
+Cat. No. $SKU
+/$SKU
+; #$SKU
+
+""".replace("\\", "")
+
+QUERY_STYLES = [
+    f'"{query}"'
+    for query in _QUERY_STYLES.split("\n")
+    if query.strip()
+]
 
 
 class AntibodyInformation():
