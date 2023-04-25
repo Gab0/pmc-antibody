@@ -124,14 +124,18 @@ def benchmark_antibody(ab: querystring.AntibodyInformation, dataset: pd.DataFram
     ab_identifier = f"{ab.sku}/{ab.manufacturer}"
     search_result = process_antibody(ab)
 
-    results = []
+    matched_results = []
+    matched_articles = []
     unmatched_articles = []
     verbose = False
 
     for found_article in search_result.results:
         matched = False
         for benchmark_title in dataset.Title:
-            delta = jellyfish.levenshtein_distance(found_article.title, benchmark_title)
+            delta = jellyfish.levenshtein_distance(
+                found_article.title,
+                benchmark_title
+            )
             if delta < 0.15:
                 if delta > 0:
                     print("Not exact match:")
@@ -142,27 +146,32 @@ def benchmark_antibody(ab: querystring.AntibodyInformation, dataset: pd.DataFram
                 break
         if not matched:
             unmatched_articles.append(found_article)
-        results.append(matched)
+        matched_results.append(matched)
 
-    agreement_rate = sum(results) / len(results)
+    agreement_rate = sum(matched_results) / len(matched_results)
     false_positive_rate = 1 - agreement_rate
 
-    message = f"""
-Checking AB {ab_identifier}
-Total number of articles: {search_result.hit_count} (this) vs {len(dataset)} (CiteAB)
-Agreement rate: {agreement_rate * 100}%
-False positives: {false_positive_rate * 100}%
-    """
+    fulfillment_rate = sum(matched_results) / len(dataset.Title)
 
-    print(message)
-
-    return {
+    record = {
         "Antibody ID": ab_identifier,
-        "Agreement Rate": agreement_rate,
-        "False Positive Rate": false_positive_rate,
+        "Fulfillment Rate": percentage(fulfillment_rate),
+        "False Positive Rate": percentage(false_positive_rate),
         "Search N": search_result.hit_count,
-        "Benchmark N": len(dataset),
+        "Agreement N": sum(matched_results),
+        "Benchmark N (CiteAB)": len(dataset),
     }
+
+    print("\n")
+    for k, v in record.items():
+        print(f"{k}: {v}")
+    print("\n")
+
+    return record
+
+
+def percentage(rate: float) -> str:
+    return f"{round(rate * 100, 2)}%"
 
 
 if __name__ == "__main__":
