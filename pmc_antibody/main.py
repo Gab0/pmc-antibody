@@ -19,11 +19,13 @@ def process_antibody(ab):
     if not queries:
         return None
 
+    queries = list(set(queries))
     for q in queries:
         print(q)
 
     query = querystring.build_final_query(queries)
 
+    print(f"Final query has {len(query)}/1500 characters.")
     print(query)
 
     return europepmc.get_articles(query)
