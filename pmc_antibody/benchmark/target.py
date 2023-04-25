@@ -1,5 +1,7 @@
 #!/bin/python
+from typing import List, Optional
 
+import re
 import os
 
 import pandas as pd
@@ -21,3 +23,15 @@ def load_dataset(sheet_name: str):
 
     return dataset
 
+
+def extract_all_ids(df: pd.DataFrame) -> List[str]:
+    """ """
+    def extract_link(link: str) -> List[str]:
+        return re.findall(r"PMC[0-9]+", link)
+
+    ids = []
+    for link in df["URL"]:
+        if isinstance(link, str):
+            ids += extract_link(link)
+
+    return ids
