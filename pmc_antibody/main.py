@@ -8,9 +8,8 @@ import sys
 import jellyfish
 import pandas as pd
 
-from .query import querystring, europepmc
-
-from .benchmark.false_positive import load_dataset
+from .benchmark import target
+from .query import querystring, europepmc, discover_pattern
 
 
 def process_antibody(ab):
@@ -29,6 +28,15 @@ def process_antibody(ab):
     print(query)
 
     return europepmc.get_articles(query)
+
+
+def search_antibody(antibody_identifier):
+    """ This is the search function to be called if using this project as a library. """
+    identifiers = [s.strip() for s in antibody_identifier.split(",")]
+
+    ab = querystring.AntibodyInformation()
+
+    return process_antibody(ab)
 
 
 def write_unmatched_article_list(identifier: str, unmatched_articles) -> None:
@@ -111,7 +119,7 @@ def main():
         results = []
 
         for idx, ab in enumerate(antibodies):
-            dataset = load_dataset(str(idx + 1))
+            dataset = target.load_dataset(str(idx + 1))
             result = benchmark_antibody(ab, dataset)
             results.append(result)
 
@@ -145,17 +153,22 @@ def main():
         search_antibody(arguments.search_antibody)
 
     else:
-        dataset_index = arguments.i - 1
+        dataset_index = ensure_sane_dataset_index(arguments.i, len(antibodies))
 
-        if dataset_index < 0 or dataset_index >= len(antibodies):
-            print("Invalid dataset index.")
-            sys.exit(1)
+        ab = antibodies[dataset_index]
 
-        ab = antibodies[arguments.i - 1]
-
-        dataset = load_dataset(str(arguments.i))
+        dataset = target.load_dataset(str(arguments.i))
 
         benchmark_antibody(ab, dataset)
+
+
+def ensure_sane_dataset_index(idx: int, dataset_size: int):
+
+    if idx < 0 or idx >= dataset_size:
+        print("Invalid dataset index.")
+        sys.exit(1)
+
+    return idx - 1
 
 
 def benchmark_antibody(ab: querystring.AntibodyInformation, dataset: pd.DataFrame) -> Dict[str, Any]:
