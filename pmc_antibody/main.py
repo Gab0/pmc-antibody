@@ -50,13 +50,29 @@ def parse_arguments():
         "-i",
         type=int,
         default=1,
-        help="1-indexed antibody number, respecting the .xlsx table names."
+        help="1-indexed antibody number, respecting the .xlsx table names. To evaluate a single antibody."
+    )
+
+    parser.add_argument(
+        "-r",
+        "--retrieve-patterns",
+        type=int,
+        help="1-indexed antibody target, respecting the .xlsx table names. To scrape search patterns for a single antibody."
     )
 
     parser.add_argument(
         "-a",
         "--evaluate-all",
-        action="store_true"
+        action="store_true",
+        help="Evaluate all antibodies and build a metrics table."
+    )
+
+    parser.add_argument(
+        "-s",
+        "--search-antibody",
+        type=str,
+        help="Antibody identifier to search for. Format:" +
+        "'MANUFACTURER,SKU,CLONE,TARGET', where 'CLONE' is optional."
     )
 
     return parser.parse_args()
