@@ -3,6 +3,7 @@
 Methods to query EuropePMC search endpoints.
 """
 
+from typing import Dict, Optional, Union
 import time
 
 import requests
@@ -78,7 +79,7 @@ def get_annotations(query: str):
 
     parameters = {
         "entity": query,
-        "pageSize": str(8)
+        "pageSize": 8
     }
 
     URL = BASE_URL + "/europepmc/annotations_api/annotationsByArticleIds"
@@ -86,7 +87,7 @@ def get_annotations(query: str):
 
 def get_articles(query: str, pageToken=None) -> SearchResult:
     """ Do a single article search on EuropePMC. """
-    parameters = {
+    parameters: Dict[str, Union[str, int]] = {
         "query": query,
         "format": "json",
         "pageSize": 100
