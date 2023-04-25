@@ -116,6 +116,32 @@ def main():
         df = pd.DataFrame(results).round(2)
         df.to_csv("results.csv", index=None)
 
+    elif arguments.retrieve_patterns:
+        dataset_index = ensure_sane_dataset_index(arguments.retrieve_patterns, len(antibodies))
+        dataset = target.load_dataset(str(arguments.retrieve_patterns))
+        target_article_ids = target.extract_all_ids(dataset)
+
+        ab = antibodies[dataset_index]
+
+        ab_search_cues = querystring.variable_search_cues(ab)
+
+        regex_patterns = discover_pattern.generate_regex_patterns(ab)
+
+        for target_article_id in target_article_ids:
+            print(target_article_id, end="")
+            xml_content = europepmc.retrieve_article_content(target_article_id)
+            if xml_content is None:
+                print("!")
+                continue
+            print()
+            detected_patterns = discover_pattern.run_patterns_on_article(regex_patterns, xml_content)
+
+            for detected_pattern in detected_patterns:
+                print(discover_pattern.construct_query_pattern_from_regex_match(ab_search_cues, detected_pattern))
+
+    elif arguments.search_antibody:
+        search_antibody(arguments.search_antibody)
+
     else:
         dataset_index = arguments.i - 1
 
