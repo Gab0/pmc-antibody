@@ -104,6 +104,16 @@ def get_articles(query: str, pageToken=None) -> SearchResult:
     return SearchResult(content)
 
 
+def retrieve_article_content(article_id: str) -> Optional[str]:
+    """ Retrieve the full text XML for a single article. """
+    URL = BASE_URL + f"/europepmc/webservices/rest/{article_id}/fullTextXML"
+
+    result = requests.get(URL)
+
+    if result.ok:
+        return result.text
+
+
 if __name__ == "__main__":
     #get_articles("CC8 AND (Bio-Rad OR BioRad)")
 
