@@ -85,17 +85,22 @@ def vary_manufacturer(manufacturer):
     return list(set(variations))
 
 
-def replace_query_style(ab, style) -> List[str]:
+def variable_search_cues(ab: AntibodyInformation) -> Dict[str, List[Optional[str]]]:
 
-    if style.startswith("#"):
-        return []
-
-    patterns: Dict[str, List[str]] = {
+    return {
         "TARGET": [ab.target],
         "CLONE": [ab.clone_id],
         "MANUFACTURER": vary_manufacturer(ab.manufacturer),
         "SKU": [ab.sku]
     }
+
+
+def replace_query_style(ab, style) -> List[str]:
+
+    if style.startswith("#"):
+        return []
+
+    patterns = variable_search_cues(ab)
 
     styles = [style]
 
@@ -145,7 +150,10 @@ def generate_query(ab: AntibodyInformation) -> List[str]:
 
 def build_final_query(queries: List[str]) -> str:
 
-    def format_query(query):
+    def _format_query(query):
         return f'({query})'
+
+    def format_query(query):
+        return query
 
     return " OR ".join(map(format_query, queries))
