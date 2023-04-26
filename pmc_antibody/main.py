@@ -32,9 +32,22 @@ def process_antibody(ab):
 
 def search_antibody(antibody_identifier):
     """ This is the search function to be called if using this project as a library. """
-    identifiers = [s.strip() for s in antibody_identifier.split(",")]
 
-    ab = querystring.AntibodyInformation()
+    identifiers = [
+        s.strip() for s in antibody_identifier.split(",")
+    ]
+
+    if len(identifiers) == 3:
+        manufacturer, sku, ab_target = identifiers
+        clone_id = None
+    elif len(identifiers == 4):
+        manufacturer, sku, clone_id, ab_target = identifiers
+
+    else:
+        print(f"Bad antibody identifier: {antibody_identifier}!")
+        sys.exit(1)
+
+    ab = querystring.AntibodyInformation(sku, clone_id, manufacturer, ab_target)
 
     return process_antibody(ab)
 
@@ -85,6 +98,13 @@ def parse_arguments():
         type=str,
         help="Antibody identifier to search for. Format:" +
         "'MANUFACTURER,SKU,CLONE,TARGET', where 'CLONE' is optional."
+    )
+
+    parser.add_argument(
+        "-j",
+        "--pattern-jump-to-index",
+        type=int,
+        help="Jump to a specific reference table index when discovering search patterns."
     )
 
     return parser.parse_args()
@@ -139,15 +159,38 @@ def main():
         ab_search_cues = querystring.variable_search_cues(ab)
 
         regex_patterns = discover_pattern.generate_regex_patterns(ab)
+        secondary_regex_patterns = discover_pattern.generate_secondary_regex_patterns(ab)
 
-        for target_article_id in target_article_ids:
-            print(target_article_id, end="")
+        article_ids_iterable = enumerate(target_article_ids[arguments.pattern_jump_to_index:])
+        for idx, target_article_id in article_ids_iterable:
+
             xml_content = europepmc.retrieve_article_content(target_article_id)
-            if xml_content is None:
-                print("!")
-                continue
+
+            status = "Ok" if xml_content is not None else "Unreachable"
+
+            message = "\t".join([
+                f"{idx + 1}",
+                target_article_id,
+                status
+            ])
+
+            print(message)
             print()
-            detected_patterns = discover_pattern.run_patterns_on_article(regex_patterns, xml_content)
+
+            if xml_content is None:
+                continue
+
+            # Detect patterns;
+            detected_patterns = discover_pattern.run_patterns_on_article(
+                regex_patterns,
+                xml_content
+            )
+
+            if not detected_patterns:
+                detected_patterns = discover_pattern.run_patterns_on_article(
+                    secondary_regex_patterns,
+                    xml_content
+                )
 
             for detected_pattern in detected_patterns:
                 print(discover_pattern.construct_query_pattern_from_regex_match(ab_search_cues, detected_pattern))
