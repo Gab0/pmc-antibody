@@ -1,7 +1,7 @@
 #!/bin/python
 #
 
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Union
 
 import itertools
 import re
@@ -59,7 +59,7 @@ class AntibodyInformation():
     """ Input information for a single antibody. """
     sku: Optional[str]
     clone_id: Optional[str]
-    manufacturer: Optional[str]
+    manufacturer: Optional[Union[List[str], str]]
 
     def __init__(self, sku=None, clone_id=None, manufacturer=None, target=None):
         self.sku = sku
@@ -68,16 +68,20 @@ class AntibodyInformation():
         self.target = target
 
 
-def vary_manufacturer(manufacturer):
+def expand_term(term: Union[List[str], str]):
     """
-    Takes a manufacturer string and create variations on it.
+    Takes a term string and create variations on it.
 
     Example: 'Bio Rad' can be represented as 'Bio-Rad', 'BioRad' or 'Bio Rad'.
 
     """
 
-    manufacturer = manufacturer.replace("-", " ")
-    fragments = manufacturer.split(" ")
+    # If term is already provided as a list, leave it as it is;
+    if isinstance(term, list):
+        return term
+
+    term = term.replace("-", " ")
+    fragments = term.split(" ")
 
     # -- Generate name variations;
     variations = [
@@ -95,7 +99,7 @@ def variable_search_cues(ab: AntibodyInformation) -> Dict[str, List[Optional[str
     return {
         "TARGET": [ab.target],
         "CLONE": [ab.clone_id],
-        "MANUFACTURER": vary_manufacturer(ab.manufacturer),
+        "MANUFACTURER": expand_term(ab.manufacturer),
         "SKU": [ab.sku]
     }
 
