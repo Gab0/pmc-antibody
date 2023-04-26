@@ -67,6 +67,13 @@ class AntibodyInformation():
         self.manufacturer = manufacturer
         self.target = target
 
+    def get_identifier(self) -> str:
+        manufacturer = self.manufacturer
+        if isinstance(self.manufacturer, list):
+            manufacturer = self.manufacturer[0]
+
+        return f"{manufacturer}:{self.sku}"
+
 
 def expand_term(term: Union[List[str], str]):
     """
