@@ -52,17 +52,21 @@ def search_antibody(antibody_identifier):
     return process_antibody(ab)
 
 
-def write_unmatched_article_list(identifier: str, unmatched_articles) -> None:
+def write_article_list(
+        ab_identifier: str,
+        list_identifier: str,
+        articles: List[europepmc.Article]
+) -> None:
 
     records = []
-    for article in unmatched_articles:
+    for article in articles:
         record = {
             "Title": article.title,
-            "ID": article.uid
+            "ID": article.get_id()
         }
         records.append(record)
 
-    filepath = f"{identifier}-false-positives.csv"
+    filepath = f"{ab_identifier}-{list_identifier}.csv"
     pd.DataFrame(records).to_csv(filepath, index=None)
 
 
@@ -224,7 +228,7 @@ def benchmark_antibody(ab: querystring.AntibodyInformation, dataset: pd.DataFram
 
     """
 
-    ab_identifier = f"{ab.sku}/{ab.manufacturer}"
+    ab_identifier = f"{ab.sku}:{ab.manufacturer}"
     search_result = process_antibody(ab)
 
     matched_results = []
@@ -264,6 +268,8 @@ def benchmark_antibody(ab: querystring.AntibodyInformation, dataset: pd.DataFram
         "Agreement N": sum(matched_results),
         "Benchmark N (CiteAB)": len(dataset),
     }
+
+    write_article_list(ab_identifier, "unmatched-articles", unmatched_articles)
 
     print("\n")
     for k, v in record.items():
