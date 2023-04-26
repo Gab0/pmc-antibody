@@ -9,20 +9,18 @@ from . import querystring
 ESCAPE_CHARS = False
 
 
-def discover_antibody_pattern(ab):
-    patterns = generate_regex_patterns(ab)
-
-    for pattern in patterns:
-        pass
-
-
-def generate_regex_patterns(ab) -> List[str]:
+def generate_regex_patterns(ab: querystring.AntibodyInformation) -> List[str]:
     wildcard = ".{0,16}"
 
     pattern_seeds = [
-        [ab.sku, ab.manufacturer],
-        [ab.clone_id, ab.manufacturer],
         [ab.target, ab.sku]
+    ]
+
+    for manufacturer in querystring.expand_term(ab.manufacturer):
+        pattern_seeds += [
+            [ab.sku, manufacturer],
+            [ab.clone_id, manufacturer],
+            [ab.target, ab.clone_id]
     ]
 
     patterns = []
@@ -30,6 +28,19 @@ def generate_regex_patterns(ab) -> List[str]:
         for transformer in [lambda x: x, reversed]:
             pattern = wildcard.join(transformer(pattern_seed))
             patterns.append(pattern)
+
+    return patterns
+
+
+def generate_secondary_regex_patterns(ab: querystring.AntibodyInformation) -> List[str]:
+    """
+    More aggressive regex patterns that should be used only if the usual patterns do not match.
+
+    """
+
+    patterns = [
+        rf"\s.{0,10}{ab.sku}.{0,10}\s"
+    ]
 
     return patterns
 
