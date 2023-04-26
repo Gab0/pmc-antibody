@@ -105,14 +105,34 @@ def get_articles(query: str, pageToken=None) -> SearchResult:
 
 
 def retrieve_article_content(article_id: str) -> Optional[str]:
-    """ Retrieve the full text XML for a single article. """
+    """
+    Retrieve the full text XML for a single article.
+    The article cache is also managed here, so we only download an article once.
+
+    """
+
+    ARTICLE_CACHE_DIRECTORY = "articles"
+
+    if not os.path.isdir(ARTICLE_CACHE_DIRECTORY):
+        os.mkdir(ARTICLE_CACHE_DIRECTORY)
+
+    cache_filepath = os.path.join(ARTICLE_CACHE_DIRECTORY, f"{article_id}.xml")
+
+    try:
+        with open(cache_filepath, encoding="utf-8") as f:
+            return f.read()
+    except FileNotFoundError:
+        pass
+
     URL = BASE_URL + f"/europepmc/webservices/rest/{article_id}/fullTextXML"
 
     result = requests.get(URL)
 
     if result.ok:
-        return result.text
+        xml_content = result.text
 
+        with open(cache_filepath, 'w', encoding="utf-8") as f:
+            f.write(xml_content)
 
         return xml_content
 
