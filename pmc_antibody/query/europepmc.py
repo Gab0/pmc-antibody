@@ -4,6 +4,7 @@ Methods to query EuropePMC search endpoints.
 """
 
 from typing import Dict, Optional, Union
+import os
 import time
 
 import requests
@@ -22,7 +23,7 @@ class Article():
             "source",
         ]
 
-        _optional_fields = [
+        self.id_fields = [
             "pmid",
             "pmcid",
             "doi"
@@ -31,9 +32,16 @@ class Article():
         for v in mandatory_fields:
             self.__dict__[v] = article_json[v]
 
+
         # NOTE: Mostly for debug purposes;
         self.article_json = article_json
 
+    def get_id(self):
+        for v in self.id_fields:
+            try:
+                return  self.article_json[v]
+            except KeyError:
+                pass
 
 class SearchResult():
     """ Information on a single EuropePMC search result. """
