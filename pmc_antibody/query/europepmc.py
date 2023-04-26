@@ -114,12 +114,6 @@ def retrieve_article_content(article_id: str) -> Optional[str]:
         return result.text
 
 
-if __name__ == "__main__":
-    #get_articles("CC8 AND (Bio-Rad OR BioRad)")
+        return xml_content
 
-    A = '"Clone #CC8, BioRad"'
-    B = 'RM4-5 OR BioRad'
-    C = "MCA1653F"
-    #get_articles(f'{A} OR {B}')
-    result = get_articles(C)
-    result.expand_all()
+    return None

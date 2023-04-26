@@ -60,14 +60,16 @@ def parse_arguments():
         "-i",
         type=int,
         default=1,
-        help="1-indexed antibody number, respecting the .xlsx table names. To evaluate a single antibody."
+        help="1-indexed antibody number, respecting the .xlsx table names." +
+        " To evaluate a single antibody."
     )
 
     parser.add_argument(
         "-r",
         "--retrieve-patterns",
         type=int,
-        help="1-indexed antibody target, respecting the .xlsx table names. To scrape search patterns for a single antibody."
+        help="1-indexed antibody target, respecting the .xlsx table names." +
+        " To scrape search patterns for a single antibody."
     )
 
     parser.add_argument(
@@ -103,16 +105,17 @@ def main():
 
     arguments = parse_arguments()
 
+    # NOTE: This list matches the antibody order found in the .xlsx reference table;
     antibodies = [
-        querystring.AntibodyInformation("550280", "RM4-5", "BD Biosciences", "CD4"),
-        querystring.AntibodyInformation("11-0041-82", "GK1.5", "Invitrogen", "CD4"),
-        querystring.AntibodyInformation("ab183685", "EPR19514", "Abcam", "CD4"),
-        querystring.AntibodyInformation("100401", "GK1.5", "BioLegend", "CD4"),
-        querystring.AntibodyInformation("ab133616", "EPR6855", "Abcam", "CD4"),
-        querystring.AntibodyInformation("AF1828", None, "R&D Systems", "TREM2"),
-        querystring.AntibodyInformation("BAF1828", None, "R&D Systems", "TREM2")
-        # querystring.AntibodyInformation("MCA1653F", "CC8", "Bio Rad", "CD4"),
-        # querystring.AntibodyInformation("9102", None, "Cell Signaling Technology", "p44/42 MAPK")
+        AntibodyInformation("550280", "RM4-5", ["BD Biosciences", "BD Pharmingen"], "CD4"),
+        AntibodyInformation("11-0041-82", "GK1.5", "Invitrogen", "CD4"),
+        AntibodyInformation("ab183685", "EPR19514", "Abcam", "CD4"),
+        AntibodyInformation("100401", "GK1.5", "BioLegend", "CD4"),
+        AntibodyInformation("ab133616", "EPR6855", "Abcam", "CD4"),
+        AntibodyInformation("AF1828", None, "R&D Systems", "TREM2"),
+        AntibodyInformation("BAF1828", None, "R&D Systems", "TREM2")
+        # AntibodyInformation("MCA1653F", "CC8", "Bio Rad", "CD4"),
+        # AntibodyInformation("9102", None, "Cell Signaling Technology", "p44/42 MAPK")
     ]
 
     if arguments.evaluate_all:
