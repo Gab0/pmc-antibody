@@ -1,0 +1,907 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?properties manuscript?><?origin nihpa?><?iso-abbr Nat. Immunol.?><?submitter-system nihms?><?submitter-canonical-name Nature Publishing Group?><?submitter-canonical-id NATURE-STRUCTUR?><?submitter-userid 1045?><?submitter-authority publisher?><?submitter-login nature-structure?><?submitter-name Nature Publishing Group (obsolete)?><?domain nihpa?><front><journal-meta><journal-id journal-id-type="nlm-journal-id">100941354</journal-id><journal-id journal-id-type="pubmed-jr-id">21750</journal-id><journal-id journal-id-type="nlm-ta">Nat Immunol</journal-id><journal-id journal-id-type="iso-abbrev">Nat. Immunol.</journal-id><journal-title-group><journal-title>Nature immunology</journal-title></journal-title-group><issn pub-type="ppub">1529-2908</issn><issn pub-type="epub">1529-2916</issn></journal-meta><article-meta><article-id pub-id-type="pmcid">4270846</article-id><article-id pub-id-type="pmid">25419629</article-id><article-id pub-id-type="doi">10.1038/ni.3043</article-id><article-id pub-id-type="manuscript">nihpa638367</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>The TCR&#x02019;s sensitivity to self-peptide&#x02013;MHC dictates the ability of
+na&#x000ef;ve CD8<sup>+</sup> T cells to respond to foreign
+antigens</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Fulton</surname><given-names>Ross B.</given-names></name><xref ref-type="aff" rid="A1">1</xref></contrib><contrib contrib-type="author"><name><surname>Hamilton</surname><given-names>Sara E.</given-names></name><xref ref-type="aff" rid="A1">1</xref></contrib><contrib contrib-type="author"><name><surname>Xing</surname><given-names>Yan</given-names></name><xref ref-type="aff" rid="A1">1</xref></contrib><contrib contrib-type="author"><name><surname>Best</surname><given-names>J. Adam</given-names></name><xref ref-type="aff" rid="A2">2</xref></contrib><contrib contrib-type="author"><name><surname>Goldrath</surname><given-names>Ananda W.</given-names></name><xref ref-type="aff" rid="A2">2</xref></contrib><contrib contrib-type="author"><name><surname>Hogquist</surname><given-names>Kristin A.</given-names></name><xref ref-type="aff" rid="A1">1</xref></contrib><contrib contrib-type="author"><name><surname>Jameson</surname><given-names>Stephen C.</given-names></name><xref ref-type="aff" rid="A1">1</xref></contrib></contrib-group><aff id="A1"><label>1</label>Department of Laboratory Medicine and Pathology, Center for Immunology,
+University of Minnesota Medical School, Minneapolis, MN, 55414, USA</aff><aff id="A2"><label>2</label>Division of Biological Sciences, University of California San Diego, La
+Jolla, California, USA</aff><author-notes><corresp id="FN1">Correspondence should be addressed to S.C.J.
+(<email>james024@umn.edu</email>), phone: 612-625-1496, fax: 612-625-2199</corresp></author-notes><pub-date pub-type="nihms-submitted"><day>29</day><month>10</month><year>2014</year></pub-date><pub-date pub-type="epub"><day>24</day><month>11</month><year>2014</year></pub-date><pub-date pub-type="ppub"><month>1</month><year>2015</year></pub-date><pub-date pub-type="pmc-release"><day>01</day><month>7</month><year>2015</year></pub-date><volume>16</volume><issue>1</issue><fpage>107</fpage><lpage>117</lpage><!--elocation-id from pubmed: 10.1038/ni.3043--><permissions><license xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms"><license-p>Users may view, print, copy, and download text and data-mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use:<ext-link ext-link-type="uri" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</ext-link></license-p></license></permissions><abstract><p id="P1">The strength of self-peptide&#x02013;major histocompatibility complex (MHC)
+recognition dictates na&#x000ef;ve CD8<sup>+</sup> T cell homeostasis, but its
+effect on foreign antigen reactivity is controversial. As CD5 expression correlates with
+self-recognition, we studied CD5<sup>lo</sup> and CD5<sup>hi</sup> na&#x000ef;ve
+CD8<sup>+</sup> T cells. Gene expression characteristics suggested
+CD5<sup>hi</sup> cells were better poised for reactivity and differentiation compared to
+the CD5<sup>lo</sup> population, and we found that the CD5<sup>hi</sup> pool exhibited
+more efficient clonal recruitment and expansion, as well as enhanced reactivity to
+inflammatory cues, during recognition of foreign antigen. Yet foreign peptide&#x02013;MHC
+recognition was similar for both subsets. Thus, CD8<sup>+</sup> T cells with
+higher self-reactivity dominate the immune response against foreign antigens, with
+implications for T cell repertoire diversity and autoimmunity.</p></abstract></article-meta></front><body><p id="P2">The nature of the TCR interaction with foreign peptide&#x02013;MHC (pMHC) complexes
+dictates the response magnitude and differentiation characteristics of antigen specific T
+cells<sup><xref rid="R1" ref-type="bibr">1</xref>&#x02013;<xref rid="R4" ref-type="bibr">4</xref></sup>. In addition studies suggest TCR interactions with self-pMHC also impact
+the na&#x000ef;ve T cell response to foreign-pMHC<sup><xref rid="R5" ref-type="bibr">5</xref>&#x02013;<xref rid="R11" ref-type="bibr">11</xref></sup>. Thymic positive
+selection and na&#x000ef;ve T cell homeostasis require low affinity TCR recognition of
+self-pMHC ligands<sup><xref rid="R12" ref-type="bibr">12</xref>&#x02013;<xref rid="R16" ref-type="bibr">16</xref></sup>, but there is controversy about how such interactions
+affect the subsequent response to foreign-pMHC: published studies argue self-pMHC recognition
+enhances<sup><xref rid="R6" ref-type="bibr">6</xref></sup> or diminishes<sup><xref rid="R7" ref-type="bibr">7</xref></sup> the response to foreign antigens, or selectively
+impairs sensitivity to low-affinity foreign ligands<sup><xref rid="R14" ref-type="bibr">14</xref></sup>. However, those reports investigated the impact of self-pMHC withdrawal
+rather than studying how the degree of self-pMHC sensitivity influences the T cell response to
+foreign-pMHC.</p><p id="P3">Homeostatic TCR interactions with self-pMHC are thought to be of very low affinity
+and involve recognition of multiple self-peptides by an individual T cell clone, precluding
+direct assessment of self-pMHC recognition characteristics in the polyclonal T cell pool.
+However, differences in the expression of the cell surface protein CD5 have proven to be a
+valuable surrogate for the strength of the TCR-self-pMHC interactions<sup><xref rid="R14" ref-type="bibr">14</xref>,<xref rid="R17" ref-type="bibr">17</xref>&#x02013;<xref rid="R21" ref-type="bibr">21</xref></sup>. CD5 expression on na&#x000ef;ve T cells
+accurately predicts basal TCR signaling intensity and the capacity of T cells to rapidly
+engage key TCR signaling pathways<sup><xref rid="R9" ref-type="bibr">9</xref>&#x02013;<xref rid="R11" ref-type="bibr">11</xref></sup>, and correlates with the ability of
+na&#x000ef;ve CD8<sup>+</sup> T cells to respond to homeostatic cues<sup><xref rid="R22" ref-type="bibr">22</xref>&#x02013;<xref rid="R26" ref-type="bibr">26</xref></sup>. However, the underlying basis for the distinct response characteristics of
+na&#x000ef;ve CD5<sup>lo</sup> and CD5<sup>hi</sup> populations is unclear, as is the impact
+of these differences on reactivity toward foreign-pMHC.</p><p id="P4">Recent studies used CD5 expression on na&#x000ef;ve CD4<sup>+</sup> T cells
+to correlate the strength of self-pMHC interaction with foreign-pMHC reactivity<sup><xref rid="R9" ref-type="bibr">9</xref>&#x02013;<xref rid="R11" ref-type="bibr">11</xref></sup>.
+In one study, analysis of TCR transgenic mice suggested a direct correlation between the
+abundance of cell surface CD5 and the ability to bind cognate foreign-pMHC tetramers<sup><xref rid="R9" ref-type="bibr">9</xref></sup>, suggesting TCR affinity for self-pMHC predicts
+the affinity for foreign-pMHC. Those authors observed more vigorous responses by
+CD5<sup>hi</sup> than CD5<sup>lo</sup> na&#x000ef;ve CD4<sup>+</sup> T cells toward
+foreign-pMHC. Another report failed to observe any correlation between CD5 expression and TCR
+affinity for foreign-pMHC ligands, however, and found that CD5<sup>lo</sup> T cells expanded
+more efficiently than CD5<sup>hi</sup> cells during the primary response to foreign
+antigen<sup><xref rid="R10" ref-type="bibr">10</xref>,<xref rid="R11" ref-type="bibr">11</xref></sup>. Hence, whether and how CD5 expression predicts the capacity of
+na&#x000ef;ve T cells to bind to and/or respond toward foreign-pMHC ligands is unclear.</p><p id="P5">Here, we report that CD5<sup>hi</sup> and CD5<sup>lo</sup> na&#x000ef;ve
+CD8<sup>+</sup> T cells differ in gene expression characteristics and that the
+CD5<sup>hi</sup> population manifests improved clonal recruitment and expansion in response
+to foreign-pMHC. These response differences did not correlate with the strength of the TCR
+interaction with foreign-pMHC, but CD5<sup>hi</sup> na&#x000ef;ve CD8<sup>+</sup> T
+cells showed superior utilization of <italic>in vivo</italic> inflammatory signals. Our data
+suggest pre-determined heterogeneity among na&#x000ef;ve T cells dictates their capacity to
+respond to foreign antigens, with consequences for diversity of the functional T cell
+repertoire. Moreover, the finding that T cells with strong reactivity toward self-pMHC
+dominate the foreign-pMHC response has implications for outgrowth of autoreactive T cells.</p><sec sec-type="results" id="S1"><title>Results</title><sec id="S2"><title>Distinct phenotype of CD5<sup>hi</sup> and CD5<sup>lo</sup> CD8<sup>+</sup> T
+cells</title><p id="P6">We first examined phenotypic differences between na&#x000ef;ve
+(CD44<sup>lo</sup>CD122<sup>lo</sup>) CD5<sup>lo</sup> and CD5<sup>hi</sup>
+CD8<sup>+</sup> T cells. Extending previous work<sup><xref rid="R24" ref-type="bibr">24</xref>,<xref rid="R26" ref-type="bibr">26</xref>,<xref rid="R27" ref-type="bibr">27</xref></sup> CD5<sup>hi</sup> cells were slightly larger, had
+elevated expression of CD44 and modestly increased interleukin 2R&#x003b2; (CD122) and
+IL-7R&#x003b1; (CD127) expression, but slightly lower TCR, CD8<sup>+</sup> and
+CD62L expression compared to the CD5<sup>lo</sup> population (<xref rid="F1" ref-type="fig">Fig. 1a</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 1a&#x02013;c</xref>). The CD5<sup>hi</sup> na&#x000ef;ve
+CD8<sup>+</sup> T cell population also showed elevated expression of T-bet and
+eomesodermin (transcription factors associated with activated CD8<sup>+</sup> T
+cell differentiation<sup><xref rid="R28" ref-type="bibr">28</xref></sup>) and a subset of
+CD5<sup>hi</sup> cells expressed the chemokine receptor CXCR3 (<xref rid="F1" ref-type="fig">Fig. 1a</xref>). The phenotypic characteristics of CD5<sup>hi</sup>
+na&#x000ef;ve CD8<sup>+</sup> T cells had some similarities to memory
+CD8<sup>+</sup> T cells. However, the frequency and phenotype of
+CD5<sup>hi</sup> na&#x000ef;ve CD8<sup>+</sup> T cells was similar in
+IL-15-deficient mice, which lack typical CD8<sup>+</sup> memory T cells<sup><xref rid="R29" ref-type="bibr">29</xref></sup> (<xref rid="F1" ref-type="fig">Fig.
+1b</xref> and <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig.
+1b,c</xref>). Hence, the CD5<sup>hi</sup> na&#x000ef;ve CD8<sup>+</sup> T cell
+population neither derives from nor depends on memory-phenotype CD8<sup>+</sup> T
+cells.</p><p id="P7">To determine whether the CD5<sup>hi</sup> and CD5<sup>lo</sup> populations are
+stable, we sorted polyclonal na&#x000ef;ve CD8<sup>+</sup> T cells into
+CD5<sup>hi</sup> and CD5<sup>lo</sup> populations (reflecting the upper and lower
+20% of CD5 distribution, respectively), and congenically distinct cell populations
+were co-transferred into normal recipients. Both transferred populations maintained
+distinct CD5 expression and persisted for at least 8 weeks, indicating equivalent steady
+state survival (similar to studies on na&#x000ef;ve CD4<sup>+</sup> T
+cells<sup><xref rid="R9" ref-type="bibr">9</xref></sup>) (<xref rid="F1" ref-type="fig">Fig. 1c,d</xref>
+<bold>and data not shown</bold>). The majority of donor cells maintained a na&#x000ef;ve
+phenotype, though a fraction of CD5<sup>hi</sup> cells converted to CD44<sup>hi</sup>
+phenotype (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig.
+1d</xref>), consistent with their enhanced response to homeostatic cues<sup><xref rid="R22" ref-type="bibr">22</xref>&#x02013;<xref rid="R26" ref-type="bibr">26</xref></sup>.</p><p id="P8">Biochemical approaches indicate a correlation between CD5 abundance and the
+degree of basal TCR signaling<sup><xref rid="R5" ref-type="bibr">5</xref>,<xref rid="R9" ref-type="bibr">9</xref>,<xref rid="R11" ref-type="bibr">11</xref></sup>, however such
+methods cannot permit assessment of TCR signal strength in individual cells. Hence we
+examined Nur77<sup>gfp</sup> transgenic reporter mice, in which green fluorescent protein
+(GFP) expression provides a sensitive readout of TCR signaling<sup><xref rid="R30" ref-type="bibr">30</xref></sup>. For CD8<sup>+</sup> and
+CD4<sup>+</sup> na&#x000ef;ve T cell subsets, CD5<sup>hi</sup> cells showed
+increased GFP expression compared to the CD5<sup>lo</sup> population (<xref rid="F1" ref-type="fig">Fig. 1e</xref>), and this correlation held for Nur77<sup>gfp</sup>
+expression in H-Y and OT-I TCR transgenic CD8<sup>+</sup> T cells (which reflect
+CD5<sup>lo</sup> and CD5<sup>hi</sup> populations, respectively)<sup><xref rid="R9" ref-type="bibr">9</xref>,<xref rid="R22" ref-type="bibr">22</xref>,<xref rid="R25" ref-type="bibr">25</xref></sup> (<xref rid="F1" ref-type="fig">Fig. 1f</xref>). Thus,
+CD5<sup>hi</sup> and CD5<sup>lo</sup> na&#x000ef;ve CD8<sup>+</sup> T cells are
+distinct, stable populations, with CD5<sup>hi</sup> cells displaying characteristics of
+cells that undergo more intense or frequent TCR interactions with self-pMHC.</p></sec><sec id="S3"><title>Distinct transcriptional profiles of CD5<sup>hi</sup> and CD5<sup>lo</sup>
+CD8<sup>+</sup> T cells</title><p id="P9">We next conducted gene expression analysis on polyclonal CD5<sup>hi</sup> and
+CD5<sup>lo</sup> na&#x000ef;ve CD8<sup>+</sup> T cells. In total, 57 unique
+genes were significantly changed by at least 2-fold (47 upregulated, 10 downregulated) in
+CD5<sup>hi</sup> relative to CD5<sup>lo</sup> na&#x000ef;ve CD8<sup>+</sup> T
+cells (<xref rid="T1" ref-type="table">Table 1</xref>). Among genes upregulated in
+CD5<sup>hi</sup> cells were those for the transcription factors Eomes, T-bet, Helios and
+Id3, many of which play a key role in activated T cell differentiation<sup><xref rid="R28" ref-type="bibr">28</xref></sup>, and molecules associated with trafficking and
+adhesion of effector T cells (CXCR3, XCL1 and CD44). Conversely, the kinase Itk (which can
+serve as a negative regulator of T-bet<sup><xref rid="R31" ref-type="bibr">31</xref>,<xref rid="R32" ref-type="bibr">32</xref></sup>) was downregulated in CD5<sup>hi</sup>
+cells.</p><p id="P10">We further investigated the expression of XCL1, since it has been associated
+with efficient <italic>in vivo</italic> activation of CD8<sup>+</sup> T cells (via
+enhancing T cell-dendritic cell colocalization)<sup><xref rid="R33" ref-type="bibr">33</xref></sup>. After brief <italic>in vitro</italic> stimulation of splenocytes,
+XCL1 protein expression was biased to a sub-population of CD5<sup>hi</sup> na&#x000ef;ve
+CD8+ T cells (<xref rid="F2" ref-type="fig">Fig. 2a,b</xref>; <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 2a</xref>). Expression of CXCR3 and
+T-bet also marked a subset of CD5<sup>hi</sup> na&#x000ef;ve CD8<sup>+</sup> T
+cells (<xref rid="F2" ref-type="fig">Fig. 2b</xref>)(<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 2a</xref>). However, although
+memory phenotype (CD44<sup>hi</sup>) CD8<sup>+</sup> T cells typically
+co-expressed these proteins, there was little coordinated expression in the na&#x000ef;ve
+CD5<sup>hi</sup> pool (<xref rid="SD1" ref-type="supplementary-material">Supplementary
+Fig. 2b,c</xref>), indicating considerable heterogeneity within the CD5<sup>hi</sup>
+na&#x000ef;ve CD8<sup>+</sup> T cell population.</p><p id="P11">Most individual gene expression differences between CD5<sup>hi</sup> and
+CD5<sup>lo</sup> na&#x000ef;ve CD8<sup>+</sup> T cell populations were subtle
+(<xref rid="T1" ref-type="table">Table 1</xref>), hence we explored whether there were
+changes in expression of gene sets. For a focused comparison, we used a
+&#x003c7;<sup>2</sup> test to align differences in CD5<sup>hi</sup> and CD5<sup>lo</sup>
+transcription with a database generated by ImmGen Consortium (Immgen.org), which had
+comprehensively defined patterns of gene expression following activation and
+differentiation of CD8<sup>+</sup> T cells<sup><xref rid="R34" ref-type="bibr">34</xref></sup>. In that earlier work, a temporal analysis of gene expression over
+the course of the immune response allowed for the characterization of 10 clusters of
+correlated gene expression<sup><xref rid="R34" ref-type="bibr">34</xref></sup>. We
+investigated how expression of genes in these clusters were regulated in the
+CD5<sup>hi</sup> and CD5<sup>lo</sup> na&#x000ef;ve CD8<sup>+</sup> T cell
+subsets. This analysis revealed that the CD5<sup>hi</sup> population expressed
+significantly higher proportion of genes that characterize two early stages of the
+CD8<sup>+</sup> T cell response and are associated with preparation for cell
+cycle (Cluster II) and active cell cycle and division (Cluster III) (<xref rid="F2" ref-type="fig">Fig. 2c</xref>, <xref rid="T2" ref-type="table">Table 2</xref>). A more
+moderate (but still highly significant) correlation with Cluster X, which defines genes
+expressed at late effector and memory stages (<xref rid="F2" ref-type="fig">Fig.
+2c</xref>, <xref rid="T2" ref-type="table">Table 2</xref>). Together, these data suggest
+the CD5<sup>hi</sup> population is better poised for initial activation, compared to the
+CD5<sup>lo</sup> population.</p></sec><sec id="S4"><title>Enhanced expansion of CD5<sup>hi</sup> CD8<sup>+</sup> T cells in response to
+infection</title><p id="P12">We next directly tested whether CD5<sup>hi</sup> and CD5<sup>lo</sup>
+na&#x000ef;ve CD8<sup>+</sup> T cells differ in their primary immune response
+against foreign antigen. In initial studies we assayed polyclonal CD8<sup>+</sup>
+T cells specific for the H-2K<sup>b</sup> restricted vaccinia virus epitope
+B8R<sub>20&#x02013;27</sub> (B8R), which are present at a frequency of ~1 per
+1&#x02013;2 &#x000d7; 10<sup>4</sup> CD8<sup>+</sup> T cells in unimmunized
+C57BL/6 mice<sup><xref rid="R35" ref-type="bibr">35</xref></sup>. Na&#x000ef;ve
+CD44<sup>lo</sup> CD8<sup>+</sup> T cells were sorted by flow cytometry into
+congenically distinct CD5<sup>lo</sup> and CD5<sup>hi</sup> populations, and ~1.5
+&#x000d7; 10<sup>6</sup> of each population co-transferred into recipients that were
+subsequently infected with LM-B8R, a recombinant attenuated <italic>Listeria
+monocytogenes</italic> expressing the B8R<sub>20&#x02013;27</sub> and the
+H-2K<sup>b</sup> restricted ovalbumin peptide (OVA<sub>257&#x02013;264</sub>: Ova).
+Assuming ~20% engraftment following adoptive transfer, this should seed ~20
+B8R/K<sup>b</sup> specific cells from each donor. At day 7 following infection, pMHC
+tetramer staining was used to identify responsive CD5<sup>hi</sup> and CD5<sup>lo</sup>
+donor cells, and the ratio (<xref rid="F3" ref-type="fig">Fig. 3a</xref>) and absolute
+numbers (<xref rid="F3" ref-type="fig">Fig. 3b</xref>) of each population was determined.
+In most cases, the CD5<sup>hi</sup> donor population dominated the response, on average
+accounting of ~95% of the B8R/K<sup>b</sup>-specific population (<xref rid="F3" ref-type="fig">Fig. 3a,b</xref>), although occasionally progeny of the CD5<sup>lo</sup>
+donors were more frequent (double dagger symbol in <xref rid="F3" ref-type="fig">Fig.
+3a,b</xref>). Tetramer binding may fail to identify all functionally responsive cells
+but similar results were obtained using peptide-induced interferon-&#x003b3;
+(IFN-&#x003b3;) production to identify antigen specific T cells (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 3a,b</xref>). At memory phase
+following priming and also during a recall response, the progeny of CD5<sup>hi</sup> donor
+cells maintained dominance over those from the CD5<sup>lo</sup> pool (<xref rid="F3" ref-type="fig">Fig. 3a</xref>). The fact that this skewing was not exacerbated during
+the recall response indicates memory cells generated from CD5<sup>lo</sup> and
+CD5<sup>hi</sup> cells had similar re-expansion potential.</p><p id="P13">The dominance of CD5<sup>hi</sup> na&#x000ef;ve CD8<sup>+</sup> T cell
+responses was not unique to B8R/K<sup>b</sup> specific T cells or to Listeria infection:
+The OVA/K<sup>b</sup> specific response induced by LM-B8R infection and the
+gp33/D<sup>b</sup> specific response induced by lymphocytic choriomeningitis virus
+(LCMV) infection were also biased to the CD5<sup>hi</sup> donor cells (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 3c,d</xref>). Beyond individual
+antigen specificities, the bulk pathogen-specific response &#x02013; identified as donor
+CD8<sup>+</sup> T cells that had acquired an antigen-experienced
+CD44<sup>hi</sup>, CD8<sup>lo</sup>, CD11a<sup>hi</sup> phenotype &#x02013; also showed
+an advantage for the CD5<sup>hi</sup> donor pool, albeit less pronounced than observed for
+individual pMHC specific responses (<xref rid="F3" ref-type="fig">Fig. 3c</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 3e</xref>).</p><p id="P14">The preferential expansion of the CD5<sup>hi</sup> donor population did not
+reflect greater intrinsic capacity of these cells for TCR-induced proliferation, as
+CD5<sup>lo</sup> and CD5<sup>hi</sup> na&#x000ef;ve CD8<sup>+</sup> T cells
+proliferated similarly upon <italic>in vitro</italic> stimulation with anti-CD3 plus
+anti-CD28 (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig.
+3f</xref>), consistent with earlier studies<sup><xref rid="R9" ref-type="bibr">9</xref>,<xref rid="R20" ref-type="bibr">20</xref>,<xref rid="R24" ref-type="bibr">24</xref></sup>. The enhanced CD5<sup>hi</sup> T cell B8R/K<sup>b</sup>-specific
+response was also seen when using <italic>Rag-1</italic><sup>&#x02212;/&#x02212;</sup>
+recipient mice, ruling out a required contribution of host T or B lymphocytes (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 3g</xref>).</p><p id="P15">Since na&#x000ef;ve CD5<sup>hi</sup> cells express intermediate amounts of CD44,
+it was formally possible that some memory-phenotype T cells had contaminated the
+CD5<sup>hi</sup> donor population. Yet when CD5<sup>hi</sup> and CD5<sup>lo</sup> donor
+populations were sorted to have equally low CD44 expression, the CD5<sup>hi</sup> donor
+population still dominated the response to LM-B8R (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 3h</xref>), arguing against memory
+cell contamination in our studies. The differential response of CD5<sup>hi</sup> and
+CD5<sup>lo</sup> na&#x000ef;ve CD8<sup>+</sup> T cells suggested that reactivity
+improves proportionally to increasing CD5 expression. To explore this, we measured the
+response to infection of CD5<sup>lo</sup> and CD5<sup>hi</sup> populations relative to
+total na&#x000ef;ve CD8<sup>+</sup> T cell pool (containing the full spectrum of
+CD5 expression). The CD5<sup>lo</sup> population expanded less than bulk na&#x000ef;ve
+CD8<sup>+</sup> T cells, while the CD5<sup>hi</sup> cells proliferated more
+(<xref rid="F3" ref-type="fig">Fig. 3d,e</xref>), suggesting that CD5<sup>lo</sup> and
+CD5<sup>hi</sup> populations represent the extremes of a continuum in reactivity to
+foreign antigen.</p><p id="P16">Given that the CD5<sup>hi</sup> population is heterogeneous (<xref rid="F2" ref-type="fig">Fig. 2b</xref>, <xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 2c</xref>), it was possible that a small subset within this pool was
+responsible for their superior antigen-specific responses. We investigated this hypothesis
+by subdividing the na&#x000ef;ve CD5<sup>hi</sup> population based on CXCR3 expression,
+since this chemokine receptor has been associated with enhanced <italic>in vivo</italic>
+antigen detection by memory CD8<sup>+</sup> T cells<sup><xref rid="R36" ref-type="bibr">36</xref>,<xref rid="R37" ref-type="bibr">37</xref></sup>. We sorted
+congenic populations of na&#x000ef;ve CD5<sup>hi</sup> cells into CXCR3<sup>lo</sup> and
+CXCR3<sup>hi</sup> populations, and tested their response toward LM-B8R infection using
+the co-transfer model described above. We observed that expansion of the
+CXCR3<sup>hi</sup> CD5<sup>hi</sup> population was significantly greater than that of
+the CXCR3<sup>lo</sup> CD5<sup>hi</sup> subset, in both the B8R/K<sup>b</sup> specific and
+bulk CD44<sup>hi</sup> responder populations (<xref rid="F3" ref-type="fig">Fig.
+3f</xref>). However, these differences were of lower magnitude than those between
+CD5<sup>hi</sup> and CD5<sup>lo</sup> populations (compare <xref rid="F3" ref-type="fig">Figs. 3A,B and F</xref>), arguing against the hypothesis that a small subset of
+CD5<sup>hi</sup> cells accounts for all the enhanced reactivity of this population.</p><p id="P17">Aside from TCR signals, CD8<sup>+</sup> T cell responses are strongly
+influenced by cytokines. Na&#x000ef;ve CD5<sup>hi</sup> CD8<sup>+</sup> T cells
+are more reactive to &#x003b3;<sub>c</sub> cytokines<sup><xref rid="R24" ref-type="bibr">24</xref>,<xref rid="R26" ref-type="bibr">26</xref></sup> and possess enhanced
+ability to produce IL-2 following TCR stimulation<sup><xref rid="R11" ref-type="bibr">11</xref></sup>, which might induce autocrine IL-2R signaling. Also, the capacity of
+inflammatory cues to augment the magnitude of CD8<sup>+</sup> T cell responses
+involves sustained upregulation of CD25 (ref<sup><xref rid="R38" ref-type="bibr">38</xref></sup>). To test whether CD25 expression impacts the differential response of
+CD5<sup>lo</sup> and CD5<sup>hi</sup> na&#x000ef;ve CD8<sup>+</sup> T cells, we
+assessed reactivity of CD25-deficient polyclonal CD8<sup>+</sup> T cells,
+generated in mixed bone marrow chimeras, to avoid the lymphoproliferation and autoimmunity
+that occurs in CD25-deficient mice<sup><xref rid="R39" ref-type="bibr">39</xref></sup>.
+The distribution of CD5 expression was similar in wild-type and
+<italic>Cd25</italic><sup>&#x02212;/&#x02212;</sup> resting na&#x000ef;ve
+CD8<sup>+</sup> T cells (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 3i</xref>). As expected, the B8R/K<sup>b</sup>-specific wild-type
+CD5<sup>hi</sup> population expanded more than wild-type CD5<sup>lo</sup> cells (<xref rid="F3" ref-type="fig">Fig. 3g</xref>) but, while CD25 deficiency did not have a
+statistically significant effect on the response by B8R/K<sup>b</sup>-specific
+CD5<sup>lo</sup> cells, the response by
+<italic>Cd25</italic><sup>&#x02212;/&#x02212;</sup> CD5<sup>hi</sup> cells was modestly
+but significantly impaired (<xref rid="F3" ref-type="fig">Fig. 3g</xref>). While these
+data suggest the CD5<sup>hi</sup> pool may be more reliant on IL-2 responsiveness, the
+responses of CD5<sup>hi</sup> and CD5<sup>lo</sup> cells were not normalized by CD25
+deficiency, indicating that elevated IL-2 sensitivity cannot fully account for the
+differences between these populations.</p><p id="P18">Together these data indicate that the antigen specific response to pathogens is
+dominated by CD5<sup>hi</sup> na&#x000ef;ve CD8+ T cells.</p></sec><sec id="S5"><title>Distinct clonal responses by CD5<sup>hi</sup> and CD5<sup>lo</sup>
+CD8<sup>+</sup> T cells</title><p id="P19">Our analysis of bulk naive CD8<sup>+</sup> T cell responses could not
+determine whether the differential expansion of CD5<sup>hi</sup> and CD5<sup>lo</sup>
+na&#x000ef;ve CD8<sup>+</sup> T cell populations reflected enhanced responses by
+all antigen reactive CD5<sup>hi</sup> cells, or dominance by a small number of
+CD5<sup>hi</sup> CD8<sup>+</sup> T cell clones. This is relevant because
+expansion characteristics of individual antigen specific na&#x000ef;ve T cells can vary
+considerably<sup><xref rid="R2" ref-type="bibr">2</xref>,<xref rid="R4" ref-type="bibr">4</xref>,<xref rid="R40" ref-type="bibr">40</xref>&#x02013; <xref rid="R42" ref-type="bibr">42</xref></sup>. Accordingly, we reduced the number of
+adoptively transferred na&#x000ef;ve CD44<sup>lo</sup> CD5<sup>hi</sup> or
+CD5<sup>lo</sup> polyclonal na&#x000ef;ve CD8<sup>+</sup> T cells to
+25&#x02013;30 &#x000d7; 10<sup>3</sup> cells. Based on the frequency of B8R/K<sup>b</sup>
+specific precursors<sup><xref rid="R35" ref-type="bibr">35</xref></sup>, 20%
+engraftment would seed ~1 B8R/K<sup>b</sup> specific donor CD8<sup>+</sup> T cell
+per 3&#x02013;5 donor cell cohorts, giving an average predicted response rate of
+~27.5%. To increase the efficiency of detecting a clonal response, we used
+simultaneous transfer of up to 8 congenically distinct donor populations into a single
+recipient, as described by others<sup><xref rid="R2" ref-type="bibr">2</xref>,<xref rid="R4" ref-type="bibr">4</xref>,<xref rid="R40" ref-type="bibr">40</xref></sup>
+(<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 4</xref>). Using
+CD5<sup>hi</sup> na&#x000ef;ve CD8<sup>+</sup> T cells, ~ 24% (46/188)
+of transfers led to a B8R/K<sup>b</sup> specific response, which was not significantly
+different from the predicted frequency (<xref rid="F4" ref-type="fig">Fig. 4a</xref>) and
+consistent with studies using na&#x000ef;ve OT-I T cells<sup><xref rid="R40" ref-type="bibr">40</xref></sup>. In contrast, adoptive transfer of 25 &#x000d7;
+10<sup>3</sup> CD5<sup>lo</sup> cells led to no detectable B8R/K<sup>b</sup> specific
+donor responses (0/40), significantly below the predicted rate (see legend to <xref rid="F4" ref-type="fig">Fig. 4a</xref>). Increasing the input of CD5<sup>lo</sup> donor
+cells to 100 &#x000d7; 10<sup>3</sup> led to detectable responses, but only in 14%
+(18/125) of transfers (<xref rid="F4" ref-type="fig">Fig. 4a</xref>). This response rate
+suggests that less than 1/7<sup>th</sup> the expected number of CD5<sup>lo</sup>
+CD8+ T cell precursors were capable of mounting a detectable response. Examining
+non-clonal responses by 375 &#x000d7; 10<sup>3</sup> CD5<sup>hi</sup> or CD5<sup>lo</sup>
+donor cells showed that &#x0003e;95% of CD5<sup>hi</sup> (23/24) but only 70%
+of donor CD5<sup>lo</sup> populations (14/20) mounted a response (<xref rid="F4" ref-type="fig">Fig. 4b</xref>), further demonstrating the reduced response rate in the
+CD5<sup>lo</sup> pool.</p><p id="P20">Furthermore, the mean clonal expansion magnitude (&#x0201c;burst size&#x0201d;)
+of the responding CD5<sup>lo</sup> population (from the 100 &#x000d7; 10<sup>3</sup> cell
+transfer) was significantly smaller than that of CD5<sup>hi</sup> cells (25&#x02013;30
+&#x000d7; 10<sup>3</sup> cell transfer)(<xref rid="F4" ref-type="fig">Fig. 4b</xref>). It
+was also notable that the two largest clonal responses were seen for cells derived from
+CD5<sup>hi</sup> precursors, and were 10&#x02013;100 fold greater than the largest
+CD5<sup>lo</sup> clonal response (arrows in <xref rid="F4" ref-type="fig">Fig.
+4B</xref>): Modeling the outcome if all the measured CD5<sup>hi</sup> and CD5<sup>lo</sup>
+clonal responses had occurred in a single animal, those two clones would account for
+nearly 80% of the B8R/K<sup>b</sup> specific population (data not shown).</p><p id="P21">Hence, clonal analysis revealed two ways in which the CD5<sup>hi</sup> and
+CD5<sup>lo</sup> T cell responses differ: First, the CD5<sup>hi</sup> population
+displayed a markedly greater response rate. Second, even among cells that did engage in
+the B8R/K<sup>b</sup> specific response, the average burst size of the CD5<sup>lo</sup>
+pool was reduced compared to CD5<sup>hi</sup> responders. Together, these differences can
+account for much of the expansion advantage of the CD5<sup>hi</sup>pool.</p></sec><sec id="S6"><title>Efficient recruitment of CD5<sup>hi</sup> CD8+ T cells into the immune
+response</title><p id="P22">The increased clonal recruitment of CD5<sup>hi</sup> versus CD5<sup>lo</sup>
+cells might reflect preferential initial activation of CD5<sup>hi</sup> cells, or similar
+initial response by both populations, followed by improved proliferation/survival of the
+CD5<sup>hi</sup> population. The superior response by CD5<sup>hi</sup> cells was already
+apparent at days 3&#x02013;4 of the <italic>in vivo</italic> response to LM-B8R (<xref rid="F5" ref-type="fig">Fig. 5a</xref>), hence we next investigated whether
+CD5<sup>hi</sup> cells were preferentially activated during the initial response to
+infection. This was not feasible using adoptive transfer of polyclonal cells, and to
+determine the response of endogenous CD5<sup>hi</sup> and CD5<sup>lo</sup> cells it was
+first necessary to test whether CD5 expression changes during short term <italic>in
+vivo</italic> activation. Nur77<sup>gfp</sup> mice were injected with anti-CD3 i.v., and
+5h later T cell activation was determined by induction of CD69 and Nur77<sup>gfp</sup>.
+Despite robust activation, na&#x000ef;ve CD8+ T cells showed no change in CD5
+expression (<xref rid="F5" ref-type="fig">Fig. 5b,c</xref>), indicating that
+CD5<sup>hi</sup> and CD5<sup>lo</sup> na&#x000ef;ve populations could still be
+distinguished. Next, Nur77<sup>gfp</sup> mice were infected with LM-B8R and 5h later
+splenic CD8<sup>+</sup> T cells specific for B8R/K<sup>b</sup> and for an
+irrelevant antigen (M57/K<sup>b</sup> with the murine cytomegalovirus (MCMV) epitope, M57)
+were enriched using MHC class I tetramer capture. Following LM-B8R infection, activated
+na&#x000ef;ve CD8<sup>+</sup> T cells were evident among the
+B8R/K<sup>b</sup>&#x02013;specific population but not in the control
+M57/K<sup>b</sup>-specific population (<xref rid="F5" ref-type="fig">Fig. 5d</xref>), and
+the activated B8R/K<sup>b</sup>&#x02013;specific population was enriched for
+CD5<sup>hi</sup> cells (<xref rid="F5" ref-type="fig">Fig. 5e,f</xref>). These data
+suggest that initial recruitment and/or activation favors the CD5<sup>hi</sup>
+na&#x000ef;ve CD8+ T cell pool during the response to foreign antigen.</p></sec><sec id="S7" sec-type="intro"><title>CD5<sup>lo</sup> and CD5<sup>hi</sup> cells show similar foreign pMHC binding
+characteristics</title><p id="P23">Some studies suggest CD5 expression on na&#x000ef;ve TCR transgenic
+CD4<sup>+</sup> T cells correlates with the TCR affinity for foreign-pMHC
+ligands, indicated by increased pMHC tetramer labeling of CD5<sup>hi</sup> versus
+CD5<sup>lo</sup> clones<sup><xref rid="R9" ref-type="bibr">9</xref></sup>. However, we
+found comparable pMHC tetramer staining intensities were observed on CD5<sup>hi</sup> and
+CD5<sup>lo</sup> na&#x000ef;ve CD8+ T cell populations isolated by tetramer
+enrichment from unimmunized mice, (<xref rid="F6" ref-type="fig">Fig. 6a</xref>),
+suggesting similar capacities for foreign-pMHC ligand binding. Furthermore,
+B8R/K<sup>b</sup> tetramer geometric mean fluorescence intensity (gMFI) was not
+significantly different on effector cells derived from clonal CD5<sup>lo</sup> and
+CD5<sup>hi</sup> responses revealed that intensity did not significantly differ for
+antigen-specific progeny of CD5<sup>lo</sup> versus CD5<sup>hi</sup> clones, whereas the
+burst size of CD5<sup>hi</sup> clones was significantly higher than that of
+CD5<sup>lo</sup> clones (<xref rid="F6" ref-type="fig">Fig. 6b</xref>). Thus, we
+observed minimal correlation between pMHC tetramer-staining intensity and either CD5
+expression or clonal expansion characteristics of specific CD8<sup>+</sup> T
+cells.</p><p id="P24">It was also possible that foreign antigen specific T cells are selectively
+under-represented in the CD5<sup>lo</sup> pool. We did observe modest, but in some cases
+significant, skewing to higher CD5 expression within the foreign-pMHC tetramer binding
+na&#x000ef;ve CD8<sup>+</sup> T cell pool (<xref rid="F6" ref-type="fig">Fig.
+6c</xref>), and accordingly there were slightly more B8R/K<sup>b</sup> specific cells in
+sorted CD5<sup>hi</sup> versus CD5<sup>lo</sup> populations (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 5</xref>). However, such skewing
+only contributed an average ~1.5-fold increase in antigen-specific precursors within the
+CD5<sup>hi</sup> population, relative to CD5<sup>lo</sup> cells, which could not explain
+the larger differences in clonal recruitment or population expansion of antigen specific
+CD5<sup>hi</sup> versus CD5<sup>lo</sup> cells (<xref rid="F3" ref-type="fig">Figs.
+3</xref>,<xref rid="F4" ref-type="fig">4</xref>).</p><p id="P25">To avoid potential artifacts from the tetramer enrichment protocol, we analyzed
+four TCR transgenic lines which differ in CD5 surface expression, following the order H-Y
+&#x0003c; F5 &#x0003c; P14 &#x0003c; OT-I<sup><xref rid="R22" ref-type="bibr">22</xref>,<xref rid="R23" ref-type="bibr">23</xref>,<xref rid="R26" ref-type="bibr">26</xref></sup> (<xref rid="F6" ref-type="fig">Fig. 6d</xref>). All the TCR transgenic strains bound cognate
+pMHC tetramers with similar efficiency in dose titration (<xref rid="F6" ref-type="fig">Fig. 6e</xref>) indicating that, in contrast to studies with CD4<sup>+</sup>
+TCR-transgenic T cells<sup><xref rid="R9" ref-type="bibr">9</xref></sup>, CD5<sup>lo</sup>
+versus CD5<sup>hi</sup> expression did not predict the strength of foreign-pMHC ligand
+binding to TCR-transgenic CD8<sup>+</sup> T cells. Interpreting tetramer staining
+may be complicated by the finding that CD8 and TCR expression are reduced on na&#x000ef;ve
+CD5<sup>hi</sup> versus CD5<sup>lo</sup> CD8<sup>+</sup> T cells (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 1a</xref>), and CD8
+contributes to Class I pMHC tetramer binding<sup><xref rid="R43" ref-type="bibr">43</xref></sup>. Hence we also tested reactivity (as CD69 induction) of
+CD5<sup>hi</sup> and CD5<sup>lo</sup> TCR transgenic T cells to their cognate foreign
+ligands in dose titration. Although differences in antigen sensitivity were seen, they did
+not correlate with CD5 expression levels (<xref rid="F6" ref-type="fig">Fig. 6f</xref>):
+for example CD5<sup>hi</sup> OT-I and CD5<sup>lo</sup> F5 CD8<sup>+</sup> T cells
+showed similar antigen sensitivity. Instead, dose sensitivity corresponded with peptide
+binding to the relevant MHC molecules (<xref rid="F6" ref-type="fig">Fig. 6g</xref>).
+Hence, these data indicate that CD5 expression predicted neither tetramer binding nor in
+vitro antigen sensitivity of na&#x000ef;ve CD8<sup>+</sup> T cells.</p><p id="P26">An expectation from our findings would be that CD5<sup>hi</sup> and
+CD5<sup>lo</sup> na&#x000ef;ve CD8<sup>+</sup> T cells with identical TCRs would
+display distinct response characteristics. This hypothesis was supported by earlier
+studies using TCR transgenic CD8<sup>+</sup> T cells sorted into CD5<sup>hi</sup>
+and CD5<sup>lo</sup> pools<sup><xref rid="R24" ref-type="bibr">24</xref></sup>, but as CD5
+levels are typically determined during thymic development, we sought to manipulate
+positive selection to produce cells with distinct CD5 expression levels. Bone marrow
+chimeras were generated using OT-I TCR transgenic donor marrow to reconstitute wild-type
+or &#x003b2;2m<sup>&#x02212;/&#x02212;</sup> hosts &#x02013; in the latter, positive
+selection is mediated by hematopoietic cells, resulting in generation of OT-I cells with
+lower CD5<sup>lo</sup> expression (<xref rid="F6" ref-type="fig">Fig. 6H</xref> and data
+not shown). When assessed for their response to LM-OVA infection, CD5<sup>hi</sup> OT-I
+expanded ~3&#x02013;4-fold greater than the CD5<sup>lo</sup> OT-I population (<xref rid="F6" ref-type="fig">Fig. 6I</xref>) indicating that CD5 expression levels correlated
+with the magnitude of the immune response, even when TCR specificity was normalized. In
+aggregate, our data suggest that the advantage of CD5<sup>hi</sup> over CD5<sup>lo</sup>
+na&#x000ef;ve CD8<sup>+</sup> T cells in their response to foreign antigen cannot
+be explained by differences in precursor frequency or avidity for foreign pMHC
+ligands.</p></sec><sec id="S8"><title>Na&#x000ef;ve CD5<sup>hi</sup> cells utilize inflammatory signals during the response
+to antigen</title><p id="P27">Besides TCR signals, the magnitude of the CD8<sup>+</sup> T cell
+response is influenced by inflammatory cues<sup><xref rid="R44" ref-type="bibr">44</xref>,<xref rid="R45" ref-type="bibr">45</xref></sup>, hence we next tested the
+impact of inflammation on the response of CD5<sup>hi</sup> and CD5<sup>lo</sup>
+na&#x000ef;ve CD8<sup>+</sup> T cells. Since CD8<sup>+</sup> T cell
+expansion is reduced in the absence of innate cues<sup><xref rid="R46" ref-type="bibr">46</xref>,<xref rid="R47" ref-type="bibr">47</xref></sup> this system was not
+suitable for analysis of rare antigen-specific polyclonal CD8<sup>+</sup> T cells,
+hence we used H-Y and OT-I TCR transgenic T cells models as examples of CD5<sup>lo</sup>
+and CD5<sup>hi</sup> clones, respectively. Low numbers of na&#x000ef;ve H-Y and OT-I
+CD8<sup>+</sup> T cells from were transferred into congenic hosts and stimulated
+by injection of dendritic cells (DCs) loaded with cognate peptides, with or without
+co-infection using wild-type &#x00394;actA LM, which expresses no stimulatory antigens for
+either TCR transgenic, as a source of inflammatory stimulation. OVA peptide was used to
+stimulate OT-I cells, while H-Y T cells were stimulated with C2A, a variant of the Smcy
+peptide that enhances HY TCR recognition without altering MHC binding<sup><xref rid="R48" ref-type="bibr">48</xref></sup> (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 6a&#x02013;c</xref>), to minimize differences in ligand dose
+sensitivity of H-Y and OT-I T clones.</p><p id="P28">As expected, antigen-bearing DCs alone provoked modest responses by both H-Y and
+OT-I cells (<xref rid="F7" ref-type="fig">Fig. 7a</xref>) and, when corrected for donor
+cell engraftment, there was moderately increased expansion of the OT-I versus H-Y pool
+(<xref rid="F7" ref-type="fig">Fig. 7b</xref>). LM co-infection enhanced expansion by
+the OT-I population, as anticipated from earlier studies<sup><xref rid="R38" ref-type="bibr">38</xref>,<xref rid="R49" ref-type="bibr">49</xref></sup>, but did not
+increase H-Y T cell expanasion, and in fact caused a slight reduction in cell numbers
+(<xref rid="F7" ref-type="fig">Fig. 7a</xref>). Accordingly, LM co-infection greatly
+increased the difference between HY and OT-I population sizes (<xref rid="F7" ref-type="fig">Fig. 7b</xref>). Similar effects were seen using LCMV co-infection (<xref rid="F7" ref-type="fig">Fig. 7c,d</xref>) and preliminary studies using
+co-administration of the TLR9 agonist CpG yielded comparable results (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 6d</xref>). These data suggest
+that, while the CD5<sup>hi</sup> clone OT-I responds to pro-inflammatory signals with
+enhanced expansion, this pathway is not operative for CD5<sup>lo</sup> H-Y
+CD8<sup>+</sup> T cells. The pro-inflammatory cytokines IL-12 and Type-I IFN act
+as a &#x0201c;3<sup>rd</sup> signals&#x0201d; to promote CD8<sup>+</sup> T cell
+responses<sup><xref rid="R46" ref-type="bibr">46</xref>,<xref rid="R47" ref-type="bibr">47</xref></sup>, but preliminary <italic>in vitro</italic> experiments
+did not suggest differences in the responses of HY and OT-I T cells to those cytokines
+(data not shown), indicating a more complex basis for the altered response. Nevertheless,
+our data suggest qualitative differences in the response of CD5<sup>hi</sup> versus
+CD5<sup>lo</sup> CD8<sup>+</sup> T cells when foreign antigen stimulation is
+delivered in the context of innate immune cues <italic>in vivo</italic>.</p></sec></sec><sec sec-type="discussion" id="S9"><title>Discussion</title><p id="P29">Our data show that na&#x000ef;ve CD8<sup>+</sup> T cells with heightened
+recognition of self-pMHC ligands display enhanced reactivity toward foreign pMHC antigens.
+We confirmed and extended the utility of CD5 expression as a measure of the strength of self
+ligand encounter &#x02013; showing that CD5<sup>hi</sup> cells exhibited increased
+expression of the Nur77-GFP reporter (a surrogate for TCR signaling) and changes in gene
+expression indicative of enhanced response sensitivity. Comparison of the <italic>in
+vivo</italic> response to foreign antigen revealed multiple steps at which the
+CD5<sup>hi</sup> population of na&#x000ef;ve CD8<sup>+</sup> T cells manifest an
+advantage over their CD5<sup>lo</sup> counterparts: initial activation and response rates
+were more efficient, the clonal burst size greater, and sensitivity to inflammatory cues
+enhanced. On the other hand, we did not observe a consistent difference in the capacity of
+polyclonal or TCR transgenic CD5<sup>hi</sup> versus CD5<sup>lo</sup> cells to bind to
+foreign pMHC tetramers, nor did TCR transgenic models suggest a difference in foreign pMHC
+response sensitivity. Taken together, our studies support a model in which the differences
+between CD5<sup>hi</sup> and CD5<sup>lo</sup> na&#x000ef;ve CD8<sup>+</sup> T cells
+are established prior to encounter with foreign antigen, and that numerous properties of the
+CD5<sup>hi</sup> population make their responses more efficient and competitive.</p><p id="P30">Our data differ from two elegant reports that used CD5 expression to characterize
+heterogeneity in the na&#x000ef;ve CD4 T cell response. While one study found that
+CD5<sup>hi</sup> cells had enhanced TCR engagement with foreign pMHC ligands and superior
+response to antigen in vivo<sup><xref rid="R9" ref-type="bibr">9</xref></sup>, another
+reported that CD5<sup>lo</sup> and CD5<sup>hi</sup> cells had similar engagement with pMHC
+ligands and that CD5<sup>lo</sup> cells showed greater in vivo expansion than their
+CD5<sup>hi</sup> counterparts<sup><xref rid="R10" ref-type="bibr">10</xref>,<xref rid="R11" ref-type="bibr">11</xref></sup>. Although we observed some skewing in the size
+of the foreign pMHC tetramer binding population in favor of the CD5<sup>hi</sup> pool, this
+effect was modest and average tetramer binding intensity was similar for antigen specific
+CD5<sup>lo</sup> and CD5<sup>hi</sup> cells. Hence, our data and others<sup><xref rid="R10" ref-type="bibr">10</xref>,<xref rid="R11" ref-type="bibr">11</xref></sup>
+argue against the conceptually complex model that the structural capacity to bind foreign
+pMHC ligands is dictated by T cell sensitivity toward self-pMHC molecules. These
+discrepancies may reflect distinct properties of CD4 and CD8<sup>+</sup> T cells (as
+discussed<sup><xref rid="R9" ref-type="bibr">9</xref></sup>), although this argument
+does not pertain to the divergent conclusions reached with studies on CD4 T cells<sup><xref rid="R9" ref-type="bibr">9</xref>,<xref rid="R11" ref-type="bibr">11</xref></sup>. In
+any case, our findings reinforce the concept that, at least for na&#x000ef;ve
+CD8<sup>+</sup> T cells, the distinct responses of the CD5<sup>hi</sup> and
+CD5<sup>lo</sup> population likely reflects pre-existing, intrinsic properties of the
+cells, rather than arising from differences in foreign antigen perception.</p><p id="P31">Contrasting with our findings and others<sup><xref rid="R9" ref-type="bibr">9</xref></sup>, some reports found that CD5<sup>lo</sup> cells expanded more
+effectively than CD5<sup>hi</sup> cells, despite similar foreign ligand recognition
+properties<sup><xref rid="R10" ref-type="bibr">10</xref>,<xref rid="R11" ref-type="bibr">11</xref></sup>. Significantly, recent studies argued that CD5<sup>hi</sup>
+na&#x000ef;ve CD4<sup>+</sup> T cells exhibited a strong response to TCR
+stimulation, but this led to increased susceptibility for activation-driven cell death
+induced by IL-2<sup><xref rid="R11" ref-type="bibr">11</xref></sup>. Our data suggest that
+optimal expansion of activated CD5<sup>hi</sup> na&#x000ef;ve CD8<sup>+</sup> T
+cells was dependent on CD25 expression, and enhanced IL-2 sensitivity (through improved
+CD122 signaling) was reported in the landmark studies of Cho et al. on of homeostasis of
+CD5<sup>hi</sup> na&#x000ef;ve CD8<sup>+</sup> T cells<sup><xref rid="R24" ref-type="bibr">24</xref></sup>. Potentially, enhanced IL-2 sensitivity is a boon to
+responding CD5<sup>hi</sup> CD8<sup>+</sup> T cells, yet may be detrimental to
+CD5<sup>hi</sup> CD4 T cells (at least in some situations) by making them more vulnerable
+to induced cell death. It is also worth noting that the range of CD5 expression levels (and
+associated basal TCR signaling) is greater in na&#x000ef;ve CD4 T cells compared to
+na&#x000ef;ve CD8<sup>+</sup> T cells<sup><xref rid="R9" ref-type="bibr">9</xref>&#x02013;<xref rid="R11" ref-type="bibr">11</xref></sup>, perhaps indicative of
+distinct functional thresholds between the subsets.</p><p id="P32">Our studies build on considerable work that suggested CD5 levels correlate with
+TCR engagement by self-pMHC<sup><xref rid="R9" ref-type="bibr">9</xref>&#x02013;<xref rid="R11" ref-type="bibr">11</xref>,<xref rid="R18" ref-type="bibr">18</xref>&#x02013;<xref rid="R21" ref-type="bibr">21</xref></sup>. Our work defines the
+properties of the CD5<sup>hi</sup> population prior to antigen encounter, and mechanisms
+with which these cells outcompete other na&#x000ef;ve CD8<sup>+</sup> T cell
+populations during an active immune response. It is unclear whether CD5 itself contributes
+to the distinct function of CD5<sup>hi</sup> versus CD5<sup>lo</sup> cells - recent studies
+using <italic>Cd5</italic><sup>&#x02212;/&#x02212;</sup> mice do not support that
+concept<sup><xref rid="R9" ref-type="bibr">9</xref>,<xref rid="R11" ref-type="bibr">11</xref></sup>, although this does not negate the value of CD5 expression level as a
+marker. As we show here, the CD5<sup>hi</sup> population differs from CD5<sup>lo</sup> cells
+in their expression of several genes. However, even within the CD5<sup>hi</sup> pool there
+is heterogeneity in T-bet, CXCR3 and induced XCL1 expression &#x02013; hence there may be
+other features of CD5<sup>hi</sup> cells that better correlate with their improved
+functional prowess. We found a modest but significant advantage of CXCR3<sup>hi</sup>
+CD5<sup>hi</sup> over CXCR3<sup>lo</sup> CD5<sup>hi</sup> populations, suggesting CXCR3
+expression may be a core feature of the optimal foreign antigen reactivity by
+CD5<sup>hi</sup> na&#x000ef;ve CD8<sup>+</sup> T cells.</p><p id="P33">Together, these findings suggest that na&#x000ef;ve CD8<sup>+</sup> T
+cells with the greatest level of self-reactivity are the most efficiently recruited into the
+foreign-pMHC specific response. Since sensitivity to TCR signals may change following
+na&#x000ef;ve T cell activation, it is possible that progeny of some CD5<sup>hi</sup> clones
+could exhibit overt self-reactivity following activation, with significance for the
+induction of autoimmune disease following response to infection. At the same time, our
+findings leave open the question of why the CD5<sup>lo</sup> pool is maintained in the
+na&#x000ef;ve CD8<sup>+</sup> T cell repertoire. CD5<sup>lo</sup> cells are
+relatively resistant to deprivation of IL-7<sup><xref rid="R26" ref-type="bibr">26</xref></sup>, making it possible that these cells are efficiently maintained during
+na&#x000ef;ve T cell competition for homeostatic cytokines. Alternatively, CD5<sup>lo</sup>
+na&#x000ef;ve CD8<sup>+</sup> T cells may show superior responses to pathogens in
+certain situations: as shown for na&#x000ef;ve CD4<sup>+</sup> T cells heightened
+initial reactivity may accompany increased sensitivity to cell death<sup><xref rid="R10" ref-type="bibr">10</xref>,<xref rid="R11" ref-type="bibr">11</xref></sup>. Whether some
+immune responses favor the CD5<sup>lo</sup> population of na&#x000ef;ve
+CD8<sup>+</sup> T cells awaits further investigation.</p></sec><sec sec-type="methods" id="S10" specific-use="web-only"><title>METHODS</title><sec id="S11"><title>Mice</title><p id="P34">We purchased 6- to 12-week-old female C57BL/6 and B6.SJL mice from the National
+Cancer Institute. For adoptive cell transfer recipients, we used F1 CD45.1/2 females
+generated from C57BL/6J (Jackson Laboratories) crossed with B6.SJL (NCI) mice.
+<italic>Il15</italic><sup>&#x02212;/&#x02212;</sup> and TCR-transgenic P14
+mice<sup><xref rid="R51" ref-type="bibr">51</xref></sup> were kind gifts from D.
+Masopust (University of Minnesota, Minneapolis, MN). P14 and OT-I<sup><xref rid="R52" ref-type="bibr">52</xref></sup> and were maintained on a C57BL/6N and B6.PL (Thy-1.1)
+backgrounds. HY TCR transgenic mice were maintained on a
+<italic>Rag2</italic><sup>&#x02212;/&#x02212;</sup> background (apart from initial cell
+surface phenotype studies, in which cells from female
+<italic>Rag2</italic><sup>+/+</sup> HY mice were analyzed with the T3.70
+monoclonal antibody to identify HY-specific CD8<sup>+</sup> T cells). F5
+<italic>Rag1</italic><sup>&#x02212;/&#x02212;</sup> mice were a kind gift of L. Cauley
+(University of Connecticut) and <italic>Cd25</italic><sup>&#x02212;/&#x02212;</sup> mice
+were obtained from Jackson Labs. The Nur77<sup>gfp</sup> transgenic reporter mice have
+been previously described<sup><xref rid="R30" ref-type="bibr">30</xref></sup>, and were
+maintained on a C57BL/6N background. T-bet&#x02013;ZsGreen reporter mice<sup><xref rid="R50" ref-type="bibr">50</xref></sup> were initially obtained from J. Zhu (US
+National Institute of Allergy and Infectious Diseases, Bethesda, MD), and maintained on
+the C57BL/6N background. All mice were maintained in SPF conditions, and all mouse
+protocols were approved by the University of Minnesota Institutional Animal Care and Use
+Committee. No samples/animals were excluded from the analysis. The investigators were not
+blinded to group allocations or assessment.</p></sec><sec id="S12"><title>Bacterial and Viral Infections</title><p id="P35">&#x00394;ActA attenuated LM (DP-L1942)<sup><xref rid="R53" ref-type="bibr">53</xref></sup> and &#x00394;ActA LM-OVA were provided by J. Harty (University of
+Iowa, Iowa City, IA) and LM-B8R (both virulent and &#x00394;ActA), which contains both the
+K<sup>b</sup>-restricted CD8<sup>+</sup> epitopes B8R<sub>20&#x02013;27</sub>
+and OVA<sub>257&#x02013;264</sub> was a kind gift of R. Kedl (National Jewish Medical
+Research Center, University of Colorado, Denver, CO). LCMV Armstrong was a gift of D.
+Masopust. LM was grown in tryptic soy broth containing 50 &#x003bc;g/mL streptomycin to an
+OD<sub>600</sub> of ~0.1. For primary infection with attenuated LM-B8R, 3 &#x000d7;
+10<sup>6</sup> CFU were injected intravenously (i.v.). For secondary infections with
+virulent LM-B8R, mice were injected with 1 &#x000d7;10<sup>6</sup> CFU i.v. In experiments
+where wild-type &#x00394;ActA LM was used to induce inflammation, 3&#x02013;6 &#x000d7;
+10<sup>6</sup> CFU bacteria were mixed with peptide-pulsed DCs and co-injected i.v. For
+LCMV infections, mice were injected with 2 &#x000d7; 10<sup>5</sup> PFU
+intraperitoneally.</p></sec><sec id="S13"><title>Dendritic Cell Immunizations</title><p id="P36">Splenic DCs were prepared as previously described<sup><xref rid="R49" ref-type="bibr">49</xref></sup>. Briefly, to generate splenic DCs, mice were injected
+s.c. with 5 &#x000d7; 10<sup>6</sup> B16 cells expressing Flt3L (provided by M. Prlic and
+M. Bevan, University of Washington, Seattle, via J. Harty, University of Iowa). When
+tumors were palpable (5 &#x000d7; 5 mm), mice were injected with 2 &#x003bc;g LPS i.v. to
+mature the DCs and spleens were harvested ~16 h later. Following digestion with
+collagenase D for 20 min at 37&#x000b0;C, RBCs were lysed and splenocytes were resuspended
+in media comprised of 2 parts complete RPMI, 1 part B16-Flt3L-conditioned complete RPMI,
+50 ng/mL GM-CSF, and 2 &#x003bc;M peptide. The C2A mutant of the SMCY peptide<sup><xref rid="R54" ref-type="bibr">54</xref></sup> was used to stimulate HY
+CD8<sup>+</sup> T cells, while OVA<sub>257&#x02013;264</sub> was used for
+stimulation of OT-I. Splenocytes were pulsed with peptide for 2 h at 37 &#x000b0;C,
+thoroughly washed, and DCs purified using Miltenyi CD11c microbeads. Mice were co-injected
+i.v. with 1 &#x000d7; 10<sup>6</sup> DCs pulsed with each peptide, with co-administration
+of LM, LCMV or CpG as indicated.</p></sec><sec id="S14"><title>Flow Cytometry</title><p id="P37">Cells were stained with the following antibodies from eBioscience or BD
+Biosciences unless otherwise noted: CD4 (RM4-5), CD8<sup>+</sup> (53&#x02013;6.7),
+CD5 (53&#x02013;7.3), CD27 (LG.7F9), CD44 (IM7), CD45.1 (A20), CD45.2 (104), Thy1.1 (HIS51
+or OX-7), Thy1.2 (53&#x02013;2.1), CD62L (MEL-14), CD69 (H1.2F3), CD122 (TM-b1), CD127
+(A7R34), TCR&#x003b2; (H57-597), CXCR3 (CXCR3-173), IFN-&#x003b3; (XMG1.2), MHC class II
+(M5/114.15.2), and F4/80 (BM8). The B8R/K<sup>b</sup> and OVA/K<sup>b</sup> tetramers were
+generated as previously described<sup><xref rid="R43" ref-type="bibr">43</xref></sup>. The
+MCMV M57/K<sup>b</sup>, LCMV gp33/D<sup>b</sup>, influenza NP68/D<sup>b</sup>, and HY
+SMCY/D<sup>b</sup> tetramers were provided by the NIH Tetramer Facility. For
+intracellular staining of transcription factors, cells were fixed and permeabilized with
+Foxp3 Fixation and Permeabilization Buffers (eBioscience) and stained with antibodies to
+T-bet (4B10) and Eomesodermin (Dan11mag) in Permeabilization Solution. Data was collected
+on LSR-II or Fortessa flow cytometers (BD Biosciences) and data were analyzed by using
+FlowJo analysis software (Tree Star).</p></sec><sec id="S15"><title>XCL1 expression assay</title><p id="P38">Peripheral lymphocytes were stained with anti-XCL1 mAb (MTAC-2)<sup><xref rid="R55" ref-type="bibr">55</xref></sup> that was kindly provided by R. Kroczek
+(Robert Koch-Institute, Berlin, Germany). To examine XCL1 production, bulk splenocytes
+were stimulated to PMA/ionomycin for 3&#x02013;5 h at 37&#x000b0;C in the presence of
+Brefeldin A. Cells were stained for cell surface markers then fixed and permeabilized with
+BD Cytofix/Cytoperm or eBiosciences Foxp3/transcription factor fixation/permeabilization
+solutions, prior to intracellular staining for XCL1.</p></sec><sec id="S16"><title>Cell Sorting and Adoptive Transfer</title><p id="P39">For adoptive transfer experiments, spleens and lymph nodes from C57BL/6
+(CD45.2/2) and B6.SJL (CD45.1/1) mice digested with collagenase D (Roche) and negatively
+enriched for CD8<sup>+</sup> T cells using Miltenyi enrichment antibody cocktail
+and beads. Cells were then stained with anti-CD8, CD5, and CD44 and
+CD8<sup>+</sup>CD44<sup>lo</sup> cells (i.e. excluding CD44<sup>hi</sup> cells)
+were sorted on the lower or upper 20% of CD5 expression using a BD FACSAria I. In
+some studies, the CD5<sup>hi</sup> CD44<sup>lo</sup> population was further gated on the
+lower or upper 30% of CXCR3 prior to sorting. Approximately 1.25&#x02013;1.5
+&#x000d7; 10<sup>6</sup> each of congenically mismatched CD5<sup>lo</sup> and
+CD5<sup>hi</sup> cells were co-transferred into CD45.1/2 recipients and infected with
+LM-B8R in the next day. For recall experiments, CD5<sup>lo/hi</sup> recipients that had
+been infected with &#x00394;ActA LM-B8R &#x0003e;40 days previous were challenged with virulent
+LM-B8R. Varied combinations of congenic backgrounds for donor and host animals in transfer
+studies.</p><p id="P40">In experiments where we transferred single B8R/K<sup>b</sup>-specific
+CD8<sup>+</sup> T cell clones, CD8<sup>+</sup> T cells were negative
+enriched from the spleens and lymph node cells of 4 to 8 congenically distinct donors by
+using different combinations of CD45.1/2 and CD90.1/2 (<xref rid="SD1" ref-type="supplementary-material">Supplementary Fig. 6</xref>). Equal numbers of
+CD8<sup>+</sup> T cells from each congenic donor group were mixed, stained with
+anti-CD8, CD5, and CD44 and sorted for na&#x000ef;ve CD8<sup>+</sup> T cells in
+the lower or upper 20% for CD5 expression. The indicated number of
+CD5<sup>lo/hi</sup> cells for each congenic group was then transferred into congenic
+recipients. Mice were infected 1&#x02013;2 days post-transfer with attenuated LM-B8R, and
+the response to B8R/K<sup>b</sup> was assessed 7 days later. Background staining for
+congenic markers was very low (1 event or less, data not shown), and we set our limit of
+detection at &#x02265;3 flow cytometric events in the antigen specific population, which
+equates to ~5 total B8R/K<sup>b</sup> specific CD8<sup>+</sup> T cells</p><p id="P41">In adoptive transfer experiments using TCR transgenic CD8<sup>+</sup> T
+cells, CD44<sup>lo</sup> Thy-1.1 OT-I cells (RAG<sup>+/+</sup> or
+RAG-1<sup>&#x02212;/&#x02212;</sup>) were enriched by negative selection as previously
+described<sup><xref rid="R56" ref-type="bibr">56</xref></sup>. Female
+<italic>Rag-2</italic><sup>&#x02212;/&#x02212;</sup> HY CD8<sup>+</sup> T cells,
+which are all CD44<sup>lo</sup>, were negatively enriched using Miltenyi beads. Mixtures
+containing 1000 each of the OT-I and HY populations were co-transferred i.v. into B6.SJL
+mice and these recipients were immunized 1 day later. To assess the
+&#x0201c;take&#x0201d;, 2 &#x000d7; 10<sup>5</sup> cells from the same mixture of OT-I and
+HY cells was transferred into recipients, cells from these mice were then analyzed by flow
+cytometry the day of immunization. Similar &#x0201c;take&#x0201d; ratios were observed
+when animals receiving 1000 OT-I and HY T cells were enriched using magnetic beads on the
+day of immunization (data not shown).</p></sec><sec id="S17"><title>MHC Class I Tetramer Enrichment</title><p id="P42">To analyze CD8<sup>+</sup> T cell antigen-specific precursors or
+CD5<sup>lo/hi</sup> donor responses following infection, MHC class I tetramer enrichment
+was used as previously described<sup><xref rid="R35" ref-type="bibr">35</xref></sup>.
+Briefly, spleen and lymph nodes (for analyzing precursors) or spleen only (LM infection)
+were digested with collagenase D. Cells were labeled with PE- or APC-conjugated tetramers
+and enriched over magnetic columns using anti-PE or APC magnetic beads (Miltenyi). A small
+portion of the enriched fraction was added to AccuCheck counting beads (Invitrogen) to
+accurately back-calculate total numbers. Tetramer-enriched fractions were then stained
+with additional extracellular antibodies and fixed with paraformaldehyde prior to analysis
+by flow cytometry.</p></sec><sec id="S18"><title>Mixed Bone-Marrow Chimeras</title><p id="P43">We generated mixed bone-marrow chimeras by mixing T cell-depleted bone marrow
+from congenic strains and injecting 5&#x02013;10 &#x000d7; 10<sup>6</sup> cells into
+lethally irradiated (1000 rads) host animals. For chimeras with WT and
+<italic>Cd25</italic><sup>&#x02212;/&#x02212;</sup> bone marrow, roughly equal numbers
+of cells from CD45.1/2<sup>+</sup> WT and CD45.2<sup>+</sup>
+<italic>Cd25</italic><sup>&#x02212;/&#x02212;</sup> mice (6&#x02013;8 weeks of age) were
+injected into CD45.1<sup>+</sup> WT hosts. For OT-I chimeras, Thy-disparate OT-I
+(RAG<sup>+</sup>) bone marrow was injected into congenically distinct WT or
+<italic>&#x003b2;2m</italic><sup>&#x02212;/&#x02212;</sup> recipients. Cells from
+chimeras were used &#x0003e;10 weeks after transplant.</p></sec><sec id="S19"><title><italic>In vitro</italic> Stimulation</title><p id="P44">To assess CD8<sup>+</sup> T cell activation, 2&#x000d7;10<sup>4</sup>
+purified CD44<sup>lo</sup> CD8<sup>+</sup> TCR transgenic cells were incubated at
+37&#x000b0;C with 1&#x02013;2&#x000d7;10<sup>6</sup> splenic antigen presenting cells in
+96-well round-bottom plates with titrated doses of cognate peptide: OT-I with
+K<sup>b</sup>/OVA<sub>257&#x02013;264</sub> (SIINFEKL), P14 with
+D<sup>b</sup>/gp<sub>33&#x02013;41</sub> (KAVYNFATC), F5 with
+D<sup>b</sup>/NP<sub>366&#x02013;374</sub> (ASNENMDAM), HY with D<sup>b</sup>/Smcy
+(KCSRNRQYL) or D<sup>b</sup>/C2A (KASRNRQYL). Cells were stimulated for 6 h and then
+stained for CD69 expression.</p></sec><sec id="S20"><title>RMA-S MHC Class I Stabilization Assay</title><p id="P45">RMA-S cells were cultured in RPMI containing 10% FCS at 30&#x000b0;C
+with 5% CO<sub>2</sub> overnight. In a 96-well round-bottom plate 1 &#x000d7;
+10<sup>5</sup> RMA-S cells were incubated with titrated doses of peptide for 1 h and
+then the plate was moved to a 37 &#x000b0;C CO<sub>2</sub> incubator for 3 h. Cells were
+then stained for stable surface class I molecules using H-2K<sup>b</sup> (Y3) or
+H-2D<sup>b</sup> (28.14.8) antibodies.</p></sec><sec id="S21"><title>Gene Transcription Analysis</title><p id="P46">Na&#x000ef;ve CD44<sup>lo</sup> CD8<sup>+</sup> T cells from spleens and
+lymph nodes were flow sorted on the lower and upper 20% of CD5 expression as
+described above. For each sample &#x02265;1 &#x000d7; 10<sup>6</sup> cells were used for
+RNA extraction using a RNeasy microkit (Qiagen). RNA was used to generate biotinylated
+cRNA using the MessageAmpIII RNA Amplification kit (Ambion) following the
+manufacturer&#x02019;s recommendations. Samples were hybridized to Affymetrix murine 430
+2.0 gene chips at the BioMedical Genomics Center (University of Minnesota) following
+standard procedures. RNA samples from three independent sorts were analyzed. Gene
+expression analysis that led to <xref rid="T1" ref-type="table">Table 1</xref> used
+Genespring software: Data were MAS5 normalized and filtered for present/absent calls in at
+least one group, and for stastically significant (<italic>P</italic> &#x0003c; 0.05) fold
+change of &#x0003e;2.0. For enrichment analysis (<xref rid="T2" ref-type="table">Table
+2</xref>), cluster genes expressed by either CD5<sup>hi</sup> or CD5<sup>lo</sup> cells
+were determined to be any genes with a Fold Change (FC)&#x0003e;0. Significance was determined
+by &#x003c7;<sup>2</sup> where equal distribution was taken as the null hypothesis.
+Histograms show fold change within the CD5<sup>hi</sup> versus CD5<sup>lo</sup>
+comparison, binned as indicated, for genes within the indicated clusters.</p></sec><sec id="S22" sec-type="results"><title>Statistics</title><p id="P47">Unless indicated otherwise in the figure legend, a two-tailed, unpaired
+Student&#x02019;s <italic>t</italic> test was performed on log-transformed data using
+Prism (GraphPad Software). When making multiple comparisons, one-way ANOVA with
+Dunnett&#x02019;s Multiple Comparison post-test was used. Sample sizes were chosen based
+on previous experience and similar studies. In the clonal analysis shown in <xref rid="F4" ref-type="fig">Fig. 4</xref>, the data distribution was not normal or lognormal, and the
+non-parametric Mann-Whitney test was applied. The <italic>P</italic> values are indicated
+with asterisks, defined in each figure legend.</p></sec></sec><sec sec-type="supplementary-material" id="S23"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="SD1"><label>1</label><media xlink:href="NIHMS638367-supplement-1.docx" orientation="portrait" xlink:type="simple" id="d37e2576" position="anchor"/></supplementary-material></sec></body><back><ack id="S24"><p>We thank the University of Minnesota Flow Core personnel for flow cytometry support and
+cell sorting. We thank M. Jenkins and M. Mescher for critical review of the manuscript, G.
+Stritesky for insight on analysis of Nur77 mice, J. Ding and S. Peery for excellent
+technical assistance with mice and members of the Jamequist laboratory provided valuable
+discussions throughout. We also thank R. Kroczek (Robert Koch-Institute, Berlin, Germany)
+for generously providing conjugated MTAC-2 antibody. The authors declare no financial
+interests. This work was supported by NIH award R37 AI-38903 (S.C.J.) and the Irvington
+Institute Fellowship Program of the Cancer Research Institute (R.B.F.). <italic>Research
+reported in this publication was also supported by NIH grant P30 CA77598 utilizing the
+Biostatistics and Bioinformatics Core shared resource of the Masonic Cancer Center,
+University of Minnesota and by the by the National Center for Advancing Translational
+Sciences of the National Institutes of Health Award Number UL1TR000114. The content is
+solely the responsibility of the authors and does not necessarily represent the official
+views of the National Institutes of Health.</italic></p></ack><fn-group><fn id="FN2"><p><bold>Accession codes.</bold> GEO: microarray data, GSE62142.</p></fn><fn id="FN3" fn-type="con"><p><bold>AUTHOR CONTRIBUTIONS</bold></p><p>R.B.F. and S.C.J. designed the experimental approaches; R.B.F. and S.E.H. conducted
+experiments; Y.X. and K.A.H. provided mouse strains and bone marrow chimeras; J.A.B. and
+A.W.G. analyzed gene expression data; R.B.F. and S.C.J. wrote and edited the
+manuscript.</p></fn><fn id="FN4" fn-type="conflict"><p><bold>COMPETING FINANCIAL INTERESTS</bold></p><p>None</p></fn></fn-group><ref-list><ref id="R1"><label>1</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Zehn</surname><given-names>D</given-names></name><name><surname>Lee</surname><given-names>SY</given-names></name><name><surname>Bevan</surname><given-names>MJ</given-names></name></person-group><article-title>Complete but curtailed T-cell response to very low-affinity
+antigen</article-title><source>Nature</source><volume>458</volume><fpage>211</fpage><lpage>214</lpage><year>2009</year><pub-id pub-id-type="pmid">19182777</pub-id></element-citation></ref><ref id="R2"><label>2</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Tubo</surname><given-names>NJ</given-names></name><etal/></person-group><article-title>Single Naive CD4(+) T Cells from a Diverse Repertoire Produce
+Different Effector Cell Types during Infection</article-title><source>Cell</source><volume>153</volume><fpage>785</fpage><lpage>796</lpage><year>2013</year><pub-id pub-id-type="pmid">23663778</pub-id></element-citation></ref><ref id="R3"><label>3</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Fazilleau</surname><given-names>N</given-names></name><name><surname>McHeyzer-Williams</surname><given-names>LJ</given-names></name><name><surname>Rosen</surname><given-names>H</given-names></name><name><surname>McHeyzer-Williams</surname><given-names>MG</given-names></name></person-group><article-title>The function of follicular helper T cells is regulated by the strength of T
+cell antigen receptor binding</article-title><source>Nature immunology</source><volume>10</volume><fpage>375</fpage><lpage>384</lpage><year>2009</year><pub-id pub-id-type="pmid">19252493</pub-id></element-citation></ref><ref id="R4"><label>4</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Plumlee</surname><given-names>CR</given-names></name><name><surname>Sheridan</surname><given-names>BS</given-names></name><name><surname>Cicek</surname><given-names>BB</given-names></name><name><surname>Lefrancois</surname><given-names>L</given-names></name></person-group><article-title>Environmental cues dictate the fate of individual CD8(+) T cells
+responding to infection</article-title><source>Immunity</source><volume>39</volume><fpage>347</fpage><lpage>356</lpage><year>2013</year><pub-id pub-id-type="pmid">23932571</pub-id></element-citation></ref><ref id="R5"><label>5</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Dorfman</surname><given-names>JR</given-names></name><name><surname>Stefanova</surname><given-names>I</given-names></name><name><surname>Yasutomo</surname><given-names>K</given-names></name><name><surname>Germain</surname><given-names>RN</given-names></name></person-group><article-title>CD4+ T cell survival is not directly linked to self-MHC-induced TCR
+signaling</article-title><source>Nature immunology</source><volume>1</volume><fpage>329</fpage><lpage>335</lpage><year>2000</year><pub-id pub-id-type="pmid">11017105</pub-id></element-citation></ref><ref id="R6"><label>6</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Stefanova</surname><given-names>I</given-names></name><name><surname>Dorfman</surname><given-names>JR</given-names></name><name><surname>Germain</surname><given-names>RN</given-names></name></person-group><article-title>Self-recognition promotes the foreign antigen sensitivity of naive T
+lymphocytes</article-title><source>Nature</source><volume>420</volume><fpage>429</fpage><lpage>434</lpage><year>2002</year><pub-id pub-id-type="pmid">12459785</pub-id></element-citation></ref><ref id="R7"><label>7</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bhandoola</surname><given-names>A</given-names></name><etal/></person-group><article-title>Peripheral expression of self-MHC-II influences the reactivity and
+self-tolerance of mature CD4(+) T cells: evidence from a lymphopenic T cell
+model</article-title><source>Immunity</source><volume>17</volume><fpage>425</fpage><lpage>436</lpage><year>2002</year><pub-id pub-id-type="pmid">12387737</pub-id></element-citation></ref><ref id="R8"><label>8</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hochweller</surname><given-names>K</given-names></name><etal/></person-group><article-title>Dendritic cells control T cell tonic signaling required for responsiveness
+to foreign antigen</article-title><source>Proc Natl Acad Sci U S A</source><volume>107</volume><fpage>5931</fpage><lpage>5936</lpage><year>2010</year><pub-id pub-id-type="pmid">20231464</pub-id></element-citation></ref><ref id="R9"><label>9</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mandl</surname><given-names>JN</given-names></name><name><surname>Monteiro</surname><given-names>JP</given-names></name><name><surname>Vrisekoop</surname><given-names>N</given-names></name><name><surname>Germain</surname><given-names>RN</given-names></name></person-group><article-title>T cell-positive selection uses self-ligand binding strength to optimize
+repertoire recognition of foreign antigens</article-title><source>Immunity</source><volume>38</volume><fpage>263</fpage><lpage>274</lpage><year>2013</year><pub-id pub-id-type="pmid">23290521</pub-id></element-citation></ref><ref id="R10"><label>10</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Weber</surname><given-names>KS</given-names></name><etal/></person-group><article-title>Distinct CD4+ helper T cells involved in primary and secondary
+responses to infection</article-title><source>Proceedings of the National Academy of Sciences of the United States of
+America</source><volume>109</volume><fpage>9511</fpage><lpage>9516</lpage><year>2012</year><pub-id pub-id-type="pmid">22645349</pub-id></element-citation></ref><ref id="R11"><label>11</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Persaud</surname><given-names>SP</given-names></name><name><surname>Parker</surname><given-names>CR</given-names></name><name><surname>Lo</surname><given-names>WL</given-names></name><name><surname>Weber</surname><given-names>KS</given-names></name><name><surname>Allen</surname><given-names>PM</given-names></name></person-group><article-title>Intrinsic CD4 T cell sensitivity and response to a pathogen are set and
+sustained by avidity for thymic and peripheral complexes of self peptide and
+MHC</article-title><source>Nature immunology</source><year>2014</year></element-citation></ref><ref id="R12"><label>12</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Starr</surname><given-names>TK</given-names></name><name><surname>Jameson</surname><given-names>SC</given-names></name><name><surname>Hogquist</surname><given-names>KA</given-names></name></person-group><article-title>Positive and negative selection of T cells</article-title><source>Annu Rev Immunol</source><volume>21</volume><fpage>139</fpage><lpage>176</lpage><year>2003</year><pub-id pub-id-type="pmid">12414722</pub-id></element-citation></ref><ref id="R13"><label>13</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Tanchot</surname><given-names>C</given-names></name><name><surname>Lemonnier</surname><given-names>FA</given-names></name><name><surname>Perarnau</surname><given-names>B</given-names></name><name><surname>Freitas</surname><given-names>AA</given-names></name><name><surname>Rocha</surname><given-names>B</given-names></name></person-group><article-title>Differential requirements for survival and proliferation of CD8 naive or
+memory T cells</article-title><source>Science</source><volume>276</volume><fpage>2057</fpage><lpage>2062</lpage><year>1997</year><pub-id pub-id-type="pmid">9197272</pub-id></element-citation></ref><ref id="R14"><label>14</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Takada</surname><given-names>K</given-names></name><name><surname>Jameson</surname><given-names>SC</given-names></name></person-group><article-title>Self-class I MHC molecules support survival of naive CD8 T cells, but
+depress their functional sensitivity through regulation of CD8 expression
+levels</article-title><source>J Exp Med</source><volume>206</volume><fpage>2253</fpage><lpage>2269</lpage><year>2009</year><pub-id pub-id-type="pmid">19752186</pub-id></element-citation></ref><ref id="R15"><label>15</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Takada</surname><given-names>K</given-names></name><name><surname>Jameson</surname><given-names>SC</given-names></name></person-group><article-title>Naive T cell homeostasis: from awareness of space to a sense of
+place</article-title><source>Nat Rev Immunol</source><volume>9</volume><fpage>823</fpage><lpage>832</lpage><year>2009</year><pub-id pub-id-type="pmid">19935802</pub-id></element-citation></ref><ref id="R16"><label>16</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sprent</surname><given-names>J</given-names></name><name><surname>Surh</surname><given-names>CD</given-names></name></person-group><article-title>Normal T cell homeostasis: the conversion of naive cells into
+memory-phenotype cells</article-title><source>Nat Immunol</source><volume>12</volume><fpage>478</fpage><lpage>484</lpage><year>2011</year><pub-id pub-id-type="pmid">21739670</pub-id></element-citation></ref><ref id="R17"><label>17</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Tarakhovsky</surname><given-names>A</given-names></name><etal/></person-group><article-title>A role for CD5 in TCR-mediated signal transduction and thymocyte
+selection</article-title><source>Science</source><volume>269</volume><fpage>535</fpage><lpage>537</lpage><year>1995</year><pub-id pub-id-type="pmid">7542801</pub-id></element-citation></ref><ref id="R18"><label>18</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Azzam</surname><given-names>HS</given-names></name><etal/></person-group><article-title>CD5 expression is developmentally regulated by T cell receptor (TCR)
+signals and TCR avidity</article-title><source>J Exp Med</source><volume>188</volume><fpage>2301</fpage><lpage>2311</lpage><year>1998</year><pub-id pub-id-type="pmid">9858516</pub-id></element-citation></ref><ref id="R19"><label>19</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wong</surname><given-names>P</given-names></name><name><surname>Barton</surname><given-names>GM</given-names></name><name><surname>Forbush</surname><given-names>KA</given-names></name><name><surname>Rudensky</surname><given-names>AY</given-names></name></person-group><article-title>Dynamic tuning of T cell reactivity by self-peptide-major
+histocompatibility complex ligands</article-title><source>J Exp Med</source><volume>193</volume><fpage>1179</fpage><lpage>1187</lpage><year>2001</year><pub-id pub-id-type="pmid">11369789</pub-id></element-citation></ref><ref id="R20"><label>20</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Smith</surname><given-names>K</given-names></name><etal/></person-group><article-title>Sensory adaptation in naive peripheral CD4 T cells</article-title><source>J Exp Med</source><volume>194</volume><fpage>1253</fpage><lpage>1261</lpage><year>2001</year><pub-id pub-id-type="pmid">11696591</pub-id></element-citation></ref><ref id="R21"><label>21</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Seddon</surname><given-names>B</given-names></name><name><surname>Zamoyska</surname><given-names>R</given-names></name></person-group><article-title>TCR signals mediated by Src family kinases are essential for the survival
+of naive T cells</article-title><source>J Immunol</source><volume>169</volume><fpage>2997</fpage><lpage>3005</lpage><year>2002</year><pub-id pub-id-type="pmid">12218114</pub-id></element-citation></ref><ref id="R22"><label>22</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kieper</surname><given-names>WC</given-names></name><name><surname>Burghardt</surname><given-names>JT</given-names></name><name><surname>Surh</surname><given-names>CD</given-names></name></person-group><article-title>A role for TCR affinity in regulating naive T cell
+homeostasis</article-title><source>J Immunol</source><volume>172</volume><fpage>40</fpage><lpage>44</lpage><year>2004</year><pub-id pub-id-type="pmid">14688307</pub-id></element-citation></ref><ref id="R23"><label>23</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ge</surname><given-names>Q</given-names></name><name><surname>Bai</surname><given-names>A</given-names></name><name><surname>Jones</surname><given-names>B</given-names></name><name><surname>Eisen</surname><given-names>HN</given-names></name><name><surname>Chen</surname><given-names>J</given-names></name></person-group><article-title>Competition for self-peptide-MHC complexes and cytokines between naive and
+memory CD8+ T cells expressing the same or different T cell
+receptors</article-title><source>Proceedings of the National Academy of Sciences of the United States of
+America</source><volume>101</volume><fpage>3041</fpage><lpage>3046</lpage><year>2004</year><pub-id pub-id-type="pmid">14976256</pub-id></element-citation></ref><ref id="R24"><label>24</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Cho</surname><given-names>JH</given-names></name><name><surname>Kim</surname><given-names>HO</given-names></name><name><surname>Surh</surname><given-names>CD</given-names></name><name><surname>Sprent</surname><given-names>J</given-names></name></person-group><article-title>T cell receptor-dependent regulation of lipid rafts controls naive
+CD8<sup>+</sup> T cell homeostasis</article-title><source>Immunity</source><volume>32</volume><fpage>214</fpage><lpage>226</lpage><year>2010</year><pub-id pub-id-type="pmid">20137986</pub-id></element-citation></ref><ref id="R25"><label>25</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Johnson</surname><given-names>LD</given-names></name><name><surname>Jameson</surname><given-names>SC</given-names></name></person-group><article-title>Self-specific CD8+ T cells maintain a semi-naive state following
+lymphopenia-induced proliferation</article-title><source>J Immunol</source><volume>184</volume><fpage>5604</fpage><lpage>5611</lpage><year>2010</year><pub-id pub-id-type="pmid">20393139</pub-id></element-citation></ref><ref id="R26"><label>26</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Palmer</surname><given-names>MJ</given-names></name><name><surname>Mahajan</surname><given-names>VS</given-names></name><name><surname>Chen</surname><given-names>J</given-names></name><name><surname>Irvine</surname><given-names>DJ</given-names></name><name><surname>Lauffenburger</surname><given-names>DA</given-names></name></person-group><article-title>Signaling thresholds govern heterogeneity in IL-7-receptor-mediated
+responses of naive CD8<sup>+</sup> T cells</article-title><source>Immunology and cell biology</source><volume>89</volume><fpage>581</fpage><lpage>594</lpage><year>2011</year><pub-id pub-id-type="pmid">21339767</pub-id></element-citation></ref><ref id="R27"><label>27</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Park</surname><given-names>JH</given-names></name><etal/></person-group><article-title>&#x02018;Coreceptor tuning&#x02019;: cytokine signals transcriptionally
+tailor CD8 coreceptor expression to the self-specificity of the TCR</article-title><source>Nat Immunol</source><volume>8</volume><fpage>1049</fpage><lpage>1059</lpage><year>2007</year><pub-id pub-id-type="pmid">17873878</pub-id></element-citation></ref><ref id="R28"><label>28</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kaech</surname><given-names>SM</given-names></name><name><surname>Cui</surname><given-names>W</given-names></name></person-group><article-title>Transcriptional control of effector and memory CD8+ T cell
+differentiation</article-title><source>Nature reviews. Immunology</source><volume>12</volume><fpage>749</fpage><lpage>761</lpage><year>2012</year></element-citation></ref><ref id="R29"><label>29</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Judge</surname><given-names>AD</given-names></name><name><surname>Zhang</surname><given-names>X</given-names></name><name><surname>Fujii</surname><given-names>H</given-names></name><name><surname>Surh</surname><given-names>CD</given-names></name><name><surname>Sprent</surname><given-names>J</given-names></name></person-group><article-title>Interleukin 15 controls both proliferation and survival of a subset of
+memory-phenotype CD8(+) T cells</article-title><source>J Exp Med</source><volume>196</volume><fpage>935</fpage><lpage>946</lpage><year>2002</year><pub-id pub-id-type="pmid">12370255</pub-id></element-citation></ref><ref id="R30"><label>30</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Moran</surname><given-names>AE</given-names></name><etal/></person-group><article-title>T cell receptor signal strength in Treg and iNKT cell development
+demonstrated by a novel fluorescent reporter mouse</article-title><source>J Exp Med</source><volume>208</volume><fpage>1279</fpage><lpage>1289</lpage><year>2011</year><pub-id pub-id-type="pmid">21606508</pub-id></element-citation></ref><ref id="R31"><label>31</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chang</surname><given-names>JT</given-names></name><etal/></person-group><article-title>Asymmetric Proteasome Segregation as a Mechanism for Unequal Partitioning
+of the Transcription Factor T-bet during T Lymphocyte Division</article-title><source>Immunity</source><volume>34</volume><fpage>492</fpage><lpage>504</lpage><year>2011</year><pub-id pub-id-type="pmid">21497118</pub-id></element-citation></ref><ref id="R32"><label>32</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Miller</surname><given-names>AT</given-names></name><name><surname>Wilcox</surname><given-names>HM</given-names></name><name><surname>Lai</surname><given-names>Z</given-names></name><name><surname>Berg</surname><given-names>LJ</given-names></name></person-group><article-title>Signaling through Itk promotes T helper 2 differentiation via negative
+regulation of T-bet</article-title><source>Immunity</source><volume>21</volume><fpage>67</fpage><lpage>80</lpage><year>2004</year><pub-id pub-id-type="pmid">15345221</pub-id></element-citation></ref><ref id="R33"><label>33</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Dorner</surname><given-names>BG</given-names></name><etal/></person-group><article-title>Selective expression of the chemokine receptor XCR1 on cross-presenting
+dendritic cells determines cooperation with CD8+ T cells</article-title><source>Immunity</source><volume>31</volume><fpage>823</fpage><lpage>833</lpage><year>2009</year><pub-id pub-id-type="pmid">19913446</pub-id></element-citation></ref><ref id="R34"><label>34</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Best</surname><given-names>JA</given-names></name><etal/></person-group><article-title>Transcriptional insights into the CD8(+) T cell response to
+infection and memory T cell formation</article-title><source>Nature immunology</source><volume>14</volume><fpage>404</fpage><lpage>412</lpage><year>2013</year><pub-id pub-id-type="pmid">23396170</pub-id></element-citation></ref><ref id="R35"><label>35</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Haluszczak</surname><given-names>C</given-names></name><etal/></person-group><article-title>The antigen-specific CD8+ T cell repertoire in unimmunized mice
+includes memory phenotype cells bearing markers of homeostatic expansion</article-title><source>J Exp Med</source><volume>206</volume><fpage>435</fpage><lpage>448</lpage><year>2009</year><pub-id pub-id-type="pmid">19188498</pub-id></element-citation></ref><ref id="R36"><label>36</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sung</surname><given-names>JH</given-names></name><etal/></person-group><article-title>Chemokine guidance of central memory T cells is critical for antiviral
+recall responses in lymph nodes</article-title><source>Cell</source><volume>150</volume><fpage>1249</fpage><lpage>1263</lpage><year>2012</year><pub-id pub-id-type="pmid">22980984</pub-id></element-citation></ref><ref id="R37"><label>37</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kastenmuller</surname><given-names>W</given-names></name><etal/></person-group><article-title>Peripheral prepositioning and local CXCL9 chemokine-mediated guidance
+orchestrate rapid memory CD8+ T cell responses in the lymph node</article-title><source>Immunity</source><volume>38</volume><fpage>502</fpage><lpage>513</lpage><year>2013</year><pub-id pub-id-type="pmid">23352234</pub-id></element-citation></ref><ref id="R38"><label>38</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Starbeck-Miller</surname><given-names>GR</given-names></name><name><surname>Xue</surname><given-names>HH</given-names></name><name><surname>Harty</surname><given-names>JT</given-names></name></person-group><article-title>IL-12 and type I interferon prolong the division of activated CD8 T cells
+by maintaining high-affinity IL-2 signaling in vivo</article-title><source>J Exp Med</source><volume>211</volume><fpage>105</fpage><lpage>120</lpage><year>2013</year><pub-id pub-id-type="pmid">24367005</pub-id></element-citation></ref><ref id="R39"><label>39</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Malek</surname><given-names>TR</given-names></name><name><surname>Castro</surname><given-names>I</given-names></name></person-group><article-title>Interleukin-2 receptor signaling: at the interface between tolerance and
+immunity</article-title><source>Immunity</source><volume>33</volume><fpage>153</fpage><lpage>165</lpage><year>2010</year><pub-id pub-id-type="pmid">20732639</pub-id></element-citation></ref><ref id="R40"><label>40</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Buchholz</surname><given-names>VR</given-names></name><etal/></person-group><article-title>Disparate individual fates compose robust CD8+ T cell
+immunity</article-title><source>Science</source><volume>340</volume><fpage>630</fpage><lpage>635</lpage><year>2013</year><pub-id pub-id-type="pmid">23493420</pub-id></element-citation></ref><ref id="R41"><label>41</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Gerlach</surname><given-names>C</given-names></name><etal/></person-group><article-title>Heterogeneous differentiation patterns of individual CD8+ T
+cells</article-title><source>Science</source><volume>340</volume><fpage>635</fpage><lpage>639</lpage><year>2013</year><pub-id pub-id-type="pmid">23493421</pub-id></element-citation></ref><ref id="R42"><label>42</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>van Heijst</surname><given-names>JW</given-names></name><etal/></person-group><article-title>Recruitment of antigen-specific CD8+ T cells in response to
+infection is markedly efficient</article-title><source>Science</source><volume>325</volume><fpage>1265</fpage><lpage>1269</lpage><year>2009</year><pub-id pub-id-type="pmid">19729659</pub-id></element-citation></ref><ref id="R43"><label>43</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Daniels</surname><given-names>MA</given-names></name><name><surname>Jameson</surname><given-names>SC</given-names></name></person-group><article-title>Critical role for CD8 in T cell receptor binding and activation by
+peptide/major histocompatibility complex multimers</article-title><source>J Exp Med</source><volume>191</volume><fpage>335</fpage><lpage>346</lpage><year>2000</year><pub-id pub-id-type="pmid">10637277</pub-id></element-citation></ref><ref id="R44"><label>44</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Haring</surname><given-names>JS</given-names></name><name><surname>Badovinac</surname><given-names>VP</given-names></name><name><surname>Harty</surname><given-names>JT</given-names></name></person-group><article-title>Inflaming the CD8+ T cell response</article-title><source>Immunity</source><volume>25</volume><fpage>19</fpage><lpage>29</lpage><year>2006</year><pub-id pub-id-type="pmid">16860754</pub-id></element-citation></ref><ref id="R45"><label>45</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Cui</surname><given-names>W</given-names></name><name><surname>Kaech</surname><given-names>SM</given-names></name></person-group><article-title>Generation of effector CD8+ T cells and their conversion to memory
+T cells</article-title><source>Immunological reviews</source><volume>236</volume><fpage>151</fpage><lpage>166</lpage><year>2010</year><pub-id pub-id-type="pmid">20636815</pub-id></element-citation></ref><ref id="R46"><label>46</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Badovinac</surname><given-names>VP</given-names></name><name><surname>Messingham</surname><given-names>KA</given-names></name><name><surname>Jabbari</surname><given-names>A</given-names></name><name><surname>Haring</surname><given-names>JS</given-names></name><name><surname>Harty</surname><given-names>JT</given-names></name></person-group><article-title>Accelerated CD8+ T-cell memory and prime-boost response after
+dendritic-cell vaccination</article-title><source>Nat Med</source><volume>11</volume><fpage>748</fpage><lpage>756</lpage><year>2005</year><pub-id pub-id-type="pmid">15951824</pub-id></element-citation></ref><ref id="R47"><label>47</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Curtsinger</surname><given-names>JM</given-names></name><name><surname>Mescher</surname><given-names>MF</given-names></name></person-group><article-title>Inflammatory cytokines as a third signal for T cell
+activation</article-title><source>Curr Opin Immunol</source><volume>22</volume><fpage>333</fpage><lpage>340</lpage><year>2010</year><pub-id pub-id-type="pmid">20363604</pub-id></element-citation></ref><ref id="R48"><label>48</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Maile</surname><given-names>R</given-names></name><etal/></person-group><article-title>Peripheral &#x0201c;CD8 tuning&#x0201d; dynamically modulates the size and
+responsiveness of an antigen-specific T cell pool in vivo</article-title><source>Journal of immunology</source><volume>174</volume><fpage>619</fpage><lpage>627</lpage><year>2005</year></element-citation></ref><ref id="R49"><label>49</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Pham</surname><given-names>NL</given-names></name><name><surname>Badovinac</surname><given-names>VP</given-names></name><name><surname>Harty</surname><given-names>JT</given-names></name></person-group><article-title>A default pathway of memory CD8 T cell differentiation after dendritic cell
+immunization is deflected by encounter with inflammatory cytokines during antigen-driven
+proliferation</article-title><source>J Immunol</source><volume>183</volume><fpage>2337</fpage><lpage>2348</lpage><year>2009</year><pub-id pub-id-type="pmid">19635915</pub-id></element-citation></ref><ref id="R50"><label>50</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Zhu</surname><given-names>J</given-names></name><etal/></person-group><article-title>The transcription factor T-bet is induced by multiple pathways and prevents
+an endogenous Th2 cell program during Th1 cell responses</article-title><source>Immunity</source><volume>37</volume><fpage>660</fpage><lpage>673</lpage><year>2012</year><pub-id pub-id-type="pmid">23041064</pub-id></element-citation></ref><ref id="R51"><label>51</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Pircher</surname><given-names>H</given-names></name><name><surname>Rohrer</surname><given-names>UH</given-names></name><name><surname>Moskophidis</surname><given-names>D</given-names></name><name><surname>Zinkernagel</surname><given-names>RM</given-names></name><name><surname>Hengartner</surname><given-names>H</given-names></name></person-group><article-title>Lower receptor avidity required for thymic clonal deletion than for
+effector T-cell function</article-title><source>Nature</source><volume>351</volume><fpage>482</fpage><lpage>485</lpage><year>1991</year><pub-id pub-id-type="pmid">1710780</pub-id></element-citation></ref><ref id="R52"><label>52</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hogquist</surname><given-names>KA</given-names></name><etal/></person-group><article-title>T cell receptor antagonist peptides induce positive
+selection</article-title><source>Cell</source><volume>76</volume><fpage>17</fpage><lpage>27</lpage><year>1994</year><pub-id pub-id-type="pmid">8287475</pub-id></element-citation></ref><ref id="R53"><label>53</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Brundage</surname><given-names>RA</given-names></name><name><surname>Smith</surname><given-names>GA</given-names></name><name><surname>Camilli</surname><given-names>A</given-names></name><name><surname>Theriot</surname><given-names>JA</given-names></name><name><surname>Portnoy</surname><given-names>DA</given-names></name></person-group><article-title>Expression and phosphorylation of the Listeria monocytogenes ActA protein
+in mammalian cells</article-title><source>Proceedings of the National Academy of Sciences of the United States of
+America</source><volume>90</volume><fpage>11890</fpage><lpage>11894</lpage><year>1993</year><pub-id pub-id-type="pmid">8265643</pub-id></element-citation></ref><ref id="R54"><label>54</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Maile</surname><given-names>R</given-names></name><etal/></person-group><article-title>Antigen-specific modulation of an immune response by in vivo administration
+of soluble MHC class I tetramers</article-title><source>Journal of immunology</source><volume>167</volume><fpage>3708</fpage><lpage>3714</lpage><year>2001</year></element-citation></ref><ref id="R55"><label>55</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Dorner</surname><given-names>BG</given-names></name><etal/></person-group><article-title>MIP-1alpha, MIP-1beta, RANTES, and ATAC/lymphotactin function together with
+IFN-gamma as type 1 cytokines</article-title><source>Proc Natl Acad Sci U S A</source><volume>99</volume><fpage>6181</fpage><lpage>6186</lpage><year>2002</year><pub-id pub-id-type="pmid">11972057</pub-id></element-citation></ref><ref id="R56"><label>56</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kieper</surname><given-names>WC</given-names></name><name><surname>Prlic</surname><given-names>M</given-names></name><name><surname>Schmidt</surname><given-names>CS</given-names></name><name><surname>Mescher</surname><given-names>MF</given-names></name><name><surname>Jameson</surname><given-names>SC</given-names></name></person-group><article-title>Il-12 enhances CD8 T cell homeostatic expansion</article-title><source>Journal of immunology</source><volume>166</volume><fpage>5515</fpage><lpage>5521</lpage><year>2001</year></element-citation></ref></ref-list></back><floats-group><fig id="F1" orientation="portrait" position="float"><label>Figure 1</label><caption><title>CD5 expression by na&#x000ef;ve CD8<sup>+</sup> T cells identifies stable
+populations with unique phenotypic traits</title><p>Flow cytometry of cells combined from spleen and lymph nodes of wild-type
+(<bold>a</bold>) or <italic>Il15</italic><sup>&#x02212;/&#x02212;</sup> (<bold>b</bold>)
+mice were stained for CD44 and CXCR3 and transcription factors T-bet and Eomes. Data were
+gated on naive (CD44<sup>lo</sup> CD122<sup>lo</sup>) CD8<sup>+</sup> T cells in
+the lowest 20% (red) and highest 20% (blue) with respect to CD5
+expression. Memory phenotype (MP) cells (CD44<sup>hi</sup>CD122<sup>hi</sup>) are
+indicated as gray shaded histograms. Data represent expression of indicated molecules and
+forward scatter (as a measure of cell size). (<bold>c,d</bold>) Na&#x000ef;ve
+CD8<sup>+</sup> T cells were sorted on CD5 expression as indicated and congenic
+populations co-transferred into normal recipient mice, which were analyzed 4&#x02013;8
+weeks later without immunization. Representative data are shown for the histograms
+(<bold>c,d</bold>); <bold>d</bold>, right, summary of compiled data (each symbol
+represents an individual mouse). (<bold>e,f</bold>) Flow cytometry of
+CD4<sup>+</sup> CD25<sup>&#x02013;</sup> and CD8<sup>+</sup> T cells
+from Nur77<sup>gfp</sup> transgenic mice. T cells were gated on the lower or upper CD5
+expression and analyzed for GFP expression (<bold>e</bold>). MP cells (gray) are included
+for comparison. In (<bold>f</bold>) flow cytometry of HY or OT-I TCR transgenic
+CD8<sup>+</sup> T cells, gated on the CD44<sup>lo</sup> population, for CD5 and
+Nur77<sup>gfp</sup> expression as compared to polyclonal na&#x000ef;ve
+CD8<sup>+</sup> T cells (gray). Data in (a,c,d) are representative of 4
+independent experiments (a n=10; c,d n=9), in (b,f) 2 independent
+experiments (b n=4; f n=6&#x02013;7) and in (e) 3&#x02013;4 independent
+experiments (n=6&#x02013;11).</p></caption><graphic xlink:href="nihms638367f1"/></fig><fig id="F2" orientation="portrait" position="float"><label>Figure 2</label><caption><title>Na&#x000ef;ve CD5<sup>lo</sup> and CD5<sup>hi</sup> CD8<sup>+</sup> T cells
+have distinct gene-expression characteristics</title><p>(<bold>a,b</bold>) Expression of XCL1, CXCR3 and T-bet by na&#x000ef;ve
+(CD44<sup>lo</sup>) CD8<sup>+</sup> T cells in the highest 20%
+(CD5<sup>hi</sup>) or lowest 20% (CD5<sup>lo</sup>) with respect to CD5
+expression and memory phenotype (CD44<sup>hi</sup>) CD8<sup>+</sup> T cell
+populations. (<bold>a</bold>) Splenocytes were stimulated with PMA/ionomycin in the
+presence of brefeldin A and then stained intracellularly for XCL1. Grey histograms
+represent unstimulated cells, solid lines indicate stimulated cells. (<bold>b</bold>)
+Frequencies of indicated subsets expressing XCL1, CXCR3 or T-bet. Expression of XCL1 was
+determined following activation (as in (a)), while CXCR3 and T-bet expression was
+determined in unstimulated B6 or T-bet reporter mice<sup><xref rid="R50" ref-type="bibr">50</xref></sup>. <bold>(c)</bold> CD44<sup>lo</sup> CD8<sup>+</sup> T cells
+were flow sorted on the lower/upper 20% of CD5 expression and mRNA from 3
+individual sorts was isolated and analyzed using an Affymetrix gene array. Differences
+between CD5<sup>lo</sup> and CD5<sup>hi</sup> transcription were compared against gene
+clusters associated with stages of the in vivo CD8<sup>+</sup> T cell
+response<sup><xref rid="R34" ref-type="bibr">34</xref></sup>. Histograms represent
+fold-change ratio for expression in CD5<sup>lo</sup> versus CD5<sup>hi</sup> cells of
+genes from clusters II, III and X, revealing preferential expression in the
+CD5<sup>hi</sup> population (indicated as a fold change ratio &#x0003c;1). Data in (a) are
+representative of 4 experiments (9 mice); data in (b) were compiled from: 4 experiments
+(n=9) for XCL1; 3 experiments (n=7) for T-bet; 5 experiments
+(n=13) for CXCR3. Data in (c) derive from analysis of gene array analysis from 3
+independent cell sorting experiments. * indicates p&#x0003c;0.001</p></caption><graphic xlink:href="nihms638367f2"/></fig><fig id="F3" orientation="portrait" position="float"><label>Figure 3</label><caption><title>Na&#x000ef;ve CD5<sup>lo</sup> and CD5<sup>hi</sup> CD8<sup>+</sup> T cell
+precursors differ in their capacity to respond to foreign antigen</title><p>CD44<sup>lo</sup> CD8<sup>+</sup> T cells in the lowest or highest 20%
+for CD5 expression were sorted and 1.25&#x02013;1.5 &#x000d7; 10<sup>6</sup> each of
+congenically distinct CD5<sup>lo</sup> and CD5<sup>hi</sup> cells co-transferred into
+CD45.1/CD45.2 host animals, which were infected the next day with LM-B8R.
+B8R/K<sup>b</sup>&#x02013;specific cells were isolated from the spleen by
+B8R/K<sup>b</sup> tetramer enrichment at the indicated time points. (a) shows the ratio
+of donor CD5<sup>hi</sup> and CD5<sup>lo</sup> B8R/K<sup>b</sup>-specific cells at days 7
+and 30 after primary LM-B8R infection or 5 days after re-challenge of memory recipients
+with virulent LM-B8R, while (b) shows total donor cells number for the d7 timepoint. Each
+dot is a host animal. Filled symbols in (a) indicate mice where a
+B8R/K<sup>b</sup>-specific response was not detected for CD5<sup>lo</sup> donor cells
+&#x02013; the CD5<sup>hi</sup>/CD5<sup>lo</sup> ratio was arbitrarily set to 100. The
+double dagger symbol (&#x02021;) indicates an outlier: exclusion of this group did not
+alter the statistical significance shown in (b). (c) The ratio of bulk LM-specific donor
+CD5<sup>hi</sup>/CD5<sup>lo</sup> CD8<sup>+</sup> T cells from the experiments
+shown in (a). Data in (a,c) are shown as the geometric mean &#x000b1; 95%
+confidence interval. (d,e) Total CD8<sup>+</sup> CD44<sup>lo</sup> cells were
+sorted and combined with congenically distinct CD44<sup>lo</sup> CD5<sup>lo</sup> or
+CD44<sup>lo</sup> CD5<sup>hi</sup> populations and 1.25 &#x02013; 1.5 &#x000d7;
+10<sup>6</sup> of each population co-transferred into congenic recipients which were
+infected with LM-B8R 1d later. The B8R/K<sup>b</sup>-specific (d) and bulk LM-specific (e)
+responses were determined 7d after infection. The graphs indicate mean &#x000b1; SEM. (f)
+CD5<sup>hi</sup> na&#x000ef;ve CD8<sup>+</sup> T cells (CD44<sup>lo</sup> cells
+in the upper 20% for CD5 expression) were sorted into the lowest or highest
+30% for CXCR3 expression. 1&#x02013;2&#x000d7;10<sup>6</sup> of congenically
+distinct CXCR3<sup>lo</sup> and CXCR3<sup>hi</sup> CD5<sup>hi</sup> cells were
+co-transferred into CD45.1/45.2 donors, and infected 1d later with LM-B8R.
+B8R/K<sup>b</sup>-specific cells were isolated from the spleen 7d after infection by
+tetramer enrichment. The upper panel shows the ratio of cells derived from
+CXCR3<sup>hi</sup> versus CXCR3<sup>lo</sup> donor cells in the
+B8R/K<sup>b</sup>-specific and bulk LM-B8R responsive populations. The lower panel shows
+the number of B8R/K<sup>b</sup>&#x02013;specific CXCR3<sup>hi</sup> and CXCR3<sup>lo</sup>
+donor cells isolated. The geometric mean is indicated. (g) Mixed bone marrow chimeras were
+generated using congenic wild-type and <italic>Cd25</italic> (IL-2R&#x003b1;)-deficient
+bone marrow. Following T cell reconstitution, CD44<sup>lo</sup> CD5<sup>lo</sup> and
+CD5<sup>hi</sup> populations were sorted and congenically distinct combinations of WT
+and KO cells co-transferred into congenic recipients that were infected with LM-B8R 1d
+later. At d7 following infection, the spleen was recovered and the number of
+B8R/K<sup>b</sup>&#x02013;specific donor cells enumerated. Data show the geometric mean
+&#x000b1; 95% confidence interval. In all figures, each symbol indicates data from
+a single animal. Data in (a-c) are compiled from four experiments at day 7 (n =
+11), 3 experiments at day 30 (n = 9), and 2 experiments for day 5 recall (n
+= 6); (d) shows data compiled from 3 experiments (n = 11&#x02013;12 mice),
+(e) from two experiments (n = 8); (f) is compiled from 3 experiments
+(n=10); (g) is compiled from 3 individual experiments (n = 6). For this
+figure, statistical analysis is indicated as follows: *** for p
+&#x0003c; 0.001; ** for p &#x0003c; 0.01; * for p &#x0003c; 0.05.</p></caption><graphic xlink:href="nihms638367f3"/></fig><fig id="F4" orientation="portrait" position="float"><label>Figure 4</label><caption><title>Analysis of clonal na&#x000ef;ve CD5<sup>lo</sup> and CD5<sup>hi</sup>
+CD8<sup>+</sup> T cell responses to infection</title><p>The indicated number of sorted CD5<sup>lo</sup> or CD5<sup>hi</sup> cells was transferred
+into congenic recipients and the B8R/K<sup>b</sup>-specific donor-derived response was
+determined in the spleen 7 days after infection with LM-B8R. (The congenic marker scheme
+used is illustrated in <xref rid="SD1" ref-type="supplementary-material">Fig.
+S4</xref>).</p><p>(a) Response rate for the indicated number of transferred donor cells for which a
+B8R/K<sup>b</sup>-specific response was observed above the limit of detection (5 cells).
+Error bars are calculated standard deviation. Statistical analysis using a one-sided
+binomial test showed that the response rate for 2.5&#x000d7;10<sup>4</sup> and
+1&#x000d7;10<sup>5</sup> CD5<sup>lo</sup> cells (0/40 and 18/125, respectively) were
+significantly different from that expected (25% and 100%, respectively)
+(p&#x0003c;0.0001 for both) while the response rate for 2.5&#x02013;3.0 &#x000d7;
+10<sup>4</sup> CD5<sup>hi</sup> cells was not significantly different from average
+expected rate (~27.5%) (p=0.2). (b) Numbers of B8R/K<sup>b</sup>-specific
+CD8<sup>+</sup> T cells derived from each donor population, shown as the
+geometric mean &#x000b1; 95% confidence interval. Each symbol represents cell
+numbers from an individual donor cohort. Donor populations that did not mount a detectable
+response are shown on the limit of detection line. Two very large clonal responses are
+indicated by arrows. Host responses are shown for comparison. Statistical significance was
+assessed only on responses above the limit of detection, using the Mann-Whitney test on
+log-transformed values. The numbers of transferred cohorts for each condition is given in
+the text, and the data derive from 2&#x02013;4 separate experiments. The symbol *
+indicates p&#x0003c;0.05.</p></caption><graphic xlink:href="nihms638367f4"/></fig><fig id="F5" orientation="portrait" position="float"><label>Figure 5</label><caption><title>Early recruitment of CD5<sup>lo</sup> and CD5<sup>hi</sup> cells into the immune
+response after infection</title><p>(a) Congenically distinct CD44<sup>lo</sup> CD5<sup>lo</sup> and CD5<sup>hi</sup> cells
+were sorted and co-transferred into congenic recipients as in <xref rid="F3" ref-type="fig">Fig. 3</xref>. Donor-derived B8R/K<sup>b</sup>-specific responses were
+analyzed from the spleen on day 3 or 4 after infection with LM-B8R. Data are shown as the
+geometric mean &#x000b1; 95% confidence interval. (b,c) Nur77<sup>gfp</sup>
+transgenic mice were injected i.v. with 50 &#x003bc;g anti-CD3 or PBS and spleens
+harvested 5 hrs later. Representative data is shown for expression of Nur77<sup>GFP</sup>
+and CD69 (b) and CD5 levels (c) on CD44<sup>lo</sup> CD8<sup>+</sup> T cells.
+(d-f) Nur77<sup>gfp</sup> transgenic mice were infected with 1 &#x000d7; 10<sup>7</sup>
+CFU LM-B8R and spleens harvested 5h later. B8R/K<sup>b</sup>- and
+M57/K<sup>b</sup>-specific CD8<sup>+</sup> T cells were isolated by tetramer based
+enrichment. (d) Nur77<sup>gfp</sup> and CD69 expression was assessed on B8R/K<sup>b</sup>-
+and M57/K<sup>b</sup>-specific CD8<sup>+</sup> T cells, and (e)
+B8R/K<sup>b</sup>-specific cells with activated (Nur77<sup>gfp-hi</sup>,
+CD69<sup>+</sup>) and non-activated (Nur77<sup>gfp-lo</sup>,
+CD69<sup>&#x02212;</sup>) phenotype assessed for CD5 expression. (d,e) are
+representative data. (f) shows normalized geometric mean fluorescence intensity (gMFI) for
+CD5 expression on non-activated and activated B8R/K<sup>b</sup> specific na&#x000ef;ve
+CD8<sup>+</sup> T cells. (a) shows data compiled from a total of 3 experiments
+(1 at day 3; n=5, 2 at day 4; n=9); Data in (b,c) are from 2 separate
+experiments (n=3); (d&#x02013;f) show representative or compiled data from 3
+experiments (n=13) for B8R/K<sup>b</sup>&#x02013;specific cells and 2 experiments
+(n=9) for M57/K<sup>b</sup>&#x02013;specific cells. * indicates p &#x0003c;
+0.01.</p></caption><graphic xlink:href="nihms638367f5"/></fig><fig id="F6" orientation="portrait" position="float"><label>Figure 6</label><caption><title>CD5<sup>hi</sup> and CD5<sup>lo</sup> cells show similar TCR binding to cognate
+antigen</title><p>(a) B8R/K<sup>b</sup> and M57/K<sup>b</sup> specific CD8<sup>+</sup> T cells were
+enriched from unimmunized mice and CD44<sup>lo</sup> precursors were gated on the lower
+and upper 20% of CD5 expression. Tetramer staining intensity (gMFI) was determined
+for both groups and expressed as a ratio, to normalize between experiments. (b)
+B8R/K<sup>b</sup> tetramer staining (gMFI) and burst size of expanded clonal populations
+derived from CD5<sup>lo</sup> and CD5<sup>hi</sup> donor cells at d7 following LM-B8R
+infection. Data derive from transfers of 1&#x000d7;10<sup>5</sup> CD5<sup>lo</sup> and
+2.5&#x02013;3.0 &#x000d7; 10<sup>4</sup> CD5<sup>hi</sup> cells (see <xref rid="F4" ref-type="fig">Fig. 4</xref>). Tetramer gMFI on donor cells was normalized to tetramer
+gMFI on host B8R/K<sup>b</sup>-specific cells from the same mice, to yield relative
+fluorescence intensity (RFI). (c) Spleen and lymph node cells from unimmunized mice were
+subjected to tetramer enrichment. CD5 expression as gMFI on B8R/K<sup>b</sup>-specific and
+M57/K<sup>b</sup>-specific CD44<sup>lo</sup> CD8<sup>+</sup> T cell populations
+was compared to normalized CD5 expression on bulk CD44<sup>lo</sup>
+CD8<sup>+</sup> T cells. (d) CD5 expression levels on indicated MHC class
+I-restricted TCR transgenic CD8<sup>+</sup> T cells. The histograms shows
+representative data while the bar graph shows CD5 relative fluorescence intensity (RFI),
+CD5 staining on polyclonal B6 CD44<sup>lo</sup> CD8<sup>+</sup> T cells being set
+at &#x0201c;100&#x0201d;. (e) MHC class I tetramer binding to TCR transgenic cells after
+staining with the indicated range of tetramer concentrations. RFI reflects the geometric
+MFI of tetramer staining normalized to maximum intensity, which was set at
+&#x0201c;100&#x0201d;. Similar data were obtained in a second experiment. (f) In vitro
+activation of TCR transgenic CD8<sup>+</sup> T cells. T cells were incubated with
+titrated doses of peptide for 6 hrs and CD69 expression was assessed by flow cytometry.
+Data are normalized to maximum CD69 expression. Similar data were obtained in a repeat
+experiment. (g) Expression of K<sup>b</sup> or D<sup>b</sup> on RMA-S cells following
+incubation with indicated doses of the peptides recognized by studied TCR transgenic T
+cells. RFI reflects the MFI of Class I MHC molecule staining, normalized to maximum
+intensity, which was set at &#x0201c;100&#x0201d;. Data are representative of three
+experiments. (h) OT-I bone marrow chimeras were generated by transferring OT-I bone marrow
+(RAG<sup>+</sup>) into irradiated WT or
+&#x003b2;2m<sup>&#x02212;/&#x02212;</sup> hosts. Flow plots showing CD5 expression is
+representative of 4 separate sets of chimeras. Congenically distinct CD44<sup>lo</sup>
+OT-I CD8<sup>+</sup> T cells were enriched from each chimera source and
+10<sup>3</sup> cells of each population co-transferred into congenic recipients that
+were untreated or infected 1-3d later with attenuated &#x00394;ActA LM-OVA. (i) Donor cell
+engraftment (&#x0201c;take&#x0201d;) was determined uninfected recipients, and compared to
+ratios of donor-derived populations at 7d and 12d after LM-OVA infection. Data are shown
+as mean &#x000b1; SEM.</p><p>In (a) data are compiled from 4 experiments (n = 14 for B8R/K<sup>b</sup>, n
+= 9 for M57/K<sup>b</sup>); (b) data are from 18 (CD5<sup>lo</sup>) and 46
+(CD5<sup>hi</sup>) clonal responses from at least 3 experiments. * indicates
+p&#x0003c;0.05. Statistical significance was not changed by exclusion of the outlier (marked as
+&#x02021;); In (c) the data is compiled from 6 experiments (n = 21) for
+B8R/K<sup>b</sup>-specific cells and two experiments (n = 8) for
+M57/K<sup>b</sup>-specific cells. **p &#x0003c; 0.001. In (d) data are
+compiled from 2&#x02013;3 experiments (n=4&#x02013;6); (e,f,g) are representative
+of 2&#x02013;3 independent experiments; (h,i) Data are representative or compiled from 4
+independent sets of chimeras.</p></caption><graphic xlink:href="nihms638367f6"/></fig><fig id="F7" orientation="portrait" position="float"><label>Figure 7</label><caption><title>CD5<sup>hi</sup> cells preferentially utilize pro-inflammatory signals during
+expansion</title><p>Congenically distinct CD44<sup>lo</sup> H-Y and OT-I TCR transgenic
+CD8<sup>+</sup> T cells were co-transferred into congenic recipients. Mice were
+co-immunized the next day with single peptide-pulsed matured DCs, with or without
+collateral infection with &#x00394;actA<sup>&#x02212;/ &#x02212;</sup> LM (a,b) or LCMV
+Armstrong (c,d). (a,c) Show total numbers of splenic H-Y and OT-I CD8<sup>+</sup>
+T cells 7d post-immunization with antigen pulsed DC, with or without indicated infections,
+while (b,d) shows ratios of OT-I/H-Y normalized to the &#x0201c;take&#x0201d; ratio
+observed in unimmunized animals 1d after adoptive transfer. All graphs show mean &#x000b1;
+SEM. Data in (a,b) are compiled from 3 independent experiments (n=10); data in
+(c.d) are compiled from 2 experiments (n=6 for DC alone and n=7 for
+DC+LCMV). * = p&#x0003c;0.01; ** = p
+&#x0003c;0.001.</p></caption><graphic xlink:href="nihms638367f7"/></fig><table-wrap id="T1" position="float" orientation="portrait"><label>Table 1</label><caption><title>Major gene expression differences between sorted CD5<sup>hi</sup> and
+CD5<sup>lo</sup> na&#x000ef;ve polyclonal CD8<sup>+</sup> T cells</title><p>Gene expression analysis was performed as described in <bold>Methods</bold>, and genes
+that showed statistically significant (<italic>P</italic> &#x0003c; 0.05), greater than 2-fold
+changes between the populations are indicated. Duplicates result from multiple probe sets
+for the same gene.</p></caption><table frame="box" rules="all"><thead><tr><th valign="top" align="left" rowspan="1" colspan="1"/><th valign="top" align="center" rowspan="1" colspan="1">Gene Symbol</th><th valign="top" align="center" rowspan="1" colspan="1">Fold change</th><th valign="top" align="center" rowspan="1" colspan="1"><italic>P</italic>-value</th></tr></thead><tbody><tr><td align="left" valign="top" rowspan="1" colspan="1"><bold>UP in CD5<sup>hi</sup></bold></td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">1</td><td align="center" valign="top" rowspan="1" colspan="1">A430093F15Rik</td><td align="center" valign="top" rowspan="1" colspan="1">7.16</td><td align="center" valign="top" rowspan="1" colspan="1">0.0170</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">2</td><td align="center" valign="top" rowspan="1" colspan="1">Endod1</td><td align="center" valign="top" rowspan="1" colspan="1">5.79</td><td align="center" valign="top" rowspan="1" colspan="1">0.0233</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">3</td><td align="center" valign="top" rowspan="1" colspan="1">Cxcr3</td><td align="center" valign="top" rowspan="1" colspan="1">5.60</td><td align="center" valign="top" rowspan="1" colspan="1">0.0217</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">4</td><td align="center" valign="top" rowspan="1" colspan="1">A530021J07Rik</td><td align="center" valign="top" rowspan="1" colspan="1">5.48</td><td align="center" valign="top" rowspan="1" colspan="1">0.0033</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">5</td><td align="center" valign="top" rowspan="1" colspan="1">Ly6C1</td><td align="center" valign="top" rowspan="1" colspan="1">5.27</td><td align="center" valign="top" rowspan="1" colspan="1">0.0200</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">6</td><td align="center" valign="top" rowspan="1" colspan="1">Tbx21 (T-bet)</td><td align="center" valign="top" rowspan="1" colspan="1">4.96</td><td align="center" valign="top" rowspan="1" colspan="1">0.0019</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"><italic>A530021J07Rik</italic></td><td align="center" valign="top" rowspan="1" colspan="1"><italic>4.74</italic></td><td align="center" valign="top" rowspan="1" colspan="1"><italic>0.0113</italic></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"><italic>A530021J07Rik</italic></td><td align="center" valign="top" rowspan="1" colspan="1"><italic>3.66</italic></td><td align="center" valign="top" rowspan="1" colspan="1"><italic>0.0144</italic></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">7</td><td align="center" valign="top" rowspan="1" colspan="1">Ndrg1</td><td align="center" valign="top" rowspan="1" colspan="1">3.42</td><td align="center" valign="top" rowspan="1" colspan="1">0.0224</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">8</td><td align="center" valign="top" rowspan="1" colspan="1">Eomes</td><td align="center" valign="top" rowspan="1" colspan="1">3.41</td><td align="center" valign="top" rowspan="1" colspan="1">0.0255</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">9</td><td align="center" valign="top" rowspan="1" colspan="1">Ighv14&#x02013;2</td><td align="center" valign="top" rowspan="1" colspan="1">3.28</td><td align="center" valign="top" rowspan="1" colspan="1">0.0059</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">10</td><td align="center" valign="top" rowspan="1" colspan="1">Cobll1</td><td align="center" valign="top" rowspan="1" colspan="1">3.11</td><td align="center" valign="top" rowspan="1" colspan="1">0.0033</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">11</td><td align="center" valign="top" rowspan="1" colspan="1">Ms4a4c</td><td align="center" valign="top" rowspan="1" colspan="1">3.08</td><td align="center" valign="top" rowspan="1" colspan="1">0.0172</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">12</td><td align="center" valign="top" rowspan="1" colspan="1">Reck</td><td align="center" valign="top" rowspan="1" colspan="1">3.02</td><td align="center" valign="top" rowspan="1" colspan="1">0.0201</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">13</td><td align="center" valign="top" rowspan="1" colspan="1">Itih5</td><td align="center" valign="top" rowspan="1" colspan="1">3.00</td><td align="center" valign="top" rowspan="1" colspan="1">0.0391</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">14</td><td align="center" valign="top" rowspan="1" colspan="1">Phactr2</td><td align="center" valign="top" rowspan="1" colspan="1">2.97</td><td align="center" valign="top" rowspan="1" colspan="1">0.0431</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">15</td><td align="center" valign="top" rowspan="1" colspan="1">Bcat1</td><td align="center" valign="top" rowspan="1" colspan="1">2.91</td><td align="center" valign="top" rowspan="1" colspan="1">0.0122</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">16</td><td align="center" valign="top" rowspan="1" colspan="1">Cldn10</td><td align="center" valign="top" rowspan="1" colspan="1">2.88</td><td align="center" valign="top" rowspan="1" colspan="1">0.0039</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">17</td><td align="center" valign="top" rowspan="1" colspan="1">9230110F15Rik</td><td align="center" valign="top" rowspan="1" colspan="1">2.85</td><td align="center" valign="top" rowspan="1" colspan="1">0.0293</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">18</td><td align="center" valign="top" rowspan="1" colspan="1">Serf1</td><td align="center" valign="top" rowspan="1" colspan="1">2.76</td><td align="center" valign="top" rowspan="1" colspan="1">0.0314</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">19</td><td align="center" valign="top" rowspan="1" colspan="1">Ptgfrn</td><td align="center" valign="top" rowspan="1" colspan="1">2.72</td><td align="center" valign="top" rowspan="1" colspan="1">0.0458</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">20</td><td align="center" valign="top" rowspan="1" colspan="1">Xcl1</td><td align="center" valign="top" rowspan="1" colspan="1">2.70</td><td align="center" valign="top" rowspan="1" colspan="1">0.0173</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"><italic>Eomes</italic></td><td align="center" valign="top" rowspan="1" colspan="1"><italic>2.65</italic></td><td align="center" valign="top" rowspan="1" colspan="1"><italic>0.0361</italic></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">21</td><td align="center" valign="top" rowspan="1" colspan="1">Plac8</td><td align="center" valign="top" rowspan="1" colspan="1">2.60</td><td align="center" valign="top" rowspan="1" colspan="1">0.0137</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">22</td><td align="center" valign="top" rowspan="1" colspan="1">Rrm2</td><td align="center" valign="top" rowspan="1" colspan="1">2.58</td><td align="center" valign="top" rowspan="1" colspan="1">0.0286</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">23</td><td align="center" valign="top" rowspan="1" colspan="1">Fahd1</td><td align="center" valign="top" rowspan="1" colspan="1">2.52</td><td align="center" valign="top" rowspan="1" colspan="1">0.0457</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">24</td><td align="center" valign="top" rowspan="1" colspan="1">Mcart6</td><td align="center" valign="top" rowspan="1" colspan="1">2.43</td><td align="center" valign="top" rowspan="1" colspan="1">0.0019</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"><italic>Ms4a4c</italic></td><td align="center" valign="top" rowspan="1" colspan="1"><italic>2.41</italic></td><td align="center" valign="top" rowspan="1" colspan="1"><italic>0.0179</italic></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">25</td><td align="center" valign="top" rowspan="1" colspan="1">Ikzf2 (Helios)</td><td align="center" valign="top" rowspan="1" colspan="1">2.40</td><td align="center" valign="top" rowspan="1" colspan="1">0.0273</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">26</td><td align="center" valign="top" rowspan="1" colspan="1">Xdh</td><td align="center" valign="top" rowspan="1" colspan="1">2.40</td><td align="center" valign="top" rowspan="1" colspan="1">0.0031</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">27</td><td align="center" valign="top" rowspan="1" colspan="1">BB557941</td><td align="center" valign="top" rowspan="1" colspan="1">2.40</td><td align="center" valign="top" rowspan="1" colspan="1">0.0484</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">28</td><td align="center" valign="top" rowspan="1" colspan="1">Cd200</td><td align="center" valign="top" rowspan="1" colspan="1">2.27</td><td align="center" valign="top" rowspan="1" colspan="1">0.0288</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">29</td><td align="center" valign="top" rowspan="1" colspan="1">Anxa2</td><td align="center" valign="top" rowspan="1" colspan="1">2.26</td><td align="center" valign="top" rowspan="1" colspan="1">0.0213</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"><italic>Ndrg1</italic></td><td align="center" valign="top" rowspan="1" colspan="1"><italic>2.23</italic></td><td align="center" valign="top" rowspan="1" colspan="1"><italic>0.0047</italic></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">30</td><td align="center" valign="top" rowspan="1" colspan="1">Gsto1</td><td align="center" valign="top" rowspan="1" colspan="1">2.21</td><td align="center" valign="top" rowspan="1" colspan="1">0.0197</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">31</td><td align="center" valign="top" rowspan="1" colspan="1">Cd5</td><td align="center" valign="top" rowspan="1" colspan="1">2.20</td><td align="center" valign="top" rowspan="1" colspan="1">0.0034</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">32</td><td align="center" valign="top" rowspan="1" colspan="1">Ptpn4</td><td align="center" valign="top" rowspan="1" colspan="1">2.20</td><td align="center" valign="top" rowspan="1" colspan="1">0.0291</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">33</td><td align="center" valign="top" rowspan="1" colspan="1">Chst11</td><td align="center" valign="top" rowspan="1" colspan="1">2.17</td><td align="center" valign="top" rowspan="1" colspan="1">0.0097</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">34</td><td align="center" valign="top" rowspan="1" colspan="1">Armcx4</td><td align="center" valign="top" rowspan="1" colspan="1">2.15</td><td align="center" valign="top" rowspan="1" colspan="1">0.0115</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">35</td><td align="center" valign="top" rowspan="1" colspan="1">Top2a</td><td align="center" valign="top" rowspan="1" colspan="1">2.15</td><td align="center" valign="top" rowspan="1" colspan="1">0.0321</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">36</td><td align="center" valign="top" rowspan="1" colspan="1">Hopx</td><td align="center" valign="top" rowspan="1" colspan="1">2.14</td><td align="center" valign="top" rowspan="1" colspan="1">0.0143</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"><italic>Ndrg1</italic></td><td align="center" valign="top" rowspan="1" colspan="1"><italic>2.12</italic></td><td align="center" valign="top" rowspan="1" colspan="1"><italic>0.0008</italic></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">37</td><td align="center" valign="top" rowspan="1" colspan="1">Il10</td><td align="center" valign="top" rowspan="1" colspan="1">2.10</td><td align="center" valign="top" rowspan="1" colspan="1">0.0249</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">38</td><td align="center" valign="top" rowspan="1" colspan="1">Stmn1</td><td align="center" valign="top" rowspan="1" colspan="1">2.09</td><td align="center" valign="top" rowspan="1" colspan="1">0.0357</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">39</td><td align="center" valign="top" rowspan="1" colspan="1">Mrpl35</td><td align="center" valign="top" rowspan="1" colspan="1">2.09</td><td align="center" valign="top" rowspan="1" colspan="1">0.0337</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">40</td><td align="center" valign="top" rowspan="1" colspan="1">Lilrb3 &#x00026; Pira</td><td align="center" valign="top" rowspan="1" colspan="1">2.08</td><td align="center" valign="top" rowspan="1" colspan="1">0.0021</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">41</td><td align="center" valign="top" rowspan="1" colspan="1">Coro2a</td><td align="center" valign="top" rowspan="1" colspan="1">2.07</td><td align="center" valign="top" rowspan="1" colspan="1">0.0034</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">42</td><td align="center" valign="top" rowspan="1" colspan="1">Cd44</td><td align="center" valign="top" rowspan="1" colspan="1">2.06</td><td align="center" valign="top" rowspan="1" colspan="1">0.0072</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">43</td><td align="center" valign="top" rowspan="1" colspan="1">Kctd15</td><td align="center" valign="top" rowspan="1" colspan="1">2.03</td><td align="center" valign="top" rowspan="1" colspan="1">0.0268</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">44</td><td align="center" valign="top" rowspan="1" colspan="1">Pogk</td><td align="center" valign="top" rowspan="1" colspan="1">2.03</td><td align="center" valign="top" rowspan="1" colspan="1">0.0124</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">45</td><td align="center" valign="top" rowspan="1" colspan="1">Id3</td><td align="center" valign="top" rowspan="1" colspan="1">2.02</td><td align="center" valign="top" rowspan="1" colspan="1">0.0049</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">46</td><td align="center" valign="top" rowspan="1" colspan="1">Pck1</td><td align="center" valign="top" rowspan="1" colspan="1">2.02</td><td align="center" valign="top" rowspan="1" colspan="1">0.0151</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">47</td><td align="center" valign="top" rowspan="1" colspan="1">Aim1</td><td align="center" valign="top" rowspan="1" colspan="1">2.02</td><td align="center" valign="top" rowspan="1" colspan="1">0.0227</td></tr></tbody></table><table frame="box" rules="all"><thead><tr><th valign="top" align="left" rowspan="1" colspan="1"/><th valign="top" align="center" rowspan="1" colspan="1">Gene Symbol</th><th valign="top" align="center" rowspan="1" colspan="1">Fold change</th><th valign="top" align="center" rowspan="1" colspan="1"><italic>P</italic>-value</th></tr></thead><tbody><tr><td align="left" valign="top" rowspan="1" colspan="1"><bold>DOWN in CD5<sup>hi</sup></bold></td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">1</td><td align="center" valign="top" rowspan="1" colspan="1">Dntt</td><td align="center" valign="top" rowspan="1" colspan="1">9.27</td><td align="center" valign="top" rowspan="1" colspan="1">0.0110</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">2</td><td align="center" valign="top" rowspan="1" colspan="1">Slc6a19</td><td align="center" valign="top" rowspan="1" colspan="1">4.18</td><td align="center" valign="top" rowspan="1" colspan="1">0.0025</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"><italic>Slc6a19</italic></td><td align="center" valign="top" rowspan="1" colspan="1"><italic>4.10</italic></td><td align="center" valign="top" rowspan="1" colspan="1"><italic>0.0143</italic></td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">3</td><td align="center" valign="top" rowspan="1" colspan="1">Slc16a5</td><td align="center" valign="top" rowspan="1" colspan="1">2.79</td><td align="center" valign="top" rowspan="1" colspan="1">0.0257</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">4</td><td align="center" valign="top" rowspan="1" colspan="1">Ddc</td><td align="center" valign="top" rowspan="1" colspan="1">2.55</td><td align="center" valign="top" rowspan="1" colspan="1">0.0035</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">5</td><td align="center" valign="top" rowspan="1" colspan="1">A130038J17Rik</td><td align="center" valign="top" rowspan="1" colspan="1">2.30</td><td align="center" valign="top" rowspan="1" colspan="1">0.0175</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">6</td><td align="center" valign="top" rowspan="1" colspan="1">Grik4</td><td align="center" valign="top" rowspan="1" colspan="1">2.20</td><td align="center" valign="top" rowspan="1" colspan="1">0.0034</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">7</td><td align="center" valign="top" rowspan="1" colspan="1">Tmem154</td><td align="center" valign="top" rowspan="1" colspan="1">2.10</td><td align="center" valign="top" rowspan="1" colspan="1">0.0322</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">8</td><td align="center" valign="top" rowspan="1" colspan="1">4930513N10Rik</td><td align="center" valign="top" rowspan="1" colspan="1">2.08</td><td align="center" valign="top" rowspan="1" colspan="1">0.0453</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">9</td><td align="center" valign="top" rowspan="1" colspan="1">Tubb2a</td><td align="center" valign="top" rowspan="1" colspan="1">2.03</td><td align="center" valign="top" rowspan="1" colspan="1">0.0200</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">10</td><td align="center" valign="top" rowspan="1" colspan="1">Itk</td><td align="center" valign="top" rowspan="1" colspan="1">2.01</td><td align="center" valign="top" rowspan="1" colspan="1">0.0411</td></tr></tbody></table></table-wrap><table-wrap id="T2" position="float" orientation="landscape"><label>TABLE 2</label><caption><p>Alignment between gene set expression differences for CD5hi and CD5lo na&#x000ef;ve
+CD8+ T cells, and Immgen gene set clusters for CD8 T cell responses.</p><p>Gene set clusters and designated characteristics are listed (from ref<sup><xref rid="R34" ref-type="bibr">34</xref></sup>). The columns labeled
+&#x0201c;CD5<sup>lo</sup>&#x0201d; and &#x0201c;CD5<sup>hi</sup>&#x0201d; indicate the
+number of genes from each cluster that were preferentially expressed in that subset. The
+column labeled &#x0201c;Proportion&#x0201d; indicates the fraction of those genes
+expressed in the CD5<sup>lo</sup> subset. The significance of differential expression was
+determined by &#x003c7;<sup>2</sup> test (see <bold>Methods</bold>), and are listed in the
+column labeled &#x0201c;P-values&#x0201d;.</p></caption><table frame="box" rules="all"><thead><tr><th valign="top" align="center" rowspan="1" colspan="1">Immgen Cluster</th><th valign="top" align="left" rowspan="1" colspan="1">Characteristics</th><th valign="top" align="left" rowspan="1" colspan="1">CD5<sup>lo</sup></th><th valign="top" align="left" rowspan="1" colspan="1">CD5<sup>hi</sup></th><th valign="top" align="left" rowspan="1" colspan="1">P-value</th><th valign="top" align="left" rowspan="1" colspan="1">Proportion</th></tr></thead><tbody><tr><td align="center" valign="top" rowspan="1" colspan="1">Cluster I</td><td align="left" valign="top" rowspan="1" colspan="1">Initial cytokine or effector response</td><td align="left" valign="top" rowspan="1" colspan="1">12</td><td align="left" valign="top" rowspan="1" colspan="1">22</td><td align="left" valign="top" rowspan="1" colspan="1">0.086</td><td align="left" valign="top" rowspan="1" colspan="1">0.352</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Cluster II</td><td align="left" valign="top" rowspan="1" colspan="1">Preparation for cell division</td><td align="left" valign="top" rowspan="1" colspan="1">187</td><td align="left" valign="top" rowspan="1" colspan="1">334</td><td align="left" valign="top" rowspan="1" colspan="1">1.193 E-10</td><td align="left" valign="top" rowspan="1" colspan="1">0.358</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Cluster III</td><td align="left" valign="top" rowspan="1" colspan="1">Cell cycle &#x00026; division</td><td align="left" valign="top" rowspan="1" colspan="1">93</td><td align="left" valign="top" rowspan="1" colspan="1">187</td><td align="left" valign="top" rowspan="1" colspan="1">1.936 E-08</td><td align="left" valign="top" rowspan="1" colspan="1">0.332</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Cluster IV</td><td align="left" valign="top" rowspan="1" colspan="1">Naive and late memory</td><td align="left" valign="top" rowspan="1" colspan="1">51</td><td align="left" valign="top" rowspan="1" colspan="1">40</td><td align="left" valign="top" rowspan="1" colspan="1">0.248</td><td align="left" valign="top" rowspan="1" colspan="1">0.560</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Cluster V</td><td align="left" valign="top" rowspan="1" colspan="1">Early effector, late memory</td><td align="left" valign="top" rowspan="1" colspan="1">54</td><td align="left" valign="top" rowspan="1" colspan="1">72</td><td align="left" valign="top" rowspan="1" colspan="1">0.108</td><td align="left" valign="top" rowspan="1" colspan="1">0.428</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Cluster VI</td><td align="left" valign="top" rowspan="1" colspan="1">Short-term effector and memory</td><td align="left" valign="top" rowspan="1" colspan="1">27</td><td align="left" valign="top" rowspan="1" colspan="1">37</td><td align="left" valign="top" rowspan="1" colspan="1">0.211</td><td align="left" valign="top" rowspan="1" colspan="1">0.421</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Cluster VII</td><td align="left" valign="top" rowspan="1" colspan="1">Memory precursor</td><td align="left" valign="top" rowspan="1" colspan="1">61</td><td align="left" valign="top" rowspan="1" colspan="1">49</td><td align="left" valign="top" rowspan="1" colspan="1">0.252</td><td align="left" valign="top" rowspan="1" colspan="1">0.554</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Cluster VIII</td><td align="left" valign="top" rowspan="1" colspan="1">Naive or late effector or memory</td><td align="left" valign="top" rowspan="1" colspan="1">129</td><td align="left" valign="top" rowspan="1" colspan="1">138</td><td align="left" valign="top" rowspan="1" colspan="1">0.581</td><td align="left" valign="top" rowspan="1" colspan="1">0.483</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Cluster IX</td><td align="left" valign="top" rowspan="1" colspan="1">Short-term effector or memory</td><td align="left" valign="top" rowspan="1" colspan="1">39</td><td align="left" valign="top" rowspan="1" colspan="1">55</td><td align="left" valign="top" rowspan="1" colspan="1">0.098</td><td align="left" valign="top" rowspan="1" colspan="1">0.414</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">Cluster X</td><td align="left" valign="top" rowspan="1" colspan="1">Late effector or memory</td><td align="left" valign="top" rowspan="1" colspan="1">34</td><td align="left" valign="top" rowspan="1" colspan="1">59</td><td align="left" valign="top" rowspan="1" colspan="1">0.009</td><td align="left" valign="top" rowspan="1" colspan="1">0.365</td></tr></tbody></table></table-wrap></floats-group></article>

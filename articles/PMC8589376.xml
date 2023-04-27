@@ -1,0 +1,590 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" id="iid3530" xml:lang="en" article-type="brief-report"><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jats-oasis2jats3.xsl?><?ConverterInfo.Version 1?><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Immun Inflamm Dis</journal-id><journal-id journal-id-type="iso-abbrev">Immun Inflamm Dis</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2050-4527</journal-id><journal-id journal-id-type="publisher-id">IID3</journal-id><journal-title-group><journal-title>Immunity, Inflammation and Disease</journal-title></journal-title-group><issn pub-type="epub">2050-4527</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">8589376</article-id><article-id pub-id-type="pmid">34525268</article-id><article-id pub-id-type="doi">10.1002/iid3.530</article-id><article-id pub-id-type="publisher-id">IID3530</article-id><article-categories><subj-group subj-group-type="overline"><subject>Short Report</subject></subj-group><subj-group subj-group-type="heading"><subject>Short Reports</subject></subj-group></article-categories><title-group><article-title>Soluble CD127 potentiates IL&#x02010;7 activity in vivo in healthy mice</article-title><alt-title alt-title-type="left-running-head">ALOUFI <sc>et al.</sc>
+</alt-title></title-group><contrib-group><contrib id="iid3530-cr-0001" contrib-type="author"><name><surname>Aloufi</surname><given-names>Nawaf A.</given-names></name><xref rid="iid3530-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="iid3530-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="iid3530-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="iid3530-cr-0002" contrib-type="author"><name><surname>Ali</surname><given-names>Alaa K.</given-names></name><xref rid="iid3530-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="iid3530-cr-0003" contrib-type="author"><name><surname>Burke Schinkel</surname><given-names>Stephanie C.</given-names></name><xref rid="iid3530-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="iid3530-cr-0004" contrib-type="author"><name><surname>Molyer</surname><given-names>Bengisu</given-names></name><xref rid="iid3530-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="iid3530-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="iid3530-cr-0005" contrib-type="author"><name><surname>Barros</surname><given-names>Priscila O.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-6173-0416</contrib-id><xref rid="iid3530-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="iid3530-cr-0006" contrib-type="author"><name><surname>McBane</surname><given-names>Joanne E.</given-names></name><xref rid="iid3530-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="iid3530-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="iid3530-cr-0007" contrib-type="author" corresp="yes"><name><surname>Lee</surname><given-names>Seung&#x02010;Hwan</given-names></name><xref rid="iid3530-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="iid3530-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref><address><email>seunglee@uottawa.ca</email></address></contrib><contrib id="iid3530-cr-0008" contrib-type="author" corresp="yes"><name><surname>Angel</surname><given-names>Jonathan B.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-3102-4462</contrib-id><xref rid="iid3530-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="iid3530-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="iid3530-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref><xref rid="iid3530-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref><address><email>jangel@ohri.ca</email></address></contrib></contrib-group><aff id="iid3530-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biochemistry, Microbiology and Immunology</named-content>
+<institution>University of Ottawa</institution>
+<city>Ottawa</city>
+<named-content content-type="country-part">Ontario</named-content>
+<country country="CA">Canada</country>
+</aff><aff id="iid3530-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<institution>King Faisal Specialist Hospital and Research Center</institution>
+<city>Riyadh</city>
+<country country="SA">Saudi Arabia</country>
+</aff><aff id="iid3530-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Chronic Diseases Program</named-content>
+<institution>Ottawa Hospital Research Institute</institution>
+<city>Ottawa</city>
+<named-content content-type="country-part">Ontario</named-content>
+<country country="CA">Canada</country>
+</aff><aff id="iid3530-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Canadian Institutes of Health Research (CIHR)</named-content>
+<institution>Canadian HIV Trials Network (CTN)</institution>
+<city>Vancouver</city>
+<named-content content-type="country-part">British Columbia</named-content>
+<country country="CA">Canada</country>
+</aff><aff id="iid3530-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Centre for Infection, Immunity and Inflammation</named-content>
+<institution>University of Ottawa</institution>
+<city>Ottawa</city>
+<named-content content-type="country-part">Ontario</named-content>
+<country country="CA">Canada</country>
+</aff><aff id="iid3530-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Department of Medicine, Division of Infectious Diseases, The Ottawa Hospital</named-content>
+<institution>University of Ottawa</institution>
+<city>Ottawa</city>
+<named-content content-type="country-part">Ontario</named-content>
+<country country="CA">Canada</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold> Seung&#x02010;Hwan Lee, Department of Biochemistry, Microbiology and Immunology, Faculty of Medicine, University of Ottawa, 451 Smyth Rd,&#x000a0;Ottawa, ON K1H 8M5, Canada.<break/>
+Email: <email>seunglee@uottawa.ca</email>
+<break/>
+Jonathan B. Angel, Division of Infectious Diseases, The Ottawa Hospital, 501 Smyth Rd, Room G&#x02010;8, Ottawa, ON K1H 8L6, Canada.<break/>
+Email: <email>jangel@ohri.ca</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>15</day><month>9</month><year>2021</year></pub-date><pub-date pub-type="collection"><month>12</month><year>2021</year></pub-date><volume>9</volume><issue seq="640">4</issue><issue-id pub-id-type="doi">10.1002/iid3.v9.4</issue-id><fpage>1798</fpage><lpage>1808</lpage><history>
+<date date-type="rev-recd"><day>18</day><month>8</month><year>2021</year></date>
+<date date-type="received"><day>09</day><month>3</month><year>2021</year></date>
+<date date-type="accepted"><day>01</day><month>9</month><year>2021</year></date>
+</history><permissions><!--&#x000a9; 2021 John Wiley & Sons Ltd.--><copyright-statement content-type="article-copyright">&#x000a9; 2021 The Authors. <italic toggle="yes">Immunity, Inflammation and Disease</italic> published by John Wiley &#x00026; Sons Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:IID3-9-1798.pdf"/><abstract><title>Abstract</title><sec id="iid3530-sec-0010"><title>Introduction</title><p>Soluble forms of cytokine receptors can be involved in the endogenous regulation of cytokine activity. Soluble interleukin 7 receptor &#x003b1; (sCD127) naturally binds IL&#x02010;7, therefore there is interest in its potential application as an immunotherapeutic agent to regulate IL&#x02010;7. With the hypothesis that sCD127 enhances IL&#x02010;7 activity, thus promoting T&#x02010;cell proliferation in vivo, we sought to assess the effect of sCD127, IL&#x02010;7 or IL&#x02010;7&#x02009;+&#x02009;sCD127 treatment on CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cells in the blood and spleen of mice.</p></sec><sec id="iid3530-sec-0020"><title>Methods</title><p>Peripheral blood mononuclear cells and splenocytes were prepared, and analyzed for T&#x02010;cell number, phenotype and proliferation (Ki67<sup>+</sup>) by flow cytometry.</p></sec><sec id="iid3530-sec-0030"><title>Results</title><p>IL&#x02010;7 treatment induced T&#x02010;cell proliferation, increased T&#x02010;cell number, and triggered T&#x02010;cell differentiation each of which was enhanced with the addition of sCD127. IL&#x02010;7&#x02009;+&#x02009;sCD127 treatment significantly increased spleen weight over that seen with IL&#x02010;7 treatment alone. More pronounced proliferation and a greater increase in cell number was observed in CD8<sup>+</sup> T&#x02010;cells relative to the effect on CD4<sup>+</sup> T&#x02010;cells.</p></sec><sec id="iid3530-sec-0040"><title>Conclusions</title><p>These findings suggest that the addition of sCD127 enhances IL&#x02010;7&#x02010;mediated T&#x02010;cell proliferation and suggests a potential therapeutic use for sCD127.</p></sec></abstract><abstract abstract-type="graphical"><p>IL&#x02010;7 alone can have a positive effect on T&#x02010;cell proliferation and T&#x02010;cell differentiation from a naive T&#x02010;cell. In this mouse study, we found that complexing IL&#x02010;7 with soluble CD127 could enhance these positive effects, suggesting a therapeutic use in vivo.<boxed-text position="anchor" content-type="graphic"><graphic xlink:href="IID3-9-1798-g002.jpg" position="anchor" id="jats-graphic-1"/></boxed-text>
+</p></abstract><kwd-group><kwd id="iid3530-kwd-0001">CD4<sup>+</sup> T&#x02010;cell</kwd><kwd id="iid3530-kwd-0002">CD8<sup>+</sup> T&#x02010;cell</kwd><kwd id="iid3530-kwd-0003">interleukin&#x02010;7 (IL&#x02010;7)</kwd><kwd id="iid3530-kwd-0004">soluble IL&#x02010;7R&#x003b1; (sCD127)</kwd><kwd id="iid3530-kwd-0005">T&#x02010;cell proliferation</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>Canadian Institutes of Health Research
+</institution><institution-id institution-id-type="doi">10.13039/501100000024</institution-id></institution-wrap></funding-source><award-id>MOP&#x02010;123359</award-id></award-group></funding-group><counts><fig-count count="4"/><table-count count="0"/><page-count count="11"/><word-count count="5953"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>December 2021</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.0.9 mode:remove_FC converted:12.11.2021</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="iid3530-cit-0032">
+<string-name>
+<surname>Aloufi</surname>
+<given-names>NA</given-names>
+</string-name>, <string-name>
+<surname>Ali</surname>
+<given-names>AK</given-names>
+</string-name>, <string-name>
+<surname>Burke Schinkel</surname>
+<given-names>SC</given-names>
+</string-name>, et al. <article-title>Soluble CD127 potentiates IL&#x02010;7 activity in vivo in healthy mice</article-title>. <source>Immun Inflamm Dis</source>. <year>2021</year>;<volume>9</volume>:<fpage>1798</fpage>&#x02010;<lpage>1808</lpage>. <pub-id pub-id-type="doi">10.1002/iid3.530</pub-id>
+</mixed-citation>
+</p></notes></front><body><sec id="iid3530-sec-0050"><label>1</label><title>INTRODUCTION</title><p>Interleukin 7 (IL&#x02010;7) is a hematopoietic growth factor that promotes murine B cell precursor growth, and a master regulator of T&#x02010;cell development and homeostasis.<xref rid="iid3530-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="iid3530-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> IL&#x02010;7 signals are transduced by IL&#x02010;7 receptor (IL&#x02010;7R), a heterodimer complex composed of IL&#x02010;7R&#x02010;&#x003b1; chain (CD127) and the common gamma&#x02010;chain (CD132/IL&#x02010;2R&#x003b3;/&#x003b3;c). CD127 is also part of the thymic stromal lymphopoietin receptor. IL&#x02010;7R is expressed on cells of lymphoid origin, including developing and mature T&#x02010;cells, and nonimmune cells, including bone marrow stromal cells.<xref rid="iid3530-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>
+</p><p>Some soluble cytokine receptors participate in cytokine regulation by exerting antagonistic effects and acting as natural competitors of the membrane receptor,<xref rid="iid3530-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref> while others enhance cytokine signals by preventing cytokine clearance. Soluble IL&#x02010;2R&#x003b1; binding to IL&#x02010;2 can reduce its ability to signal, inhibiting IL&#x02010;2&#x02010;dependent T&#x02010;cell activation and proliferation.<xref rid="iid3530-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> A clinically relevant example is that of soluble TNFR2&#x02010;Fc (Etanercept) which by blocking TNF&#x02010;&#x003b1; activity has become a frequently prescribed therapeutic agent for rheumatoid arthritis, psoriasis and other autoimmune diseases.<xref rid="iid3530-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref>, <xref rid="iid3530-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref> Typically, the higher the affinity of the soluble receptor for the ligand, the more potent the inhibition of the signal; however, some studies suggest that sIL&#x02010;4R and sIL&#x02010;15R enhance ligand activity by increasing cytokine stability.<xref rid="iid3530-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="iid3530-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>
+</p><p>CD127 exists in membrane&#x02010;bound and soluble forms (sCD127).<xref rid="iid3530-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref> sCD127 generally circulates at a molar excess relative to IL&#x02010;7, suggesting a role for sCD127 in controlling IL&#x02010;7 activity, but the mechanisms by which this occurs in vivo are unknown.<xref rid="iid3530-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref> Excessive sCD127 has been linked to autoimmune disease.<xref rid="iid3530-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> In experimental autoimmune encephalomyelitis (EAE), a murine model of MS, administration of sCD127 with IL&#x02010;7 increased the bioactivity of IL&#x02010;7 and was associated with increased disease severity.<xref rid="iid3530-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>
+</p><p>The importance of delineating the role of sCD127 in mediating IL&#x02010;7 activities arises from the fact that in healthy individuals, sCD127 has been found to circulate at concentrations several log higher than that of IL&#x02010;7 (nmol/ml compared with pmol/ml levels).<xref rid="iid3530-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref> In addition, various degrees of binding affinity of sCD127 to IL&#x02010;7 have been demonstrated. Specifically, when sCD127 is in a homodimer it binds with moderate&#x02010;affinity to IL&#x02010;7, whereas the heterodimeric form sCD127/soluble common gamma chain receptor (sCD132) has high binding affinity to IL&#x02010;7.<xref rid="iid3530-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref> The process by which sCD127 modulates IL&#x02010;7 responses in vivo have not been well&#x02010;elucidated and both attenuating and promoting effects have been described in vitro. sCD127 has been reported to block IL&#x02010;7 signaling as well as inhibit STAT5 phosphorylation and IL&#x02010;7&#x02010;mediated proliferation.<xref rid="iid3530-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref>, <xref rid="iid3530-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> However, other studies have demonstrated that sCD127 acts as a carrier protein for IL&#x02010;7, thereby increasing the half&#x02010;life of IL&#x02010;7 and promoting the biological activity of IL&#x02010;7.<xref rid="iid3530-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref> Furthermore, a recent study in our laboratory has reported that preincubation of a chimeric IL&#x02010;7R&#x003b1;&#x02010;Fc receptor (an artificial protein that mimics natural sCD127, consisting of CD127 extracellular domain and human Fc&#x02010;fragment) with IL&#x02010;7 enhanced IL&#x02010;7&#x02010;mediated human and murine T&#x02010;cell proliferation in vitro.<xref rid="iid3530-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref> Such observations pave the way for subsequent work to establish the role of sCD127 <italic toggle="yes">in vivo</italic>, the main focus of the present study. This is particularly relevant as there are currently 15 clinical trials registered worldwide evaluating the ability of IL&#x02010;7 to enhance immune reconstitution.<xref rid="iid3530-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref> Here, we evaluate IL&#x02010;7 treatment on T&#x02010;cell proliferation in healthy mice, and hypothesize that sCD127 will enhance IL&#x02010;7 activity.</p></sec><sec sec-type="materials-and-methods" id="iid3530-sec-0060"><label>2</label><title>MATERIALS AND METHODS</title><sec id="iid3530-sec-0070"><label>2.1</label><title>Mice</title><p>C57BL/6 mice aged 7&#x02013;12 weeks and gender&#x02010;matched for experiments. The mice were kept under a specific pathogen&#x02010;free condition with microisolator cages housed in the University of Ottawa's main rodent facility. Experiments were approved by the University of Ottawa Animal Ethics Committee and the Canadian Council on Animal Care.</p></sec><sec id="iid3530-sec-0080"><label>2.2</label><title>Recombinant murine IL&#x02010;7 and sCD127 treatment of healthy mice</title><p>For mouse treatments, recombinant murine IL&#x02010;7 (catalog #: 217&#x02010;17; endotoxin level: &#x0003c;0.01&#x02009;ng/mg cytokine as determined by the LAL assay) was purchased from PeproTech, and IL&#x02010;7R&#x003b1;/CD127 Fc Chimera (catalog #: 747&#x02010;MR&#x02010;050; endotoxin level: &#x0003c;1.0 Endotoxin Units/mg of protein by LAL method) was purchased from R&#x00026;D Systems. Mice were injected intraperitoneally for 5 consecutive days with 200&#x02009;&#x003bc;l phosphate&#x02010;buffered saline (PBS); 5&#x02009;&#x003bc;g of IL&#x02010;7; 5&#x02009;&#x003bc;g of sCD127; or a 10&#x02009;&#x003bc;g of IL&#x02010;7&#x02009;+&#x02009;sCD127 (5&#x02009;&#x003bc;g each) (Figure&#x000a0;<xref rid="iid3530-fig-0001" ref-type="fig">1A</xref>). All treatments were diluted in sterile PBS. To allow the complex to form, 5&#x02009;&#x003bc;g of IL&#x02010;7 was mixed with 5&#x02009;&#x003bc;g of sCD127 and incubated for 30&#x02009;min (mins) at 37&#x000b0;C immediately before administering the treatment (protocol adapted from previous reports<xref rid="iid3530-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>, <xref rid="iid3530-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref>).</p><fig position="float" fig-type="Figure" id="iid3530-fig-0001"><label>Figure 1</label><caption><p>The effect of IL&#x02010;7 and sCD127 on CD127 expression on CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cells in healthy C57BL/6 mice. (A) Experimental timeline of healthy age&#x02010;matched female C57BL/6 mice. Mice were divided into four groups, and treated for 5 consecutive days either with sCD127 alone, IL&#x02010;7 alone, a combined dose of sCD127 and IL&#x02010;7 (preincubated at 37&#x000b0;C for 30&#x02009;min), or PBS. (B) Flow cytometric analysis of CD127 expression on CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cells. (C) The proportion of CD4<sup>+</sup> T&#x02010;cells expressing CD127 (C, left), and CD8<sup>+</sup> T&#x02010;cells expressing CD127 (C, right) in the blood before treatment (Day 3), 6&#x02009;h posttreatment (6 Hrs), and 24&#x02009;h posttreatment (24 Hrs). (D) CD127 MFI in CD4<sup>+</sup> T&#x02010;cells (D, left) and CD8<sup>+</sup> T&#x02010;cells (D, right) normalized to CD127 MFI of a PBS&#x02010;treated group. Data are pooled from two independent experiments, <italic toggle="yes">n</italic>&#x02009;=&#x02009;8 mice per group. Data represent mean&#x02009;&#x000b1;&#x02009;<italic toggle="yes">SD</italic> and statistical analysis was completed using a one&#x02010;way ANOVA for more than two groups, and an unpaired nonparametric Mann&#x02013;Whitney test was used for comparisons between the two groups. <italic toggle="yes">p</italic> Values are listed as either not significant (ns, <italic toggle="yes">p</italic>&#x02009;&#x0003e;&#x02009;.05) or significant, with <italic toggle="yes">p</italic> values grouped as follows: *<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;.05, **<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;.01, ***<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;.001, or ****<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;.0001. An asterisk above a column bar represents a statistically significant difference between the indicated treatment and PBS&#x02010;treated mice at the same time point. ANOVA, analysis of variance; PBS, phosphate&#x02010;buffered saline</p></caption><graphic xlink:href="IID3-9-1798-g003" position="anchor" id="jats-graphic-3"/></fig></sec><sec id="iid3530-sec-0090"><label>2.3</label><title>Cell isolation</title><p>Blood was collected in heparin&#x02010;coated capillary tubes from the saphenous vein of mice at indicated time points. Approximately 40&#x02009;&#x003bc;l of blood was collected in heparin&#x02010;coated capillary tubes (BD Vacutainer, cat# 026896) via a saphenous vein of experimental mice at appropriate time points. The blood samples were kept on ice throughout the procedures. After collection, blood was then mixed in 1&#x02009;ml of PBS in a 15&#x02009;ml conical centrifuge tube (cat# 339650; Thermo Scientific), and washed by centrifugation for 5&#x02009;min at 4&#x000b0;C and at 652<italic toggle="yes">g</italic>. The supernatant was discarded, and the red blood cells (RBCs) were then lysed in 1&#x02009;ml Ammonium&#x02013;Chloride&#x02013;Potassium (ACK) lysis buffer, pH 7.4 for 1&#x02009;min. Then, 9&#x02009;ml of RPMI&#x02010;1640 was added immediately, filtered through a 200 &#x003bc;m nylon mesh (cat# 0320045; Elko Filtering) cell strainer and washed by centrifugation once for 5&#x02009;min at 4&#x000b0;C and at 652<italic toggle="yes">g</italic>. The cells were then resuspended in 2&#x02009;ml media, counted on a hemocytometer, washed by centrifugation again for 5&#x02009;min at 4&#x000b0;C and at 652<italic toggle="yes">g</italic>, and then resuspended in staining buffer (SB) for further analysis. A 40&#x02009;&#x003bc;l sample yields ~1&#x02013;2&#x02009;&#x000d7;&#x02009;10<sup>5</sup> peripheral mononuclear cells (PBMCs) with ~40% T&#x02010;cells.</p><p>Spleens were harvested from mice at endpoints as indicated. Spleens were gently dissociated in media and pushed through a 70&#x02009;&#x003bc;m nylon cell strainer. Splenocytes were then lysed in ACK lysis buffer, pH 7.4, washed by centrifugation, and counted. This yields 5&#x02013;10&#x02009;&#x000d7;&#x02009;10<sup>7</sup> total leukocytes per spleen, and ~40% of the splenic leukocytes are T&#x02010;cells. Splenocytes were resuspended in at assay&#x02010;specific cell densities.</p></sec><sec id="iid3530-sec-0100"><label>2.4</label><title>Flow cytometric analysis</title><p>Cell suspensions were prepared from mouse (blood or spleen) in PBS containing 2% fetal bovine serum (FACS buffer) at a density of 1&#x02009;&#x000d7;&#x02009;10<sup>6</sup> cells/well. Cells were subsequently washed with FACS buffer and stained with a cocktail of fluorochrome&#x02010;conjugated monoclonal antibodies specific for CD3 (145&#x02010;2C11), CD4 (RM4&#x02010;5), CD8&#x003b1; (53&#x02010;6.7), Ki&#x02010;67 (B56), CD44 (IM7) (BD Biosciences), CD127 (SB/199), and CD62L (MEL&#x02010;14) (eBioscience). Fixable Far&#x02010;Red Live/Dead was added (Invitrogen) at 4&#x000b0;C for 25&#x02009;min, washed, and fixed in 2% paraformaldehyde. The phenotype of the cells was determined using the following fluorescent monoclonal antibodies against cell surface or viability markers including anti&#x02010;CD3, anti&#x02010;CD4, and anti&#x02010;CD8&#x003b1; for T&#x02010;cells; anti&#x02010;NK1.1 for NK and NKT cells; fixable viability stain for dead cells; anti&#x02010;CD127 for membrane surface expression and mean fluorescence intensity of CD127; and anti&#x02010;CD62L and anti&#x02010;CD44 for T&#x02010;cell subset identification. More information about staining panels and controls used to examine the cells can be found in the Supporting Information (Table&#x000a0;<xref rid="iid3530-suppl-0002" ref-type="supplementary-material">S1</xref>). For Annexin V staining, the cells were washed twice with Annexin V binding buffer (556454; BD Biosciences), then stained with 1&#x02009;&#x003bc;l PE&#x02010;Annexin V antibody (556422; BD Biosciences) in 50&#x02009;&#x003bc;l binding buffer for 15&#x02009;min at RT. 100&#x02009;&#x003bc;l binding buffer was added, mixed, then the samples were analyzed immediately on a BD Fortessa. For intracellular staining of Ki&#x02010;67, after surface staining was completed, the cells were fixed and permeabilized using Foxp3 Transcription Factor Staining Buffer Set (cat#00552300; eBioscience), and was carried out following the manufacturer's protocol. Briefly, to fix the cells 1 part of Foxp3&#x02014;Fixation Concentrate (cat# 00512343) was diluted into three parts of the Fixation/Permeabilization Diluent (cat# 00522356). The cells were handled for the subsequent steps at room temperature (RT). Briefly, cells were permeabilized twice by adding 150&#x02009;&#x003bc;l of perm buffer and washed once by centrifugation at 453<italic toggle="yes">g</italic> for 4&#x02009;min at RT. For permeabilization, 1&#x000d7; permeabilization buffer was made by diluting 10X Permeabilization concentrate (cat# 00833356) with deionized water. The cells were then stained with V450&#x02010;conjugated antimouse monoclonal Ki&#x02010;67 antibodies (0.2&#x02009;&#x003bc;l/10<sup>6</sup> cells) in 40&#x02009;&#x003bc;l of perm buffer and incubated at RT for 30&#x02009;min in the dark. The cells were washed twice with perm buffer and resuspended in 300&#x02009;&#x003bc;l of SB for further flow cytometric analysis. Relative fluorescence intensities were measured with LSRFortessa&#x02122; or FACSCelesta&#x02122; (BD Biosciences). Data were analyzed using Kaluza software v2.0 (Beckman Coulter).</p></sec><sec id="iid3530-sec-0110"><label>2.5</label><title>Statistical analysis</title><p>All statistical analyses were determined using GraphPad Prism 9.0 software. Statistical significance was calculated by performing a one&#x02010;way analysis of variance (ANOVA) followed by an unpaired nonparametric Mann&#x02010;Whitney test. Values with a <italic toggle="yes">p</italic> value &#x0003c;.05 were considered significant. Data are presented as mean&#x02009;&#x000b1;&#x02009;standard deviation (<italic toggle="yes">SD</italic>), and <italic toggle="yes">p</italic> values are represented as not significant (ns), *<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;.05, **<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;.01, ***<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;.001, and ****<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;.0001.</p></sec></sec><sec sec-type="discussion" id="iid3530-sec-0120"><label>3</label><title>RESULTS AND DISCUSSION</title><sec id="iid3530-sec-0130"><label>3.1</label><title>Soluble IL&#x02010;7R&#x003b1;&#x02010;Fc does not inhibit IL&#x02010;7 induced downregulation of surface CD127 expression on T&#x02010;cells</title><p>IL&#x02010;7 plays a nonredundant role in T&#x02010;cell homeostasis, providing T&#x02010;cells with the survival and proliferative signals needed to maintain a constant level in the periphery.<xref rid="iid3530-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref> Under states of equilibrium, T&#x02010;cells are tightly controlled by various homeostatic mechanisms. These require IL&#x02010;7 signaling and other essential factors including the interaction of TCR on T&#x02010;cells with self&#x02010;peptides on APCs and other cytokine signals.<xref rid="iid3530-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref> Here, we induced T&#x02010;cell proliferation in healthy mice by administering exogenous IL&#x02010;7 and evaluated the effect of adding sCD127. To our knowledge, this is the first study to report the effect of sCD127 administration in healthy mice. In the current study, we adopted the approach as published by Andersson et al 2011,<xref rid="iid3530-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref> in which it was demonstrated that administering a 5&#x02009;&#x003bc;g/dose of either IL&#x02010;7 alone or in a combination with an equal dose of sCD127 increased T&#x02010;cell frequency. Lower doses of IL&#x02010;7&#x02009;+&#x02009;/&#x02010;sCD127 did not induce such an effect in our model system (data not shown). Once IL&#x02010;7 binds to its target cells, it downregulates surface IL&#x02010;7R as part of a negative feedback mechanism.<xref rid="iid3530-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref> PBMCs were isolated from healthy mice 6 and 24&#x02009;h following treatment initiation and surface expression of CD127 on CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cells was examined by flow cytometry using the indicated antibodies. At baseline, 85% of each CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cells expressed CD127. Six hours posttreatment with IL&#x02010;7 or IL&#x02010;7&#x02009;+&#x02009;sCD127, 50% of CD4<sup>+</sup> T&#x02010;cells expressed CD127 (Figure&#x000a0;<xref rid="iid3530-fig-0001" ref-type="fig">1C</xref>, left), while 40% of CD8<sup>+</sup> T&#x02010;cells expressed CD127 (Figure&#x000a0;<xref rid="iid3530-fig-0001" ref-type="fig">1C</xref>, right). sCD127 treatment alone did not alter CD127 expression (Figure&#x000a0;<xref rid="iid3530-fig-0001" ref-type="fig">1C</xref>). Interestingly, CD127 downregulation was transient and CD127 expression returned to basal levels 24&#x02009;h posttreatment. Precomplexing sCD127 with IL&#x02010;7 did not alter the IL&#x02010;7&#x02010;induced effect and, importantly, inhibition of the IL&#x02010;7&#x02010;mediated downregulation of the membrane&#x02010;bound CD127 was not observed. This contrasts a previous in vitro report where sCD127 inhibited IL&#x02010;7 signal transduction and the phosphorylation of STAT5 and AKT, two downstream molecules in IL&#x02010;7 signaling.<xref rid="iid3530-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref>
+</p><p>We also investigated the levels of CD127 expression on the surface of CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cells and observed that IL&#x02010;7 with or without sCD127 significantly reduced CD127 MFI at 6&#x02009;h posttreatment (Figure&#x000a0;<xref rid="iid3530-fig-0001" ref-type="fig">1B,D</xref>). Notably, the level of CD127 expression remained low with both IL&#x02010;7 and IL&#x02010;7&#x02009;+&#x02009;sCD127 treatment at 24&#x02009;h despite the return to normal of the proportion of cells expressing CD127 (Figure&#x000a0;<xref rid="iid3530-fig-0001" ref-type="fig">1C</xref>). Interestingly, combined treatment resulted in significantly lower level of CD127 in both CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cells compared with mice treated with IL&#x02010;7 alone suggesting a prolonged effect of IL&#x02010;7 when combined with sCD127 (Figure&#x000a0;<xref rid="iid3530-fig-0001" ref-type="fig">1D</xref>). Next, to consider the possibility that a decrease in CD127 expressing cells was not a result of selective loss of these cells from the circulation, we investigated whether treatment with IL&#x02010;7 and/or sCD127 would altered T lymphocyte number in the blood. No change in the proportion of total CD4<sup>+</sup> T&#x02010;cells was observed (Figure&#x000a0;<xref rid="iid3530-suppl-0001" ref-type="supplementary-material">S1C</xref>, left), and while there was a significant decrease in CD8<sup>+</sup> T&#x02010;cells seen at 6&#x02009;h, this was modest and unlikely to explain the decrease in CD127 expression in the circulating cells (Figure&#x000a0;<xref rid="iid3530-suppl-0001" ref-type="supplementary-material">S1C</xref>, right).</p></sec><sec id="iid3530-sec-0140"><label>3.2</label><title>Murine soluble IL&#x02010;7R&#x00391;&#x02010;Fc enhances IL&#x02010;7&#x02010;mediated T&#x02010;cell proliferation and cell counts in mice blood and spleen</title><p>Consistent with one report in tumor bearing mice,<xref rid="iid3530-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref> we found that treating healthy mice with IL&#x02010;7 for 5 days enhanced proliferation of CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cells as measured by expression of the nuclear antigen Ki&#x02010;67, a marker of cellular proliferation. In the blood at basal state, CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cells were found to be ~5% and ~9% Ki67<sup>+</sup>, respectively. IL&#x02010;7 treatment significantly increased the percentage of Ki&#x02010;67<sup>+</sup> CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cells. By Day 3 of IL&#x02010;7 treatment, 7% of CD4<sup>+</sup> T&#x02010;cells and 16% of CD8<sup>+</sup> T&#x02010;cells were Ki&#x02010;67<sup>+</sup>. By Day 5, 20% of CD4<sup>+</sup> T&#x02010;cells and 45% of CD8<sup>+</sup> T&#x02010;cells were Ki&#x02010;67<sup>+</sup>&#x000a0;(Figure&#x000a0;<xref rid="iid3530-fig-0002" ref-type="fig">2B</xref>). Interestingly, IL&#x02010;7&#x02009;+&#x02009;sCD127 further enhanced the effect on T&#x02010;cell proliferation. At Day 3, 10% and 25% of the circulating CD4<sup>+</sup> T&#x02010;cells and CD8<sup>+</sup> T&#x02010;cells were Ki&#x02010;67<sup>+</sup>, and at Day 5, 30% and 60% of the circulating CD4<sup>+</sup> T&#x02010;cells and CD8<sup>+</sup> T&#x02010;cells were Ki&#x02010;67<sup>+</sup>, respectively (Figure&#x000a0;<xref rid="iid3530-fig-0002" ref-type="fig">2B</xref>). There was no difference in the percentage of cells expressing Ki&#x02010;67 when mice were treated with sCD127 alone compared with pretreatment levels or to those treated with PBS. The Ki&#x02010;67 increase was consistently greater in CD8<sup>+</sup> T&#x02010;cells than in CD4<sup>+</sup> T&#x02010;cells (Figure&#x000a0;<xref rid="iid3530-fig-0002" ref-type="fig">2B</xref>).</p><fig position="float" fig-type="Figure" id="iid3530-fig-0002"><label>Figure 2</label><caption><p>The effect of IL&#x02010;7 and sCD127 on T&#x02010;cell proliferation and T&#x02010;cell numbers in the blood and spleen of healthy C57BL/6 mice. Healthy C57BL/6 mice were divided into 4 groups, and treated by i.p. injection for 5 consecutive days with either: 5&#x02009;&#x003bc;g of IL&#x02010;7, 5&#x02009;&#x003bc;g of sCD127, 10&#x02009;&#x003bc;g of both treatments complex (preincubated for 30&#x02009;min at 37&#x000b0;C), or 200&#x02009;&#x003bc;l of PBS alone (vehicle control). (A) Representative histograms representing Ki&#x02010;67 expression within blood CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cells at Day 5 posttreatment. (B) The frequency of Ki67<sup>+</sup> cells among CD4<sup>+</sup> T&#x02010;cells (B, top) and CD8<sup>+</sup> T&#x02010;cells (B, bottom) are demonstrated. Data are pooled from two independent experiments, <italic toggle="yes">n</italic>&#x02009;=&#x02009;9 mice per treatment group and <italic toggle="yes">n</italic>&#x02009;=&#x02009;8 mice per PBS control group. (C) The total number of CD4<sup>+</sup> T&#x02010;cells or CD8<sup>+</sup> T&#x02010;cells was measured in the blood of mice at Day 5. The graphs show the total number of CD4<sup>+</sup> T&#x02010;cells (C, top) or the total number of CD8<sup>+</sup> T&#x02010;cells (C bottom). Mice were divided into four groups as indicated before, <italic toggle="yes">n</italic>&#x02009;=&#x02009;4 mice per group. (D)&#x02013;(G) The effect of five consecutive days of sCD127 and/or IL&#x02010;7 treatment on T&#x02010;cell proliferation in the spleen of healthy C57BL/6 mice was evaluated. On the day following the final i.p. Injection, mice were sacrificed, and the spleens were harvested. (D) The frequency of Ki&#x02010;67<sup>+</sup> cells in CD4<sup>+</sup> T&#x02010;cells (D, top) and CD8<sup>+</sup> T&#x02010;cells (D, bottom) isolated from the spleen are shown. Data are pooled from two independent experiments, <italic toggle="yes">n</italic>&#x02009;=&#x02009;9 mice per treatment group and <italic toggle="yes">n</italic>&#x02009;=&#x02009;8 mice per PBS control group. (E) The total number of CD4<sup>+</sup> T&#x02010;cells or CD8<sup>+</sup> T&#x02010;cells was measured in the spleen of mice at Day 5. The graphs show the total number of CD4<sup>+</sup> T&#x02010;cells (E, top), or the total number of CD8<sup>+</sup> T&#x02010;cells (E, bottom). Mice were divided into four groups as indicated before, <italic toggle="yes">n</italic>&#x02009;=&#x02009;5 mice per group. (F) Harvested spleens were weighed (<italic toggle="yes">n</italic>&#x02009;=&#x02009;5 mice per group) and representative images of whole spleens from each treatment group are shown (G). All data represent mean&#x02009;&#x000b1;&#x02009;<italic toggle="yes">SD</italic>. Statistical analysis was completed using a one&#x02010;way ANOVA for more than two groups, and an unpaired nonparametric Mann&#x02013;Whitney test was used for comparisons between the two groups. Significant <italic toggle="yes">p</italic> values are listed as either *<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;.05, **<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;.01, ***<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;.001, or ****<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;.0001. ANOVA, analysis of variance; PBS, phosphate&#x02010;buffered saline</p></caption><graphic xlink:href="IID3-9-1798-g004" position="anchor" id="jats-graphic-5"/></fig><p>Ki&#x02010;67<sup>+</sup> expression was also assessed in the spleen of mice treated with PBS, sCD127, IL&#x02010;7 or IL7&#x02009;+&#x02009;sCD127. Spleens harvested at Day 5 were stained for Ki&#x02010;67. IL&#x02010;7 treatment increased the expression of Ki&#x02010;67 in both CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cells. Following IL&#x02010;7 treatment, 22% of the CD4<sup>+</sup> T&#x02010;cells and 40% of the CD8<sup>+</sup> T&#x02010;cells in spleen were Ki&#x02010;67<sup>+</sup> compared with 5% after PBS treatment (Figure&#x000a0;<xref rid="iid3530-fig-0002" ref-type="fig">2D</xref>). sCD127 alone did not change the proportion of Ki&#x02010;67<sup>+</sup> cells. Interestingly, a greater effect on T&#x02010;cell proliferation was observed in CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cells with IL&#x02010;7&#x02009;+&#x02009;sCD127 compared with IL&#x02010;7 alone. Nearly 32% of splenic CD4<sup>+</sup> T&#x02010;cells (vs. 22% with IL&#x02010;7 alone) and 56% of splenic CD8<sup>+</sup> T&#x02010;cells (vs. 40% with IL&#x02010;7 alone) were positive for Ki&#x02010;67 following treatment with IL&#x02010;7&#x02009;+&#x02009;sCD127. The results reported here (Figure&#x000a0;<xref rid="iid3530-fig-0002" ref-type="fig">2B,D</xref>) are consistent with previous data demonstrating that IL&#x02010;7&#x02009;+&#x02009;sCD127 has a synergistic effect on IL&#x02010;7 activity <italic toggle="yes">in vitro</italic> and in vivo.<xref rid="iid3530-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>, <xref rid="iid3530-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>
+</p><p>How sCD127 potentiates IL&#x02010;7 activity remains unknown. Soluble cytokine receptors can enhance cytokine activity: (1) by acting as a carrier protein, increasing the half&#x02010;life of the cytokine and promoting the biological activity; or (2) via trans&#x02010;presenting the cytokine to cells that do not express the complete receptor.<xref rid="iid3530-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="iid3530-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> It is proposed that in vivo sCD127 potentiates IL&#x02010;7 function by extending its half&#x02010;life, though more work is needed to preclude trans&#x02010;presentation.<xref rid="iid3530-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>
+</p><p>With the positive impacts of both IL&#x02010;7 and its combination with sCD127 seen on T&#x02010;cell proliferation in peripheral lymphocytes and in the spleen, we anticipated an increase in total lymphocyte numbers of treated mice as well. Healthy mice were treated as outlined, with total CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cells in blood determined by flow cytometry. IL&#x02010;7&#x02010;treated mice demonstrated a significant increase in CD8<sup>+</sup> T&#x02010;cell count whereas the increase in CD4<sup>+</sup> T&#x02010;cell count did not reach statistical significance with IL&#x02010;7 alone (Figure&#x000a0;<xref rid="iid3530-fig-0002" ref-type="fig">2C</xref>). At Day 5, the total CD4<sup>+</sup> T&#x02010;cell count in PBS&#x02010;treated mice was 2&#x02009;&#x000d7;&#x02009;10<sup>5</sup> cells/ml of blood, while this increased to 4&#x02009;&#x000d7;&#x02009;10<sup>5</sup> cells/ml in IL&#x02010;7&#x02010;treated mice (Figure&#x000a0;<xref rid="iid3530-fig-0002" ref-type="fig">2C</xref>). Total CD8<sup>+</sup> T&#x02010;cell count in PBS&#x02010;treated mice was 1.5&#x02009;&#x000d7;&#x02009;10<sup>5</sup> cells/ml of blood, and increased to 4&#x02009;&#x000d7;&#x02009;10<sup>5</sup> cells/ml in IL&#x02010;7&#x02010;treated mice (Figure&#x000a0;<xref rid="iid3530-fig-0002" ref-type="fig">2C</xref>). Interestingly, the addition of sCD127 only augmented the effect observed by IL&#x02010;7 in CD8<sup>+</sup> T&#x02010;cell, while in CD4<sup>+</sup> T&#x02010;cells there was a slight but not statistically significant increase. The CD4<sup>+</sup> T&#x02010;cell counts were 5&#x02009;&#x000d7;&#x02009;10<sup>5</sup> cells/ml in IL&#x02010;7&#x02009;+&#x02009;sCD127 versus 4&#x02009;&#x000d7;&#x02009;10<sup>5</sup> cells/ml in the IL&#x02010;7 group, whereas CD8<sup>+</sup> T&#x02010;cell counts were ~6&#x02009;&#x000d7;&#x02009;10<sup>5</sup> T&#x02010;cells/ml in IL&#x02010;7&#x02009;+&#x02009;sCD127 versus ~4&#x02009;&#x000d7;&#x02009;10<sup>5</sup> T&#x02010;cells/ml in IL&#x02010;7 treated mice (Figure&#x000a0;<xref rid="iid3530-fig-0002" ref-type="fig">2C</xref>).</p><p>The total number of CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cells expressing Ki&#x02010;67 in blood was also enumerated. At Day 5, there was a significant increase in the number of both Ki&#x02010;67 positive CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cells after IL&#x02010;7 treatment (Figure&#x000a0;<xref rid="iid3530-suppl-0001" ref-type="supplementary-material">S2B</xref>). Similar to that seen with T&#x02010;cell number, the addition of sCD127 significantly augmented the effect of IL&#x02010;7 on the number of Ki&#x02010;67<sup>+</sup>CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cells in blood (Figure&#x000a0;<xref rid="iid3530-suppl-0001" ref-type="supplementary-material">S2B</xref>).</p><p>In the spleen, there were ~11&#x02009;&#x000d7;&#x02009;10<sup>6</sup> CD4<sup>+</sup> cells/spleen in PBS&#x02010;treated mice compared with ~13&#x02009;&#x000d7;&#x02009;10<sup>6</sup> cells/spleen in mice treated with IL&#x02010;7 or IL&#x02010;7&#x02009;+&#x02009;sCD127 (Figure&#x000a0;<xref rid="iid3530-fig-0002" ref-type="fig">2E</xref>). Total CD8<sup>+</sup> T&#x02010;cell counts were significantly increased following IL&#x02010;7 and IL&#x02010;7&#x02009;+&#x02009;sCD127 treatment compared with PBS&#x02010;treated mice. There were ~8&#x02009;&#x000d7;&#x02009;10<sup>6</sup> cells/spleen in PBS&#x02010;treated mice compared with 13&#x02009;&#x000d7;&#x02009;10<sup>6</sup> cells/spleen and 18&#x02009;&#x000d7;&#x02009;10<sup>6</sup> cells/spleen in the IL&#x02010;7&#x02010; and IL&#x02010;7&#x02009;+&#x02009;sCD127&#x02010;treated mice, respectively (Figure&#x000a0;<xref rid="iid3530-fig-0002" ref-type="fig">2E</xref>). There was no statistically significant difference in CD8<sup>+</sup> T&#x02010;cell count between mice treated with IL&#x02010;7 versus IL&#x02010;7&#x02009;+&#x02009;sCD127.</p><p>Additionally, we have also enumerated the number of both CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cells expressing Ki&#x02010;67 in spleen. There was a significant increase in the number of both Ki&#x02010;67<sup>+</sup> CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cells when mice were treated with either IL&#x02010;7 alone or IL&#x02010;7 in combination with sCD127 compared with PBS&#x02010;treated mice (Figure&#x000a0;<xref rid="iid3530-suppl-0001" ref-type="supplementary-material">S2C</xref>). The addition of sCD127, however, only augmented the effect observed by IL&#x02010;7 in CD8<sup>+</sup> T&#x02010;cell, while in CD4<sup>+</sup> T&#x02010;cells there was a slight but not statistically significant increase (Figure&#x000a0;<xref rid="iid3530-suppl-0001" ref-type="supplementary-material">S2C</xref>). The increase in T&#x02010;cell proliferation and cell number observed in the spleen correlated with a significant enlargement in spleen size (Figure&#x000a0;<xref rid="iid3530-fig-0002" ref-type="fig">2F,G</xref>). T&#x02010;cell proliferation and T&#x02010;cell numbers increased following IL&#x02010;7 treatment, which was enhanced with the addition of sCD127 with a greater increase in CD8<sup>+</sup> T&#x02010;cell number compared with that of CD4<sup>+</sup> T&#x02010;cells. These differences between CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cells are consistent with reports by Geiselhart et al. and Sport&#x000e8;s et al.,<xref rid="iid3530-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>, <xref rid="iid3530-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref> but the mechanisms responsible for these differences are unknown. There might be distinct underlying factors regulating the homeostatic proliferation of CD8<sup>+</sup> and CD4<sup>+</sup> T&#x02010;cells in response to IL&#x02010;7. It is also possible that supraphysiologic concentrations of IL&#x02010;7 negatively impact CD4<sup>+</sup> T&#x02010;cell proliferation, potentially explaining the difference between the T&#x02010;cell subsets.<xref rid="iid3530-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref> Guimond et al. suggested that elevated IL&#x02010;7 levels downregulate MHC II expression on APCs, thus indirectly interfering in the TCR&#x02010;mediated homeostatic proliferation of CD4<sup>+</sup> T&#x02010;cells.<xref rid="iid3530-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> Future work may be needed to optimize conditions required to maximize CD4<sup>+</sup> T&#x02010;cell proliferation. While the increased T&#x02010;cell number can likely be attributed to the expansion of na&#x000ef;ve T&#x02010;cells in the periphery or through the redistribution of T&#x02010;cells in the secondary lymphoid organs, it is also possible that treatment with rIL&#x02010;7&#x02009;+&#x02009;sCD127 may impact T&#x02010;cell homeostasis via altered thymic selection of T&#x02010;cell subsets. However, this is unlikely given that the process of thymic T&#x02010;cell maturation has been predicted to take 3&#x02013;4 weeks.<xref rid="iid3530-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref>, <xref rid="iid3530-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>
+</p></sec><sec id="iid3530-sec-0150"><label>3.3</label><title>Differential expansion of central memory CD8<sup>+</sup> T&#x02010;cells and effector type CD4<sup>+</sup> T&#x02010;cell subsets is augmented by combination of IL&#x02010;7 and sCD127 treatment</title><p>Experiments with healthy mice aimed to assess the roles of IL&#x02010;7 and sCD127 in different T&#x02010;cell subsets. These mice were housed in a pathogen&#x02010;free environment, hence, any phenotypic changes reported among CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cells can be attributed to the treatments. Splenic T&#x02010;cells were evaluated for na&#x000ef;ve T&#x02010;cells (Tn), central memory T&#x02010;cells (Tcm), and effector T&#x02010;cells (Teff) and effector memory (Tem) T&#x02010;cells populations using antibodies against CD62L and CD44. Tn cells were defined as CD62L<sub>high</sub> CD44<sub>low</sub>, Tcm as CD62L<sub>high</sub> CD44<sub>high</sub>, and Teff &#x00026; Tem T&#x02010;cells, both referred as effector T&#x02010;cells and defined as CD62L<sub>low</sub> CD44<sub>high</sub>. After 5 days of treatment, T&#x02010;cell subsets from spleens were quantified. Splenic CD4<sup>+</sup> and CD8<sup>+</sup> cells from PBS&#x02010;treated mice were mostly of a Tn phenotype. CD4<sup>+</sup> T&#x02010;cells from IL&#x02010;7 treated mice demonstrated an increase in the CD62L<sub>low</sub> CD44<sub>high</sub> subset adopting an effector cell&#x02010;like phenotype (Figure&#x000a0;<xref rid="iid3530-fig-0003" ref-type="fig">3A</xref>), whereas CD8<sup>+</sup> T&#x02010;cells were predominantly CD62L<sub>high</sub> CD44<sub>high</sub>, demonstrating an increase in the Tcm subset (Figure&#x000a0;<xref rid="iid3530-fig-0003" ref-type="fig">3C</xref>). Interestingly, adding sCD127 significantly enhanced the effect of IL&#x02010;7 on T&#x02010;cell subsets. CD4<sup>+</sup> T&#x02010;cells demonstrated an increase in Teff cell population from 15% to 22% after IL&#x02010;7 treatment, which was increased to 27% after combined treatment (Figure&#x000a0;<xref rid="iid3530-fig-0003" ref-type="fig">3A</xref>). Similarly, CD8<sup>+</sup> T&#x02010;cells revealed an increase in the Tcm cell population from 17% in PBS treated mice to 47% after IL&#x02010;7 treatment and further to 54% after IL&#x02010;7&#x02009;+&#x02009;sCD127 (Figure&#x000a0;<xref rid="iid3530-fig-0003" ref-type="fig">3C</xref>).</p><fig position="float" fig-type="Figure" id="iid3530-fig-0003"><label>Figure 3</label><caption><p>The effect of IL&#x02010;7 and sCD127 on spleen T&#x02010;cell subsets in healthy C57BL/6 mice. Mice were divided four groups and treated for 5 consecutive days (d0&#x02013;d4) with either: 5&#x02009;&#x003bc;g of IL&#x02010;7, 5&#x02009;&#x003bc;g of sCD127, a complex 5&#x02009;&#x003bc;g of IL&#x02010;7 and 5&#x02009;&#x003bc;g of sCD127 (preincubated for 30&#x02009;min at 37&#x000b0;C) or PBS alone. On the day following the final i.p. injection (d5), mice were sacrificed, and the spleens were harvested. (A, left panel) Representative scatter plots gated on CD4<sup>+</sup> T&#x02010;cells showing expression levels of CD44 and CD62L for the four different treatment groups (A, right panel) Quantification of CD4<sup>+</sup> T&#x02010;cells isolated from the spleen expressing either na&#x000ef;ve T&#x02010;cell (CD44 low, CD62L high); central memory T&#x02010;cell (CD44<sub>high</sub>, CD62L<sub>high</sub>); or effector T&#x02010;cell (effector T&#x02010;cells or effector memory T&#x02010;cells) (CD44<sub>high</sub>, CD62L<sub>low</sub>) markers are shown. (B) The total number of na&#x000ef;ve CD4<sup>+</sup> T&#x02010;cells (B, left), central memory CD4<sup>+</sup> T&#x02010;cells (B, center), and effector CD4<sup>+</sup> T&#x02010;cells (B, right) are demonstrated. (C, left panel) Representative scatter plots gated on CD8<sup>+</sup> T&#x02010;cells showing expression levels of CD44 and CD62L for the four different treatment groups. (C&#x02013;right panel) Quantification of CD8<sup>+</sup> T&#x02010;cells isolated from the spleen expressing either na&#x000ef;ve T&#x02010;cell, central memory T&#x02010;cell, or effector T&#x02010;cell markers. (D) The total number of na&#x000ef;ve CD8<sup>+</sup> T&#x02010;cells (D, left), central memory CD8<sup>+</sup> T&#x02010;cells (D, center), and effector CD8<sup>+</sup> T&#x02010;cells (D, right) are demonstrated. Data represent mean&#x02009;&#x000b1;&#x02009;<italic toggle="yes">SD</italic>. Statistical analysis was completed using a one&#x02010;way ANOVA for more than two groups, and an unpaired nonparametric Mann&#x02013;Whitney test was used for comparisons between the two groups. Significant <italic toggle="yes">p</italic> values are listed as either *<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;.05, **<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;.01, ***<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;.001, or ****<italic toggle="yes">p</italic>&#x02009;&#x0003c;&#x02009;.0001. ANOVA, analysis of variance; PBS, phosphate&#x02010;buffered saline</p></caption><graphic xlink:href="IID3-9-1798-g001" position="anchor" id="jats-graphic-7"/></fig><p>Tn can differentiate into Tcm&#x02010;like cells in response to homeostatic proliferation via interaction with self&#x02010;antigens and IL&#x02010;7 signals.<xref rid="iid3530-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref> These differentiated T&#x02010;cells are referred to as memory&#x02010;like T&#x02010;cells. They function and express markers resembling Tcm cells, although they are not generated by contact with a foreign antigen.<xref rid="iid3530-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref> In the present study, T&#x02010;cell subsets were distinguished by expression of CD62L and CD44.<xref rid="iid3530-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref> In healthy mice, IL&#x02010;7 treatment resulted in a decrease of CD62L<sub>high</sub> CD44<sub>low</sub> CD4&#x02009;+&#x02009;Tn cells and an increase of CD62L<sub>low</sub> CD44<sub>high</sub> CD4&#x02009;+&#x02009;effector T&#x02010;cells in the spleen (Figure&#x000a0;<xref rid="iid3530-fig-0003" ref-type="fig">3A</xref>). And while IL&#x02010;7 also induced a decrease of CD8&#x02009;+&#x02009;Tn cells (CD62L<sub>high</sub> CD44<sub>low</sub>), this was associated with an increase of Tcm&#x02010;like phenotype (CD62L<sub>high</sub> CD44<sub>high</sub>) (Figure&#x000a0;<xref rid="iid3530-fig-0003" ref-type="fig">3B</xref>). Interestingly, the addition of sCD127 significantly enhanced the effect of IL&#x02010;7 on the phenotypic changes in CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cells. This appears to contrast with a previous study where IL&#x02010;7 treatment did not induce Tn&#x02010;to&#x02010;Tcm differentiation in healthy mice.<xref rid="iid3530-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref> As the effects of IL&#x02010;7 on T&#x02010;cells are reversible after treatment cessation (Figure&#x000a0;<xref rid="iid3530-fig-0001" ref-type="fig">1C</xref>)<xref rid="iid3530-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref> it is certainly possible that differentiated T&#x02010;cells in our model would revert to pretreatment Tn phenotype.</p><p>CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cell subset numbers in the spleen were next demonstrated (Figure&#x000a0;<xref rid="iid3530-fig-0003" ref-type="fig">3B,D</xref>). Treatment with IL&#x02010;7 significantly increased Tcm and effector T&#x02010;cell counts in CD8<sup>+</sup> T&#x02010;cells, whereas CD4<sup>+</sup> T&#x02010;cell subset numbers remained unchanged. With combined treatment both Tcm and effector CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cell counts were significantly higher when compared with PBS&#x02010;treated mice (Figure&#x000a0;<xref rid="iid3530-fig-0003" ref-type="fig">3B,D</xref>). Of note, there was no noticeable difference in the total na&#x000ef;ve CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cell count between treatment arms. Finally, to determine whether selective cell death might contribute these results, apoptosis of splenic T&#x02010;cells was measured by Annexin V staining. Differences in cell viability between treatment arms was trivial and, therefore, unlikely explains the findings above (Figure&#x000a0;<xref rid="iid3530-suppl-0001" ref-type="supplementary-material">S3A,B</xref>).</p></sec></sec><sec id="iid3530-sec-0160"><label>4</label><title>CONCLUDING REMARKS</title><p>IL&#x02010;7 has potential clinical applications including enhancing immune reconstitution during lymphopenic conditions, for example, cancer patients receiving chemo&#x02010; or radiation therapy. sCD127 significantly enhanced IL&#x02010;7&#x02010;mediated increases in T&#x02010;cell proliferation and number; therefore, IL&#x02010;7&#x02009;+&#x02009;sCD127 treatment is promising for patients with severe T&#x02010;cell depletion and may aid T&#x02010;cell regeneration following bone marrow transplantation.<xref rid="iid3530-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref> In a murine lung cancer model, IL&#x02010;7&#x02009;+&#x02009;sCD127 treatment enhanced antigen presentation, T&#x02010;cell activity and inflammation in the tumor microenvironment which reduced tumor burden and improved survival compared with IL&#x02010;7 alone.<xref rid="iid3530-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref> In conclusion, in healthy mice sCD127 enhances IL&#x02010;7&#x02010;mediated CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cell proliferation, increases cell number, and induces Tn differentiation with CD8<sup>+</sup> T&#x02010;cells being more responsive to IL&#x02010;7 than CD4<sup>+</sup> T&#x02010;cells. Overall, this study improves the understanding of sCD127 biology, suggests sCD127 can regulate IL&#x02010;7 function and suggests benefits for IL&#x02010;7&#x02009;+&#x02009;sCD127 therapy.</p></sec><sec sec-type="COI-statement" id="iid3530-sec-0180"><title>CONFLICT OF INTERESTS</title><p>The authors declare that there are no conflict of interests.</p></sec><sec id="iid3530-sec-0190"><title>AUTHOR CONTRIBUTIONS</title><p>Nawaf A. Aloufi designed and performed the experiments, analyzed all data, and wrote the original draft. Alaa K. Ali helped in performing experiments and data interpretation. Joanne E. McBane helped in writing manuscript and data interpretation, and discussed the results. Stephanie C. Burke Schinkel, Bengisu Molyer, and Priscila O. Barros reviewed and edited the manuscript. Seung&#x02010;Hwan Lee and Jonathan B. Angel designed the experiments, supervised the study, helped in data interpretation and discussed the results. Jonathan B. Angel obtained funding.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="iid3530-suppl-0001" position="float" content-type="local-data"><caption><p>Supporting information.</p></caption><media xlink:href="IID3-9-1798-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="iid3530-suppl-0002" position="float" content-type="local-data"><caption><p>Supporting information.</p></caption><media xlink:href="IID3-9-1798-s002.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="iid3530-sec-0170"><title>ACKNOWLEDGMENTS</title><p>This study was supported by a grant from the Canadian Institutes of Health Research to JBA (MOP&#x02010;123359). N. A. A. was supported by a scholarship from King Saud bin Abdulaziz University for Health Sciences, Jeddah, Saudi Arabia. We acknowledge the generous help provided by the staff in the animal care facility at the University of Ottawa.</p></ack><sec sec-type="data-availability" id="iid3530-sec-0210"><title>DATA AVAILABILITY STATEMENT</title><p>Data are available from the corresponding author upon reasonable request.</p></sec><ref-list content-type="cited-references" id="iid3530-bibl-0001"><title>REFERENCES</title><ref id="iid3530-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="iid3530-cit-0001">
+<string-name>
+<surname>Namen</surname>
+<given-names>AE</given-names>
+</string-name>, <string-name>
+<surname>Lupton</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Hjerrild</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Stimulation of B&#x02010;cell progenitors by cloned murine interleukin&#x02010;7</article-title>. <source>Nature</source>. <year>1988</year>;<volume>333</volume>:<fpage>571</fpage>&#x02010;<lpage>573</lpage>. <pub-id pub-id-type="doi">10.1038/333571a0</pub-id>
+<pub-id pub-id-type="pmid">3259677</pub-id></mixed-citation></ref><ref id="iid3530-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="iid3530-cit-0002">
+<string-name>
+<surname>von Freeden&#x02010;Jeffry</surname>
+<given-names>U</given-names>
+</string-name>, <string-name>
+<surname>Vieira</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Lucian</surname>
+<given-names>LA</given-names>
+</string-name>, <string-name>
+<surname>McNeil</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Burdach</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name>
+<surname>Murray</surname>
+<given-names>R</given-names>
+</string-name>. <article-title>Lymphopenia in interleukin (IL)&#x02010;7 gene&#x02010;deleted mice identifies IL&#x02010;7 as a nonredundant cytokine</article-title>. <source>J Exp Med</source>. <year>2004</year>;<volume>181</volume>:<fpage>1519</fpage>&#x02010;<lpage>1526</lpage>. <pub-id pub-id-type="doi">10.1084/jem.181.4.1519</pub-id>
+</mixed-citation></ref><ref id="iid3530-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="iid3530-cit-0003">
+<string-name>
+<surname>Pillai</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Torok&#x02010;Storb</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Iwata</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Expression and function of IL&#x02010;7 receptors in marrow stromal cells</article-title>. <source>Leuk Lymphoma</source>. <year>2004</year>;<volume>45</volume>:<fpage>2403</fpage>&#x02010;<lpage>2408</lpage>. <pub-id pub-id-type="doi">10.1080/10428190412331283189</pub-id>
+<pub-id pub-id-type="pmid">15621752</pub-id></mixed-citation></ref><ref id="iid3530-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="iid3530-cit-0004">
+<string-name>
+<surname>Fernandez&#x02010;Botran</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Chilton</surname>
+<given-names>PM</given-names>
+</string-name>, <string-name>
+<surname>Ma</surname>
+<given-names>Y</given-names>
+</string-name>. <article-title>Soluble cytokine receptors: their roles in immunoregulation, disease, and therapy</article-title>. <source>Adv Immunol</source>. <year>1996</year>;<volume>63</volume>:<fpage>269</fpage>&#x02010;<lpage>336</lpage>. <pub-id pub-id-type="doi">10.1016/s0065-2776(08)60858-5</pub-id>
+<pub-id pub-id-type="pmid">8787633</pub-id></mixed-citation></ref><ref id="iid3530-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="iid3530-cit-0005">
+<string-name>
+<surname>Cabrera</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Ararat</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Cao</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Hepatocellular carcinoma immunopathogenesis: Clinical evidence for global T&#x02010;cell defects and an immunomodulatory role for soluble CD25 (sCD25)</article-title>. <source>Dig Dis Sci</source>. <year>2010</year>;<volume>55</volume>:<fpage>484</fpage>&#x02010;<lpage>495</lpage>. <pub-id pub-id-type="doi">10.1007/s10620-009-0955-5</pub-id>
+<pub-id pub-id-type="pmid">19714465</pub-id></mixed-citation></ref><ref id="iid3530-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="iid3530-cit-0006">
+<string-name>
+<surname>Mease</surname>
+<given-names>PJ</given-names>
+</string-name>, <string-name>
+<surname>Kivitz</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name>
+<surname>Burch</surname>
+<given-names>FX</given-names>
+</string-name>, et al. <article-title>Etanercept treatment of psoriatic arthritis: safety, efficacy, and effect on disease progression</article-title>. <source>Arthritis Rheum</source>. <year>2004</year>;<volume>50</volume>:<fpage>2264</fpage>&#x02010;<lpage>2272</lpage>. <pub-id pub-id-type="doi">10.1002/art.20335</pub-id>
+<pub-id pub-id-type="pmid">15248226</pub-id></mixed-citation></ref><ref id="iid3530-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="iid3530-cit-0007">
+<string-name>
+<surname>Lovell</surname>
+<given-names>DJ</given-names>
+</string-name>, <string-name>
+<surname>Giannini</surname>
+<given-names>EH</given-names>
+</string-name>, <string-name>
+<surname>Reiff</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Etanercept in children with polyarticular juvenile rheumatoid arthritis</article-title>. <source>N Engl J Med</source>. <year>2000</year>;<volume>342</volume>:<fpage>763</fpage>&#x02010;<lpage>769</lpage>. <pub-id pub-id-type="doi">10.1056/nejm200003163421103</pub-id>
+<pub-id pub-id-type="pmid">10717011</pub-id></mixed-citation></ref><ref id="iid3530-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="iid3530-cit-0008">
+<string-name>
+<surname>Fernandez&#x02010;Botran</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Vitetta</surname>
+<given-names>ES</given-names>
+</string-name>. <article-title>Evidence that natural murine soluble interleukin 4 receptors may act as transport proteins</article-title>. <source>J Exp Med</source>. <year>1991</year>;<volume>174</volume>:<fpage>673</fpage>&#x02010;<lpage>681</lpage>. <pub-id pub-id-type="doi">10.1084/jem.174.3.673</pub-id>
+<pub-id pub-id-type="pmid">1875167</pub-id></mixed-citation></ref><ref id="iid3530-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="iid3530-cit-0009">
+<string-name>
+<surname>Stoklasek</surname>
+<given-names>TA</given-names>
+</string-name>, <string-name>
+<surname>Schluns</surname>
+<given-names>KS</given-names>
+</string-name>, <string-name>
+<surname>Lefran&#x000e7;ois</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Combined IL&#x02010;15/IL&#x02010;15R&#x003b1; immunotherapy maximizes IL&#x02010;15 activity in vivo</article-title>. <source>J Immunol</source>. <year>2006</year>;<volume>177</volume>:<fpage>6072</fpage>&#x02010;<lpage>6080</lpage>. <pub-id pub-id-type="doi">10.4049/jimmunol.177.9.6072</pub-id>
+<pub-id pub-id-type="pmid">17056533</pub-id></mixed-citation></ref><ref id="iid3530-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="iid3530-cit-0010">
+<string-name>
+<surname>Goodwin</surname>
+<given-names>RG</given-names>
+</string-name>, <string-name>
+<surname>Friend</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Ziegler</surname>
+<given-names>SF</given-names>
+</string-name>, et al. <article-title>Cloning of the human and murine interleukin&#x02010;7 receptors: Demonstration of a soluble form and homology to a new receptor superfamily</article-title>. <source>Cell</source>. <year>1990</year>;<volume>60</volume>:<fpage>941</fpage>&#x02010;<lpage>951</lpage>. <pub-id pub-id-type="doi">10.1016/0092-8674(90)90342-C</pub-id>
+<pub-id pub-id-type="pmid">2317865</pub-id></mixed-citation></ref><ref id="iid3530-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="iid3530-cit-0011">
+<string-name>
+<surname>Janot&#x02010;Sardet</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Assouline</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Cheynier</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Morre</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Beq</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>A validated assay to measure soluble IL&#x02010;7 receptor shows minimal impact of IL&#x02010;7 treatment</article-title>. <source>J Immunol Methods</source>. <year>2010</year>;<volume>353</volume>:<fpage>115</fpage>&#x02010;<lpage>123</lpage>. <pub-id pub-id-type="doi">10.1016/j.jim.2009.12.003</pub-id>
+<pub-id pub-id-type="pmid">20035760</pub-id></mixed-citation></ref><ref id="iid3530-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="iid3530-cit-0012">
+<string-name>
+<surname>Badot</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>RKMAC</surname>
+<given-names>Luijten</given-names>
+</string-name>, <string-name>
+<surname>Van Roon</surname>
+<given-names>JA</given-names>
+</string-name>, et al. <article-title>Serum soluble interleukin 7 receptor is strongly associated with lupus nephritis in patients with systemic lupus erythematosus</article-title>. <source>Ann Rheum Dis</source>. <year>2013</year>;<volume>72</volume>:<fpage>453</fpage>&#x02010;<lpage>456</lpage>. <pub-id pub-id-type="doi">10.1136/annrheumdis-2012-202364</pub-id>
+<pub-id pub-id-type="pmid">23264357</pub-id></mixed-citation></ref><ref id="iid3530-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="iid3530-cit-0013">
+<string-name>
+<surname>Lundstr&#x000f6;m</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Highfill</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Walsh</surname>
+<given-names>ST</given-names>
+</string-name>, et al. <article-title>Soluble IL7R potentiates IL&#x02010;7 bioactivity and promotes autoimmunity</article-title>. <source>Proc Natl Acad Sci USA</source>. <year>2013</year>;<volume>110</volume>:<fpage>E1761</fpage>&#x02010;<lpage>E1770</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1222303110</pub-id>
+<pub-id pub-id-type="pmid">23610432</pub-id></mixed-citation></ref><ref id="iid3530-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="iid3530-cit-0014">
+<string-name>
+<surname>Crawley</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name>
+<surname>Faucher</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Angel</surname>
+<given-names>JB</given-names>
+</string-name>. <article-title>Soluble IL&#x02010;7R (sCD127) inhibits IL&#x02010;7 activity and is increased in HIV infection</article-title>. <source>J Immunol</source>. <year>2010</year>;<volume>184</volume>:<fpage>4679</fpage>&#x02010;<lpage>4687</lpage>. <pub-id pub-id-type="doi">10.4049/jimmunol.0903758</pub-id>
+<pub-id pub-id-type="pmid">20304824</pub-id></mixed-citation></ref><ref id="iid3530-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="iid3530-cit-0015">
+<string-name>
+<surname>Monti</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Brigatti</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Krasmann</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Ziegler</surname>
+<given-names>AG</given-names>
+</string-name>, <string-name>
+<surname>Bonifacio</surname>
+<given-names>E</given-names>
+</string-name>. <article-title>Concentration and activity of the soluble form of the interleukin&#x02010;7 receptor a in type 1 diabetes identifies an interplay between hyperglycemia and immune function</article-title>. <source>Diabetes</source>. <year>2013</year>;<volume>62</volume>:<fpage>2500</fpage>&#x02010;<lpage>2508</lpage>. <pub-id pub-id-type="doi">10.2337/db12-1726</pub-id>
+<pub-id pub-id-type="pmid">23454692</pub-id></mixed-citation></ref><ref id="iid3530-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="iid3530-cit-0016">
+<string-name>
+<surname>C&#x000f4;t&#x000e9;</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Matte</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Sad</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Angel</surname>
+<given-names>JB</given-names>
+</string-name>, <string-name>
+<surname>Crawley</surname>
+<given-names>AM</given-names>
+</string-name>. <article-title>Complexed soluble IL&#x02010;7 receptor &#x003b1; and IL&#x02010;7 increase IL&#x02010;7&#x02010;mediated proliferation and viability of CD8<sup>+</sup> T&#x02010;cells in vitro</article-title>. <source>Cell Immunol</source>. <year>2015</year>;<volume>293</volume>:<fpage>122</fpage>&#x02010;<lpage>125</lpage>. <pub-id pub-id-type="doi">10.1016/j.cellimm.2015.01.001</pub-id>
+<pub-id pub-id-type="pmid">25596474</pub-id></mixed-citation></ref><ref id="iid3530-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="iid3530-cit-0017">
+<string-name>
+<surname>MacKall</surname>
+<given-names>CL</given-names>
+</string-name>, <string-name>
+<surname>Fry</surname>
+<given-names>TJ</given-names>
+</string-name>, <string-name>
+<surname>Gress</surname>
+<given-names>RE</given-names>
+</string-name>. <article-title>Harnessing the biology of IL&#x02010;7 for therapeutic application</article-title>. <source>Nat Rev Immunol</source>. <year>2011</year>;<volume>11</volume>:<fpage>330</fpage>&#x02010;<lpage>342</lpage>. <pub-id pub-id-type="doi">10.1038/nri2970</pub-id>
+<pub-id pub-id-type="pmid">21508983</pub-id></mixed-citation></ref><ref id="iid3530-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="iid3530-cit-0018">
+<string-name>
+<surname>Andersson</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Srivastava</surname>
+<given-names>MK</given-names>
+</string-name>, <string-name>
+<surname>Harris&#x02010;White</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Role of CXCR3 ligands in IL&#x02010;7/IL&#x02010;7R&#x003b1;&#x02010;Fc&#x02010;mediated antitumor activity in lung cancer</article-title>. <source>Clin Cancer Res</source>. <year>2011</year>;<volume>17</volume>:<fpage>3660</fpage>&#x02010;<lpage>3672</lpage>. <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-10-3346</pub-id>
+<pub-id pub-id-type="pmid">21636553</pub-id></mixed-citation></ref><ref id="iid3530-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="iid3530-cit-0019">
+<string-name>
+<surname>Tan</surname>
+<given-names>JT</given-names>
+</string-name>, <string-name>
+<surname>Dudl</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>LeRoy</surname>
+<given-names>E</given-names>
+</string-name>, et al. <article-title>IL&#x02010;7 is critical for homeostatic proliferation and survival of na&#x000ef;ve T&#x02010;cells</article-title>. <source>Proc Natl Acad Sci USA</source>. <year>2001</year>;<volume>98</volume>:<fpage>8732</fpage>&#x02010;<lpage>8737</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.161126098</pub-id>
+<pub-id pub-id-type="pmid">11447288</pub-id></mixed-citation></ref><ref id="iid3530-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="iid3530-cit-0020">
+<string-name>
+<surname>Sprent</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Surh</surname>
+<given-names>CD</given-names>
+</string-name>. <article-title>Normal T&#x02010;cell homeostasis: the conversion of naive cells into memory&#x02010;phenotype cells</article-title>. <source>Nat Immunol</source>. <year>2011</year>;<volume>12</volume>:<fpage>478</fpage>&#x02010;<lpage>484</lpage>. <pub-id pub-id-type="doi">10.1038/ni.2018</pub-id>
+<pub-id pub-id-type="pmid">21739670</pub-id></mixed-citation></ref><ref id="iid3530-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="iid3530-cit-0021">
+<string-name>
+<surname>Palmer</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name>
+<surname>Mahajan</surname>
+<given-names>VS</given-names>
+</string-name>, <string-name>
+<surname>Trajman</surname>
+<given-names>LC</given-names>
+</string-name>, <string-name>
+<surname>Irvine</surname>
+<given-names>DJ</given-names>
+</string-name>, <string-name>
+<surname>Lauffenburger</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>Interleukin&#x02010;7 receptor signaling network: an integrated systems perspective</article-title>. <source>Cell Mol Immunol</source>. <year>2008</year>;<volume>5</volume>:<fpage>79</fpage>&#x02010;<lpage>89</lpage>. <pub-id pub-id-type="doi">10.1038/cmi.2008.10</pub-id>
+<pub-id pub-id-type="pmid">18445337</pub-id></mixed-citation></ref><ref id="iid3530-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="iid3530-cit-0022">
+<string-name>
+<surname>Geiselhart</surname>
+<given-names>LA</given-names>
+</string-name>, <string-name>
+<surname>Humphries</surname>
+<given-names>CA</given-names>
+</string-name>, <string-name>
+<surname>Gregorio</surname>
+<given-names>TA</given-names>
+</string-name>, <string-name>
+<surname>Mou</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Subleski</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Komschlies</surname>
+<given-names>KL</given-names>
+</string-name>. <article-title>IL&#x02010;7 administration alters the CD4:CD8 ratio, increases T&#x02010;cell numbers, and increases T&#x02010;cell function in the absence of activation</article-title>. <source>J Immunol</source>. <year>2001</year>;<volume>166</volume>:<fpage>3019</fpage>&#x02010;<lpage>3027</lpage>. <pub-id pub-id-type="doi">10.4049/jimmunol.166.5.3019</pub-id>
+<pub-id pub-id-type="pmid">11207251</pub-id></mixed-citation></ref><ref id="iid3530-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="iid3530-cit-0023">
+<string-name>
+<surname>Sport&#x000e8;s</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Hakim</surname>
+<given-names>FT</given-names>
+</string-name>, <string-name>
+<surname>Memon</surname>
+<given-names>SA</given-names>
+</string-name>, et al. <article-title>Administration of rhIL&#x02010;7 in humans increases in vivo TCR repertoire diversity by preferential expansion of naive T&#x02010;cell subsets</article-title>. <source>J Exp Med</source>. <year>2008</year>;<volume>205</volume>:<fpage>1701</fpage>&#x02010;<lpage>1714</lpage>. <pub-id pub-id-type="doi">10.1084/jem.20071681</pub-id>
+<pub-id pub-id-type="pmid">18573906</pub-id></mixed-citation></ref><ref id="iid3530-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="iid3530-cit-0024">
+<string-name>
+<surname>Fry</surname>
+<given-names>TJ</given-names>
+</string-name>, <string-name>
+<surname>Connick</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Falloon</surname>
+<given-names>J</given-names>
+</string-name>, et al. <part-title>A potential role for interleukin&#x02010;7 in T&#x02010;cell homeostasis</part-title>. <source>Blood</source>. <volume>97</volume>, <year>2001</year>:<fpage>2983</fpage>&#x02010;<lpage>2990</lpage>. <pub-id pub-id-type="doi">10.1182/blood.V97.10.2983</pub-id>
+<pub-id pub-id-type="pmid">11342421</pub-id></mixed-citation></ref><ref id="iid3530-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="iid3530-cit-0025">
+<string-name>
+<surname>Guimond</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Veenstra</surname>
+<given-names>RG</given-names>
+</string-name>, <string-name>
+<surname>Grindler</surname>
+<given-names>DJ</given-names>
+</string-name>, et al. <article-title>Interleukin 7 signaling in dendritic cells regulates the homeostatic proliferation and niche size of CD4<sup>+</sup> T&#x02010;cells</article-title>. <source>Nat Immunol</source>. <year>2009</year>;<volume>10</volume>:<fpage>149</fpage>&#x02010;<lpage>157</lpage>. <pub-id pub-id-type="doi">10.1038/ni.1695</pub-id>
+<pub-id pub-id-type="pmid">19136960</pub-id></mixed-citation></ref><ref id="iid3530-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="iid3530-cit-0026">
+<string-name>
+<surname>Foss</surname>
+<given-names>DL</given-names>
+</string-name>, <string-name>
+<surname>Donskoy</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Goldschneider</surname>
+<given-names>I</given-names>
+</string-name>. <article-title>The importation of hematogenous precursors by the thymus is a gated phenomenon in normal adult mice</article-title>. <source>J Exp Med</source>. <year>2001</year>;<volume>193</volume>:<fpage>365</fpage>&#x02010;<lpage>374</lpage>. <pub-id pub-id-type="doi">10.1084/jem.193.3.365</pub-id>
+<pub-id pub-id-type="pmid">11157056</pub-id></mixed-citation></ref><ref id="iid3530-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="iid3530-cit-0027">
+<string-name>
+<surname>Krueger</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Zi&#x00119;tara</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>&#x00141;yszkiewicz</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>T&#x02010;cell development by the numbers</article-title>. <source>Trends Immunol</source>. <year>2017</year>;<volume>38</volume>:<fpage>128</fpage>&#x02010;<lpage>139</lpage>. <pub-id pub-id-type="doi">10.1016/j.it.2016.10.007</pub-id>
+<pub-id pub-id-type="pmid">27842955</pub-id></mixed-citation></ref><ref id="iid3530-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="iid3530-cit-0028">
+<string-name>
+<surname>Kieper</surname>
+<given-names>WC</given-names>
+</string-name>, <string-name>
+<surname>Jameson</surname>
+<given-names>SC</given-names>
+</string-name>. <article-title>Homeostatic expansion and phenotypic conversion of na&#x000ef;ve T&#x02010;cells in response to self peptide/MHC ligands</article-title>. <source>Proc Natl Acad Sci USA</source>. <year>1999</year>;<volume>96</volume>:<fpage>13306</fpage>&#x02010;<lpage>13311</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.96.23.13306</pub-id>
+<pub-id pub-id-type="pmid">10557316</pub-id></mixed-citation></ref><ref id="iid3530-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="iid3530-cit-0029">
+<string-name>
+<surname>Goldrath</surname>
+<given-names>AW</given-names>
+</string-name>, <string-name>
+<surname>Bogatzki</surname>
+<given-names>LY</given-names>
+</string-name>, <string-name>
+<surname>Bevan</surname>
+<given-names>MJ</given-names>
+</string-name>. <article-title>Naive T&#x02010;cells transiently acquire a memory&#x02010;like phenotype during homeostasis&#x02010;driven proliferation</article-title>. <source>J Exp Med</source>. <year>2000</year>;<volume>192</volume>:<fpage>557</fpage>&#x02010;<lpage>564</lpage>. <pub-id pub-id-type="doi">10.1084/jem.192.4.557</pub-id>
+<pub-id pub-id-type="pmid">10952725</pub-id></mixed-citation></ref><ref id="iid3530-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="iid3530-cit-0030">
+<string-name>
+<surname>Moniuszko</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Fry</surname>
+<given-names>TJ</given-names>
+</string-name>, <string-name>
+<surname>Tsai</surname>
+<given-names>W&#x02010;P</given-names>
+</string-name>, et al. <article-title>Recombinant interleukin&#x02010;7 induces proliferation of naive macaque CD4<sup>+</sup> and CD8<sup>+</sup> T&#x02010;cells in vivo</article-title>. <source>J Virol</source>. <year>2004</year>;<volume>78</volume>:<fpage>9740</fpage>&#x02010;<lpage>9749</lpage>. <pub-id pub-id-type="doi">10.1128/JVI.78.18.9740-9749.2004</pub-id>
+<pub-id pub-id-type="pmid">15331707</pub-id></mixed-citation></ref><ref id="iid3530-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="iid3530-cit-0031">
+<string-name>
+<surname>Broers</surname>
+<given-names>AEC</given-names>
+</string-name>, <string-name>
+<surname>Posthumus&#x02010;Van Sluijs</surname>
+<given-names>SJ</given-names>
+</string-name>, <string-name>
+<surname>Spits</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>Interleukin&#x02010;7 improves T&#x02010;cell recovery after experimental T&#x02010;cell&#x02010;depleted bone marrow transplantation in T&#x02010;cell&#x02010;deficient mice by strong expansion of recent thymic emigrants</article-title>. <source>Blood</source>. <year>2003</year>;<volume>102</volume>:<fpage>1534</fpage>&#x02010;<lpage>1540</lpage>. <pub-id pub-id-type="doi">10.1182/blood-2002-11-3349</pub-id>
+<pub-id pub-id-type="pmid">12714515</pub-id></mixed-citation></ref></ref-list></back></article>

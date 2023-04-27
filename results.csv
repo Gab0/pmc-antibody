@@ -1,8 +1,8 @@
 Antibody ID,Fulfillment Rate,False Positive Rate,Search N,Agreement N,Benchmark N (CiteAB)
-550280/BD Biosciences,2.28%,88.0%,586,12,527
-11-0041-82/Invitrogen,11.55%,47.0%,113,53,459
-ab183685/Abcam,20.18%,32.0%,315,68,337
-100401/BioLegend,0.9%,97.0%,1217,3,332
-ab133616/Abcam,25.52%,27.0%,294,73,286
-AF1828/R&D Systems,63.33%,9.52%,42,38,60
-BAF1828/R&D Systems,64.29%,10.0%,20,18,28
+BD Biosciences:550280,3.23%,83.0%,8951,17,527
+Invitrogen:11-0041-82,4.36%,80.0%,11589,20,459
+Abcam:ab183685,23.44%,21.0%,337,79,337
+BioLegend:100401,2.71%,91.0%,11792,9,332
+Abcam:ab133616,26.92%,23.0%,340,77,286
+R&D Systems:AF1828,66.67%,4.76%,42,40,60
+R&D Systems:BAF1828,71.43%,0.0%,20,20,28

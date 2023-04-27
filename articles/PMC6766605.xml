@@ -1,0 +1,790 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Stem Cells Transl Med</journal-id><journal-id journal-id-type="iso-abbrev">Stem Cells Transl Med</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2157-6580</journal-id><journal-id journal-id-type="publisher-id">SCT3</journal-id><journal-title-group><journal-title>Stem Cells Translational Medicine</journal-title></journal-title-group><issn pub-type="ppub">2157-6564</issn><issn pub-type="epub">2157-6580</issn><publisher><publisher-name>John Wiley &#x00026; Sons, Inc.</publisher-name><publisher-loc>Hoboken, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6766605</article-id><article-id pub-id-type="doi">10.1002/sctm.18-0218</article-id><article-id pub-id-type="publisher-id">SCT312526</article-id><article-categories><subj-group subj-group-type="overline"><subject>Tissue Engineering and Regenerative Medicine</subject></subj-group><subj-group subj-group-type="heading"><subject>Tissue Engineering and Regenerative Medicine</subject></subj-group></article-categories><title-group><article-title>Gene Modification and Three&#x02010;Dimensional Scaffolds as Novel Tools to Allow the Use of Postnatal Thymic Epithelial Cells for Thymus Regeneration Approaches</article-title><alt-title alt-title-type="right-running-head">Novel Approaches to Achieve Thymic Regeneration</alt-title><alt-title alt-title-type="left-running-head">Bortolomai, Sandri, Draghici et al.</alt-title></title-group><contrib-group><contrib id="sct312526-cr-0001" contrib-type="author"><name><surname>Bortolomai</surname><given-names>Ileana</given-names></name><contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-2592-1274</contrib-id><xref ref-type="aff" rid="sct312526-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="sct312526-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="sct312526-cr-0002" contrib-type="author"><name><surname>Sandri</surname><given-names>Monica</given-names></name><xref ref-type="aff" rid="sct312526-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="sct312526-cr-0003" contrib-type="author"><name><surname>Draghici</surname><given-names>Elena</given-names></name><xref ref-type="aff" rid="sct312526-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="sct312526-cr-0004" contrib-type="author"><name><surname>Fontana</surname><given-names>Elena</given-names></name><xref ref-type="aff" rid="sct312526-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="sct312526-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="sct312526-cr-0005" contrib-type="author"><name><surname>Campodoni</surname><given-names>Elisabetta</given-names></name><xref ref-type="aff" rid="sct312526-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="sct312526-cr-0006" contrib-type="author"><name><surname>Marcovecchio</surname><given-names>Genni Enza</given-names></name><xref ref-type="aff" rid="sct312526-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="sct312526-cr-0007" contrib-type="author"><name><surname>Ferrua</surname><given-names>Francesca</given-names></name><xref ref-type="aff" rid="sct312526-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="sct312526-aff-0005">
+<sup>5</sup>
+</xref><xref ref-type="aff" rid="sct312526-aff-0006">
+<sup>6</sup>
+</xref></contrib><contrib id="sct312526-cr-0008" contrib-type="author"><name><surname>Perani</surname><given-names>Laura</given-names></name><xref ref-type="aff" rid="sct312526-aff-0007">
+<sup>7</sup>
+</xref></contrib><contrib id="sct312526-cr-0009" contrib-type="author"><name><surname>Spinelli</surname><given-names>Antonello</given-names></name><xref ref-type="aff" rid="sct312526-aff-0007">
+<sup>7</sup>
+</xref></contrib><contrib id="sct312526-cr-0010" contrib-type="author"><name><surname>Canu</surname><given-names>Tamara</given-names></name><xref ref-type="aff" rid="sct312526-aff-0007">
+<sup>7</sup>
+</xref></contrib><contrib id="sct312526-cr-0011" contrib-type="author"><name><surname>Catucci</surname><given-names>Marco</given-names></name><xref ref-type="aff" rid="sct312526-aff-0008">
+<sup>8</sup>
+</xref></contrib><contrib id="sct312526-cr-0012" contrib-type="author"><name><surname>Di Tomaso</surname><given-names>Tiziano</given-names></name><xref ref-type="aff" rid="sct312526-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="sct312526-cr-0013" contrib-type="author"><name><surname>Sergi Sergi</surname><given-names>Lucia</given-names></name><xref ref-type="aff" rid="sct312526-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="sct312526-cr-0014" contrib-type="author"><name><surname>Esposito</surname><given-names>Antonio</given-names></name><xref ref-type="aff" rid="sct312526-aff-0005">
+<sup>5</sup>
+</xref><xref ref-type="aff" rid="sct312526-aff-0007">
+<sup>7</sup>
+</xref></contrib><contrib id="sct312526-cr-0015" contrib-type="author"><name><surname>Lombardo</surname><given-names>Angelo</given-names></name><xref ref-type="aff" rid="sct312526-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="sct312526-aff-0005">
+<sup>5</sup>
+</xref></contrib><contrib id="sct312526-cr-0016" contrib-type="author"><name><surname>Naldini</surname><given-names>Luigi</given-names></name><xref ref-type="aff" rid="sct312526-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="sct312526-aff-0005">
+<sup>5</sup>
+</xref></contrib><contrib id="sct312526-cr-0017" contrib-type="author"><name><surname>Tampieri</surname><given-names>Anna</given-names></name><xref ref-type="aff" rid="sct312526-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="sct312526-cr-0018" contrib-type="author"><name><surname>Hollander</surname><given-names>Georg A.</given-names></name><xref ref-type="aff" rid="sct312526-aff-0008">
+<sup>8</sup>
+</xref><xref ref-type="aff" rid="sct312526-aff-0009">
+<sup>9</sup>
+</xref></contrib><contrib id="sct312526-cr-0019" contrib-type="author"><name><surname>Villa</surname><given-names>Anna</given-names></name><xref ref-type="aff" rid="sct312526-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="sct312526-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="sct312526-cr-0020" contrib-type="author" corresp="yes"><name><surname>Bosticardo</surname><given-names>Marita</given-names></name><xref ref-type="aff" rid="sct312526-aff-0001">
+<sup>1</sup>
+</xref><address><email>marita.bosticardo@nih.gov</email></address></contrib></contrib-group><aff id="sct312526-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Telethon Institute for Gene Therapy (SR&#x02010;Tiget), Division of Regenerative Medicine, Stem Cells, and Gene Therapy</named-content>
+<institution>IRCCS San Raffaele Scientific Institute</institution>
+<named-content content-type="city">Milan</named-content>
+<country country="IT">Italy</country>
+</aff><aff id="sct312526-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">UOS Milano</named-content>
+<institution>IRGB CNR</institution>
+<named-content content-type="city">Milan</named-content>
+<country country="IT">Italy</country>
+</aff><aff id="sct312526-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Laboratory of Bioceramics and Bio&#x02010;Hybrid Composites</named-content>
+<institution>Institute of Science and Technology for Ceramics (ISTEC), National Research Council (CNR)</institution>
+<named-content content-type="city">Faenza</named-content>
+<country country="IT">Italy</country>
+</aff><aff id="sct312526-aff-0004">
+<label><sup>4</sup></label>
+<institution>Humanitas Clinical and Research Center</institution>
+<named-content content-type="city">Rozzano</named-content>
+<named-content content-type="country-part">Milan</named-content>
+<country country="IT">Italy</country>
+</aff><aff id="sct312526-aff-0005">
+<label><sup>5</sup></label>
+<institution>Vita&#x02010;Salute San Raffaele University</institution>
+<named-content content-type="city">Milan</named-content>
+<country country="IT">Italy</country>
+</aff><aff id="sct312526-aff-0006">
+<label><sup>6</sup></label>
+<named-content content-type="organisation-division">Paediatric Immunohematology and Bone Marrow Transplantation Unit</named-content>
+<institution>IRCCS San Raffaele Scientific Institute</institution>
+<named-content content-type="city">Milan</named-content>
+<country country="IT">Italy</country>
+</aff><aff id="sct312526-aff-0007">
+<label><sup>7</sup></label>
+<named-content content-type="organisation-division">Preclinical Imaging Facility, Experimental Imaging Center</named-content>
+<institution>IRCCS San Raffaele Scientific Institute</institution>
+<named-content content-type="city">Milan</named-content>
+<country country="IT">Italy</country>
+</aff><aff id="sct312526-aff-0008">
+<label><sup>8</sup></label>
+<named-content content-type="organisation-division">Paediatric Immunology, Department of Biomedicine</named-content>
+<institution>University of Basel</institution>
+<named-content content-type="city">Basel</named-content>
+<country country="CH">Switzerland</country>
+</aff><aff id="sct312526-aff-0009">
+<label><sup>9</sup></label>
+<named-content content-type="organisation-division">Developmental Immunology, Weatherall Institute of Molecular Medicine</named-content>
+<institution>University of Oxford</institution>
+<named-content content-type="city">Oxford</named-content>
+<country country="GB">United Kingdom</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label>Correspondence: Marita Bosticardo, Ph.D., Laboratory of Clinical Immunology and Microbiology, IDGS, DIR, NIAID, NIH, DHHS, 10 Center Drive, Bldg. 10 CRC, Room 5W3840, Bethesda, MD 20892&#x02010;1456, USA. Telephone: 001&#x02010;240&#x02010;292&#x02010;4727; e&#x02010;mail: <email>marita.bosticardo@nih.gov</email></corresp></author-notes><pub-date pub-type="epub"><day>29</day><month>5</month><year>2019</year></pub-date><pub-date pub-type="collection"><month>10</month><year>2019</year></pub-date><volume>8</volume><issue>10</issue><issue-id pub-id-type="doi">10.1002/sct3.v8.10</issue-id><fpage>1107</fpage><lpage>1122</lpage><history><date date-type="received"><day>08</day><month>10</month><year>2018</year></date><date date-type="accepted"><day>29</day><month>4</month><year>2019</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2019 AlphaMed Press <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2019 The Authors. <sc>stem cells translational medicine</sc> published by Wiley Periodicals, Inc. on behalf of AlphaMed Press</copyright-statement><license license-type="creativeCommonsBy-nc-nd"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non&#x02010;commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:SCT3-8-1107.pdf"/><abstract><title>Abstract</title><p>Defective functionality of thymic epithelial cells (TECs), due to genetic mutations or injuring causes, results in altered T&#x02010;cell development, leading to immunodeficiency or autoimmunity. These defects cannot be corrected by hematopoietic stem cell transplantation (HSCT), and thymus transplantation has not yet been demonstrated to be fully curative. Here, we provide proof of principle of a novel approach toward thymic regeneration, involving the generation of thymic organoids obtained by seeding gene&#x02010;modified postnatal murine TECs into three&#x02010;dimensional (3D) collagen type I scaffolds mimicking the thymic ultrastructure. To this end, freshly isolated TECs were transduced with a lentiviral vector system, allowing for doxycycline&#x02010;induced Oct4 expression. Transient Oct4 expression promoted TECs expansion without drastically changing the cell lineage identity of adult TECs, which retain the expression of important molecules for thymus functionality such as Foxn1, Dll4, Dll1, and AIRE. Oct4&#x02010;expressing TECs (iOCT4 TEC) were able to grow into 3D collagen type I scaffolds both in vitro and in vivo, demonstrating that the collagen structure reproduced a 3D environment similar to the thymic extracellular matrix, perfectly recognized by TECs. In vivo results showed that thymic organoids transplanted subcutaneously in athymic nude mice were vascularized but failed to support thymopoiesis because of their limited in vivo persistence. These findings provide evidence that gene modification, in combination with the usage of 3D biomimetic scaffolds, may represent a novel approach allowing the use of postnatal TECs for thymic regeneration. <sc>stem cells translational medicine</sc>
+<italic>2019;8:1107&#x02013;1122</italic>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="sct312526-kwd-0001">3D collagen scaffolds</kwd><kwd id="sct312526-kwd-0002">Lentiviral vector</kwd><kwd id="sct312526-kwd-0003">Thymic epithelial cells</kwd><kwd id="sct312526-kwd-0004">Thymic regeneration</kwd></kwd-group><funding-group><award-group><funding-source>National Program of Consiglio Nazionale delle Ricerche Aging Project</funding-source></award-group><award-group><funding-source>European Commission 7th and Horizon 2020 Framework Programs</funding-source><award-id>666908&#x02010;SCIDNET</award-id><award-id>261387 CELL&#x02010;PID</award-id></award-group><award-group><funding-source>Italian Telethon Foundation</funding-source><award-id>TGT16F03</award-id></award-group></funding-group><counts><fig-count count="6"/><table-count count="0"/><page-count count="16"/><word-count count="12573"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>sct312526</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>October 2019</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:5.6.9 mode:remove_FC converted:30.09.2019</meta-value></custom-meta></custom-meta-group></article-meta><notes><fn-group id="sct312526-ntgp-0001"><fn fn-type="" id="sct312526-note-0001"><p>The data that support the findings of this study are available from the corresponding author upon reasonable request.</p></fn></fn-group></notes></front><body><p>
+<boxed-text position="anchor" content-type="box" id="sct312526-blkfxd-0002" orientation="portrait"><caption><title>Significance Statement</title></caption><p>Transient Oct4 expression promoted thymic epithelial cells expansion without changing the cell lineage identity of adult thymic epithelial cells (TECs). iOCT4 TECs were able to expand into three&#x02010;dimensional (3D) collagen&#x02010;scaffolds both in vitro and in vivo, demonstrating that the collagen structure reproduced a 3D environment similar to the thymic extracellular matrix, perfectly recognized by TECs. Thymic organoids transplanted subcutaneously in athymic nude mice were vascularized, which showed a mild short&#x02010;term thymopoietic activity. These findings provide evidence that gene modification, in combination with the usage of 3D biomimetic scaffolds, represents a novel approach that would allow the use of postnatal TECs in thymic regeneration.</p></boxed-text>
+</p><sec id="sct312526-sec-0003"><title>Introduction</title><p>The thymus is a primary lymphoid organ that represents a crucial component of the adaptive immune system, since the specialized thymic microenvironment sustains the development of a broad repertoire of self&#x02010;tolerant T lymphocytes <xref rid="sct312526-bib-0001" ref-type="ref">1</xref>, <xref rid="sct312526-bib-0002" ref-type="ref">2</xref>. Its function is fundamental for mounting an immune response against pathogens and tumors, but it is also important for the establishment of central tolerance. Several factors including aging, viral infections, chemotherapy, and radiotherapy contribute to thymus involution <xref rid="sct312526-bib-0003" ref-type="ref">3</xref>, <xref rid="sct312526-bib-0004" ref-type="ref">4</xref>. Therefore, thymic dysfunctions caused by physiological processes or by external stimuli render patients extremely vulnerable to infections, malignancies, and autoimmune diseases <xref rid="sct312526-bib-0005" ref-type="ref">5</xref>, <xref rid="sct312526-bib-0006" ref-type="ref">6</xref>.</p><p>Many research groups have primarily focused on finding possible strategies to rejuvenate the thymus and have developed promising therapeutic approaches to target unsuccessful thymopoiesis, post&#x02010;transplant immunodeficiency, and infection&#x02010;related morbidity and mortality after HSCT <xref rid="sct312526-bib-0007" ref-type="ref">7</xref>, <xref rid="sct312526-bib-0008" ref-type="ref">8</xref>. However, a few molecules and genes, such as keratin growth factor, Interleukin (IL)22, IL7, and Foxn1, have been identified as key players of the mechanistic pathway for endogenous thymic regeneration <xref rid="sct312526-bib-0009" ref-type="ref">9</xref>, <xref rid="sct312526-bib-0010" ref-type="ref">10</xref>, <xref rid="sct312526-bib-0011" ref-type="ref">11</xref>, <xref rid="sct312526-bib-0012" ref-type="ref">12</xref>, <xref rid="sct312526-bib-0013" ref-type="ref">13</xref>. Growth factors and hormone therapies were also explored in order to restore age&#x02010;related or injury&#x02010;related thymic degeneration, but, despite encouraging results, they have short&#x02010;term effects and/or require a recurrent administration, which is complicated by their toxic effects on other tissues and organs <xref rid="sct312526-bib-0014" ref-type="ref">14</xref>, <xref rid="sct312526-bib-0015" ref-type="ref">15</xref>.</p><p>Thymus transplantation represents another promising alternative to complement bone marrow transplantation or to treat congenital thymic anomalies, but T&#x02010;cell reconstitution following thymus grafting is frequently incomplete and transient, complicated by a skewed T&#x02010;cell receptor repertoire and an increased occurrence of autoimmunity <xref rid="sct312526-bib-0016" ref-type="ref">16</xref>, <xref rid="sct312526-bib-0017" ref-type="ref">17</xref>.</p><p>The thymus is anatomically organized into two discrete cortical and medullary regions, containing phenotypically and functionally distinct thymic epithelial cells (TECs), named medullary TECs (mTECs) and cortical TECs (cTECs). The unique architecture of the thymic stroma is essential for TEC development and function as well as for the maturation and selection of a self&#x02010;tolerant T&#x02010;cell repertoire <xref rid="sct312526-bib-0018" ref-type="ref">18</xref>. Differently from the epithelium of other organs, the thymic microenvironment is structured as a three&#x02010;dimensional (3D) network in which crosstalk of TECs and thymocytes takes place <xref rid="sct312526-bib-0002" ref-type="ref">2</xref>.</p><p>The field of tissue engineering has put considerable efforts into the development of materials and techniques for the in vitro generation of tissues of clinical relevance <xref rid="sct312526-bib-0019" ref-type="ref">19</xref>, <xref rid="sct312526-bib-0020" ref-type="ref">20</xref>. The major challenge for tissue engineering is to successfully recreate the complexity of the 3D structure of the thymic microenvironment and to fully rebuild the composition and organization of the thymic extracellular matrix (ECM). The use of thymic organoids formed by human TECs and fibroblasts as well as seeding TECs into matrigel or other 3D biocompatible systems has been shown to promote a transient thymopoiesis in vivo <xref rid="sct312526-bib-0011" ref-type="ref">11</xref>, <xref rid="sct312526-bib-0021" ref-type="ref">21</xref>. The use of decellularized thymic tissue has been suggested to overcome these limitations and has shown promising results in mouse models <xref rid="sct312526-bib-0022" ref-type="ref">22</xref>. However, the use of decellularized tissues, obtained from cadavers or patients undergoing cardiothoracic surgery, limits the applicability of such approaches to the availability of donors.</p><p>The use of postnatal TECs for thymic regeneration has revealed challenging because of the loss of thymopoietic function of TECs after in vitro culture and their inability to reaggregate after isolation <xref rid="sct312526-bib-0023" ref-type="ref">23</xref>. Recent studies have used several approaches that could overcome this barrier, including the identification of thymic epithelial progenitor cells (TEPCs) or the differentiation of embryonic stem cells or induced pluripotent stem (iPS) cells into TEPC, but they have all some limitations for clinical purposes <xref rid="sct312526-bib-0024" ref-type="ref">24</xref>, <xref rid="sct312526-bib-0025" ref-type="ref">25</xref>, <xref rid="sct312526-bib-0026" ref-type="ref">26</xref>. To avoid the use of embryonic TECs or iPS&#x02010;derived TECs, attempts have been made by combining mature TECs with different 3D systems for developing functional mini&#x02010;thymus units <xref rid="sct312526-bib-0027" ref-type="ref">27</xref>, <xref rid="sct312526-bib-0028" ref-type="ref">28</xref>, <xref rid="sct312526-bib-0029" ref-type="ref">29</xref>. Several studies have been focused on the investigation of ideal biomaterials for human applicability <xref rid="sct312526-bib-0030" ref-type="ref">30</xref>, <xref rid="sct312526-bib-0031" ref-type="ref">31</xref>, which need to be biocompatible, biodegradable, and easily detectable with imaging techniques regularly used in standard clinical practice. Collagen has been widely used in tissue engineering because it can be assembled in fibers closely reproducing the chemical and morphological characteristics of those present in soft tissues <xref rid="sct312526-bib-0032" ref-type="ref">32</xref>, <xref rid="sct312526-bib-0033" ref-type="ref">33</xref>. Therefore, the production of collagen porous biomatrix could make this biomaterial suitable for the generation of thymic constructs.</p><p>Hence, we developed a potentially new therapeutic strategy that foresees transplantation of biomimetic scaffolds, mimicking the thymic ECM organization, obtained by seeding adult murine TECs and expanding them into 3D collagen type I scaffolds. In order to use postnatal TECs for the generation of transplantable thymic structure, we sought to induce a short&#x02010;term expression of Oct4, a transcription factor involved in the maintenance or induction of pluripotency in embryonic cells <xref rid="sct312526-bib-0034" ref-type="ref">34</xref>, <xref rid="sct312526-bib-0035" ref-type="ref">35</xref>, to obtain transient partial de&#x02010;differentiation and promote their expansion. To create a physiologically relevant microenvironment to seed TECs, we tested 3D collagen type I scaffolds crosslinked with different amounts of 1,4&#x02010;butanediol diglycidyl ether (BDDGE; 3%&#x02013;5%). Here, we show that 3% BDDGE collagen&#x02010;based scaffolds seeded with gene&#x02010;modified TECs and transplanted subcutaneously in athymic nude mice were perfused and colonized by small new blood vessels and were able to sustain TEC survival in a 3D microenvironment. However, further improvement of the 3D scaffold composition is required to obtain long&#x02010;term in vivo persistence of organoids that could allow the development of this approach for future clinical applications.</p></sec><sec id="sct312526-sec-0004"><title>Materials and Methods</title><sec id="sct312526-sec-0005"><title>Animals</title><p>Wild&#x02010;type (WT) C57BL/6 (B6) and CD1 athymic nude mice were purchased from Charles River Laboratories, Inc. (Calco, Italy) and housed under specific pathogen&#x02010;free conditions at the San Raffaele Hospital Animal Facility. This study was carried out in accordance with the recommendations of the Italian Ministry of Health. The protocol was approved by the Animal Care and Use Committee of the San Raffaele Scientific Institute (IACUC 712). For TEC isolation, we used B6 mice ranging from 4 to 6 weeks old. For scaffolds transplantation, we used CD1 athymic nude mice from 6 to 10 weeks old, unless otherwise stated.</p></sec><sec id="sct312526-sec-0006"><title>TEC Isolation, Enrichment, and Culture</title><p>Thymus was isolated from 4&#x02010; to 6&#x02010;week&#x02010;old WT mice. Thymus was cleaned up from fat and stromal tissues under the microscope and then digested at 37&#x000b0;C (three steps of 5 minutes) with a solution containing Liberase (Roche, Germany) and DNAse I (Roche). Digested thymus was recovered in Iscove medium (Sigma&#x02013;Aldrich, Germany) supplemented with 10% fetal bovine serum (FBS; Euroclone, Italy), 1% penicillin/streptomycin (Lonza, Switzerland), and 2% glutamine (Lonza). TECs were further enriched by depleting CD45+ cells with the AutoMACS Separator (Miltenyi Biotec, Germany) after incubating thymic cells with anti&#x02010;CD45 microbeads (Miltenyi Biotec). The purity of enriched TECs (CD45&#x02010;EpCam+) was then checked by multicolor flow cytometric analyses. Enriched TECs were cultured in CnT&#x02010;57.S (CELLnTEC Advanced Cell Systems, Switzerland) supplemented with Rho&#x02010;associated, coiled&#x02010;coil containing protein kinase (ROCK) inhibitor 1 &#x003bc;g/ml (Y&#x02010;27632, Merck Millipore) for 7&#x02013;9 days after isolation; afterward, culture medium was switched to X&#x02010;VIVO10 (Lonza) supplemented with the ROCK inhibitor.</p></sec><sec id="sct312526-sec-0007"><title>Lentiviral Vector Production and TEC Transduction</title><p>Third&#x02010;generation lentiviral vectors (LVs) were produced by Ca<sub>3</sub>PO<sub>4</sub> cotransfection of four plasmids into 293 T cells. Supernatants were collected, passed through a 0.22&#x02009;&#x003bc;m filter, and purified by ultracentrifugation as described <xref rid="sct312526-bib-0036" ref-type="ref">36</xref>. Titer was estimated measuring vector particles by Human Immunodeficiency Virus&#x02010;1Gag p24 antigen immunocapture (MEN Life Science Products) and Quantitative Real&#x02010;Time Polymerase Chain Reaction (PCR) on Viia7 PCR system (Applied Biosystems, Waltham, MA) was used to quantify vector copy number/genome as previously described <xref rid="sct312526-bib-0037" ref-type="ref">37</xref>. Genomic DNA was extracted with QIAamp DNA blood mini kit (QIAGEN, Germany) according to manufacturer's instructions. Vector infectivity was calculated as the ratio between titer and p24. For concentrated pCCLsin.PPT.hPGK.GFP.Wpre_mut_AMP LV (from now on PGK.GFP LV), titer ranged from 1&#x02009;&#x000d7;&#x02009;10<sup>9</sup> to 1&#x02009;&#x000d7;&#x02009;10<sup>11</sup> transducing units (TU)/ml; for concentrated hPGK.rtTAm2v10.WPRE.minhCMV.mCHERRY.SV40PA LV (from now on rtTA.mCherry LV), titer ranged from 1.32&#x02009;&#x000d7;&#x02009;10<sup>9</sup> to 4.8&#x02009;&#x000d7;&#x02009;10<sup>9</sup> TU/ml; and for pCCL.sin.cPPT.SK&#x02010;T6.GFP&#x02010;OCT4.WPRE LV (from now on iOCT4 LV), titer ranged from 2.74&#x02009;&#x000d7;&#x02009;10<sup>9</sup> to 2&#x02009;&#x000d7;&#x02009;10<sup>10</sup> TU/ml.</p><p>Two days after isolation, TECs were transduced with the rtTA.mCherry LV at multiplicity of infection (MOI) 0.5 in CnT&#x02010;57.S medium supplemented with ROCK inhibitor and Polybrene 8 &#x003bc;g/ml (Sigma&#x02013;Aldrich). Medium was changed 24&#x02009;hours later. At day 4, TECs were transduced with the Oct4.vexGFP LV at MOI 0.5 in CnT&#x02010;57.S medium supplemented with ROCK inhibitor and Polybrene and medium was changed 24&#x02009;hours later. For standard culture, the medium was changed every other day. Doxycycline hyclate (D9891, Sigma&#x02013;Aldrich; 0.01&#x02009;&#x003bc;g/ml) was added starting at day 5 after isolation. TECs were cultured in CnT&#x02010;57.S supplemented with ROCK inhibitor until day 7&#x02013;9 after isolation; afterward, the medium was switched to X&#x02010;VIVO10 medium supplemented with the ROCK inhibitor.</p></sec><sec id="sct312526-sec-0008"><title>Preparation and Chemical Characterization of BDDGE Scaffolds</title><p>Collagen gel in aqueous acetic buffer solution (pH 3.5), isolated from horse tendon, was purchased from OPOCRIN SpA, Italy. One weight percent of collagen gel was dissolved in milli&#x02010;Q water and the assembling of collagen fibers was achieved by increasing the pH up to 5.5 (isoelectric point of collagen) with slow addition of 0.1 M NaOH in aqueous solution (Sigma&#x02013;Aldrich) <xref rid="sct312526-bib-0038" ref-type="ref">38</xref>. The BDDGE (Sigma&#x02013;Aldrich) was selected as biocompatible crosslinker to treat collagen fibers and crosslinked collagen fibers were freeze&#x02010;dried to achieve a porous matrix. By changing the crosslinker percentage and the freeze&#x02010;drying setup, four different 3D thymus&#x02010;like collagen constructs were developed and tested. Collagen scaffolds&#x02014;3% BDDGE with (Coll3_1C) or without a cortical layer (Coll3_WC) were prepared as follows: 150 g of purified collagen fibers were mixed with 45&#x02009;ml of 1&#x02009;g/l of BDDGE solution. To efficiently crosslink the collagen fibers, the reaction was performed for 24&#x02009;hours at room temperature (RT), followed by 24&#x02009;hours at 4&#x000b0;C. The crosslinking solution was removed by sieving (mesh: 150&#x02009;&#x003bc;m) and collagen fibers were washed with milli&#x02010;Q water before pouring them into a polystyrene 48&#x02010;well plate <xref rid="sct312526-bib-0039" ref-type="ref">39</xref>, <xref rid="sct312526-bib-0040" ref-type="ref">40</xref>. By freezing the collagen hydrogel at &#x02212;40&#x000b0;C and drying it at 25&#x000b0;C (5 Pa, LIO 3000 PLT, Italy) for 48&#x02009;hours under a constant vacuum of 0.086&#x02009;mbar, a porous 3D construct without cortical layer was obtained. For Coll3_WC, collagen fibers were laid out on Mylar sheet and freeze&#x02010;dried by freezing at &#x02212;40&#x000b0;C and drying at 25&#x000b0;C (5 Pa, LIO 3000 PLT, Italy) for 48&#x02009;hours under a constant vacuum of 0.086&#x02009;mbar. This procedure allows the formation of a single cortical layer at the upper part of the 3D constructs.</p><p>Collagen scaffold&#x02010;BDDGE 5% with one cortical (Coll5_1C) was obtained by adding 150 g of purified collagen fibers to 75&#x02009;ml of 1&#x02009;g/l of BDDGE. For the formation of one cortical layer, collagen fibers were treated as previously described for Coll3_WC. Collagen scaffold&#x02010;BDDGE 3% with two cortical (Coll3_2C) were synthetized using the same procedure described for Coll3_1C. To achieve the second cortical layer, the scaffold was rewet and added with a layer of collagen fibers at the bottom part of the scaffold. Finally, a second freeze&#x02010;drying cycle, with the same setup described above, was carried out keeping the previous cortical layer in contact with the freezing plate and the new&#x02010;layered collagen at the upper part.</p><p>The morphological microarchitecture of the scaffolds was evaluated by scanning electron microscopy (SEM) performed on specimens mounted onto aluminum stubs using black carbon tapes and sputter coated with gold (Sputter Coater Q150TES, Quorum, Italy). The specimen surface was examined using high resolution SEM (FEI, Quanta 200, U.K.) at a pressure of 0.1 mTorr at an accelerating voltage of 7 or 10 kV. Percentage of porosity was measured by gravimetric method conferring total porosity of the scaffold and by water squeezing method resulting in percentage of macropore volume <xref rid="sct312526-bib-0041" ref-type="ref">41</xref>. The density method measures the scaffold density with weight and volume of dried scaffold; and from the scaffold density, the porosity is calculated as already described in other papers <xref rid="sct312526-bib-0033" ref-type="ref">33</xref>, <xref rid="sct312526-bib-0042" ref-type="ref">42</xref>, <xref rid="sct312526-bib-0043" ref-type="ref">43</xref>. Porosity values were expressed as the mean&#x02009;&#x000b1;&#x02009;SE and the number of replicates (<italic>n</italic>) was three (<italic>n</italic> = 3). The water squeezing method measures the amount of water inside a scaffold before and after scaffold squeezing. The method is based on the principle that the water is present in small and big pores inside the polymer network <xref rid="sct312526-bib-0033" ref-type="ref">33</xref>, <xref rid="sct312526-bib-0041" ref-type="ref">41</xref>. The values were expressed as mean&#x02009;&#x000b1;&#x02009;SE (<italic>n</italic> = 3). Perfusion tests were performed in a U&#x02010;CUP bioreactor (Cellec, Switzerland). Briefly, the samples were placed in the bioreactor chamber and 12&#x02009;ml of methylene blue (0.000015 wt/wt%) were added to the column, following the manufacturer's instructions. The liquid flow was set to a constant speed of 3 ml/minute for 24&#x02009;hours.</p></sec><sec id="sct312526-sec-0009"><title>Scaffolds Seeding and In vivo Engraftment</title><p>In the experiments showed in the present article, 2&#x02009;&#x000d7;&#x02009;10<sup>5</sup> TECs were cultured in scaffolds, unless otherwise stated. For in vivo experiments, mice were anesthetized by injecting intraperitoneally 0.5 ml of avertin 240&#x02009;mg/kg (Sigma&#x02013;Aldrich) and scaffolds were transplanted subcutaneously (s.c.) in the inguinal area or under the kidney capsule of CD1 athymic nude mice. Wounds were sealed with silk suture (Ethicon) and reinforced by metal clips (CellPoint Scientific, Gaithersburg, MD).</p></sec><sec id="sct312526-sec-0010"><title>Flow Cytometric Analyses</title><p>To check TEC enrichment after isolation, cells were incubated with anti&#x02010;CD45 (clone 30&#x02010;F11, BioLegend, San Diego, CA), anti&#x02010;EpCam (clone G8.8, BioLegend), anti&#x02010;Ly5.1 (clone 6C3, Miltenyi), anti&#x02010;Ulex Europeaus agglutinin I (clone FL&#x02010;1061, Vector Laboratories, Burlingame, CA), and anti&#x02010;Major Histocompatibility Complex (MHC) class II (clone M5/114.15.2, BioLegend) antibodies. Exclusion of dead cells was done adding 200&#x02009;&#x003bc;g/ml of DAPI solution just before acquisition.</p><p>For the evaluation of epithelial stem&#x02010;progenitor markers, cells were incubated with anti&#x02010;Epcam (clone G8.8, BioLegend), anti&#x02010;OCT4 (clone EM92, Ebioscience), anti&#x02010;CD44 (clone IM7, BD, Biosciences, San Jose, CA), anti&#x02010;Sca&#x02010;1 (clone D7, BioLegend), anti&#x02010;CD90 (clone 30 H&#x02010;12, BioLegend), and anti&#x02010;MHC II (clone M5/114.15.2, BioLegend) antibodies.</p><p>At the time of sacrifice, mice were euthanized according to the ethical guidelines. Spleen, lymph nodes, and blood samples were prepared using standard protocols and analyzed with anti&#x02010;CD45 (clone 30&#x02010;F11, BioLegend), anti&#x02010;CD3 (clone 145&#x02010;2C11, BD, Biosciences), anti&#x02010;CD4 (clone RM4&#x02010;5, BD, Biosciences), and anti&#x02010;CD8 (clone 53&#x02013;6.7, BD, Biosciences) antibodies.</p><p>Cells were acquired on a FACS&#x02010;Canto II or LSR Fortessa flow cytometer (BD, Biosciences) and analyses were performed using the FlowJo software (FlowJo, LLC, Ashland, OR).</p></sec><sec id="sct312526-sec-0011"><title>Histology</title><p>For immunofluorescence analyses, untransduced or transduced TECs were detached with trypsin EDTA (Lonza) plated on 0.1% gelatin type B (Sigma&#x02013;Aldrich) precoated glass slides and cultured in X&#x02010;VIVO10 medium supplemented with the ROCK inhibitor until staining. Cells fixation was performed with 4% paraformaldehyde (Sigma&#x02013;Aldrich), 15&#x02009;minutes at RT. Cells were then washed with Dulbecco's phosphate&#x02010;buffered saline 1&#x000d7; (Corning, NY), permeabilized with 0.3% Triton X&#x02010;100 (VWR, BDH Chemicals, Radnor, PA) solution for 5 minutes at RT, and incubated with a blocking solution of 5% FBS 1 hour at RT. Primary and secondary antibody incubation was performed in PBS 1&#x000d7; with 5% FBS. Cells were stained with rabbit polyclonal anti&#x02010;OCT4 primary antibody (clone ab18976, Abcam, U.K.) overnight at 4&#x000b0;C and with Alexa Fluor 647 donkey anti&#x02010;rabbit secondary antibody (ThermoFisher Scientific, Waltham, MA), 1 hour at RT in the dark. To perform nuclear staining, 200&#x02009;&#x003bc;g/ml of DAPI solution were added for 5&#x02032; at RT in the dark, before mounting the glass slides with Vectashield reagent (Vector Laboratories). Immunofluorescence analyses on in vitro thymic scaffold were performed with the same standard protocol. Images and movies were acquired at San Raffaele Hospital Alembic facility with the Confocal Leica TCS SP2 (Leica Microsystems, Germany).</p><p>For immunocytochemistry analyses, mouse scaffold samples were fixed in formalin 4%, paraffin&#x02010;embedded and, for each sample, five levels were cut on average. Sections of 1.5 &#x003bc;m were used for hematoxylin and eosin (H&#x00026;E) staining to check for basic histopathological changes. Sections were de&#x02010;waxed, rehydrated, and endogenous peroxidase activity blocked with 0.1% H<sub>2</sub>O<sub>2</sub> for 15&#x02009;minutes. Nonspecific background was reduced with Rodent Block (Biocare Medical, Pacheco, CA) before microwave antigen&#x02010;retrieval treatment and then slides were incubated with primary antibodies. The following primary antibodies were used: rabbit anti&#x02010;CD3 (clone SP7; 1:100; ThermoFisher Scientific; EDTA buffer pH 8.0), rabbit anti&#x02010;cytokeratin 5 (CK5, clone AF 138, 1:100, Covance; EDTA buffer pH 8.0), rat anti&#x02010;cytokeratin 8 (CK8, clone TROMA&#x02010;I, 1:200, Developmental Studies Hybridoma Bank, EDTA buffer pH 8.0), anti&#x02010;myeloperoxidase (MPO) antibody (1:300, Abcam, EDTA buffer pH 8.0), rat anti&#x02010;F4/80 (1:100, Bio&#x02010;Rad, Hercules, CA, DIVA Decloaker 1&#x000d7; Biocare Medical), and goat anti&#x02010;CD31 (1:1,000; R&#x00026;D Systems, Minneapolis, MN; DIVA Decloaker 1&#x000d7; Biocare Medical). As secondary antibodies, we used: goat&#x02010;on&#x02010;mouse HRP&#x02010;polymer (Biocare Medical), MACH 1 Universal HRP Polymer Kit (Biocare Medical), or rat&#x02010;on&#x02010;mouse HRP&#x02010;polymer (Biocare Medical) and reactions were developed in Biocare's Betazoid 3,3'&#x02010;Diaminobenzidine and nuclei counterstained with hematoxylin (Dako, Denmark). Digital images were acquired by an Olympus XC50 camera mounted on a BX51 microscope (Olympus, Japan) with CellF Imaging software (Soft Imaging System GmbH, Germany). Olympus slide scanner VS120&#x02010;L100 was used to acquire images of the entire sections with H&#x00026;E staining.</p></sec><sec id="sct312526-sec-0012"><title>RT&#x02010;PCR</title><p>TEC RNA was extracted using the RNeasy Micro Kit (QIAGEN, Germany). RNA was stored at &#x02212;80&#x000b0;C until use. Reverse transcription of mRNA was performed with the High Capacity Reverse Transcription Kit (Applied Biosystems). Real&#x02010;time PCR for Oct4, Foxn1, and Dll4 was performed with Fast SYBR Green Master Mix (Applied Biosystems) using the Viia&#x02010;7 Real&#x02010;Time PCR machine (Applied Biosystems). The following primers were used: GAPDH (5&#x02032;&#x02010;ACGGCAAATTCAACGGCACAG&#x02010;3&#x02032; fwd, 5&#x02032;&#x02010;ACACCAGTAGACTCCACGACATAC&#x02010;3&#x02032; rev); Oct4 (5&#x02032;&#x02010;ACATCGCCAATCAGCTTGG&#x02010;3&#x02032; fwd, 5&#x02032;&#x02010;AGAACCATACTCGAACCACATCC&#x02010;3&#x02032; rev); Foxn1 (5&#x02032;&#x02010;CTCGTCGTTTGTGCCTGAC&#x02010;3&#x02032; fwd, 5&#x02032;&#x02010;TGCCTCTTGTAGGGGTGGAAA&#x02010;3&#x02032; rev); and Dll4 (5&#x02032;&#x02010;AGGTGCCACTTCGGTTACAC&#x02010;3&#x02032; fwd, 5&#x02032;&#x02010;GGGAGAGCAAATGGCTGATA&#x02010;3&#x02032; rev). For Dll1, AIRE, and PSMB11 RT&#x02010;PCR was performed using TaqMan Gene expression Assays (Applied Biosystems) and the EagleTaq Universal Master Mix (Roche). All PCR reactions were performed in MicroAmpOptical 96&#x02010;well reaction plates (Applied Biosystems) in a final volume of 20&#x02009;&#x003bc;l and run on the Viia&#x02010;7 Real&#x02010;Time PCR machine (Applied Biosystems). Relative quantification of genes was performed with the 2&#x02212;&#x00394;&#x00394;Ct method, normalized to GAPDH and expressed as fold change relative to the untransduced sample used as control.</p></sec><sec id="sct312526-sec-0013"><title>In Vivo Bioluminescence Images Acquisition</title><p>Small animal bioluminescence imaging (BLI) was performed by using the IVIS SpectrumCT System (Perkin Elmer, Waltham, MA). The system is composed of a low noise, back&#x02010;thinned, back&#x02010;illuminated Charge&#x02010;Coupled Device camera cooled at &#x02212;90&#x000b0;C with a quantum efficiency in the visible range above 85%. Each mouse received an intraperitoneal injection of 150&#x02009;mg luciferin per kilogram body weight 10 minutes before BLI. During image acquisition, the animals were kept at 37&#x000b0;C and under gaseous anesthesia (2%&#x02013;3% isoflurane and 1 l/minute oxygen). Dynamic BLI was performed by acquiring a set of images every 2 minutes from 10 to 20&#x02009;minutes after luciferin injection to detect the highest BLI signal. The images were obtained using the following IVIS SpectrumCT System settings: exposure time = auto, binning = 8, <italic>f</italic> = 1, and a field of view equal to 13&#x02009;cm (field C). No emission filters were used during BLI acquisitions. BLI image analysis was performed by placing a region of interest (ROI) over the leg and by measuring the total flux (photons/seconds) within the ROI. Images were acquired and analyzed using Living Image 4.5 (Perkin Elmer).</p></sec><sec id="sct312526-sec-0014"><title>Ultrasound Imaging</title><p>Acquisition was performed using high performance ultrasonographic equipment (Vevo 2100; Fujifilm VisualSonics, Inc., Canada). Anesthetized mice (isoflurane, Isoba; 4% in oxygen for induction, 2% for maintenance at a rate of 1 l/minute) were positioned in a prone position on a heated imaging platform (THM150 MousePad part of the VisualSonics Vevo Integrated Rail System III) and legs taped to electrocardiograph leads to monitor heart and respiration rates. Body temperature was monitored with a rectal probe and maintained at 36.5&#x000b0;C&#x02009;&#x000b1;&#x02009;0.5&#x000b0;C. A prewarmed ultrasound gel (Aquasonic) was used as a coupling agent between the ultrasound probe and the skin. Two&#x02010;dimensional (2D) ultrasound images in B&#x02010;mode (brightness mode) and power Doppler mode were performed using a high&#x02010;frequency linear array transducer (MicroScan MS 550D; 22&#x02013;55&#x02009;MHz; Fujifilm VisualSonics, Inc.) fixed on a railing system. Vascularization of thymic scaffolds was assessed measuring the fractional moving blood volume (FMBV) on a 2D central scan of the implanted structure, where FMBV represents the percentage of moving blood in a ROI drawn along the perimeter of each scaffold.</p></sec><sec id="sct312526-sec-0015"><title>Contrast Enhancement Ultrasound</title><p>Studies were performed in contrast mode using the MS 250 linear transducer (13&#x02013;24&#x02009;MHz; Fujifilm VisualSonics, Inc.). Before contrast enhancement ultrasound (CEUS) imaging, the tail vein was catheterized using a 27&#x02010;gauge and a PE 20 tubing (2Biological Instruments, Italia). Experiments were performed using MicroMarker untargeted ultrasound contrast agent (CA; Bracco, Switzerland; Fujifilm VisualSonics, Inc.), which consists of gas&#x02010;filled (nitrogen and perfluorobutane gas) microbubbles (MB; from 0.5 to 5 &#x003bc;m diameter) according to manufacturer's instructions. The reconstituted MB were further diluted to a final concentration of 7&#x02009;&#x000d7;&#x02009;10<sup>8</sup>&#x02009;MB per milliliter. A total volume of 110&#x02009;&#x003bc;l of MB suspension was injected in 6 seconds. Sonographic data acquisition started immediately after CA injection and 50&#x02009;seconds cine loops of contrast wash&#x02010;in were acquired. Imaging parameters were held constant throughout each experiment to reduce interstudy variability: transmit power 4%; dynamic range 40&#x02009;dB; center frequency 18&#x02009;MHz; frame rate 20&#x02009;Hz; contrast gain 44&#x02009;dB; gate 4; and beam&#x02010;width standard. Recorded cine loops were processed for time&#x02013;intensity curve analysis using the VevoCQ Advanced Contrast Quantification Software (Fujifilm VisualSonics, Inc.). A ROI was drawn along the perimeter of each scaffold. A mathematical equation model based on lognormal distribution function was used to fit the TICs <xref rid="sct312526-bib-0044" ref-type="ref">44</xref>. The peak enhancement (PE) was extracted from the fitted model.</p></sec><sec id="sct312526-sec-0016"><title>Magnetic Resonance Imaging</title><p>All magnetic resonance imaging (MRI) studies were performed on a 7 T preclinical scanner (Bruker, BioSpec 70/30 USR, Paravision 5.1). All mice underwent imaging under inhalational anesthesia (Isoflurane, 3% for induction and 2% for maintenance in 2 l/minute oxygen) laying prone on a dedicated temperature control apparatus to prevent hypothermia, having breathing rate and body temperature continuously monitored (SA Instruments, Inc., Stony Brook, NY). All mice were prepared to MRI with intravenous injection of gadobutrol (Gadovist; Bayer Schering Pharma, Germany) at a dose of 0.05&#x02009;&#x003bc;mol/g of body weight. MRI protocol included: rapid acquisition with relaxation enhancement (RARE) T1&#x02010;weighted sequence, RARE with variable repetition time TR (RAREVTR) sequence for quantitative T1 relaxation maps, and Fast Low Angle SHot (FLASH) sequence for dynamic contrast&#x02010;enhanced. The sequences were acquired in the axial plane; the thickness of slice axial sections was 1 mm without spacing slice of contiguous images.</p></sec><sec id="sct312526-sec-0017"><title>Statistical Analyses</title><p>All data sets were analyzed using GraphPad Prism software and expressed as median and SD. Statistical significance was assessed using nonparametric one&#x02010;way analysis of variance Kruskal&#x02013;Wallis test with Dunn's multiple comparison. NS, <italic>p</italic>&#x02009;&#x0003e;&#x02009;.05; *, <italic>p</italic>&#x02009;&#x02264;&#x02009;.05; **, <italic>p</italic>&#x02009;&#x02264;&#x02009;.01; ***, <italic>p</italic>&#x02009;&#x02264;&#x02009;.001; ****, <italic>p</italic>&#x02009;&#x02264;&#x02009;.0001. <italic>p</italic> values &#x0003c;.05 were considered significant.</p></sec></sec><sec id="sct312526-sec-0018"><title>Results</title><sec id="sct312526-sec-0019"><title>Generation of Collagen&#x02010;Based Scaffolds Mimicking the Thymic Ultrastructure</title><p>Four different collagen&#x02010;based scaffolds were developed in order to create a 3D ultrastructure closely reproducing the murine thymus morphology <xref rid="sct312526-bib-0045" ref-type="ref">45</xref>, <xref rid="sct312526-bib-0046" ref-type="ref">46</xref>, <xref rid="sct312526-bib-0047" ref-type="ref">47</xref>. Self&#x02010;assembled collagen fibers present typically poor mechanical properties and rapid in vivo enzymatic degradation. To overcome these limitations, a crosslinking reaction was performed using BDDGE. BDDGE, a symmetric di&#x02010;epoxide molecule was selected due to its well&#x02010;known biocompatibility at low concentration and its ability to react selectively with aminic and/or carboxylic functions of collagen molecules depending on the pH of the reaction environment <xref rid="sct312526-bib-0048" ref-type="ref">48</xref>. The crosslinking reaction was performed at 25&#x000b0;C and pH 5.5 to obtain a good compromise between molecular assembling and chemical crosslinking. In these conditions, BDDGE created bridges between collagen fibers improving the mechanical performance and decreasing the enzymatic degradation <xref rid="sct312526-bib-0039" ref-type="ref">39</xref>. By changing the crosslinker concentration and the fibers freeze&#x02010;drying technique, four different collagen&#x02010;based scaffolds were developed (Fig. <xref rid="sct312526-fig-0001" ref-type="fig">1</xref>A). The scaffold Coll3_WC was synthetized without the cortical layer and showed a homogeneous porosity in the upper part, resembling the medullary region of the thymus. This morphology led to a highly open porous&#x02010;structure and consequently permitted a good perfusion of the scaffold when tested in dynamic conditions using the bioreactor. However, Coll3_WC did not completely recapitulate the thymic morphology, since it was lacking a cortical&#x02010;like region, and was, therefore, not further considered for in vitro and in vivo experiments. We further tested samples Coll3_1C and Coll5_1C, which contained both a collagen fibers organization similar to the medulla ECM and a denser pattern suggestive of the cortex. Both samples were characterized by high porosity as demonstrated by density and water squeezing methods (Fig. <xref rid="sct312526-fig-0001" ref-type="fig">1</xref>A) very similar to those observed for Coll3_WC. The higher crosslinking strength used for sample Coll5_1C induced the formation of a thicker cortical layer, precluding an efficacious perfusion of the scaffold. An additional collagen&#x02010;based scaffold was successfully developed (Coll3_2C) adding a second cortical layer while keeping the medulla like structure in the scaffold's center, which created an ultrastructure as in a native thymus. The presence of a double cortical layer slightly decreased the porosity of this type of scaffold and completely prevented its perfusion when the bioreactor perfusion&#x02010;test was performed. Therefore, Coll3_2C was not taken into consideration for further experiments. Figure <xref rid="sct312526-fig-0001" ref-type="fig">1</xref>B shows SEM images of a murine native thymus and of samples Coll3_1C and Coll5_1C. This comparison revealed their similar morphology to native thymic tissue indicating a good biomimicry of the selected scaffolds. Even though the higher amount of BDDGE (5%) led to an increase of thickness of the cortical layer in scaffold Coll5_1C, we considered both Coll3_1C and Coll5_1C appropriate for further experiments.</p><fig fig-type="Figure" xml:lang="en" id="sct312526-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Generation of collagen&#x02010;based scaffolds mimicking the thymic ultrastructure. <bold>(A):</bold> 3% and 5% 1,4&#x02010;butanediol diglycidyl ether (BDDGE) collagen type I scaffolds with different structures were tested to check their porosity, density, and perfusion ability. Scaffold dimension: 8&#x02009;mm&#x02009;&#x000d7;&#x02009;8&#x02009;mm&#x02009;&#x000d7;&#x02009;4&#x02009;mm. <bold>(B):</bold> Electron microscopy images showing the ultrastructure of a murine native thymus and collagen type I scaffolds with two different percentages, 3% (Coll3_1C) and 5% (Coll5_1C), of the crosslinker BDDGE and one cortical layer. Our scaffolds recapitulate the medullary and cortical features of a normal thymus. Scale bar: 200&#x02009;&#x003bc;m for medulla and cortex magnification; 10 mm for overview magnification.</p></caption><graphic id="nlm-graphic-3" xlink:href="SCT3-8-1107-g001"/></fig></sec><sec id="sct312526-sec-0020"><title>Inducible Expression of Oct4 in Adult TECs Results in Transient Expression of Progenitor Markers and Improves Its In Vitro Proliferation</title><p>We isolated primary adult TECs from 4 to 6 weeks old WT mice (C57BL/6) by enzymatic digestion followed by CD45+ cell&#x02010;depletion. After depletion, TEC enrichment was evaluated by flow cytometry based on the frequency of Epcam+ cells and ranged from 15% to 30% in all experiments performed. To promote TEC in vitro expansion and proliferation, we developed a tetracycline&#x02010;regulated Oct4 expression system, consisting of two LVs: a bi&#x02010;directional regulator vector that stably expressed the Tet&#x02010;On transactivator protein (rtTA) and the mCherry fluorescent protein, and a response vector driving the expression of the human <italic>Oct4</italic> coding sequence and the vexGFP marker under the control of a tetracycline&#x02010;inducible promoter (referred to as the Oct4.vexGFP; Fig. <xref rid="sct312526-fig-0002" ref-type="fig">2</xref>A).</p><fig fig-type="Figure" xml:lang="en" id="sct312526-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Inducible expression of Oct4 in adult thymic epithelial cells (TECs) improves its in vitro proliferation and induces the expression of progenitor markers. <bold>(A):</bold> Maps of the lentiviral vectors (LVs) used in this paper. <bold>(B):</bold> Freshly isolated TEC were transduced with PGK.GFP LV or with LVs for the inducible expression of Oct4 cultured with (iOct4 DOXY) or without doxycycline (iOct4 NO DOXY). Untransduced TEC (UT) was used as control. Oct4 immunofluorescence analyses were performed 7 days after transduction. <bold>(C):</bold> Flow cytometric (upper panel) and immunofluorescence (lower panel) analyses for the expression of OCT4&#x02010;vex.GFP 5 or 7 days after doxycycline removal from the culture medium (iOCT4 TECs washout d5 and d7, respectively). <bold>(D):</bold> Flow cytometric analyses for the expression of stem&#x02010;progenitor markers (Thy1.2/CD90, Sca1) and for the expression of molecules important for thymus development and functionality (Epcam, MHC II, and CD44). <bold>(E):</bold> RT&#x02010;PCR analyses for the expression of Oct4 (one&#x02010;way analysis of variance [ANOVA] with Dunn's multiple comparison test; <italic>p</italic> = .0001. UT <italic>n</italic> = 4 replicates; PGK.GFP <italic>n</italic> = 4 replicates; iOCT4 no doxy 0<italic>p</italic> = 5 replicates; iOCT4 no doxy 1<italic>p</italic> = 3 replicates; iOCT4 doxy 0<italic>p</italic> = 4 replicates; iOCT4 doxy 1<italic>p</italic> = 5 replicates; iOCT4 doxy washout = 7 replicates). <bold>(F):</bold> TECs in vitro expansion has been evaluated as fold increase in their proliferation rate. Cultures were counted every 3 days. Fold increase of cells was determined by total cell number recovered divided by the initial cell number plated (one&#x02010;way ANOVA with Newman&#x02013;Keuls multiple comparison test. <italic>p</italic> = .0791 and <italic>p</italic> = .0042 for in vitro passage 0 and passage 1, respectively).</p></caption><graphic id="nlm-graphic-5" xlink:href="SCT3-8-1107-g002"/></fig><p>As proven by immunofluorescence analyses, cells transduced with both vectors and kept in culture in the presence of doxycycline (iOCT4 doxy or iOCT4 TECs) expressed both mCherry and Oct4.vexGFP. On the other hand, TECs transduced with both vectors but cultured in the absence of doxycycline (iOct4 no doxy) expressed mCherry but not Oct4 nor vexGFP (Fig. <xref rid="sct312526-fig-0002" ref-type="fig">2</xref>B). Additionally, the expression level of Oct4 was increased in iOct4 doxy samples as compared with the basal expression level observed in freshly isolated TECs (Supporting Information Fig. <xref rid="sct312526-supitem-0001" ref-type="supplementary-material">S1</xref>) or in UT or PGK.GFP transduced TECs (Fig. <xref rid="sct312526-fig-0002" ref-type="fig">2</xref>D). Oct4 expression, as verified both by flow cytometric analyses (Fig. <xref rid="sct312526-fig-0002" ref-type="fig">2</xref>C, upper panel) and by immunofluorescence (Fig. <xref rid="sct312526-fig-0002" ref-type="fig">2</xref>C, lower panel), was drastically reduced in 5 days (iOCT4 TECs doxy without d5) and completely absent 7 days after doxycycline removal from the culture medium (iOCT4 TECs doxy without d7), confirming the strength and reversibility of the LV system in controlling Oct4 expression upon transduction. Inducible expression of Oct4 induced only a partial de&#x02010;differentiation of TECs, as proven by phenotypical comparison between iOCT4 TECs and UT TECs (Fig. <xref rid="sct312526-fig-0002" ref-type="fig">2</xref>D). Indeed, Oct4 upmodulation led to an increase in the expression levels of precursor&#x02010;like markers (Thy1.2+/Sca1hi) <xref rid="sct312526-bib-0049" ref-type="ref">49</xref>, <xref rid="sct312526-bib-0050" ref-type="ref">50</xref> and a more homogeneous expression of MHC II, an important molecule for TEC functionality. Of note, iOCT4 TECs maintained their epithelial phenotype, as shown by the expression of molecules associated with TECs differentiation (CD44) and with TECs specification (Epcam). Doxycycline washout from the culture reverted iOCT4 TEC phenotype, since 5 days after its removal (doxy without d5) iOCT4 TECs showed a phenotype similar to UT TECs (Fig. <xref rid="sct312526-fig-0002" ref-type="fig">2</xref>D). RT&#x02010;PCR analyses demonstrated that Oct4 mRNA levels, relative to UT, were increased more than 100&#x02010;fold in iOCT4 TECs even after 1 passage in vitro and returned at basal levels upon doxycycline removal (Fig. <xref rid="sct312526-fig-0002" ref-type="fig">2</xref>E). Importantly, upmodulation of Oct4 in TECs strongly improved their in vitro expansion over time. Indeed, iOCT4 TECs showed a twofold increase in proliferation rate as compared with untransduced TECs, indicating that Oct4 is a good candidate for promoting in vitro expansion of postnatal TECs (Fig. <xref rid="sct312526-fig-0002" ref-type="fig">2</xref>F). Moreover, the mRNA levels of Foxn1, AIRE, PSMB11, and Dll1, fundamental genes for TEC growth, differentiation, and function, did not change after transduction or upon Oct4 downregulation. On the other hand, Dll4 expression, a Foxn1&#x02010;target gene, which is critical for the commitment of lymphoid precursors to a T&#x02010;cell fate <xref rid="sct312526-bib-0051" ref-type="ref">51</xref>, increased when iOCT4 TEC differentiation was induced after doxycycline washout (Supporting Information <xref rid="sct312526-supitem-0002" ref-type="supplementary-material">Fig. S2</xref>).</p></sec><sec id="sct312526-sec-0021"><title>3% BDDGE Collagen Type I Scaffolds Are More Efficient for iOCT4 TECs Expansion and the Formation of Vascular Structures After In Vivo Transplantation in Athymic Nude Mice</title><p>In order to use postnatal TECs for the generation of transplantable thymic&#x02010;like structures, we exploited the 3D collagen type I scaffolds with different BDDGE crosslinking strength as previously described (Fig. <xref rid="sct312526-fig-0001" ref-type="fig">1</xref>). UT TECs or iOCT4 TECs were seeded in 3% or 5% BDDGE scaffolds between day 10 and 13 after 2D culture and kept in culture at 37&#x000b0;C in X&#x02010;VIVO10 medium, in the presence of the ROCK inhibitor, with or without doxycycline. At different time points after TEC seeding, 3D collagen scaffolds were visualized using confocal microscopy demonstrating that the 3D structure allowed the survival and expansion of iOCT4 TECs up to 30&#x02009;days after isolation (Supporting Information <xref rid="sct312526-supitem-0003" ref-type="supplementary-material">Fig. S3</xref>).</p><p>For in vivo experiments, thymic scaffolds were kept in culture for less than 5 days after TEC seeding in the 3D structure and were then transplanted subcutaneously in the back or inguinal area of CD1 BALB/c nude mice. Ultrasound analyses of transplanted scaffolds were performed to detect and quantify vascular structures, which are needed for nutrients supply into the organoid. We observed that 3% BDDGE scaffolds were better vascularized than 5% BDDGE scaffolds and this was evident both for UT and for iOCT4 TEC&#x02010;seeded structures (Fig. <xref rid="sct312526-fig-0003" ref-type="fig">3</xref>A). These results were also confirmed by CEUS analyses (Fig. <xref rid="sct312526-fig-0003" ref-type="fig">3</xref>B) of the same mice shown in panel (A), which were transplanted with 3% UT TECs (upper panel) or with iOCT4 TECs&#x02010;seeded (lower panel) scaffolds. Of note, images acquired 2 weeks after grafting revealed the presence of a constant vascularization only inside the iOCT4 TEC&#x02010;seeded structures (lower panel). MRI of a mouse transplanted with 3% BDDGE scaffold seeded with iOCT4 TECs performed 2 weeks after transplantation confirmed persistent perfusion of the 3D construct, demonstrated by the gadolinium&#x02010;related enhancement (Fig. <xref rid="sct312526-fig-0003" ref-type="fig">3</xref>C, white arrows). By immunohistochemistry, higher numbers of CD31+ endothelial cells were detected in the central areas of the iOCT4 TECs seeded scaffold as compared with empty scaffolds or to those seeded with UT or no doxy iOct4 TECs (Fig. <xref rid="sct312526-fig-0003" ref-type="fig">3</xref>D, <xref rid="sct312526-fig-0003" ref-type="fig">3</xref>E).</p><fig fig-type="Figure" xml:lang="en" id="sct312526-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>3% 1,4&#x02010;butanediol diglycidyl ether (BDDGE) collagen type I scaffolds are more efficient in the formation of vascular structures after in vivo transplantation in athymic nude mice. <bold>(A):</bold> Ultrasound image of a mouse transplanted with 3% (left panel) or 5% BDDGE (right panel) scaffolds seeded with untransduced thymic epithelial cell (TEC) or with iOCT4 TECs. Images were acquired 2 weeks after in vivo transplant. Micromarker contrast agent (CA) was injected at time 0 and the uptake of the CA was recorded for 50&#x02009;seconds. <bold>(B):</bold> Quantitative analysis of 3% BDDGE scaffolds perfusion was performed using Vevo CQ software: the peak enhancement (PE) was calculated for the largest cross&#x02010;section of each scaffold. Gray&#x02010;scale image and the nonlinear contrast image of the two scaffolds (left) are displayed with the corresponding color&#x02010;coded PE parametric map (right). <bold>(C):</bold> Magnetic resonance imaging of a mouse transplanted with 3% BDDGE scaffold seeded with LV iOct4.vexGFP transduced TEC performed 2 weeks after scaffold transplantation, showing, by contrast, the perfusion of the scaffold before and after gadolinium injection (white arrows). <bold>(D):</bold> Scaffold sections, 2 weeks after transplantation, were stained with H&#x00026;E or CD31 to detect new blood vessel formation. For each group of mice, a central section of the scaffold was chosen for IHC analyses. Scale bar: H&#x00026;E 500&#x02009;&#x003bc;m, CD31 500&#x02009;&#x003bc;m, CD31 inset 200&#x02009;&#x003bc;m. <bold>(E):</bold> Enlargement (50&#x02009;&#x003bc;m) of iOCT4 scaffold section stained with CD31 antibody 2 weeks after transplantation. Each cross indicates CD31 positive endothelial cells, allowing a better discrimination for the formation of a primordium of vascular network.</p></caption><graphic id="nlm-graphic-7" xlink:href="SCT3-8-1107-g003"/></fig><p>Since 3% BDDGE collagen type I scaffolds showed a better performance than 5% BDDGE scaffolds, we decided to use this type of 3D structure for further investigations. To attest the in vivo persistence of 3% BDDGE scaffolds, the 3D structures were transplanted in athymic nude mice and analyzed with the IVIS SpectrumCT in vivo imaging system. Each transplanted scaffold was obtained by seeding TEC UT or transduced with PGK.GFP LV or with the Oct4&#x02010;inducible LV system. For these experiments, we used a bi&#x02010;directional regulator vector that stably expressed the Tet&#x02010;On trans&#x02010;activator protein (rtTA) and the firefly&#x02010;luciferase gene (Fig. <xref rid="sct312526-fig-0002" ref-type="fig">2</xref>A). BLI of transplanted animals was obtained by injecting luciferin 1 week (Fig. <xref rid="sct312526-fig-0004" ref-type="fig">4</xref>A, upper panel) or 2 weeks (Fig. <xref rid="sct312526-fig-0004" ref-type="fig">4</xref>A, lower panel) after transplantation. Luciferase signal was clearly visible in mice transplanted with iOCT4 TEC&#x02010;seeded scaffolds (mice 4, 5, 6, 7) 1 week after implantation but dropped 1 week after and was completely absent at both time points in control mice (Supporting Information <xref rid="sct312526-supitem-0006" ref-type="supplementary-material">Table S1</xref> shows ROI values for each mouse at each time point of analysis). Mice number 5 and 6, transplanted with iOCT4 TECs&#x02010;seeded scaffolds, showed in vivo persistency of iOCT4 TECs within the scaffold (Fig. <xref rid="sct312526-fig-0004" ref-type="fig">4</xref>B). With these analyses, we confirmed the in vivo persistence of iOCT4 TECs inside the scaffold even though the fluorescence intensity and the number of live iOCT4 TECs were likely reduced 2 weeks after scaffold implantation. Interestingly, immunohistochemical analyses of tissue sections from grafted scaffolds seeded with either UT TECs or with iOCT4 TECs, exposed or not to doxycycline, demonstrated the presence of both cortical (CK8+ cells) and medullary (CK5+ cells) TECs in their inner part. The number of CK5+ and CK8+ cells was most prominent in iOCT4 TECs thymic scaffolds indicating that these cells were able to survive and proliferate better in vivo under the chosen conditions. Strikingly, in iOCT4 TEC&#x02010;seeded scaffolds, we detected the formation of small clusters formed by few mTECs (CK5+) and cTECs (CK8+), revealing that the 3D structure used in our experiments supports the compartmentalization and proliferation of mature TECs (Fig. <xref rid="sct312526-fig-0004" ref-type="fig">4</xref>C).</p><fig fig-type="Figure" xml:lang="en" id="sct312526-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>3% 1,4&#x02010;butanediol diglycidyl ether collagen type I scaffolds are more efficient for iOCT4 thymic epithelial cells (TECs) expansion after in vivo transplantation in athymic nude mice. <bold>(A):</bold> Images of transplanted animals were acquired by IVIS series preclinical in vivo system, 1 week (upper panel) or 2 weeks (lower panel) after scaffolds transplantation. Color scale is reported on the right side of the image. <bold>(B):</bold> Quantitative optical and computed tomography using IVIS series preclinical in vivo imaging system of mouse 5 (upper panel) or mouse 6 (lower panel), 1 week or 2 weeks after transplantation, respectively. Color scale is reported on the right side of the image. <bold>(C):</bold> Immunohistochemistry analyses for detection of CK5+ medullary TECs or CK8+ cortical TECs inside scaffolds of transplanted animals 2 weeks after transplantation in athymic nude mice. Inner and serial sections were chosen for the analysis. Scale bar: 200&#x02009;&#x003bc;m, 100&#x02009;&#x003bc;m for magnification on the right panel.</p></caption><graphic id="nlm-graphic-9" xlink:href="SCT3-8-1107-g004"/></fig></sec><sec id="sct312526-sec-0022"><title>Thymic&#x02010;Like Structures Generated with iOCT4 TECs Do Not Support Clear Thymopoiesis After Implantation in Athymic Nude Mice</title><p>We next evaluated whether implanted TEC&#x02010;seeded 3D structures had the ability to attract T&#x02010;cell precursors and subsequently allow for their differentiation into T lymphocytes. For this purpose, thymic&#x02010;like structures were implanted s.c. in athymic nude mice and the presence and maturation of newly formed T lymphocytes were evaluated in the periphery at different time points (4, 6, and 10 weeks) after implantation. We performed immunohistochemistry analyses of 3D thymic&#x02010;like structures from mice transplanted with 3% BDDGE empty scaffolds or seeded with UT or LV iOCT4&#x02010;transduced TECs, cultured with or without doxycycline, 2 weeks after transplantation. CD3+ lymphocytes were absent in empty or UT scaffolds, barely detectable in those seeded with iOCT4 no doxy TECs and slightly increased in thymic scaffolds seeded with iOCT4 TECs (Fig. <xref rid="sct312526-fig-0005" ref-type="fig">5</xref>A). Unfortunately, flow cytometric analysis could not be performed because of the scarcity of the cells recovered from the scaffolds and immunohistochemistry staining for CD4 and CD8 were not possible in scaffolds, thus preventing us from positively concluding that thymopoiesis was taking place in the iOCT4 TEC&#x02010;seeded scaffolds. Flow cytometry analyses of peripheral blood (PB) of transplanted animals showed that at the first time point analyzed after transplantation (4 weeks), the frequency of circulating CD45+CD3+ cells in the PB of mice transplanted with iOCT4 TEC&#x02010;seeded thymic&#x02010;like structures was higher than in control groups (UT/PGK.GFP and TECs no doxy scaffolds; Fig. <xref rid="sct312526-fig-0005" ref-type="fig">5</xref>B). The frequency of CD45+CD3+ cells in the PB of mice transplanted with iOCT4 TECs&#x02010;containing thymic&#x02010;like structures kept increasing 6 and 10 weeks after transplantation, but it was not statistically different from the increment observed in control groups (Fig. <xref rid="sct312526-fig-0005" ref-type="fig">5</xref>B). In the PB of mice transplanted with iOCT4 TEC&#x02010;seeded 3D thymic&#x02010;like structures, CD45+CD3+CD4+ and CD45+CD3+CD8+ cells were present, and their frequency improved over time (Fig. <xref rid="sct312526-fig-0005" ref-type="fig">5</xref>C).</p><fig fig-type="Figure" xml:lang="en" id="sct312526-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>Thymic scaffolds generated with iOCT4 thymic epithelial cell (TEC) do not support clear thymopoiesis after implantation in athymic nude mice. <bold>(A):</bold> Two weeks after scaffold transplantation, ex vivo immunohistochemistry analysis of mice transplanted with scaffolds seeded with untransduced TEC (UT) or with lentiviral vector (LV) for Oct4 inducible expression (doxy or no doxy) was performed to detect thymocytes development by CD3 staining. Scale bar: 100&#x02009;&#x003bc;m. <bold>(B, C):</bold> Peripheral blood analyses of mice transplanted with 3% 1,4&#x02010;butanediol diglycidyl ether collagen type I scaffolds seeded with 60,000&#x02013;400,000 of UT, LV PGK.GFP, or with LV iOct4&#x02010;transduced TEC cultured in the presence or absence of doxycycline at different time points after subcutaneously in vivo transplantation (mean of four experiments). In (B), the graphs summarize the frequency of CD45+CD3+ cells in different groups of animals at indicated time points (one&#x02010;way analysis of variance with Dunn's multiple comparison test. At 4 weeks: iOCT4 TEC scaffolds <italic>n</italic> = 13; UT/PGK.GFP scaffolds <italic>n</italic> = 9; TECs no doxy scaffolds <italic>n</italic> = 9; empty/no scaffold <italic>n</italic> = 4, <italic>p</italic> = .0083. At 6 weeks: iOCT4 TECs&#x02010;scaffolds <italic>n</italic> = 11; UT/PGK.GFP scaffolds <italic>n</italic> = 7; TECs no doxy scaffolds <italic>n</italic> = 8; empty/no scaffolds <italic>n</italic> = 3, <italic>p</italic> = .1216. At 10 weeks: iOCT4 TECs&#x02010;scaffolds <italic>n</italic> = 9; UT/PGK.GFP scaffolds <italic>n</italic> = 5; TECs no doxy scaffolds <italic>n</italic> = 5; empty or no scaffolds <italic>n</italic> = 2, <italic>p</italic> = .1854). In (C), the frequency of CD4+, CD8+, and DN cell of the same groups of animals 4, 6, and 10 weeks after transplantation are reported as pie charts.</p></caption><graphic id="nlm-graphic-11" xlink:href="SCT3-8-1107-g005"/></fig><p>Increased proportions of activated/memory CD4+ T cells were evident in iOCT4 TEC&#x02010;transplanted mice, which suggest lymphopenia&#x02010;induced homeostatic expansion of newly generated T cells (Supporting Information <xref rid="sct312526-supitem-0004" ref-type="supplementary-material">Fig. S4</xref>) <xref rid="sct312526-bib-0052" ref-type="ref">52</xref>. At sacrifice, we did not detect significant differences in proportion and absolute counts of CD4+ and CD8+ T cells in spleen and lymph nodes among the different experimental groups (Supporting Information <xref rid="sct312526-supitem-0005" ref-type="supplementary-material">Fig. S5</xref>).</p></sec><sec id="sct312526-sec-0023"><title>3% BDDGE Collagen Type I Scaffold Is Degraded 2 Weeks After In Vivo Transplantation</title><p>Our results clearly show that the 3% BDDGE scaffold formulation could efficiently support iOCT4 TEC growth, survival, and function in a 3D environment and after in vivo transplantation. However, the luciferase signal dropped 2 weeks after in vivo implantation, suggesting that the 3D thymic&#x02010;like structure was damaged or completely lost (Fig. <xref rid="sct312526-fig-0004" ref-type="fig">4</xref>A). Indeed, iOCT4 TEC&#x02010;seeded thymic&#x02010;like structures were able to support T&#x02010;cell differentiation up to 4&#x02009;weeks after implantation, but this capability was drastically reduced or lost afterward.</p><p>To check the integrity of the thymic&#x02010;like structures over the course of the first 2 and 4 weeks, MPO and F4/80 staining were performed on grafts. Immunostaining clearly indicated that, already at 2 weeks after transplantation, neutrophils and macrophages colonize thymic scaffolds, irrespective of the type of cells used initially to seed the scaffolds (Fig. <xref rid="sct312526-fig-0006" ref-type="fig">6</xref>A). Moreover, the H&#x00026;E staining showed that phagocytes invaded the scaffold from the derma just above the site of transplantation. We hypothesize that innate immune cells induce a very quick degradation of scaffolds' ECM in vivo, compromising the ability of the 3D structure to support TEC growth and functionality and consequent thymopoiesis (Fig. <xref rid="sct312526-fig-0006" ref-type="fig">6</xref>).</p><fig fig-type="Figure" xml:lang="en" id="sct312526-fig-0006" orientation="portrait" position="float"><label>Figure 6</label><caption><p>3% 1,4&#x02010;butanediol diglycidyl ether collagen type I scaffold are degraded starting from 2 weeks after in vivo transplantation. Immunohistochemistry analyses for myeloperoxidase (MPO) and F4/80 detection. Mice were transplanted with scaffolds seeded with untransduced thymic epithelial cell (TEC) or with LV iOct4&#x02010;transduced TEC, 2 and 4 weeks after scaffold transplantation in athymic nude mice scaffolds were recovered and stained with MPO and F4/80 for neutrophils and macrophages detection, respectively. Inner and serial sections were chosen for the analysis. Scale bar: H&#x00026;E 500&#x02009;&#x003bc;m, MPO 50&#x02009;&#x003bc;m, F4/80 (10&#x000d7;) 200&#x02009;&#x003bc;m, and the inset 50&#x02009;&#x003bc;m.</p></caption><graphic id="nlm-graphic-13" xlink:href="SCT3-8-1107-g006"/></fig></sec></sec><sec id="sct312526-sec-0024"><title>Discussion</title><p>In the last decade, several efforts have been made to improve tissue&#x02010;engineering methods to create artificial thymic organoids or to grow thymic tissue ex vivo <xref rid="sct312526-bib-0019" ref-type="ref">19</xref>, <xref rid="sct312526-bib-0020" ref-type="ref">20</xref>.</p><p>In the search for the most suitable biomaterial to generate transplantable 3D thymic structures, we selected collagen. Indeed, collagen can be easily isolated from animal connective tissues and it has been widely used in tissue engineering, because it is biocompatible, biodegradable, and bioresorbable. It can be simply assembled in fibers closely reproducing the chemical, physical, and morphological characteristics of those present in soft tissues <xref rid="sct312526-bib-0032" ref-type="ref">32</xref>, <xref rid="sct312526-bib-0033" ref-type="ref">33</xref>. The 3D scaffolds that we developed have been formulated by modifying type I collagen matrix with different crosslinking approaches to reduce scaffold degradation rate when transplanted in vivo. The 3% BDDGE crosslinker concentration has been finally chosen over the 5% concentration as it conferred to the 3D scaffold a level of porosity, which is indispensable for its performance, which resembled the one typical native thymic ultrastructure. Indeed, scaffolds should have a well&#x02010;connected porous structure and a high porosity to ensure cellular penetration, nutrients diffusion, and waste products removal in order to decrease any interference between the scaffold and surrounding tissues <xref rid="sct312526-bib-0053" ref-type="ref">53</xref>. To this scope, we firstly analyzed the ultrastructure of a juvenile murine thymus and optimized the protocol for creating scaffolds that would be characterized by a porous part, similar to the thymic medulla, and a fibrous part recapitulating the thymic cortex. Particularly, the vertical and controlled freezing allowed the creation of an aligned highly porous structure at one side and a less porous but hardier surface at the other side of the scaffold (Coll3_1C) <xref rid="sct312526-bib-0041" ref-type="ref">41</xref>. As a consequence, Coll3_1C scaffolds seemed to be the most appropriate among all the scaffolds tested for the creation of thymic organoids, since they combined a well&#x02010;fitted morphology with a high porosity. Even though the pore size of Coll3_1C scaffolds was bigger than that of the native thymus, this attribute ensured a higher cell penetration and scaffold colonization. By using the 3% BDDGE 3D scaffolds, we could demonstrate that iOCT4 TECs were able to colonize them and to expand in vitro for up to 1 month, whereas untransduced TECs were lost in less than 2 weeks after seeding in the scaffolds. Hence, our approach that combined the use of collagen fibers with the development of a 3D structure met important structural characteristics of the native thymus and reproduced a 3D environment similar to the thymic ECM, perfectly recognized by TECs.</p><p>In vitro 3D models for the generation of T cells, made with fetal thymic cells (fetal thymic organoids cultures [FTOCs]) <xref rid="sct312526-bib-0054" ref-type="ref">54</xref>, demonstrated to partially support the generation of all T&#x02010;cell subsets. To avoid the use of fetal TECs, as a variant of FTOC, the RTOC (reaggregate thymic organ cultures [RTOCs]) <xref rid="sct312526-bib-0055" ref-type="ref">55</xref> were developed by using adult TECs or adult TEPCs but they failed to support HSC differentiation toward T&#x02010;cell lineages <xref rid="sct312526-bib-0026" ref-type="ref">26</xref>. Indeed, adult TECs lose their ability to aggregate ex vivo and fail to maintain expression of important molecules, such as those of the Notch signaling pathway, when are not supported by a well&#x02010;organized 3D environment. Based on this insight, other researchers were able to successfully establish in vitro bone marrow derived cell lines (OP9&#x02010;DL1 or MS5&#x02010;Dll4 or MS5&#x02010;Dll1) or human thymic stromal cell lines (TEC&#x02010;Dl1) overexpressing the Notch ligand delta&#x02010;like 1 (Dll1) and Notch ligand delta&#x02010;like 4 (Dll4) <xref rid="sct312526-bib-0056" ref-type="ref">56</xref>, <xref rid="sct312526-bib-0057" ref-type="ref">57</xref>. Even though these experimental systems were able to partially support thymocyte development in vitro, they could not recapitulate the complexity of the 3D thymic microenvironment and were not meant to create a functional approach for in vivo thymic regeneration. Our methodologies aimed at accomplishing all these requirements since it combined the use of 3D scaffolds, fully recapitulating the thymic microenvironment, with murine adult derived iOCT4 TECs. By an inducible upmodulation of Oct4 expression, we were able to promote mature TECs in vitro expansion without altering their functionality. Indeed, iOCT4 TECs maintained an epithelial phenotype, since they still expressed Epcam and CD44 after transduction, and most importantly, did not lose the expression of molecules such as Foxn1, AIRE, Dll1, Dll4, and MHC class II, proven to be fundamental for TEC functionality. However, a deeper expression profile analysis would be necessary in order to fully dissect the molecular mechanism by which Oct4 upmodulation acts in remodeling TEC expression profile and epigenome, since the role of Oct4 in promoting stem&#x02010;progenitor cells self&#x02010;renewal during embryogenesis or in inducing pluripotency in somatic cells is well known <xref rid="sct312526-bib-0034" ref-type="ref">34</xref>, <xref rid="sct312526-bib-0058" ref-type="ref">58</xref>. Although this point needs further investigation, the induction of Oct4 in our approach is only transient and our results demonstrated that the transient expression of Oct4 did not drastically change the cell lineage identity of adult TECs, since their epithelial phenotype was preserved and most importantly they did not lose the expression of molecules and gene essential for TEC functionality. Additionally, when tetracycline was removed from the culture medium, iOCT4 TECs reacquired a phenotype very much resembling that of freshly isolated TECs, further confirming that our LV&#x02010;based system was able to control the expression of Oct4 without radically changing the nature of adult TECs. Importantly, Oct4 expression in adult TECs induced the expansion of a population of cells that presented an improved ability to support T&#x02010;cell differentiation in vivo, as compared with untransduced TEC or TEC transduced with the iOct4 LV system but not cultured with tetracycline, since thymic scaffolds generated with iOCT4 TEC supported a first wave of thymopoiesis 4 weeks after implantation in athymic nude mice. Indeed, in mice transplanted with 3D iOCT4 TEC structure, CD45+CD3+ cells were clearly visible already at 2 weeks after scaffold implantation and their frequency kept increasing over time, up to 10 weeks after transplant. Even though we detected some CD3+ cells in control groups, their frequency was significantly higher in animals transplanted iOCT4 TEC&#x02010;seeded scaffolds at the first time point analyzed (4 weeks). Significantly, in the PB of mice implanted with iOCT4 TEC&#x02010;seeded scaffolds, discrete populations of CD45+CD3+CD4+ and CD45+CD3+CD8+ cells were evident and improved over time. Of note, the frequency of T&#x02010;cell subsets in the PB of mice transplanted iOCT4 TEC&#x02010;seeded scaffolds was higher than that observed in other publications using similar approaches for thymus regeneration <xref rid="sct312526-bib-0022" ref-type="ref">22</xref>, <xref rid="sct312526-bib-0059" ref-type="ref">59</xref>. In line with previous publications, we found that in all groups of animals, over 50% of circulating CD45+CD3+ cells did not express CD4 or CD8 and they are marked as double negative (DN) CD4&#x02212;CD8&#x02212; cells. A slight reduction in the frequency of DN T cells was detected in all transplanted animals <xref rid="sct312526-bib-0060" ref-type="ref">60</xref>, <xref rid="sct312526-bib-0061" ref-type="ref">61</xref>. We could not exclude that also in athymic nude mice a residual thymopoiesis may occur over time and this could explain the appearance of SP CD4+ and CD8+ cells also in the PB of mice that were not transplanted with scaffolds. Nonetheless, the increase of the DN and SP cell frequencies observed in these animals was not constant and did not keep increasing over time as conversely observed for mice implanted with iOCT4 TEC&#x02010;seeded scaffolds. Nevertheless, no major biological effects were achieved in animals transplanted with iOCT4 TEC&#x02010;seeded scaffolds and no amelioration of the nude phenotype was observed.</p><p>The strength of our system resides in the induction of Oct4 expression in TECs, which increases TEC proliferative ability and makes iOCT4 TECs functionally capable of growing in a 3D structure. We provide the first evidence that adult TECs can expand and survive in vitro. Further optimization of the experimental setting exploiting also novel recent biotechnological tools as well as the use of a biomimetic smart scaffold functionalized to decrease immune reactions need to be implemented for the future development of the protocol.</p><p>One of the most important features that our 3D thymic structure addressed was their ability to be vascularized in vivo after implantation. The presence of new blood vessel formation was already detectable 2 weeks after transplantation and most importantly more evident in those animals transplanted with scaffolds preseeded with iOCT4 TECs. Quantitative PE analyses of 3D thymic structure perfusion clearly demonstrated that iOCT4 TEC&#x02010;seeded scaffolds had a higher and continuous blood&#x02010;perfusion than those generated with untransduced TECs. Additionally, ex vivo immunocytochemistry analyses revealed a substantial number of CD31+ endothelial cells spread in iOCT4 TEC&#x02010;seeded scaffolds. These results indicate that 3% BDDGE collagen type I scaffolds could be easily perfused and colonized by endothelial cells and suggest a potential role of iOCT4 TECs in promoting de novo vascularization after in vivo implantation. Of note, small clusters of mTECs (cytokeratin 5+) and cTECs (cytokeratin 8+) were detectable in iOCT4 TEC&#x02010;seeded scaffolds starting from 2 weeks after in vivo transplantation. Notably, these cell agglomerates were not present or barely visible in transplanted scaffolds preseeded with cells different from iOCT4 TECs. Moreover, ultrasound and MRI studies performed on our 3D structures in vivo demonstrated the possibility to detect them with imaging techniques commonly applied in patients for soft tissues assessment. Both MRI and ultrasound allowed to easily distinguish the transplanted thymic structure from the surrounding soft tissue and to monitor their vascularization. Hence, MRI and US could represent useful radiological tools to monitor scaffolds engraftment in a potential future clinical application of our strategy.</p><p>Many studies have demonstrated that tissue engineered constructs failed to succeed because scaffolds were insufficiently porous, avoiding the formation of new blood vessels, or because they rapidly degraded after in vivo implantation <xref rid="sct312526-bib-0062" ref-type="ref">62</xref>. Despite achieving good porosity and observing new blood vessel formation in our 3D thymic&#x02010;like structures, we also noticed that iOCT4 TEC&#x02010;seeded thymic&#x02010;like organoids were rapidly degraded in vivo, impairing the growth of both iOCT4 TECs and endothelial cells, and consequently limiting their efficacy in sustaining thymopoiesis after implantation. A strong infiltration of neutrophils and macrophages, detected 2 and 4 weeks after in vivo subcutaneous transplantation, could be the major cause of the rapid core degradation. Further improvement of scaffold formulation is necessary in order to increase their in vivo persistency and could be achieved by using different methods for the crosslinking of collagen fibers that could also potentially be more appropriate for future human medical application of the 3D scaffolds <xref rid="sct312526-bib-0063" ref-type="ref">63</xref>. Additionally, to improve the establishment of a functional and stable vascular perfusion inside the 3D structure, we are also considering functionalization of 3D scaffolds with angiogenic signals that would guarantee a local and sustained growth factor delivery ultimately leading to enhanced and sustained thymic organoids vascularization <xref rid="sct312526-bib-0064" ref-type="ref">64</xref>.</p></sec><sec id="sct312526-sec-0025"><title>Conclusion</title><p>In this study, we provided proof of principle that collagen type I scaffolds possess important features that could be exploited and further implemented for thymic tissue engineering such as biocompatibility, biodegradability, and mechanical properties to ensure cell penetration and scaffold vascularization. Additionally, we showed that gene modification, mediated by Oct4 induction, allowed the use of postnatal TECs for the formation of 3D thymic&#x02010;like structures. The lack of functionality observed in immunodeficient mice after iOCT4 scaffolds transplantation could be due to the extensive colonization of the scaffold by innate immune cells of the host, in particular high number of neutrophils and macrophages. Scaffolds degradation was already visible and detectable 2 weeks after in vivo implantation, preventing any functional studies and most importantly impairing iOCT4 TEC organoids' ability to sustain de novo thymopoiesis. As a future perspective, to overcome the hurdles encountered, we might further implement the protocol by using higher numbers of TECs and exploiting alternative biomimetic and functionalized 3D scaffolds able to support long&#x02010;term in vivo persistence and thymopoietic activity of thymic organoids.</p></sec><sec id="sct312526-sec-0027"><title>Author Contributions</title><p>I.B.: conception and design, collection and/or assembly of data, data analyses and interpretation, manuscript writing, final approval of manuscript; M.S., E.C.: provision of study material, final approval of manuscript; E.D., E.F., G.E.M., F.F.: collection and/or assembly of data, final approval of manuscript; L.P., A.S., T.C.: collection and/or assembly of data, data analyses and interpretation, final approval of manuscript; M.C., A.E., A.L., L.N.: final approval of manuscript; T.D.T., L.S.S.: provision of study material; A.T.: financial support, final approval of manuscript; G.A.H., A.V.: conception and design, financial support, manuscript writing, final approval of manuscript; M.B.: conception and design, collection and/or assembly of data, data analyses and interpretation, financial support, manuscript writing, final approval of manuscript.</p></sec><sec sec-type="COI-statement" id="sct312526-sec-0028"><title>Disclosure of Potential Conflicts of Interest</title><p>The authors indicated no potential conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="sct312526-supitem-0001"><caption><p>
+<bold>Figure S1</bold> Freshly isolated TEC were analyzed by FACS analyses for the expression of stem&#x02010;progenitor markers (CD44, Thy 1.2, Sca1) and for the expression of molecules important for thymus development and functionality (Epcam, MHC II) (FMO: freshly isolated TEC not stained with anti&#x02010;OCT4 antibody).</p></caption><media xlink:href="SCT3-8-1107-s001.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sct312526-supitem-0002"><caption><p>
+<bold>Figure S2</bold> Expression of molecules important for thymus functionality (FOXN1, DLL4, DLL1, AIRE and PSMB11) was evaluated by real time PCR on transduced or not transduced TEC. Each group represents a pool of samples from different experiment. A minimum of 3 samples was evaluated for each group. (One&#x02010;way ANOVA with Dunn's multiple comparison test. p = .6910 FOXN1, p = .0121 DLL4, p = .902 AIRE, p = .898 DLL1).</p></caption><media xlink:href="SCT3-8-1107-s002.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sct312526-supitem-0003"><caption><p>
+<bold>Figure S3</bold> Freshly isolated TEC were transduced with PGK.GFP LV or with LVs for the inducible expression of Oct4 (iOct4 DOXY). 2*10<sup>5</sup> PGK.GFP transduced TECs or iOCT4 TECs were seeded in 3% BDDGE scaffolds between day 10 and 13 after isolation and kept in culture at 37&#x000b0;C in X&#x02010;VIVO10 medium, in the presence of the ROCK Inhibitor. At different time points (19 and 29&#x02009;days) after seeding into collagen scaffolds, 3D thymic structures were visualized at the Confocal Leica TCS SP2. Z&#x02010;stack sections were acquired at 20&#x003bc;c depth from the organoid surface. iOCT4 TECs were able to disseminate into the scaffold and to form a cell&#x02010;layer. Conversely, PGK.GFP transduced TECs were at a single cell even after 26&#x02009;days of in vitro culture.</p></caption><media xlink:href="SCT3-8-1107-s003.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sct312526-supitem-0004"><caption><p>
+<bold>Figure S4</bold> Peripheral blood (PB) analyses of mice transplanted subcutaneously with 3% BDDGE collagen type I scaffolds 4 weeks after transplantation. Scaffolds were seeded with 140.000 un&#x02010;transduced TECs (UT), LV PGK.GFP transduced TECs or with LV iOct4&#x02010;transduced TECs cultured in the presence or absence of doxycycline (mean of 3 experiments). Graphs summarize the frequency of na&#x000ef;ve (CD44&#x02010;CD62L+), central memory (CD44+ CD62L+) and effector (CD44+ CD62L&#x02010;) CD4 and CD8 T cells, calculated in the CD45&#x02009;+&#x02009;CD3+ gate, in different groups of animals (one&#x02010;way ANOVA with Dunn's multiple comparison test. CD4+ Na&#x000ef;ve subset p = .006. CD4+ central memory p = .2266. CD4+ effector p = .01. CD8+ Na&#x000ef;ve subset p = .0119. CD4+ central memory p = .0451. CD4+ effector p = .0401.</p></caption><media xlink:href="SCT3-8-1107-s004.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sct312526-supitem-0005"><caption><p>
+<bold>Figure S5</bold> Mice transplanted with 3%BDDGE collagen type I scaffolds seeded with 60.000&#x02013;400.000 of un&#x02010;transduced TEC (UT), LV PGK.GFP or with LV iOct4&#x02010;transduced TEC cultured in the presence or absence of doxycycline at different time points after subcutaneously in vivo transplantation were sacrificed at 4 weeks and 10 weeks at 4 weeks. In panel A the graphs summarize the absolute cell counts of CD4+ and CD8+ T cells in different groups of animals at indicated time points (mean of 2 experiments. One&#x02010;way ANOVA with Dunn's multiple comparison test. P = .6711 CD4+ at 4 weeks in lymph nodes; P = .3592 CD8+ at 4 weeks in lymph nodes. P = .9720 CD4+ at 4 weeks in spleen; P = .5880 CD8+ at 4 weeks in spleen. P = .2539 CD4+ at 10 weeks in lymph nodes; P = .1692 CD8+ at 10 weeks in lymph nodes. P = .2898 CD4+ at 10 weeks in spleen; P = .1940 CD8+ at 10 weeks in spleen). In panel B are reported the frequency of CD45&#x02009;+&#x02009;CD3&#x02009;+&#x02009;CD4+ cells at the same time points of the same group of animals (One experiment. One&#x02010;way ANOVA with Dunn's multiple comparison test. P = .3301 CD4+ at 10 weeks in lymph nodes and P = .1283 in spleen).</p></caption><media xlink:href="SCT3-8-1107-s005.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sct312526-supitem-0006"><caption><p>
+<bold>Table S1 In vivo persistence of iOCT4 TECs inside the scaffold.</bold>
+</p><p>In the table are reported ROI values for each mouse transplanted with empty scaffolds (mouse 1 and 2) or scaffolds with untransduced TEC (mouse 2) or with LV iOct4&#x02010;transduced TEC cultured without (mouse 3) or with doxycycline (mouse 4,5,6,7), 2 and 4 weeks after scaffold transplantation in athymic nude mice. Mouse 8 and 9 were not transplanted and used as internal controls.</p></caption><media xlink:href="SCT3-8-1107-s006.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="sct312526-sec-0026"><title>Acknowledgments</title><p>We thank Cesare Covino (San Raffaele ALEMBIC Core Facility) for microscopy studies and Federica Cugnata (University Centre for Statistics in the Biomedical Sciences, CUSSB, Universit&#x000e0; Vita&#x02010;Salute San Raffaele, Milan, Italy) for statistical analyses. This work was supported by the Fondazione Telethon (Telethon Core Grant TGT16F03) to M.B., by the European Commission 7th and Horizon 2020 Framework Programs (contracts grant agreement 261387 CELL&#x02010;PID and grant 666908&#x02010;SCIDNET) to A.V. and G.A.H., and by National Program of Consiglio Nazionale delle Ricerche Aging Project assigned to A.V. and A.T. M.B. is currently affiliated with the Laboratory of Clinical Immunology and Microbiology, IDGS, DIR, NIAID, NIH, Bethesda, MD.</p></ack><sec sec-type="data-availability" id="sct312526-sec-0030"><title>Data Availability Statement</title><p>The data that support the findings of this study are available from the corresponding author upon reasonable request.</p></sec><ref-list id="sct312526-bibl-0001" content-type="cited-references"><title>References</title><ref id="sct312526-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="sct312526-cit-0001">
+<string-name>
+<surname>Csaba</surname>
+<given-names>G</given-names>
+</string-name>. <article-title>The immunoendocrine thymus as a pacemaker of lifespan</article-title>. <source xml:lang="en">Acta Microbiol Immunol Hung</source>
+<year>2016</year>;<volume>63</volume>:<fpage>139</fpage>&#x02013;<lpage>158</lpage>.<pub-id pub-id-type="pmid">27352969</pub-id></mixed-citation></ref><ref id="sct312526-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="sct312526-cit-0002">
+<string-name>
+<surname>Zdrojewicz</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name>
+<surname>Pachura</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Pachura</surname>
+<given-names>P</given-names>
+</string-name>. <article-title>The thymus: A forgotten, but very important organ</article-title>. <source xml:lang="en">Adv Clin Exp Med</source>
+<year>2016</year>;<volume>25</volume>:<fpage>369</fpage>&#x02013;<lpage>375</lpage>.<pub-id pub-id-type="pmid">27627572</pub-id></mixed-citation></ref><ref id="sct312526-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="sct312526-cit-0003">
+<string-name>
+<surname>Lepletier</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Alsharif</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Chidgey</surname>
+<given-names>AP</given-names>
+</string-name>. <article-title>Inflammation and thymus ageing</article-title>. <source xml:lang="en">Front Horm Res</source>
+<year>2017</year>;<volume>48</volume>:<fpage>19</fpage>&#x02013;<lpage>36</lpage>.<pub-id pub-id-type="pmid">28245449</pub-id></mixed-citation></ref><ref id="sct312526-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="sct312526-cit-0004">
+<string-name>
+<surname>Masters</surname>
+<given-names>AR</given-names>
+</string-name>, <string-name>
+<surname>Haynes</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Su</surname>
+<given-names>DM</given-names>
+</string-name>. <article-title>Immune senescence: Significance of the stromal microenvironment</article-title>. <source xml:lang="en">Clin Exp Immunol</source>
+<year>2017</year>;<volume>187</volume>:<fpage>6</fpage>&#x02013;<lpage>15</lpage>.<pub-id pub-id-type="pmid">27529161</pub-id></mixed-citation></ref><ref id="sct312526-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="sct312526-cit-0005">
+<string-name>
+<surname>Majumdar</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Nandi</surname>
+<given-names>D</given-names>
+</string-name>. <article-title>Thymic atrophy: Experimental studies and therapeutic interventions</article-title>. <source xml:lang="en">Scand J Immunol</source>
+<year>2017</year>;<volume>12</volume>:<fpage>3218</fpage>&#x02013;<lpage>3221</lpage>.</mixed-citation></ref><ref id="sct312526-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="sct312526-cit-0006">
+<string-name>
+<surname>Xiao</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Shterev</surname>
+<given-names>ID</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>
+<given-names>W</given-names>
+</string-name>. <article-title>Sublethal total body irradiation causes long&#x02010;term deficits in thymus function by reducing lymphoid progenitors</article-title>. <source xml:lang="en">J Immunol</source>
+<year>2017</year>;<volume>199</volume>:<fpage>2701</fpage>&#x02013;<lpage>2712</lpage>.<pub-id pub-id-type="pmid">28931604</pub-id></mixed-citation></ref><ref id="sct312526-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="sct312526-cit-0007">
+<string-name>
+<surname>Dudakov</surname>
+<given-names>J a</given-names>
+</string-name>, <string-name>
+<surname>van den Brink</surname>
+<given-names>MRM</given-names>
+</string-name>. <article-title>Greater than the sum of their parts: Combination strategies for immune regeneration following allogeneic hematopoietic stem cell transplantation</article-title>. <source xml:lang="en">Best Pract Res Clin Haematol</source>
+<year>2011</year>;<volume>24</volume>:<fpage>467</fpage>&#x02013;<lpage>476</lpage>.<pub-id pub-id-type="pmid">21925100</pub-id></mixed-citation></ref><ref id="sct312526-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="sct312526-cit-0008">
+<string-name>
+<surname>Van Den Brink</surname>
+<given-names>MRM</given-names>
+</string-name>, <string-name>
+<surname>Chaudhry</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name>
+<surname>Velardi</surname>
+<given-names>E</given-names>
+</string-name>. <article-title>Hematopoietic stem cell transplantation: Immune reconstitution after allogeneic immune reconstitution after allogeneic hematopoietic stem cell transplantation: Time to T up the thymus</article-title>. <source xml:lang="en">J Immunol Ref</source>
+<year>2017</year>;<volume>198</volume>:<fpage>40</fpage>&#x02013;<lpage>46</lpage>.</mixed-citation></ref><ref id="sct312526-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="sct312526-cit-0009">
+<string-name>
+<surname>Bredenkamp</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Nowell</surname>
+<given-names>CS</given-names>
+</string-name>, <string-name>
+<surname>Blackburn</surname>
+<given-names>CC</given-names>
+</string-name>. <article-title>Regeneration of the aged thymus by a single transcription factor</article-title>. <source xml:lang="en">Development</source>
+<year>2014</year>;<volume>141</volume>:<fpage>1627</fpage>&#x02013;<lpage>1637</lpage>.<pub-id pub-id-type="pmid">24715454</pub-id></mixed-citation></ref><ref id="sct312526-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="sct312526-cit-0010">
+<string-name>
+<surname>Chaudhry</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name>
+<surname>Velardi</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Dudakov</surname>
+<given-names>JA</given-names>
+</string-name>. <article-title>Thymus: The next (re)generation</article-title>. <source xml:lang="en">Immunol Rev</source>
+<year>2016</year>;<volume>271</volume>:<fpage>56</fpage>&#x02013;<lpage>71</lpage>.<pub-id pub-id-type="pmid">27088907</pub-id></mixed-citation></ref><ref id="sct312526-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="sct312526-cit-0011">
+<string-name>
+<surname>Chung</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Montel&#x02010;Hagen</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Ge</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Engineering the human thymic microenvironment to support thymopoiesis in vivo</article-title>. <source xml:lang="en">Stem Cells</source>
+<year>2014</year>;<volume>32</volume>:<fpage>2386</fpage>&#x02013;<lpage>2396</lpage>.<pub-id pub-id-type="pmid">24801626</pub-id></mixed-citation></ref><ref id="sct312526-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="sct312526-cit-0012">
+<string-name>
+<surname>Dudakov</surname>
+<given-names>J a</given-names>
+</string-name>, <string-name>
+<surname>Hanash</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name>
+<surname>Jenq</surname>
+<given-names>RR</given-names>
+</string-name>. <article-title>Interleukin&#x02010;22 drives endogenous thymic regeneration in mice</article-title>. <source xml:lang="en">Science</source>
+<year>2012</year>;<volume>336</volume>:<fpage>91</fpage>&#x02013;<lpage>95</lpage>.<pub-id pub-id-type="pmid">22383805</pub-id></mixed-citation></ref><ref id="sct312526-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="sct312526-cit-0013">
+<string-name>
+<surname>Rossi</surname>
+<given-names>SW</given-names>
+</string-name>, <string-name>
+<surname>Jeker</surname>
+<given-names>LT</given-names>
+</string-name>, <string-name>
+<surname>Ueno</surname>
+<given-names>T</given-names>
+</string-name>. <article-title>Keratinocyte growth factor (KGF) enhances postnatal T&#x02010;cell development via enhancements in proliferation and function of thymic epithelial cells</article-title>. <source xml:lang="en">Blood</source>
+<year>2007</year>;<volume>109</volume>:<fpage>3803</fpage>&#x02013;<lpage>3811</lpage>.<pub-id pub-id-type="pmid">17213286</pub-id></mixed-citation></ref><ref id="sct312526-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="sct312526-cit-0014">
+<string-name>
+<surname>Goldberg</surname>
+<given-names>GL</given-names>
+</string-name>, <string-name>
+<surname>Dudakov</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name>
+<surname>Reiseger</surname>
+<given-names>JJ</given-names>
+</string-name>. <article-title>Sex steroid ablation enhances immune reconstitution following cytotoxic antineoplastic therapy in young mice</article-title>. <source xml:lang="en">J Immunol</source>
+<year>2010</year>;<volume>184</volume>:<fpage>6014</fpage>&#x02013;<lpage>6024</lpage>.<pub-id pub-id-type="pmid">20483779</pub-id></mixed-citation></ref><ref id="sct312526-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="sct312526-cit-0015">
+<string-name>
+<surname>Mittelstadt</surname>
+<given-names>PR</given-names>
+</string-name>, <string-name>
+<surname>Monteiro</surname>
+<given-names>JP</given-names>
+</string-name>, <string-name>
+<surname>Ashwell</surname>
+<given-names>JD</given-names>
+</string-name>. <article-title>Thymocyte responsiveness to endogenous glucocorticoids is required for immunological fitness</article-title>. <source xml:lang="en">J Clin Invest</source>
+<year>2012</year>;<volume>122</volume>:<fpage>2384</fpage>&#x02013;<lpage>2394</lpage>.<pub-id pub-id-type="pmid">22653054</pub-id></mixed-citation></ref><ref id="sct312526-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="sct312526-cit-0016">
+<string-name>
+<surname>Markert</surname>
+<given-names>ML</given-names>
+</string-name>, <string-name>
+<surname>Devlin</surname>
+<given-names>BH</given-names>
+</string-name>, <string-name>
+<surname>Alexieff</surname>
+<given-names>MJ</given-names>
+</string-name>. <article-title>Review of 54 patients with complete DiGeorge anomaly enrolled in protocols for thymus transplantation: Outcome of 44 consecutive transplants</article-title>. <source xml:lang="en">Blood</source>
+<year>2007</year>;<volume>109</volume>:<fpage>4539</fpage>&#x02013;<lpage>4547</lpage>.<pub-id pub-id-type="pmid">17284531</pub-id></mixed-citation></ref><ref id="sct312526-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="sct312526-cit-0017">
+<string-name>
+<surname>Davies</surname>
+<given-names>EG</given-names>
+</string-name>, <string-name>
+<surname>Cheung</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Gilmour</surname>
+<given-names>K</given-names>
+</string-name>. <article-title>Thymus transplantation for complete DiGeorge syndrome: European experience</article-title>. <source xml:lang="en">J Allergy Clin Immunol</source>
+<year>2016</year>;<volume>140</volume>:<fpage>1660</fpage>&#x02013;<lpage>1670.e16</lpage>.</mixed-citation></ref><ref id="sct312526-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="sct312526-cit-0018">
+<string-name>
+<surname>Blackburn</surname>
+<given-names>CC</given-names>
+</string-name>, <string-name>
+<surname>Manley</surname>
+<given-names>NR</given-names>
+</string-name>. <article-title>Developing a new paradigm for thymus organogenesis</article-title>. <source xml:lang="en">Nat Rev Immunol</source>
+<year>2004</year>;<volume>4</volume>:<fpage>278</fpage>&#x02013;<lpage>289</lpage>.<pub-id pub-id-type="pmid">15057786</pub-id></mixed-citation></ref><ref id="sct312526-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="sct312526-cit-0019">
+<string-name>
+<surname>Schmitt</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Csiki</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Tron</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>Optimized protocol for whole organ decellularization</article-title>. <source xml:lang="en">Eur J Med Res</source>
+<year>2017</year>;<volume>22</volume>:<fpage>31</fpage>.<pub-id pub-id-type="pmid">28886732</pub-id></mixed-citation></ref><ref id="sct312526-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="sct312526-cit-0020">
+<string-name>
+<surname>Takebe</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Radisic</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Synergistic engineering: Organoids meet organs&#x02010;on&#x02010;a&#x02010;chip</article-title>. <source xml:lang="en">Cell Stem Cell</source>
+<year>2017</year>;<volume>21</volume>:<fpage>297</fpage>&#x02013;<lpage>300</lpage>.<pub-id pub-id-type="pmid">28886364</pub-id></mixed-citation></ref><ref id="sct312526-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="sct312526-cit-0021">
+<string-name>
+<surname>Poznansky</surname>
+<given-names>MC</given-names>
+</string-name>, <string-name>
+<surname>Evans</surname>
+<given-names>RH</given-names>
+</string-name>, <string-name>
+<surname>Foxall</surname>
+<given-names>RB</given-names>
+</string-name>. <article-title>Efficient generation of human T cells from a tissue&#x02010;engineered thymic organoid</article-title>. <source xml:lang="en">Nat Biotechnol</source>
+<year>2000</year>;<volume>18</volume>:<fpage>729</fpage>&#x02013;<lpage>734</lpage>.<pub-id pub-id-type="pmid">10888839</pub-id></mixed-citation></ref><ref id="sct312526-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="sct312526-cit-0022">
+<string-name>
+<surname>Fan</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Tajima</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Goh</surname>
+<given-names>SK</given-names>
+</string-name>. <article-title>Bioengineering thymus organoids to restore thymic function and induce donor&#x02010;specific immune tolerance to allografts</article-title>. <source xml:lang="en">Mol Ther</source>
+<year>2015</year>;<volume>23</volume>:<fpage>1262</fpage>&#x02013;<lpage>1277</lpage>.<pub-id pub-id-type="pmid">25903472</pub-id></mixed-citation></ref><ref id="sct312526-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="sct312526-cit-0023">
+<string-name>
+<surname>Seach</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Hammett</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Chidgey</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>Isolation, characterization, and reaggregate culture of thymic epithelial cells</article-title>. <source xml:lang="en">Methods Mol Biol</source>
+<year>2013</year>;<volume>945</volume>:<fpage>251</fpage>&#x02013;<lpage>272</lpage>.<pub-id pub-id-type="pmid">23097111</pub-id></mixed-citation></ref><ref id="sct312526-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="sct312526-cit-0024">
+<string-name>
+<surname>Inami</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Yoshikai</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Ito</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Differentiation of induced pluripotent stem cells to thymic epithelial cells by phenotype</article-title>. <source xml:lang="en">Immunol Cell Biol</source>
+<year>2011</year>;<volume>89</volume>:<fpage>314</fpage>&#x02013;<lpage>321</lpage>.<pub-id pub-id-type="pmid">20680027</pub-id></mixed-citation></ref><ref id="sct312526-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="sct312526-cit-0025">
+<string-name>
+<surname>Parent</surname>
+<given-names>AV</given-names>
+</string-name>, <string-name>
+<surname>Russ</surname>
+<given-names>HA</given-names>
+</string-name>, <string-name>
+<surname>Khan</surname>
+<given-names>IS</given-names>
+</string-name>. <article-title>Generation of functional thymic epithelium from human embryonic stem cells that supports host T cell development</article-title>. <source xml:lang="en">Cell Stem Cell</source>
+<year>2013</year>;<volume>13</volume>:<fpage>219</fpage>&#x02013;<lpage>229</lpage>.<pub-id pub-id-type="pmid">23684540</pub-id></mixed-citation></ref><ref id="sct312526-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="sct312526-cit-0026">
+<string-name>
+<surname>Sun</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Xu</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Lu</surname>
+<given-names>H</given-names>
+</string-name>. <article-title>Directed differentiation of human embryonic stem cells into thymic epithelial progenitor&#x02010;like cells reconstitutes the thymic microenvironment in vivo</article-title>. <source xml:lang="en">Cell Stem Cell</source>
+<year>2013</year>;<volume>13</volume>:<fpage>230</fpage>&#x02013;<lpage>236</lpage>.<pub-id pub-id-type="pmid">23910085</pub-id></mixed-citation></ref><ref id="sct312526-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="sct312526-cit-0027">
+<string-name>
+<surname>Pinto</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Schmidt</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Egle</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>An organotypic coculture model supporting proliferation and differentiation of medullary thymic epithelial cells and promiscuous gene expression</article-title>. <source xml:lang="en">J Immunol</source>
+<year>2013</year>;<volume>190</volume>:<fpage>1085</fpage>&#x02013;<lpage>1093</lpage>.<pub-id pub-id-type="pmid">23269248</pub-id></mixed-citation></ref><ref id="sct312526-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="sct312526-cit-0028">
+<string-name>
+<surname>Tajima</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Pradhan</surname>
+<given-names>I</given-names>
+</string-name>. <article-title>Bioengineering mini functional thymic units with EAK16&#x02010;II/EAKIIH6 self&#x02010;assembling hydrogel</article-title>. <source xml:lang="en">Clin Immunol</source>
+<year>2015</year>;<volume>160</volume>:<fpage>82</fpage>&#x02013;<lpage>89</lpage>.<pub-id pub-id-type="pmid">25805654</pub-id></mixed-citation></ref><ref id="sct312526-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="sct312526-cit-0029">
+<string-name>
+<surname>Seach</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Ph</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Mattesich</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Vascularized tissue engineering mouse chamber model supports thymopoiesis of ectopic thymus tissue grafts</article-title>. <source xml:lang="en">Tissue Eng Part C Methods</source>
+<year>2010</year>;<volume>16</volume>:<fpage>543</fpage>&#x02013;<lpage>551</lpage>.<pub-id pub-id-type="pmid">19715386</pub-id></mixed-citation></ref><ref id="sct312526-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="sct312526-cit-0030">
+<string-name>
+<surname>El&#x02010;Jawhari</surname>
+<given-names>JJ</given-names>
+</string-name>, <string-name>
+<surname>Sanjurjo&#x02010;Rodr&#x000ed;guez</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Jones</surname>
+<given-names>E</given-names>
+</string-name>. <article-title>Collagen&#x02010;containing scaffolds enhance attachment and proliferation of non&#x02010;cultured bone marrow multipotential stromal cells</article-title>. <source xml:lang="en">J Orthop Res</source>
+<year>2016</year>;<volume>34</volume>:<fpage>597</fpage>&#x02013;<lpage>606</lpage>.<pub-id pub-id-type="pmid">26466765</pub-id></mixed-citation></ref><ref id="sct312526-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="sct312526-cit-0031">
+<string-name>
+<surname>Hadjizadeh</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Doillon</surname>
+<given-names>CJ</given-names>
+</string-name>. <article-title>Directional migration of endothelial cells towards angiogenesis using polymer fibres in a 3D co&#x02010;culture system</article-title>. <source xml:lang="en">J Tissue Eng Regen Med</source>
+<year>2010</year>;<volume>4</volume>:<fpage>524</fpage>&#x02013;<lpage>531</lpage>.<pub-id pub-id-type="pmid">20872739</pub-id></mixed-citation></ref><ref id="sct312526-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="sct312526-cit-0032">
+<string-name>
+<surname>Krishnakumar</surname>
+<given-names>GS</given-names>
+</string-name>, <string-name>
+<surname>Gostynska</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Campodoni</surname>
+<given-names>E</given-names>
+</string-name>. <article-title>Ribose mediated crosslinking of collagen&#x02010;hydroxyapatite hybrid scaffolds for bone tissue regeneration using biomimetic strategies</article-title>. <source xml:lang="en">Mater Sci Eng C</source>
+<year>2017</year>;<volume>77</volume>:<fpage>594</fpage>&#x02013;<lpage>605</lpage>.</mixed-citation></ref><ref id="sct312526-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="sct312526-cit-0033">
+<string-name>
+<surname>Gostynska</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Krishnakumar</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Campodoni</surname>
+<given-names>E</given-names>
+</string-name>. <article-title>3D porous collagen scaffolds reinforced by glycation with ribose for tissue engineering application</article-title>. <source xml:lang="en">Biomed Mater</source>
+<year>2017</year>;<volume>12</volume>:<fpage>055002</fpage>.<pub-id pub-id-type="pmid">28573980</pub-id></mixed-citation></ref><ref id="sct312526-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="sct312526-cit-0034">
+<string-name>
+<surname>Van Den Hurk</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Kenis</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Bardy</surname>
+<given-names>C</given-names>
+</string-name>. <article-title>Transcriptional and epigenetic mechanisms of cellular reprogramming to induced pluripotency</article-title>. <source xml:lang="en">Epigenomics</source>
+<year>2016</year>;<volume>8</volume>:<fpage>1131</fpage>&#x02013;<lpage>1149</lpage>.<pub-id pub-id-type="pmid">27419933</pub-id></mixed-citation></ref><ref id="sct312526-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="sct312526-cit-0035">
+<string-name>
+<surname>Hochedlinger</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Yamada</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Beard</surname>
+<given-names>C</given-names>
+</string-name>. <article-title>Ectopic expression of Oct&#x02010;4 blocks progenitor&#x02010;cell differentiation and causes dysplasia in epithelial tissues</article-title>. <source xml:lang="en">Cell</source>
+<year>2005</year>;<volume>121</volume>:<fpage>465</fpage>&#x02013;<lpage>477</lpage>.<pub-id pub-id-type="pmid">15882627</pub-id></mixed-citation></ref><ref id="sct312526-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="sct312526-cit-0036">
+<string-name>
+<surname>De Palma</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Naldini</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Transduction of a gene expression cassette using advanced generation lentiviral vectors</article-title>. <source xml:lang="en">Methods Enzymol</source>
+<year>2002</year>;<volume>346</volume>:<fpage>514</fpage>&#x02013;<lpage>529</lpage>.<pub-id pub-id-type="pmid">11883088</pub-id></mixed-citation></ref><ref id="sct312526-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="sct312526-cit-0037">
+<string-name>
+<surname>Castiello</surname>
+<given-names>MC</given-names>
+</string-name>, <string-name>
+<surname>Scaramuzza</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Pala</surname>
+<given-names>F</given-names>
+</string-name>. <article-title>B&#x02010;cell reconstitution after lentiviral vector&#x02010;mediated gene therapy in patients with Wiskott&#x02013;Aldrich syndrome</article-title>. <source xml:lang="en">J Allergy Clin Immunol</source>
+<year>2015</year>;<volume>136</volume>:<fpage>692.e2</fpage>&#x02013;<lpage>702.e2</lpage>.<pub-id pub-id-type="pmid">25792466</pub-id></mixed-citation></ref><ref id="sct312526-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="sct312526-cit-0038">
+<string-name>
+<surname>Sandri</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Filardo</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Kon</surname>
+<given-names>E</given-names>
+</string-name>. <article-title>Fabrication and pilot in vivo study of a collagen&#x02010;BDDGE&#x02010;elastin core&#x02010;shell scaffold for tendon regeneration</article-title>. <source xml:lang="en">Front Bioeng Biotechnol</source>
+<year>2016</year>;<volume>4</volume>:<fpage>52</fpage>.<pub-id pub-id-type="pmid">27446909</pub-id></mixed-citation></ref><ref id="sct312526-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="sct312526-cit-0039">
+<string-name>
+<surname>Nicoletti</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Fiorini</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Paolillo</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>Effects of different crosslinking conditions on the chemical&#x02013;physical properties of a novel bio&#x02010;inspired composite scaffold stabilised with 1,4&#x02010;butanediol diglycidyl ether (BDDGE)</article-title>. <source xml:lang="en">J Mater Sci Mater Med</source>
+<year>2013</year>;<volume>24</volume>:<fpage>17</fpage>&#x02013;<lpage>35</lpage>.<pub-id pub-id-type="pmid">23053811</pub-id></mixed-citation></ref><ref id="sct312526-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="sct312526-cit-0040">
+<string-name>
+<surname>Shankar</surname>
+<given-names>KG</given-names>
+</string-name>, <string-name>
+<surname>Gostynska</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Montesi</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Investigation of different cross&#x02010;linking approaches on 3D gelatin scaffolds for tissue engineering application: A comparative analysis</article-title>. <source xml:lang="en">Int J Biol Macromol</source>
+<year>2017</year>;<volume>95</volume>:<fpage>1199</fpage>&#x02013;<lpage>1209</lpage>.<pub-id pub-id-type="pmid">27836656</pub-id></mixed-citation></ref><ref id="sct312526-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="sct312526-cit-0041">
+<string-name>
+<surname>Arora</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Kothari</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Katti</surname>
+<given-names>DS</given-names>
+</string-name>. <article-title>Pore orientation mediated control of mechanical behavior of scaffolds and its application in cartilage&#x02010;mimetic scaffold design</article-title>. <source xml:lang="en">J Mech Behav Biomed Mater</source>
+<year>2015</year>;<volume>51</volume>:<fpage>169</fpage>&#x02013;<lpage>183</lpage>.<pub-id pub-id-type="pmid">26256472</pub-id></mixed-citation></ref><ref id="sct312526-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="sct312526-cit-0042">
+<string-name>
+<surname>Loh</surname>
+<given-names>QL</given-names>
+</string-name>, <string-name>
+<surname>Choong</surname>
+<given-names>C</given-names>
+</string-name>. <article-title>Three&#x02010;dimensional scaffolds for tissue engineering applications: Role of porosity and pore size</article-title>. <source xml:lang="en">Tissue Eng Part B Rev</source>
+<year>2013</year>;<volume>19</volume>:<fpage>485</fpage>&#x02013;<lpage>502</lpage>.<pub-id pub-id-type="pmid">23672709</pub-id></mixed-citation></ref><ref id="sct312526-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="sct312526-cit-0043">
+<string-name>
+<surname>Davidenko</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Schuster</surname>
+<given-names>CF</given-names>
+</string-name>, <string-name>
+<surname>Bax</surname>
+<given-names>DV</given-names>
+</string-name>. <article-title>Control of crosslinking for tailoring collagen&#x02010;based scaffolds stability and mechanics</article-title>. <source xml:lang="en">Acta Biomater</source>
+<year>2015</year>;<volume>25</volume>:<fpage>131</fpage>&#x02013;<lpage>142</lpage>.<pub-id pub-id-type="pmid">26213371</pub-id></mixed-citation></ref><ref id="sct312526-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="sct312526-cit-0044">
+<string-name>
+<surname>Needles</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Arditi</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Rognin</surname>
+<given-names>NG</given-names>
+</string-name>. <article-title>Nonlinear contrast imaging with an array&#x02010;based micro&#x02010;ultrasound system</article-title>. <source xml:lang="en">Ultrasound Med Biol</source>
+<year>2010</year>;<volume>36</volume>:<fpage>2097</fpage>&#x02013;<lpage>2106</lpage>.<pub-id pub-id-type="pmid">21092832</pub-id></mixed-citation></ref><ref id="sct312526-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="sct312526-cit-0045">
+<string-name>
+<surname>Lannes&#x02010;Vieira</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Dardenne</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Savino</surname>
+<given-names>W</given-names>
+</string-name>. <article-title>Extracellular matrix components of the mouse thymus microenvironment: Ontogenetic studies and modulation by glucocorticoid hormones</article-title>. <source xml:lang="en">J Histochem Cytochem</source>
+<year>1991</year>;<volume>39</volume>:<fpage>1539</fpage>&#x02013;<lpage>1546</lpage>.<pub-id pub-id-type="pmid">1918928</pub-id></mixed-citation></ref><ref id="sct312526-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="sct312526-cit-0046">
+<string-name>
+<surname>Savino</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Mendes&#x02010;da&#x02010;Cruz</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name>
+<surname>Smaniotto</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Molecular mechanisms governing thymocyte migration: Combined role of chemokines and extracellular matrix</article-title>. <source xml:lang="en">J Leukoc Biol</source>
+<year>2004</year>;<volume>75</volume>:<fpage>951</fpage>&#x02013;<lpage>961</lpage>.<pub-id pub-id-type="pmid">15020651</pub-id></mixed-citation></ref><ref id="sct312526-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="sct312526-cit-0047">
+<string-name>
+<surname>Hun</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Barsanti</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Wong</surname>
+<given-names>K</given-names>
+</string-name>. <article-title>Native thymic extracellular matrix improves in vivo thymic organoid T cell output, and drives in vitro thymic epithelial cell differentiation</article-title>. <source xml:lang="en">Biomaterials</source>
+<year>2017</year>;<volume>118</volume>:<fpage>1</fpage>&#x02013;<lpage>15</lpage>.<pub-id pub-id-type="pmid">27940379</pub-id></mixed-citation></ref><ref id="sct312526-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="sct312526-cit-0048">
+<string-name>
+<surname>Krishnakumar</surname>
+<given-names>GS</given-names>
+</string-name>, <string-name>
+<surname>Gostynska</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Dapporto</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Evaluation of different crosslinking agents on hybrid biomimetic collagen&#x02010;hydroxyapatite composites for regenerative medicine</article-title>. <source xml:lang="en">Int J Biol Macromol</source>
+<year>2018</year>;<volume>106</volume>:<fpage>739</fpage>&#x02013;<lpage>748</lpage>.<pub-id pub-id-type="pmid">28827204</pub-id></mixed-citation></ref><ref id="sct312526-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="sct312526-cit-0049">
+<string-name>
+<surname>Meireles</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Ribeiro</surname>
+<given-names>AR</given-names>
+</string-name>, <string-name>
+<surname>Pinto</surname>
+<given-names>RD</given-names>
+</string-name>. <article-title>Thymic crosstalk restrains the pool of cortical thymic epithelial cells with progenitor properties</article-title>. <source xml:lang="en">Eur J Immunol</source>
+<year>2017</year>;<volume>47</volume>:<fpage>958</fpage>&#x02013;<lpage>969</lpage>.<pub-id pub-id-type="pmid">28318017</pub-id></mixed-citation></ref><ref id="sct312526-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="sct312526-cit-0050">
+<string-name>
+<surname>Osada</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Singh</surname>
+<given-names>VJ</given-names>
+</string-name>, <string-name>
+<surname>Wu</surname>
+<given-names>K</given-names>
+</string-name>. <article-title>Label retention identifies a multipotent mesenchymal stem cell&#x02010;like population in the postnatal thymus</article-title>. <source xml:lang="en">PLoS One</source>
+<year>2013</year>;<volume>8</volume>:<elocation-id>e83024</elocation-id>.<pub-id pub-id-type="pmid">24340075</pub-id></mixed-citation></ref><ref id="sct312526-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="sct312526-cit-0051">
+<string-name>
+<surname>&#x0017d;uklys</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Handel</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Zhanybekova</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Foxn1 regulates key target genes essential for T cell development in postnatal thymic epithelial cells</article-title>. <source xml:lang="en">Nat Immunol</source>
+<year>2016</year>;<volume>17</volume>:<fpage>1206</fpage>&#x02013;<lpage>1215</lpage>.<pub-id pub-id-type="pmid">27548434</pub-id></mixed-citation></ref><ref id="sct312526-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="sct312526-cit-0052">
+<string-name>
+<surname>Le Campion</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Gagnerault</surname>
+<given-names>MC</given-names>
+</string-name>, <string-name>
+<surname>Auffray</surname>
+<given-names>C</given-names>
+</string-name>. <article-title>Lymphopenia&#x02010;induced spontaneous T&#x02010;cell proliferation as a cofactor for autoimmune disease development</article-title>. <source xml:lang="en">Blood</source>
+<year>2009</year>;<volume>114</volume>:<fpage>1784</fpage>&#x02013;<lpage>1793</lpage>.<pub-id pub-id-type="pmid">19561321</pub-id></mixed-citation></ref><ref id="sct312526-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="sct312526-cit-0053">
+<string-name>
+<surname>O'Brien</surname>
+<given-names>FJ</given-names>
+</string-name>. <article-title>Biomaterials &#x00026; scaffolds for tissue engineering</article-title>. <source xml:lang="en">Mater Today</source>
+<year>2011</year>;<volume>14</volume>:<fpage>88</fpage>&#x02013;<lpage>95</lpage>.</mixed-citation></ref><ref id="sct312526-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="sct312526-cit-0054">
+<string-name>
+<surname>Jenkinson</surname>
+<given-names>EJ</given-names>
+</string-name>, <string-name>
+<surname>Franchi</surname>
+<given-names>LL</given-names>
+</string-name>, <string-name>
+<surname>Kingston</surname>
+<given-names>R</given-names>
+</string-name>. <article-title>Effect of deoxyguanosine on lymphopoiesis in the developing thymus rudiment in vitro: Application in the production of chimeric thymus rudiments</article-title>. <source xml:lang="en">Eur J Immunol</source>
+<year>1982</year>;<volume>12</volume>:<fpage>583</fpage>&#x02013;<lpage>587</lpage>.<pub-id pub-id-type="pmid">6126365</pub-id></mixed-citation></ref><ref id="sct312526-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="sct312526-cit-0055">
+<string-name>
+<surname>Jenkinson</surname>
+<given-names>EJ</given-names>
+</string-name>, <string-name>
+<surname>Anderson</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Owen</surname>
+<given-names>JJ</given-names>
+</string-name>. <article-title>Studies on T cell maturation on defined thymic stromal cell populations in vitro</article-title>. <source xml:lang="en">J Exp Med</source>
+<year>1992</year>;<volume>176</volume>:<fpage>845</fpage>&#x02013;<lpage>853</lpage>.<pub-id pub-id-type="pmid">1512547</pub-id></mixed-citation></ref><ref id="sct312526-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="sct312526-cit-0056">
+<string-name>
+<surname>Schmitt</surname>
+<given-names>TM</given-names>
+</string-name>, <string-name>
+<surname>Z&#x000fa;&#x000f1;iga&#x02010;Pfl&#x000fc;cker</surname>
+<given-names>JC</given-names>
+</string-name>. <article-title>Induction of T cell development from hematopoietic progenitor cells by delta&#x02010;like&#x02010;1 in vitro</article-title>. <source xml:lang="en">Immunity</source>
+<year>2002</year>;<volume>17</volume>:<fpage>749</fpage>&#x02013;<lpage>756</lpage>.<pub-id pub-id-type="pmid">12479821</pub-id></mixed-citation></ref><ref id="sct312526-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="sct312526-cit-0057">
+<string-name>
+<surname>Beaudette&#x02010;Zlatanova</surname>
+<given-names>BC</given-names>
+</string-name>, <string-name>
+<surname>Knight</surname>
+<given-names>KL</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>A human thymic epithelial cell culture system for the promotion of lymphopoiesis from hematopoietic stem cells</article-title>. <source xml:lang="en">Exp Hematol</source>
+<year>2011</year>;<volume>39</volume>:<fpage>570</fpage>&#x02013;<lpage>579</lpage>.<pub-id pub-id-type="pmid">21296124</pub-id></mixed-citation></ref><ref id="sct312526-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="sct312526-cit-0058">
+<string-name>
+<surname>Mou</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Yue</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>
+<given-names>X</given-names>
+</string-name>. <article-title>OCT4 remodels the phenotype and promotes angiogenesis of HUVECs by changing the gene expression profile</article-title>. <source xml:lang="en">Int J Med Sci</source>
+<year>2016</year>;<volume>13</volume>:<fpage>386</fpage>&#x02013;<lpage>394</lpage>.<pub-id pub-id-type="pmid">27226779</pub-id></mixed-citation></ref><ref id="sct312526-bib-0059"><label>59</label><mixed-citation publication-type="journal" id="sct312526-cit-0059">
+<string-name>
+<surname>Rode</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Martins</surname>
+<given-names>VC</given-names>
+</string-name>, <string-name>
+<surname>K&#x000fc;blbeck</surname>
+<given-names>G</given-names>
+</string-name>. <article-title>Foxn1 protein expression in the developing, aging, and regenerating thymus</article-title>. <source xml:lang="en">J Immunol</source>
+<year>2015</year>;<volume>195</volume>:<fpage>5678</fpage>&#x02013;<lpage>5687</lpage>.<pub-id pub-id-type="pmid">26538393</pub-id></mixed-citation></ref><ref id="sct312526-bib-0060"><label>60</label><mixed-citation publication-type="journal" id="sct312526-cit-0060">
+<string-name>
+<surname>Alunno</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Bistoni</surname>
+<given-names>O</given-names>
+</string-name>, <string-name>
+<surname>Bartoloni Bocci</surname>
+<given-names>E</given-names>
+</string-name>. <article-title>IL&#x02010;17&#x02010;producing double&#x02010;negative T cells are expanded in the peripheral blood, infiltrate the salivary gland and are partially resistant to corticosteroid therapy in patients with Sj&#x000f6;gren's syndrome</article-title>. <source xml:lang="en">Reumatismo</source>
+<year>2013</year>;<volume>65</volume>:<fpage>192</fpage>&#x02013;<lpage>198</lpage>.<pub-id pub-id-type="pmid">24192564</pub-id></mixed-citation></ref><ref id="sct312526-bib-0061"><label>61</label><mixed-citation publication-type="journal" id="sct312526-cit-0061">
+<string-name>
+<surname>D'Acquisto</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Crompton</surname>
+<given-names>T</given-names>
+</string-name>. <article-title>CD3+CD4&#x02212;CD8&#x02212; (double negative) T cells: Saviours or villains of the immune response?</article-title>
+<source xml:lang="en">Biochem Pharmacol</source>
+<year>2011</year>;<volume>82</volume>:<fpage>333</fpage>&#x02013;<lpage>340</lpage>.<pub-id pub-id-type="pmid">21640713</pub-id></mixed-citation></ref><ref id="sct312526-bib-0062"><label>62</label><mixed-citation publication-type="journal" id="sct312526-cit-0062">
+<string-name>
+<surname>Phelps</surname>
+<given-names>EA</given-names>
+</string-name>, <string-name>
+<surname>Garcia</surname>
+<given-names>AJ</given-names>
+</string-name>. <article-title>Update on therapeutic vascularization strategies</article-title>. <source xml:lang="en">Regen Med</source>
+<year>2009</year>;<volume>4</volume>:<fpage>65</fpage>&#x02013;<lpage>80</lpage>.<pub-id pub-id-type="pmid">19105617</pub-id></mixed-citation></ref><ref id="sct312526-bib-0063"><label>63</label><mixed-citation publication-type="journal" id="sct312526-cit-0063">
+<string-name>
+<surname>Reddy</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Reddy</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Jiang</surname>
+<given-names>Q</given-names>
+</string-name>. <article-title>Crosslinking biopolymers for biomedical applications</article-title>. <source xml:lang="en">Trends Biotechnol</source>
+<year>2015</year>;<volume>33</volume>:<fpage>362</fpage>&#x02013;<lpage>369</lpage>.<pub-id pub-id-type="pmid">25887334</pub-id></mixed-citation></ref><ref id="sct312526-bib-0064"><label>64</label><mixed-citation publication-type="journal" id="sct312526-cit-0064">
+<string-name>
+<surname>Jay</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name>
+<surname>Shepherd</surname>
+<given-names>BR</given-names>
+</string-name>, <string-name>
+<surname>Bertram</surname>
+<given-names>JP</given-names>
+</string-name>. <article-title>Engineering of multifunctional gels integrating highly efficient growth factor delivery with endothelial cell transplantation</article-title>. <source xml:lang="en">FASEB J</source>
+<year>2008</year>;<volume>22</volume>:<fpage>2949</fpage>&#x02013;<lpage>2956</lpage>.<pub-id pub-id-type="pmid">18450813</pub-id></mixed-citation></ref></ref-list></back></article>

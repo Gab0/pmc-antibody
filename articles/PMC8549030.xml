@@ -1,0 +1,1260 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" id="bpa12994" xml:lang="en" article-type="research-article"><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jats-oasis2jats3.xsl?><?ConverterInfo.Version 1?><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Brain Pathol</journal-id><journal-id journal-id-type="iso-abbrev">Brain Pathol</journal-id><journal-id journal-id-type="doi">10.1111/(ISSN)1750-3639</journal-id><journal-id journal-id-type="publisher-id">BPA</journal-id><journal-title-group><journal-title>Brain Pathology</journal-title></journal-title-group><issn pub-type="ppub">1015-6305</issn><issn pub-type="epub">1750-3639</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">8549030</article-id><article-id pub-id-type="pmid">34137105</article-id><article-id pub-id-type="doi">10.1111/bpa.12994</article-id><article-id pub-id-type="publisher-id">BPA12994</article-id><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Articles</subject></subj-group></article-categories><title-group><article-title>Double&#x02010;edged effects of tamoxifen&#x02010;in&#x02010;oil&#x02010;gavage on an infectious murine model for multiple sclerosis</article-title><alt-title alt-title-type="right-running-head">Effects of tamoxifen&#x02010;in&#x02010;oil&#x02010;gavage on TMEV</alt-title><alt-title alt-title-type="left-running-head">H&#x000dc;LSK&#x000d6;TTER et al.</alt-title></title-group><contrib-group><contrib id="bpa12994-cr-0001" contrib-type="author"><name><surname>H&#x000fc;lsk&#x000f6;tter</surname><given-names>Kirsten</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1577-5856</contrib-id><xref rid="bpa12994-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="bpa12994-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="bpa12994-cr-0002" contrib-type="author"><name><surname>Jin</surname><given-names>Wen</given-names></name><xref rid="bpa12994-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="bpa12994-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="bpa12994-cr-0003" contrib-type="author"><name><surname>Allnoch</surname><given-names>Lisa</given-names></name><xref rid="bpa12994-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="bpa12994-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="bpa12994-cr-0004" contrib-type="author"><name><surname>Hansmann</surname><given-names>Florian</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6064-7728</contrib-id><xref rid="bpa12994-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="bpa12994-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="bpa12994-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="bpa12994-cr-0005" contrib-type="author"><name><surname>Schmidtke</surname><given-names>Daniel</given-names></name><xref rid="bpa12994-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="bpa12994-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="bpa12994-cr-0006" contrib-type="author"><name><surname>Rohn</surname><given-names>Karl</given-names></name><xref rid="bpa12994-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="bpa12994-cr-0007" contrib-type="author"><name><surname>Fl&#x000fc;gel</surname><given-names>Alexander</given-names></name><xref rid="bpa12994-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="bpa12994-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="bpa12994-cr-0008" contrib-type="author"><name><surname>L&#x000fc;hder</surname><given-names>Fred</given-names></name><xref rid="bpa12994-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="bpa12994-cr-0009" contrib-type="author" corresp="yes"><name><surname>Baumg&#x000e4;rtner</surname><given-names>Wolfgang</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8151-5644</contrib-id><xref rid="bpa12994-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="bpa12994-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>wolfgang.baumgaertner@tiho-hannover.de</email></address></contrib><contrib id="bpa12994-cr-0010" contrib-type="author"><name><surname>Herder</surname><given-names>Vanessa</given-names></name><xref rid="bpa12994-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="bpa12994-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib></contrib-group><aff id="bpa12994-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Pathology</named-content>
+<institution>University of Veterinary Medicine Hannover</institution>
+<city>Hannover</city>
+<country country="DE">Germany</country>
+</aff><aff id="bpa12994-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<institution>Center for Systems Neuroscience</institution>
+<city>Hannover</city>
+<country country="DE">Germany</country>
+</aff><aff id="bpa12994-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Veterinary Pathology</named-content>
+<institution>Leipzig University</institution>
+<city>Leipzig</city>
+<country country="DE">Germany</country>
+</aff><aff id="bpa12994-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Zoology</named-content>
+<institution>University of Veterinary Medicine Hannover</institution>
+<city>Hannover</city>
+<country country="DE">Germany</country>
+</aff><aff id="bpa12994-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Biometry, Epidemiology, and Information Processing</named-content>
+<institution>University of Veterinary Medicine Hannover</institution>
+<city>Hannover</city>
+<country country="DE">Germany</country>
+</aff><aff id="bpa12994-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Institute for Neuroimmunology and Multiple Sclerosis Research</named-content>
+<institution>University Medical Center G&#x000f6;ttingen</institution>
+<city>G&#x000f6;ttingen</city>
+<country country="DE">Germany</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>
+Wolfgang Baumg&#x000e4;rtner, Department of Pathology, University of Veterinary Medicine Hannover, B&#x000fc;nteweg 17, Hannover 30559, Germany.<break/>
+Email: <email>wolfgang.baumgaertner@tiho-hannover.de</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>17</day><month>6</month><year>2021</year></pub-date><pub-date pub-type="collection"><month>11</month><year>2021</year></pub-date><volume>31</volume><issue seq="40">6</issue><issue-id pub-id-type="doi">10.1111/bpa.v31.6</issue-id><elocation-id>e12994</elocation-id><history>
+<date date-type="rev-recd"><day>05</day><month>5</month><year>2021</year></date>
+<date date-type="received"><day>05</day><month>2</month><year>2021</year></date>
+<date date-type="accepted"><day>06</day><month>5</month><year>2021</year></date>
+</history><permissions><!--&#x000a9; 2021 International Society of Neuropathology--><copyright-statement content-type="article-copyright">&#x000a9; 2021 The Authors. Brain Pathology published by John Wiley &#x00026; Sons Ltd on behalf of International Society of Neuropathology</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non&#x02010;commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:BPA-31-e12994.pdf"/><abstract id="bpa12994-abs-0001"><title>Abstract</title><p>Tamoxifen gavage is a commonly used method to induce genetic modifications in cre&#x02010;loxP systems. As a selective estrogen receptor modulator (SERM), the compound is known to have immunomodulatory and neuroprotective properties in non&#x02010;infectious central nervous system (CNS) disorders. It can even cause complete prevention of lesion development as seen in experimental autoimmune encephalitis (EAE). The effect on infectious brain disorders is scarcely investigated. In this study, susceptible <italic toggle="yes">SJL</italic> mice were infected intracerebrally with Theiler's murine encephalomyelitis virus (TMEV) and treated three times with a tamoxifen&#x02010;in&#x02010;oil&#x02010;gavage (TOG), resembling an application scheme for genetically modified mice, starting at 0, 18, or 38&#x000a0;days post infection (dpi). All mice developed &#x02018;TMEV&#x02010;induced demyelinating disease&#x02019; (TMEV&#x02010;IDD) resulting in inflammation, axonal loss, and demyelination of the spinal cord. TOG had a positive effect on the numbers of oligodendrocytes and oligodendrocyte progenitor cells, irrespective of the time point of application, whereas late application (starting 38 dpi) was associated with increased demyelination of the spinal cord white matter 85 dpi. Furthermore, TOG had differential effects on the CD4<sup>+</sup> and CD8<sup>+</sup> T cell infiltration into the CNS, especially a long lasting increase of CD8<sup>+</sup> cells was detected in the inflamed spinal cord, depending of the time point of TOG application. Number of TMEV&#x02010;positive cells, astrogliosis, astrocyte phenotype, apoptosis, clinical score, and motor function were not measurably affected. These data indicate that tamoxifen gavage has a double&#x02010;edged effect on TMEV&#x02010;IDD with the promotion of oligodendrocyte differentiation and proliferation, but also increased demyelination, depending on the time point of application. The data of this study suggest that tamoxifen has also partially protective functions in infectious CNS disease. These effects should be considered in experimental studies using the cre&#x02010;loxP system, especially in models investigating neuropathologies.</p></abstract><abstract abstract-type="graphical" id="bpa12994-abs-0002"><p>Tamoxifen&#x02010;in&#x02010;oil&#x02010;gavage is a commonly used method to induce genetic modifications in cre&#x02010;loxP systems. The immunomodulatory and neuroprotective properties of tamoxifen were assessed in Theiler's murine encephalomyelitis virus (TMEV)&#x02010;infected SJL mice; a murine model for Multiple Sclerosis. The data of this study indicate that tamoxifen gavage has a double&#x02010;edged effect during TMEV infection, with promotion of oligodendrocyte differentiation and proliferation, but also increased demyelination, depending on the time point of application.
+<boxed-text position="anchor" content-type="graphic" id="bpa12994-blkfxd-0001"><graphic xlink:href="BPA-31-e12994-g002.jpg" position="anchor" id="jats-graphic-1"/></boxed-text>
+</p></abstract><kwd-group><kwd id="bpa12994-kwd-0001">cre&#x02010;loxP</kwd><kwd id="bpa12994-kwd-0002">demyelination</kwd><kwd id="bpa12994-kwd-0003">neuropathology</kwd><kwd id="bpa12994-kwd-0004">oligodendrocytes</kwd><kwd id="bpa12994-kwd-0005">Tamoxifen&#x02010;in&#x02010;oil&#x02010;gavage (TOG)</kwd><kwd id="bpa12994-kwd-0006">Theiler's murine encephalomyelitis virus (TMEV)</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>Gesellschaft der Freunde der Tier&#x000e4;rztlichen Hochschule Hannover e.V.</funding-source></award-group><award-group id="funding-0002"><funding-source>Niedersachsen&#x02010;Research Network on Neuroinfectiology (N&#x02010;RENNT)</funding-source></award-group></funding-group><counts><fig-count count="12"/><table-count count="0"/><page-count count="19"/><word-count count="11721"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>November 2021</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.0.8 mode:remove_FC converted:27.10.2021</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="bpa12994-cit-1001">
+<string-name>
+<surname>H&#x000fc;lsk&#x000f6;tter</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Jin</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Allnoch</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Hansmann</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Schmidtke</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Rohn</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Double&#x02010;edged effects of tamoxifen&#x02010;in&#x02010;oil&#x02010;gavage on an infectious murine model for multiple sclerosis</article-title>. <source>Brain Pathology</source>. <year>2021</year>;<volume>31</volume>:<elocation-id>e12994</elocation-id>. <pub-id pub-id-type="doi">10.1111/bpa.12994</pub-id>
+</mixed-citation>
+</p><fn-group id="bpa12994-ntgp-0001"><fn fn-type="equal" id="bpa12994-note-0001"><p>Fred L&#x000fc;hder, Wolfgang Baumg&#x000e4;rtner and Vanessa Herder are contributed equally to this work.</p></fn></fn-group></notes></front><body id="bpa12994-body-0001"><sec id="bpa12994-sec-0001"><label>1</label><title>INTRODUCTION</title><p>Tamoxifen, originally developed as post&#x02010;coital contraceptive, belongs to the selective estrogen receptor modulators (SERM) and is widely used as drug in breast cancer patients (<xref rid="bpa12994-bib-0001" ref-type="bibr">1</xref>). Besides its clinical use, tamoxifen also emerged as broadly applied drug in experimental animal systems. Conditional knockout systems rely on the detection of LoxP sites by cre recombinase with subsequent gene deletion. Cre recombinase can either be expressed under the control of cell&#x02010;type specific promotors or as an inducible system. One of the most widely used inducible systems relies on cre coupled to a modified estrogen receptor which can be released by tamoxifen administration (<xref rid="bpa12994-bib-0002" ref-type="bibr">2</xref>). This system is used in a wide variety of approaches also tackling questions related to the immune system. However, it has been shown, that tamoxifen is not completely inert with respect to its influence on resident and infiltrating immune cells (<xref rid="bpa12994-bib-0003" ref-type="bibr">3</xref>, <xref rid="bpa12994-bib-0004" ref-type="bibr">4</xref>, <xref rid="bpa12994-bib-0005" ref-type="bibr">5</xref>, <xref rid="bpa12994-bib-0006" ref-type="bibr">6</xref>).</p><p>Theiler's murine encephalomyelitis virus (TMEV) is a single&#x02010;stranded RNA virus that belongs to the family <italic toggle="yes">Picornaviridae</italic>, genus <italic toggle="yes">Cardiovirus</italic>, and is grouped together with the human <italic toggle="yes">Saffold virus</italic> into the <italic toggle="yes">Theilovirus</italic>&#x02010;species (<xref rid="bpa12994-bib-0007" ref-type="bibr">7</xref>, <xref rid="bpa12994-bib-0008" ref-type="bibr">8</xref>, <xref rid="bpa12994-bib-0009" ref-type="bibr">9</xref>). The susceptibility for TMEV&#x02010;persistence in the central nervous system (CNS) after intracranial infection depends on genetic differences between mouse strains (<xref rid="bpa12994-bib-0010" ref-type="bibr">10</xref>). The latter include differences in genes of the major histocompatibility complex (<xref rid="bpa12994-bib-0011" ref-type="bibr">11</xref>) and the T cell receptor loci (<xref rid="bpa12994-bib-0012" ref-type="bibr">12</xref>). Intracerebral infection of susceptible mice, such as the <italic toggle="yes">SJL</italic>&#x02010;strain, with the low virulent BeAn&#x02010;strain of TMEV induces a biphasic disease with an acute polioencephalitis followed by a chronic demyelinating disease (TMEV&#x02010;IDD) in the spinal cord white matter (<xref rid="bpa12994-bib-0013" ref-type="bibr">13</xref>). Early TMEV infection especially affects neurons in the hippocampus, resulting in degeneration and apoptosis (<xref rid="bpa12994-bib-0014" ref-type="bibr">14</xref>). The immune response in the early onset of the disease is characterized by infiltration of CD4<sup>+</sup> and CD8<sup>+</sup> T cells into the CNS (<xref rid="bpa12994-bib-0015" ref-type="bibr">15</xref>). During disease progression and in later phases, TMEV also persists in monocytes/macrophages, microglia, astrocytes, and oligodendrocytes of susceptible mice (<xref rid="bpa12994-bib-0016" ref-type="bibr">16</xref>, <xref rid="bpa12994-bib-0017" ref-type="bibr">17</xref>). Astrocytes are the main targets for ongoing viral replication (<xref rid="bpa12994-bib-0018" ref-type="bibr">18</xref>). An intense early virus&#x02010;specific CD8<sup>+</sup> cytotoxic T lymphocyte (CTL) reaction plays a major role in elimination of virus particles (<xref rid="bpa12994-bib-0019" ref-type="bibr">19</xref>). In case of lacking viral clearance, infiltrating CD8<sup>+</sup> T cells also contribute to demyelination and axonal damage (<xref rid="bpa12994-bib-0020" ref-type="bibr">20</xref>). Remyelination by oligodendrocytes and Schwann cells is highly influenced by the used virus strain as well as composition of glial cells within the demyelinated lesions of the spinal cord white matter (<xref rid="bpa12994-bib-0021" ref-type="bibr">21</xref>, <xref rid="bpa12994-bib-0022" ref-type="bibr">22</xref>, <xref rid="bpa12994-bib-0023" ref-type="bibr">23</xref>, <xref rid="bpa12994-bib-0024" ref-type="bibr">24</xref>).</p><p>Chronic lesions of a TMEV&#x02010;infection occur approximately 1&#x000a0;month post&#x02010;infection (pi) and predominantly show mononuclear cell infiltrates, primarily detected within the white matter of the spinal cord, associated with demyelination and axonal loss (<xref rid="bpa12994-bib-0013" ref-type="bibr">13</xref>, <xref rid="bpa12994-bib-0025" ref-type="bibr">25</xref>), resulting in progressive motor function deficits and a flaccid paralysis at very late stages (<xref rid="bpa12994-bib-0026" ref-type="bibr">26</xref>). Caused by the similarities of pathomorphological changes in the spinal cord white matter of intracerebrally infected <italic toggle="yes">SJL</italic> mice, TMEV&#x02010;IDD serves as a well&#x02010;established murine model for multiple sclerosis (MS) in humans (<xref rid="bpa12994-bib-0027" ref-type="bibr">27</xref>, <xref rid="bpa12994-bib-0028" ref-type="bibr">28</xref>).</p><p>Tamoxifen as a SERM is known to have immunomodulatory and neuroprotective properties (<xref rid="bpa12994-bib-0006" ref-type="bibr">6</xref>, <xref rid="bpa12994-bib-0029" ref-type="bibr">29</xref>). In this study, we used a short&#x02010;term oral application of three high doses of tamoxifen, similar to the scheme often used in the cre&#x02010;loxP system to induce conditional knockouts in genetically modified mice (<xref rid="bpa12994-bib-0030" ref-type="bibr">30</xref>, <xref rid="bpa12994-bib-0031" ref-type="bibr">31</xref>). The high doses ensure a quick, systemic distribution of tamoxifen and its effective metabolites in the periphery, as well as in the CNS (<xref rid="bpa12994-bib-0032" ref-type="bibr">32</xref>). In experimental autoimmune encephalitis (EAE), which is a non&#x02010;infectious murine model for MS, tamoxifen interferes with disease development by preventing myelin antigen&#x02010;specific T&#x02010;cell proliferation (<xref rid="bpa12994-bib-0005" ref-type="bibr">5</xref>). An oral gavage is a routinely used method to apply fixed amounts of compounds (<xref rid="bpa12994-bib-0033" ref-type="bibr">33</xref>). Nonetheless, it is inevitably associated with handling and restraint of the animals, which may induce a stress response (<xref rid="bpa12994-bib-0034" ref-type="bibr">34</xref>). The tamoxifen&#x02010;in&#x02010;oil&#x02010;gavage (TOG) poses a combination of two tools that are often considered inert. The effect of TOG on initiation and progression of lesions in infectious models like TMEV has not been described so far.</p><p>It is known from previous studies that early (0&#x02013;9 dpi), middle (14&#x02013;16 dpi), and late (after 30 dpi) stages of TMEV&#x02010;IDD can be distinguished, and each of them has a very specific pathologic phenotype and characteristics (<xref rid="bpa12994-bib-0035" ref-type="bibr">35</xref>, <xref rid="bpa12994-bib-0036" ref-type="bibr">36</xref>). The time points of tamoxifen gavage were selected to impact key points of TMEV&#x02010;IDD development: (1) at the time point of infection of neurons (first tamoxifen gavage at 0 dpi), (2) when the virus spreads from the brain to the spinal cord and starts to also infect microglia/macrophages, astrocytes, and oligodendrocytes (first tamoxifen gavage at 18 dpi) (<xref rid="bpa12994-bib-0037" ref-type="bibr">37</xref>). and (3) when demyelination and myelinophagia begins (first tamoxifen gavage at 38 dpi) (<xref rid="bpa12994-bib-0007" ref-type="bibr">7</xref>).</p><p>The aim of the present investigation was to study the impact of TOG on TMEV&#x02010;IDD, with special emphasis on pathomorphological changes in a spatio&#x02010;temporal context of application on disease initiation and progression.</p></sec><sec sec-type="materials-and-methods" id="bpa12994-sec-0002"><label>2</label><title>MATERIALS AND METHODS</title><sec id="bpa12994-sec-0003"><label>2.1</label><title>Mice</title><p>Forty&#x02010;eight 3&#x02013;4&#x02010;week&#x02010;old, female <italic toggle="yes">SJL</italic>/<italic toggle="yes">JCrHsd (SJL)</italic> mice were purchased in one charge from Envigo RMS GmbH, Rossdorf, Germany. Mice were kept in individually ventilated cages (IVC) with <italic toggle="yes">ad libitum</italic> access to tap water and food (ssniff Spezialdi&#x000e4;ten GmbH, DE&#x02010;59494 Soest, cat. V1534&#x02010;000) at the Department of Pathology, University of Veterinary Medicine Hannover, Germany. All experiments were performed in accordance with German law and approved by the Lower Saxony state office for consumer protection and food safety as the responsible authority (Nieders&#x000e4;chsisches Landesamt f&#x000fc;r Verbraucherschutz&#x02010;und Lebensmittelsicherheit (LAVES), Oldenburg, Germany; permission number: 17/2418). Animals were randomized upon arrival and acclimatized to the groups and housing conditions for 2&#x000a0;weeks while receiving training in handling and RotaRod&#x000ae; testing. Groups of six mice were housed together according to their TOG application, and time point of necropsy to avoid tamoxifen contamination and regrouping/ changes of the group composition after necropsy of earlier time points in the same treatment group.</p></sec><sec id="bpa12994-sec-0004"><label>2.2</label><title>Clinical scoring and RotaRod&#x000ae; testing</title><p>Mice were visually inspected on a daily basis to assess the general health status. Once a week, a clinical scoring, including recording of the body weight and motor skills by the RotaRod&#x000ae; test (<xref rid="bpa12994-bib-0038" ref-type="bibr">38</xref>), was performed by the same rater. The clinical scoring was based on three categories with individual scores from 0 to 3 for appearance and activity or 0 to 4 for gait (Table <xref rid="bpa12994-sup-0001" ref-type="supplementary-material">S1</xref>) (<xref rid="bpa12994-bib-0039" ref-type="bibr">39</xref>). The rater was not blinded for the treatment group of the mice. Animals were examined twice a week and granted access to HydroGel&#x000ae; and food pellets on ground level, if they reached a score &#x0003e;0 in any of the categories. If the animals showed a deterioration of the general condition in the daily visual control, the mice were examined clinically according to the evaluation scheme. Prior to infection mice were trained on the RotaRod&#x000ae; twice, once for 5&#x000a0;minutes and once for 10&#x000a0;minutes at a constant speed of 5 rotations per minute (rpm). During the following weekly tests, the rod was linearly accelerated from 5&#x000a0;rpm, over 300&#x000a0;seconds, to a maximum of 55&#x000a0;rpm, and the time as well as maximum rpm was measured automatically until the mice failed to stay on the rod. The mean of three measurements per mouse was weekly obtained for data analysis.</p></sec><sec id="bpa12994-sec-0005"><label>2.3</label><title>Theiler's murine encephalomyelitis virus infection</title><p>Anesthesia and intracerebral infection with Theiler's murine encephalomyelitis virus (TMEV) was performed as described before (<xref rid="bpa12994-bib-0040" ref-type="bibr">40</xref>) with 20&#x000a0;&#x000b5;l of a 2.7x10<sup>7</sup> plaque&#x02010;forming units (PFU)/ml TMEV&#x02010;BeAn cell culture supernatant, which is a dose of 5.4x10<sup>5</sup> PFU per infection.</p></sec><sec id="bpa12994-sec-0006"><label>2.4</label><title>Tamoxifen solution preparation and treatment</title><p>The crystalline &#x0003e;99% tamoxifen (Sigma, cat. T5648&#x02010;5G) was dissolved in rapeseed oil at a dose of 3&#x000a0;mg/100&#x000a0;&#x000b5;l by mechanical vortexing and ultrasound bath for 15&#x000a0;minutes at room temperature. The solution was used for three applications over a period of 4&#x000a0;days and stored at +4&#x02103; in the refrigerator. Prior to usage, the applied amounts were tempered to body temperature. For tamoxifen treatment, all virus&#x02010;infected mice were randomly divided into four different groups with six animals per application group and time point of necropsy. Tamoxifen was applied by oral gavage of 3&#x000a0;mg tamoxifen per application diluted in 100&#x000a0;&#x000b5;l rapeseed oil three times within 4&#x000a0;days (every second day) using disposable, flexible 20 G polypropylene feeding tubes for rodents with soft elastomer tips (Instech, cat. FTP&#x02010;20&#x02010;38&#x02010;50). Tamoxifen application was always performed by the same person and started either at the day of TMEV infection (0 dpi), 18 dpi, or 38 dpi. Mice were necropsied at 7, 14, or 85 dpi.</p></sec><sec id="bpa12994-sec-0007"><label>2.5</label><title>Necropsy</title><p>After euthanasia, perfusion was performed through the left ventricle with phosphate buffered saline (PBS) and a flow rate of 3.75&#x000a0;ml/min. Brain, spinal cord, and peripheral lymphoid organs (spleen, thymus, and lymph nodes) were removed and fixed for 24&#x000a0;h in 4% buffered formaldehyde solution prior to paraffin embedding. The left hemisphere of the brain, caudal parts of the cervical, thoracic and lumbar spinal cord, and further organ samples were snap frozen in liquid nitrogen and stored at &#x02212;80&#x02103;.</p></sec><sec id="bpa12994-sec-0008"><label>2.6</label><title>Histology</title><p>Formalin&#x02010;fixed, paraffin&#x02010;embedded (FFPE) hematoxylin&#x02013;eosin (HE) stained sections of brain and spinal cord with a thickness of 2&#x000a0;&#x000b5;m were examined regarding hyper&#x02010;cellularity, perivascular infiltrates, vacuolization, and neuronal or axonal damage with a grading system from 0 to 3 (<xref rid="bpa12994-bib-0038" ref-type="bibr">38</xref>). In the brain, different regions (olfactory bulb, cerebral cortex, striatum, hippocampus, thalamus, hypothalamus, midbrain, pons, medulla and cerebellum, see Figure <xref rid="bpa12994-sup-0001" ref-type="supplementary-material">S1</xref>) were evaluated and scored (0&#x02013;3) accordingly. Cervical, thoracic, and lumbar spinal cord segments were evaluated separately. Each spinal cord segment (cervical, thoracic, and lumbar) was subdivided into the dorsal, lateral, and ventral aspect (see Figure <xref rid="bpa12994-sup-0001" ref-type="supplementary-material">S2</xref>). Spinal cord demyelination was evaluated applying luxol&#x02010;fast&#x02010;blue (LFB) staining of cervical, thoracic, and lumbar segments. The segments were graded with scores from 0 to 3 as previously described (<xref rid="bpa12994-bib-0038" ref-type="bibr">38</xref>). The rater was blinded during scoring and evaluation of the histological slides.</p></sec><sec id="bpa12994-sec-0009"><label>2.7</label><title>Immunohistochemistry</title><p>FFPE slides were deparaffinized in Roticlear&#x000ae; (C. Roth, cat.A538.3), isopropanol (C. Roth, cat. 6752), and 96% ethanol. Frozen tissue sections were thawed at room temperature. The following primary antibodies were used for paraffin&#x02010;embedded tissues: anti&#x02010;periaxin (PRX) antibody produced in rabbit (Merck, cat.HPA001868), anti&#x02010;myelin basic protein (MBP) antibody (Merck, cat. AB980), anti&#x02010;Alzheimer precursor protein (beta&#x02010;APP) A4 antibody, a.a. 66&#x02010;81 of APP (NT), clone 22C11 (Merck, cat. MAB348), anti&#x02010;neurite outgrowth inhibitor&#x02010;A (NoGo&#x02010;A), antibody (Merck, cat. AB5664P), anti&#x02010;neuron glial antigen 2 (NG&#x02010;2), chondroitin sulfate proteoglycan antibody (Merck, cat. AB5320), polyclonal rabbit anti&#x02010;glial fibrillary acidic protein (GFAP, Dako, cat. Z0334), anti&#x02010;adhesion molecule with Ig&#x02010;like domain 2 (amigo 2) antibody (BiossUSA, cat. Bs&#x02010;11450R), anti&#x02010;S100A10 antibody (Bio&#x02010;Techne GmbH, cat. Ab JF0987), anti&#x02010;aquaporin 4 (Millipore, cat. AB3594), and cleaved caspase&#x02010;3 (Asp175) antibody (D175) polyclonal from rabbit (Cell Signaling Technology, cat. 9661). The immunohistochemical detection of Theiler's murine encephalomyelitis virus (TMEV)&#x02010;antigen was performed by applying a polyclonal rabbit&#x02010;anti&#x02010;TMEV antibody (<xref rid="bpa12994-bib-0041" ref-type="bibr">41</xref>). Immunohistochemical staining of FFPE material was performed as described before (<xref rid="bpa12994-bib-0041" ref-type="bibr">41</xref>). Frozen, O.C.T&#x02010;embedded and acetone fixed, 2&#x02013;5&#x000a0;&#x000b5;m thick tissue slides were used for staining of CD4<sup>+</sup> (monoclonal rat&#x02010;anti&#x02010;mouse CD4 BD Pharmingen&#x02122;; cat. 550280) and CD8<sup>+</sup> cells (monoclonal rat&#x02010;anti&#x02010;mouse CD8b.2, BD Pharmingen&#x02122;; cat. 553038).</p></sec><sec id="bpa12994-sec-0010"><label>2.8</label><title>Morphometrical analysis</title><p>Morphometrical analysis of Immunohistochemistry (IHC)&#x02010;slides was performed on scans generated on a light microscope with camera (Olympus, DP72, Hamburg, Germany) or compact fluorescence microscope (BIOREVO&#x02010;BZ9000, Keyence, Neu&#x02010;Isenburg, Germany) with bright field imaging and BZ&#x02010;II Analyzer software (Keyence, Neu&#x02010;Isenburg, Germany) for image merging. Magnifications between 40x and 600x were selected according to the requirements.</p></sec><sec id="bpa12994-sec-0011"><label>2.9</label><title>Statistical analysis</title><p>Power analysis was performed to assess the required group size per time point of necropsy prior to the experiment, using data of former own TMEV infection experiments (<xref rid="bpa12994-bib-0040" ref-type="bibr">40</xref>). Statistics and graphs were generated with R&#x02010;Studio (RStudio, Inc.), SAS (SAS Institute), or GraphPad Prism (GraphPad Software). Normality was assessed visually via histogram and quantile&#x02010;quantile (QQ) plots, and with Shapiro&#x02010;Wilk tests. Non&#x02010;normally distributed data sets were tested with Mann&#x02010;Whitney&#x02010;U&#x02010;tests (MWU). Normally distributed data sets were tested with a three&#x02010;way analysis of variance for independent and repeated measurements with post hoc Ryan&#x02010;Einot&#x02010;Gabriel&#x02010;Welsch Multiple Range Tests for pairwise comparisons.. A <italic toggle="yes">p</italic> value &#x0003c;0.05 was considered significant.</p></sec></sec><sec sec-type="results" id="bpa12994-sec-0012"><label>3</label><title>RESULTS</title><sec id="bpa12994-sec-0013"><label>3.1</label><title>Tamoxifen application has a negative effect on the body weight, but not on functional motor performance and clinic of TMEV infected SJL mice</title><p>Between the different treatment groups without and with tamoxifen (starting at 0, 18, and 38 dpi), no significant clinical differences were detected at any of the investigated time points. All infected mice, irrespective of the treatment group, showed an initial rapid increase of the clinical score starting between 21 and 28 dpi, which further increased until 85 dpi (Figure <xref rid="bpa12994-fig-0001" ref-type="fig">1A</xref>). All TMEV&#x02010;infected <italic toggle="yes">SJL</italic> mice showed a similar overall decline of motor coordination as quantified by RotaRod&#x000ae; test (Figure <xref rid="bpa12994-fig-0001" ref-type="fig">1B</xref>). Interestingly, animals with no tamoxifen treatment developed a tendency toward a lower body weight compared with TOG&#x02010;treated animals in the later course of the experiment; however, the body weight remained relatively stable over time (Figure <xref rid="bpa12994-fig-0001" ref-type="fig">1C</xref>). By contrast, there was a significant (n&#x000a0;=&#x000a0;10/11, MWU: <italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.00048) weight loss in mice with tamoxifen treatment starting 18 or 38 dpi. This was detected between 77 and 85 dpi, when the mean body weight of these groups dropped below the other two groups, and resulted in the termination of the experiment. Three animals were euthanized and/or died before termination of the experiment at 85 dpi (Figure <xref rid="bpa12994-sup-0001" ref-type="supplementary-material">S3</xref>).</p><fig position="float" fig-type="FIGURE" id="bpa12994-fig-0001"><label>FIGURE 1</label><caption><p>Weekly clinical data of <italic toggle="yes">SJL</italic> mice 0&#x02013;85 dpi. Increasing mean clinical score (A) and parallel decline of mean rotations per minute (rpm) on the RotaRod (B). The mean body weight (C) shows an expected initial drop after TMEV&#x02010;infection in all groups. Afterwards all animals gain weight until 35&#x02013;49 dpi where the body weights start to decline again. Except for the last week of the experiment, there were no significant differences between the treatment groups. Between 77 and 85 dpi, the animals with tamoxifen gavage 18 or 38 dpi showed a prominent loss of body weight compared with the two other groups (n&#x000a0;=&#x000a0;10/11, *<italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.0005), which led to the termination of the experiment. *Mann&#x02010;Whitney&#x02010;U&#x02010;test</p></caption><graphic xlink:href="BPA-31-e12994-g011" position="anchor" id="jats-graphic-3"/></fig></sec><sec id="bpa12994-sec-0014"><label>3.2</label><title>Tamoxifen gavage has no influence on TMEV&#x02010;induced pathology, but affects the number of infiltrating CD4<sup>+</sup> and CD8<sup>+</sup> cell subsets</title><p>The general characteristics of TMEV&#x02010;induced pathology in the CNS were similar in tamoxifen&#x02010;treated and non&#x02010;treated animals. Mice showed perivascular cuffing of lymphocytes, macrophages, and infiltrations of the meninges as well as neuronal loss in the hippocampus at 7 and 14 dpi. Overall, the main brain lesions moved over time from the site of primary infection hippocampus (7 and 14 dpi) over pons to medulla (Table <xref rid="bpa12994-sup-0001" ref-type="supplementary-material">S2</xref>) and into the spinal cord (85 dpi). Lesions in the brain disappeared simultaneously in the same order. At 85 dpi, <italic toggle="yes">SJL</italic> mice showed demyelination within the spinal cord white matter, accompanied by lympho&#x02010;histiocytic perivascular cuffing. Thus, the main focus for evaluation of the early phase (7 and 14 dpi) lies on the brain, while the chronic demyelinating lesions (85 dpi) are mainly found in the spinal cord, as expected.</p><p>In the early phase, the total number of infiltrating CD4<sup>+</sup> and CD8<sup>+</sup> cells was affected by TOG. At 7 dpi, a lower number of infiltrating CD8<sup>+</sup> cells was detected in the brain of animals with tamoxifen treatment starting at 0 dpi (Figure <xref rid="bpa12994-fig-0002" ref-type="fig">2</xref>, *<italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.03). A week later, at 14 dpi, the tamoxifen&#x02010;treated mice showed increased numbers of CD4<sup>+</sup> (*<italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.002) and CD8<sup>+</sup> (*<italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.01) cells in the brain parenchyma (Figure <xref rid="bpa12994-fig-0002" ref-type="fig">2</xref>).</p><fig position="float" fig-type="FIGURE" id="bpa12994-fig-0002"><label>FIGURE 2</label><caption><p>Hippocampal region at 7 dpi (A&#x02010;D) and ventral midbrain and pons at 14 dpi (E&#x02010;H) from TMEV&#x02010;infected, untreated mice (A, B, E, F) and mice with tamoxifen gavage at 0 dpi (C, D, G, H), comparing the infiltration of CD4<sup>+</sup> cells (left column: A, C, E, G) and CD8<sup>+</sup> cells (right column: B, D, F, H). (A) High numbers of CD4<sup>+</sup> and (B) moderate numbers of CD8<sup>+</sup> cells within the hippocampus of a mouse without TOG at 7 dpi. (C) Low numbers of CD4<sup>+</sup> cells and (D) few CD8<sup>+</sup> cells within the hippocampus of a mouse with TOG at 0 dpi after 7 dpi. (E) Low numbers of CD4<sup>+</sup> and (F) few CD8<sup>+</sup> cells within the ventral midbrain and pons of a mouse without TOG at 14 dpi. (G) High numbers of CD4<sup>+</sup> cells and (H) moderate numbers of CD8<sup>+</sup> cells within the ventral midbrain and pons of a mouse with TOG 0 dpi after 14 dpi. (I) Total number of infiltrating CD4<sup>+</sup> and CD8<sup>+</sup> cells in one sagittal brain section 7 and 14 dpi. While the infiltrate is lower in tamoxifen&#x02010;treated animals at 7 dpi (*<italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.030), there is increased infiltration of CD4<sup>+</sup> (*<italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.002) and CD8<sup>+</sup> (*<italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.01) cells into the brain parenchyma 14 dpi. Data are presented as box and whiskers plots (min&#x02010;max) with mean and data points. * Mann&#x02013;Whitney U&#x02010;test</p></caption><graphic xlink:href="BPA-31-e12994-g008" position="anchor" id="jats-graphic-5"/></fig><p>Assessment of the chronic lesions within the spinal cord at 85 dpi revealed a long&#x02010;term effect on the number of CD8<sup>+</sup> cells, but not on CD4<sup>+</sup> cells when tamoxifen is given at a later time point (Figure <xref rid="bpa12994-fig-0003" ref-type="fig">3</xref>). Mice with tamoxifen treatment starting 18 dpi showed significantly increased numbers of infiltrating CD8<sup>+</sup> cells into the spinal cord compared with untreated animals (*<italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.016) and mice with early tamoxifen treatment starting 0 dpi (*<italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.032).</p><fig position="float" fig-type="FIGURE" id="bpa12994-fig-0003"><label>FIGURE 3</label><caption><p>Ventral thoracic spinal cord of a mouse with tamoxifen gavage starting 18 dpi, showing moderate infiltration of CD4<sup>+</sup> cells (A) and low numbers of CD8<sup>+</sup> cells (B) at 85 dpi. Total number of infiltrating CD4<sup>+</sup> or CD8<sup>+</sup> cells in three spinal cord sections (C) at 85 dpi. While the number of infiltrating CD4<sup>+</sup> cells do not differ in chronic spinal cord lesions, mice with tamoxifen treatment starting 18 dpi show increased numbers of infiltrating CD8<sup>+</sup> cells into the spinal cord compared with untreated animals (*<italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.016) and mice with early tamoxifen treatment starting 0 dpi (*<italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.032). Data are presented as box and whiskers plots (min&#x02010;max) with mean and data points. * Mann&#x02010;Whitney&#x02010;U&#x02010;test</p></caption><graphic xlink:href="BPA-31-e12994-g005" position="anchor" id="jats-graphic-7"/></fig></sec><sec id="bpa12994-sec-0015"><label>3.3</label><title>SJL mice show increased demyelination after late tamoxifen treatment</title><p>In the early phase of infection (7 dpi and 14 dpi), no white matter demyelination in the spinal cord was detected, independent of the treatment. At 85 dpi, <italic toggle="yes">SJL</italic> mice of all groups showed prominent demyelinated lesions in the spinal cord white matter. When tamoxifen was given at 38 dpi, the demyelination was significantly increased at 85 dpi (Figure <xref rid="bpa12994-fig-0004" ref-type="fig">4</xref>, Figure <xref rid="bpa12994-sup-0001" ref-type="supplementary-material">S2</xref> and Table <xref rid="bpa12994-sup-0001" ref-type="supplementary-material">S3</xref>). Earlier tamoxifen treatment was not associated with increased demyelination, as evidenced by the analysis of anti&#x02010;myelin basic protein (MBP) reactive area at 85 dpi (Ryan&#x02010;Einot&#x02010;Gabriel&#x02010;Welsch Multiple Range Test, ANOVA [F&#x000a0;=&#x000a0;18.19], n&#x000a0;=&#x000a0;5 and 6 per group), mice with later tamoxifen application on 38 dpi showed increased demyelination compared with all other groups (Figure <xref rid="bpa12994-fig-0004" ref-type="fig">4</xref>).</p><fig position="float" fig-type="FIGURE" id="bpa12994-fig-0004"><label>FIGURE 4</label><caption><p>Representative thoracic spinal cord sections of TMEV&#x02010;infected <italic toggle="yes">SJL</italic> mice at 85 dpi (A&#x02010;D) with demyelinated lesions within the white matter &#x02013; immunohistochemistry, myelin basic protein (MBP). (A) Mouse with no tamoxifen treatment and minor demyelination, (B) mouse with TOG 0 dpi and moderate demyelination (*), (C) mouse with TOG at 18 dpi and minor ventral demyelination (*) and (D) mouse with TOG at 38 dpi with moderate&#x02010;to&#x02010;severe multifocal demyelination (*). (E) Percentage of MBP&#x02010;positive area in the thoracic spinal cord of TMEV&#x02010;infected <italic toggle="yes">SJL</italic> mice at 7, 14, and 85 dpi. Animals with a later tamoxifen treatment (vertical stripes, dark blue box) show more demyelination in the thoracic spinal cord at 85 dpi compared with animals with no tamoxifen treatment (yellow box) or an early treatment starting at 0 dpi (dotted, light blue box) or 18 dpi (horizontal stripes, middle blue box). Groups: (7 dpi &#x02013; no tamoxifen; n&#x000a0;=&#x000a0;6), (7 dpi &#x02013; tamoxifen 0 dpi; n&#x000a0;=&#x000a0;6), (14 dpi &#x02013; no tamoxifen; n&#x000a0;=&#x000a0;6), (14 dpi &#x02013; tamoxifen 0 dpi; n&#x000a0;=&#x000a0;6), (85 dpi &#x02013; no tamoxifen; n&#x000a0;=&#x000a0;5), (0 dpi/85 dpi &#x02013; tamoxifen 0 dpi; n&#x000a0;=&#x000a0;5), (18 dpi/ 85 dpi &#x02013; tamoxifen 18 dpi; n&#x000a0;=&#x000a0;5), and (38 dpi/ 85 dpi &#x02013; tamoxifen 38 dpi; n&#x000a0;=&#x000a0;6). Data are presented as box and whiskers plots (min&#x02010;max) with mean and data points, Ryan&#x02010;Einot&#x02010;Gabriel&#x02010;Welsch Multiple Range Test (3 factorial variance analysis with repeated measurements and post hoc Tukey test),*F&#x000a0;=&#x000a0;18.19, <italic toggle="yes">p</italic>&#x000a0;&#x0003c;&#x000a0;0.0001</p></caption><graphic xlink:href="BPA-31-e12994-g004" position="anchor" id="jats-graphic-9"/></fig></sec><sec id="bpa12994-sec-0016"><label>3.4</label><title>Tamoxifen&#x02010;treated SJL mice show higher numbers of oligodendrocytes and oligodendrocyte progenitor cells in the spinal cord but insufficient Schwann cell remyelination</title><p>Differences in the degree of demyelination due to tamoxifen treatment during the TMEV&#x02010;infection prompted us to study remyelination in detail by investigating markers associated with myelin formation such as neurite outgrowth inhibitor&#x02010;A (NoGo&#x02010;A) and neuron&#x02010;glial&#x02010;antigen&#x02010;2 (NG&#x02010;2) for oligodendrocyte progenitor cells (OPCs). Results show that tamoxifen treatment in TMEV&#x02010;infected mice induced significantly higher numbers of NoGo&#x02010;A positive cells within the thoracic spinal cord at the early (7 and 14 dpi) and late (85 dpi) time points (early time points: n&#x000a0;=&#x000a0;12 per group, *<italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.02; time point 85 dpi: No Tam vs. Tam 0 dpi, n&#x000a0;=&#x000a0;5 per group: *<italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.03; Figure <xref rid="bpa12994-fig-0005" ref-type="fig">5</xref>). Comparing nontreated mice (n&#x000a0;=&#x000a0;5) with tamoxifen&#x02010;treated mice (n&#x000a0;=&#x000a0;16) at 85 dpi, tamoxifen treatment is associated with higher numbers of NoGo&#x02010;A positive cells per mm&#x000b2; (*<italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.04).</p><fig position="float" fig-type="FIGURE" id="bpa12994-fig-0005"><label>FIGURE 5</label><caption><p>Spinal cord of an untreated mouse (A) and a mouse with tamoxifen treatment 0 dpi (B) 85 dpi &#x02013; IHC: Neurite outgrowth inhibitor&#x02010;A (NoGo&#x02010;A) &#x02013; 400x. (C) NoGo&#x02010;A&#x02010;positive cells per 1&#x000a0;mm&#x000b2; in the thoracic spinal cord. (A) There are few intralesional NoGo&#x02010;A positive cells within the thoracic spinal cord of an untreated mouse compared with more NoGo&#x02010;A positive cells in the tamoxifen&#x02010;treated mouse (B) 85 dpi. (C) Early time points (7 and 14 dpi) combined, TMEV&#x02010;infected <italic toggle="yes">SJL</italic> mice without tamoxifen treatment (yellow box) have less NoGo&#x02010;A positive cells per area than TMEV&#x02010;infected <italic toggle="yes">SJL</italic> mice with tamoxifen treatment starting 0 dpi (dotted, light blue box). At 85 dpi the untreated mice (yellow box) also showed less NoGo&#x02010;A positive cells compared with TMEV&#x02010;infected <italic toggle="yes">SJL</italic> mice with early tamoxifen treatment (dotted, light blue box). Early time points: (7 and 14 dpi &#x02013; no tamoxifen; n&#x000a0;=&#x000a0;12), (0 dpi/ 7 dpi and 14 dpi &#x02013; tamoxifen 0 dpi; n&#x000a0;=&#x000a0;12),*<italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.02. Late time point: (85 dpi &#x02013; no tamoxifen; n&#x000a0;=&#x000a0;5), (0 dpi/85 dpi &#x02013; tamoxifen 0 dpi; n&#x000a0;=&#x000a0;5), (18 dpi/ 85 dpi &#x02013; tamoxifen 18 dpi; n&#x000a0;=&#x000a0;5) and (38 dpi/ 85 dpi &#x02013; tamoxifen 38 dpi; n&#x000a0;=&#x000a0;6), *<italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.03. Data are presented as box and whiskers plots (min&#x02010;max) with mean and data points. * Mann&#x02010;Whitney&#x02010;U&#x02010;test</p></caption><graphic xlink:href="BPA-31-e12994-g006" position="anchor" id="jats-graphic-11"/></fig><p>Furthermore, mice treated with tamoxifen at 0 dpi showed increased numbers of NG&#x02010;2 positive OPCs in the early phase after infection (n&#x000a0;=&#x000a0;12 per group, **<italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.006, 7 and 14 dpi, Figure <xref rid="bpa12994-fig-0006" ref-type="fig">6</xref>). These data indicate that there is a positive proliferative effect of tamoxifen treatment on NoGo A positive cells and OPCs&#x02010;like NG&#x02010;2 positive cells, whereas loss of myelin remains surprisingly a prominent feature. At 85 dpi, the proliferative effect of tamoxifen on NG&#x02010;2 positive OPCs has vanished, and mice with tamoxifen treatment 38 dpi showed a trend for even less NG&#x02010;2 positive cells (<italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.081, Figure <xref rid="bpa12994-fig-0006" ref-type="fig">6</xref>). Reduced numbers of OPCs in the late phase of the disease in animals with late tamoxifen treatment are associated with an increased degree of demyelination in these animals.</p><fig position="float" fig-type="FIGURE" id="bpa12994-fig-0006"><label>FIGURE 6</label><caption><p>Thoracic spinal cords of a TMEV infected mouse without tamoxifen treatment with few NG&#x02010;2<sup>+</sup> cells (A) and a mouse with TOG 0 dpi with increased numbers of NG&#x02010;2<sup>+</sup> cells (B) 7 dpi &#x02013; IHC: neuron&#x02010;glial antigen&#x02010;2 (NG&#x02010;2) &#x02013; 400x. (C) Total number of NG&#x02010;2&#x02010;positive cells within the thoracic spinal cord segments 7, 14, and 85 dpi. Early time points (7 and 14 dpi) combined. Significantly higher numbers of NG&#x02010;2 positive cells were found in tamoxifen&#x02010;treated mice (dotted, light blue box) 7 and 14 dpi, but not 85 dpi. Groups: (7 and 14 dpi &#x02013; no tamoxifen; n&#x000a0;=&#x000a0;12), (7 dpi and 14 dpi &#x02013; tamoxifen 0 dpi; n&#x000a0;=&#x000a0;12), **<italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.006. Data are presented as box and whiskers plots (min&#x02010;max) with mean and data points. ** Mann&#x02010;Whitney&#x02010;U&#x02010;test</p></caption><graphic xlink:href="BPA-31-e12994-g009" position="anchor" id="jats-graphic-13"/></fig><p>In order to study the potential impact of Schwann cell infiltration on spinal cord remyelination, the occurrence of periaxin positive myelin sheaths was evaluated. In all treatment groups, animals showed Schwann cell&#x02010;derived remyelination in the spinal cord lesions at 85 dpi. Early tamoxifen treatment (0 dpi) significantly decreased the numbers of periaxin positive ensheathed axons in the spinal cord at 85 dpi (n&#x000a0;=&#x000a0;5 per group, *<italic toggle="yes">p</italic>: 0.047, Figure <xref rid="bpa12994-fig-0007" ref-type="fig">7</xref>). Mice receiving tamoxifen at later time points did not show changes in the Schwann cell&#x02010;mediated remyelination compared with untreated mice. At earlier time points (7 and 14 dpi), there was no Schwann cell&#x02010;derived remyelination present (data not shown).</p><fig position="float" fig-type="FIGURE" id="bpa12994-fig-0007"><label>FIGURE 7</label><caption><p>Thoracic spinal cord of an untreated mouse with prominent Schwann cell&#x02010;derived remyelination (A) and a mouse with TOG 0 dpi with minor Schwann cell infiltration (B) at 85 dpi &#x02013; IHC: Periaxin &#x02013; 200x. (C) Number of periaxin positive cells in the spinal cord of Theiler's murine encephalomyelitis virus&#x02010;infected <italic toggle="yes">SJL</italic> mice with and without tamoxifen treatment. Significantly decreased numbers of periaxin positive cells were found in early tamoxifen&#x02010;treated (0 dpi) <italic toggle="yes">SJL</italic> mice (dotted, light blue box). Data are presented as box and whiskers plots (min&#x02010;max) with mean and data points. Groups: (85 dpi &#x02013; no tamoxifen; n&#x000a0;=&#x000a0;5), (0 dpi/85 dpi &#x02013; tamoxifen 0 dpi; n&#x000a0;=&#x000a0;5), (18 dpi/ 85 dpi &#x02013; tamoxifen 18 dpi; n&#x000a0;=&#x000a0;5), and (38 dpi/ 85 dpi &#x02013; tamoxifen 38 dpi; n&#x000a0;=&#x000a0;6); *<italic toggle="yes">p</italic>: 0.047; *Mann&#x02010;Whitney U test</p></caption><graphic xlink:href="BPA-31-e12994-g010" position="anchor" id="jats-graphic-15"/></fig></sec><sec id="bpa12994-sec-0017"><label>3.5</label><title>GFAP expression, axonal damage, and apoptosis in chronic spinal cord lesions of SJL mice are not influenced by tamoxifen</title><p>Changes in the degree of demyelination might also influence astrogliosis. Therefore, the percentages of GFAP&#x02010;positive areas within six evaluated regions of interest (ROI) within the white matter of three spinal cord segments of TMEV&#x02010;infected <italic toggle="yes">SJL</italic> mice with and without tamoxifen treatment were evaluated. No significant differences between the groups were detected (data not shown). Since Schwann cell remyelination depends to a large extend on astrocyte dysfunction, beneficial and detrimental astrocyte phenotypes were investigated in further detail. To characterize the activation and phenotype of reactive A1 (cytotoxic) and A2 (neurotropic) astrocytes (<xref rid="bpa12994-bib-0042" ref-type="bibr">42</xref>), immunoreactivity for amigo 2 (A1) and S100A10 (A2) (<xref rid="bpa12994-bib-0043" ref-type="bibr">43</xref>) was included, with special emphasis on their role in lesion development within the spinal cord white matter. To address in this context as well the integrity/polarization of the astrocytes, aquaporin 4 water channel expression on the astrocytic glia limitans, was evaluated as well (<xref rid="bpa12994-bib-0043" ref-type="bibr">43</xref>).</p><p>In spinal cords with no white matter lesions (early phase at 7 and 14 dpi), the majority of astrocytes exhibited the A2 phenotype, and only single A1 astrocytes were detected (Figures <xref rid="bpa12994-fig-0008" ref-type="fig">8</xref> and <xref rid="bpa12994-fig-0009" ref-type="fig">9</xref>). In the late phase (85 dpi), the cytotoxic A1 phenotype is significantly upregulated, while there are less A2 astrocytes compared with the early phase (Figures <xref rid="bpa12994-fig-0008" ref-type="fig">8</xref> and <xref rid="bpa12994-fig-0009" ref-type="fig">9</xref>). TOG had no effect on the proportions of A1 and A2 astrocytes, at any time point.</p><fig position="float" fig-type="FIGURE" id="bpa12994-fig-0008"><label>FIGURE 8</label><caption><p>Amigo 2 positive A1 astrocytes within the thoracic spinal cord white matter of <italic toggle="yes">SJL</italic> mice during the early (14 dpi) and late phase (85 dpi) of Theiler's murine encephalomyelitis virus (TMEV) infection &#x02013; (IHC): Amigo 2 &#x02013; (A, B): 200x, insert (B): 400x. (A) There are only single amigo 2 positive A1 astrocytes (arrow) within the myelinated white matter at 14 dpi. (B) Conversely, there is an increase in amigo 2 positive A1 astrocytes (arrows) associated with the characteristic demyelinating lesions (*) at 85 dpi. The insert in (B) shows a higher magnification of an amigo 2 positive astrocyte. (C) Number of amigo 2 positive cells in the ventral thoracic spinal cord white matter of TMEV&#x02010;infected <italic toggle="yes">SJL</italic> mice with and without tamoxifen treatment. Significantly increased numbers of amigo 2 positive cells were found in all groups after development of demyelinating lesions at 85 dpi. Data are presented as box and whiskers plots (min&#x02010;max) with mean and data points. Groups: (7 dpi &#x02013; no tamoxifen; n&#x000a0;=&#x000a0;6), (7 dpi &#x02013; tamoxifen 0 dpi; n&#x000a0;=&#x000a0;6), (14 dpi &#x02013; no tamoxifen; n&#x000a0;=&#x000a0;6), (14 dpi &#x02013; tamoxifen 0 dpi; n&#x000a0;=&#x000a0;6), (85 dpi &#x02013; no tamoxifen; n&#x000a0;=&#x000a0;5), (0 dpi/85 dpi &#x02013; tamoxifen 0 dpi; n&#x000a0;=&#x000a0;5), (18 dpi/ 85 dpi &#x02013; tamoxifen 18 dpi; n&#x000a0;=&#x000a0;5) and (38 dpi/ 85 dpi &#x02013; tamoxifen 38 dpi; n&#x000a0;=&#x000a0;6). ***<italic toggle="yes">p</italic>: 3.318e&#x02010;09; *Mann&#x02010;Whitney U test</p></caption><graphic xlink:href="BPA-31-e12994-g012" position="anchor" id="jats-graphic-17"/></fig><fig position="float" fig-type="FIGURE" id="bpa12994-fig-0009"><label>FIGURE 9</label><caption><p>S100A10 positive A2 astrocytes within the ventral thoracic spinal cord white matter of <italic toggle="yes">SJL</italic> mice during the early (14 dpi) and late phase (85 dpi) of Theiler's murine encephalomyelitis virus (TMEV) infection &#x02013; (IHC): S100A10 &#x02013; (A, B): 200x, insert (A): 400x. (A) There are multiple S100A10 positive A2 astrocytes within the myelinated white matter (arrows). The insert in (A) shows a higher magnification of a S100A10 positive astrocyte. (B) In the late phase at 85 dpi, there is a decrease in S100A10 positive A2 astrocytes, associated with the characteristic demyelinating lesions (*). (C) Number of S100A10 positive cells in the ventral thoracic spinal cord white matter of TMEV infected <italic toggle="yes">SJL</italic> mice with and without tamoxifen treatment. The number of S100A10 positive cells declined in all groups after development of demyelinating lesions at 85 dpi, irrespective of tamoxifen application. Data are presented as box and whiskers plots (min&#x02010;max) with mean and data points. Groups: (7 dpi &#x02013; no tamoxifen; n&#x000a0;=&#x000a0;6), (7 dpi &#x02013; tamoxifen 0 dpi; n&#x000a0;=&#x000a0;6), (14 dpi &#x02013; no tamoxifen; n&#x000a0;=&#x000a0;6), (14 dpi &#x02013; tamoxifen 0 dpi; n&#x000a0;=&#x000a0;6), (85 dpi &#x02013; no tamoxifen; n&#x000a0;=&#x000a0;5), (0 dpi/85 dpi &#x02013; tamoxifen 0 dpi; n&#x000a0;=&#x000a0;5), (18 dpi/ 85 dpi &#x02013; tamoxifen 18 dpi; n&#x000a0;=&#x000a0;5), and (38 dpi/ 85 dpi &#x02013; tamoxifen 38 dpi; n&#x000a0;=&#x000a0;6). ***<italic toggle="yes">p</italic>: 8.46e&#x02010;06; *Mann&#x02010;Whitney U test</p></caption><graphic xlink:href="BPA-31-e12994-g001" position="anchor" id="jats-graphic-19"/></fig><p>The distribution of aquaporin 4 was influenced by the presence of demyelinated lesions in the spinal cord white matter. In the absence of lesions, aquaporin 4 was evenly distributed in the white matter. In the late phase at 85 dpi, aquaporin 4 was less prominently expressed intralesional, and accumulated in the vicinity of the lesions (Figure <xref rid="bpa12994-sup-0001" ref-type="supplementary-material">S4</xref>A,B). TOG had no influence on the aquaporin 4 positive area in the spinal cord white matter (Figure <xref rid="bpa12994-sup-0001" ref-type="supplementary-material">S4</xref>C).</p><p>Immunohistochemical staining for cleaved caspase 3 in the spinal cord segments, as a marker for apoptotic cells, revealed no difference between the treatment groups (data not shown). Apoptotic cells were mainly detected within chronic spinal cord lesions of <italic toggle="yes">SJL</italic> mice. Within chronic lesions, the number of beta&#x02010;amyloid precursor protein (beta&#x02010;APP) positive axons is significantly elevated in all groups at 85 dpi compared with the early time points (7 and 14 dpi; Figure <xref rid="bpa12994-fig-0010" ref-type="fig">10</xref>).</p><fig position="float" fig-type="FIGURE" id="bpa12994-fig-0010"><label>FIGURE 10</label><caption><p>Thoracic spinal cord segment of <italic toggle="yes">SJL</italic> mice 7 dpi (A) and 85 dpi (B) &#x02013; IHC: beta amyloid precursor protein (beta&#x02010;APP) &#x02013; 400x. Number of beta&#x02010;APP&#x02010;positive axons in the thoracic spinal cord segments of TMEV&#x02010;infected <italic toggle="yes">SJL</italic> mice with (blue) and without (yellow) tamoxifen treatment. No significant differences between the groups were found, neither at 7, 14, nor 85 dpi; groups: (7 dpi &#x02013; no tamoxifen; n&#x000a0;=&#x000a0;6), (0 dpi/ 7 dpi &#x02013; tamoxifen 0 dpi; n&#x000a0;=&#x000a0;6), (14 dpi &#x02013; no tamoxifen; n&#x000a0;=&#x000a0;6), (0 dpi/ 14 dpi &#x02013; tamoxifen 0 dpi; n&#x000a0;=&#x000a0;6), (85 dpi &#x02013; no tamoxifen; n&#x000a0;=&#x000a0;5), (0 dpi/85 dpi &#x02013; tamoxifen 0 dpi; n&#x000a0;=&#x000a0;5), (18 dpi/ 85 dpi &#x02013; tamoxifen 18 dpi; n&#x000a0;=&#x000a0;5), and (38 dpi/ 85 dpi &#x02013; tamoxifen 38 dpi; n&#x000a0;=&#x000a0;6)</p></caption><graphic xlink:href="BPA-31-e12994-g007" position="anchor" id="jats-graphic-21"/></fig></sec><sec id="bpa12994-sec-0018"><label>3.6</label><title>Virus load &#x02013; Tamoxifen has no effect on the decrease of TMEV positive cells in SJL mice</title><p>Since a higher virus load could contribute to increased demyelination, this point was addressed in detail. The number of TMEV positive cells was assessed in all brain regions using one sagittal section of the brain and three spinal cord sections per animal applying immunohistochemistry for TMEV&#x02010;antigen detection. In the early phase of infection (7dpi and 14 dpi), TMEV&#x02010;positive cells were primarily detected within the hippocampus with a significant reduction of the TMEV&#x02010;positive signal from 7 to 14 dpi (Figure <xref rid="bpa12994-fig-0011" ref-type="fig">11</xref>), regardless of tamoxifen treatment. In the late phase (85 dpi) of infection, TMEV&#x02010;positive cells still could be detected but were now mostly located in the caudal regions of the brain, especially pons and medulla oblongata as expected in TMEV&#x02010;IDD (Table <xref rid="bpa12994-sup-0001" ref-type="supplementary-material">S4</xref>). Likewise, at 85 dpi there were no significant differences in the amount of detectable TMEV antigen within the spinal cords of tamoxifen&#x02010;treated and non&#x02010;treated mice (Table <xref rid="bpa12994-sup-0001" ref-type="supplementary-material">S5</xref>). Therefore, we could not observe a correlation between the amount of detectable virus antigen and the degree of demyelination in the spinal cord due to TOG in <italic toggle="yes">SJL</italic> mice.</p><fig position="float" fig-type="FIGURE" id="bpa12994-fig-0011"><label>FIGURE 11</label><caption><p>Hippocampus of an untreated mouse without tamoxifen treatment showing high numbers of TMEV <sup>+</sup> cells (A) and a mouse with TOG 0 dpi, also with high numbers of TMEV<sup>+</sup> cells (B) 7 dpi. At 14 dpi, the amount of detectable antigen is much lower in untreated animals (C) as well as in mice with TOG 0 dpi (D) &#x02013; IHC: Theiler's murine encephalomyelitis virus (TMEV) &#x02013; 400x. (E) Total Number of TMEV positive cells in all assessed brain regions of one sagittal brain section per animal in the early phase of infection (7 and 14 dpi) comparing tamoxifen&#x02010;treated and untreated <italic toggle="yes">SJL</italic> mice. There was no difference between tamoxifen&#x02010;treated (dotted, blue boxes) and untreated mice (yellow boxes). Data are presented as box and whiskers plots (min&#x02010;max) with mean and data points</p></caption><graphic xlink:href="BPA-31-e12994-g003" position="anchor" id="jats-graphic-23"/></fig></sec></sec><sec sec-type="discussion" id="bpa12994-sec-0019"><label>4</label><title>DISCUSSION</title><p>The aim of the present investigation was to study the potential beneficial impact of tamoxifen&#x02010;in&#x02010;oil&#x02010;gavage (TOG) on the development and progression of TMEV&#x02010;IDD when applied at different key points of the disease.</p><p>The results indicate that TOG had a double&#x02010;edged effect on different hallmarks of TMEV&#x02010;IDD. It induced a positive effect on proliferation of oligodendrocytes and OPCs irrespective of the time point of application. However, it was also associated with increased demyelination when it was applied in the early phase of myelin damage (38 dpi). These changes were not associated with clinical deterioration or improvement of motor functions. The effect on the immune cells with CD4 and CD8 receptor expression was different over the course of disease. In the brain, the numbers of infiltrating CD4<sup>+</sup> and CD8<sup>+</sup> cells at 7 dpi were lower in tamoxifen&#x02010;treated animals, followed by an increased infiltration at 14 dpi. After 85 dpi there was still an increased number of infiltrating CD8<sup>+</sup> cells in the spinal cord of animals with tamoxifen treatment at 18 dpi.</p><p>The effect of restraint stress (RS) on the TMEV model is well described (<xref rid="bpa12994-bib-0044" ref-type="bibr">44</xref>, <xref rid="bpa12994-bib-0045" ref-type="bibr">45</xref>). Physical restriction of BeAn infected, female <italic toggle="yes">SJL</italic> mice has an effect on the body weight as well as the CD4<sup>+</sup> and CD8<sup>+</sup> T cell response, similar to glucocorticoid application (<xref rid="bpa12994-bib-0045" ref-type="bibr">45</xref>). Furthermore, RS can result in higher virus titers in the CNS at 7 dpi and facilitate virus spread into extraneural organs (<xref rid="bpa12994-bib-0044" ref-type="bibr">44</xref>). The results of these studies are partially similar to the findings in this experiment. However, the protocol used to induce RS included placement of mice in a restraining tube for several hours multiple nights per week (<xref rid="bpa12994-bib-0046" ref-type="bibr">46</xref>), while the restraining during the tamoxifen application included only three short time periods (usually &#x0003c;1&#x000a0;min). In non&#x02010;infected, female <italic toggle="yes">C57BL</italic>/<italic toggle="yes">6</italic>&#x000a0;mice, serial oral gavage of saline for 18&#x000a0;days was associated with &#x0003c;1&#x02013;1.9% of adverse effects (gasping and esophageal lesion) and had no effect on the endpoints of stress assessment (adrenal gland weight, neutrophil: lymphocyte&#x02010;ratio and plasma corticosterone) (<xref rid="bpa12994-bib-0047" ref-type="bibr">47</xref>). The mice in the present study were trained 2&#x000a0;weeks prior to TMEV infection and first TOG application, for handling and RotaRod&#x000ae; testing, but not for oral gavage. It cannot be excluded that the stress response to the TOG might have had a transient effect on the readout of the early phase (7 dpi). However, TOG had no acute effect on the body weight in the groups when it was applied at 18 or 38 dpi (see Figure <xref rid="bpa12994-fig-0001" ref-type="fig">1C</xref>), respectively. In these groups, the drop of body weight at the end of the experiment was associated with an increasing clinical score. Weight loss, together with clinical scoring, is defined as a humane endpoint criterion, representing the general condition of an animal (<xref rid="bpa12994-bib-0048" ref-type="bibr">48</xref>). TMEV&#x02010;IDD induces deficiencies in motor function, as assessed by RotaRod&#x000ae; (Figure <xref rid="bpa12994-fig-0001" ref-type="fig">1B</xref>) and has a negative effect on mobility and activity, as determined by the clinical score (Figure <xref rid="bpa12994-fig-0001" ref-type="fig">1A</xref>) (<xref rid="bpa12994-bib-0049" ref-type="bibr">49</xref>). Due to the high metabolic rate of mice, even few hours of fasting can result in a significant drop of body weight (<xref rid="bpa12994-bib-0050" ref-type="bibr">50</xref>). Although the mice of the present study were given easy access to food and moist at the ground level, the drop of body weight might be due to a decreased food intake, and in addition mirrors the increased demyelination seen in the spinal cord of these animals.</p><p>TOG application at the beginning of the chronic phase of TMEV&#x02010;IDD (38 dpi), when presumably immune&#x02010;mediated damage starts to contribute to the disease, caused significantly more demyelination in the spinal cord of susceptible <italic toggle="yes">SJL</italic> mice. Therefore, this time frame at the beginning of myelin&#x02010;specific responses in TMEV&#x02010;IDD seems to be crucial for influencing the progression of the lesions. In <italic toggle="yes">SJL</italic> mice, both CD8<sup>+</sup> and CD4<sup>+</sup> T cells contribute to the immunopathology of TMEV&#x02010;IDD (<xref rid="bpa12994-bib-0051" ref-type="bibr">51</xref>). While the CD4<sup>+</sup> T cells, as seen in other models (<xref rid="bpa12994-bib-0052" ref-type="bibr">52</xref>), are possibly involved in formation of myelin specific antibodies promoting demyelination (<xref rid="bpa12994-bib-0035" ref-type="bibr">35</xref>, <xref rid="bpa12994-bib-0053" ref-type="bibr">53</xref>), CD8<sup>+</sup> T cells might more directly contribute to the axonal damage (<xref rid="bpa12994-bib-0054" ref-type="bibr">54</xref>, <xref rid="bpa12994-bib-0055" ref-type="bibr">55</xref>, <xref rid="bpa12994-bib-0056" ref-type="bibr">56</xref>, <xref rid="bpa12994-bib-0057" ref-type="bibr">57</xref>). The mechanism whereby tamoxifen increases demyelination in TMEV&#x02010;IDD remains puzzling. A possible factor could be the effect of tamoxifen on the phenotype and secretory activity of T helper cells (<xref rid="bpa12994-bib-0006" ref-type="bibr">6</xref>) as well as infiltrating and CNS resident cells (<xref rid="bpa12994-bib-0058" ref-type="bibr">58</xref>), modulating the composition of the cytokine environment within the lesions. A tamoxifen&#x02010;induced skewing from cellular T&#x02010;helper type&#x02010;1 cells (Th&#x02010;1) to humoral Th&#x02010;2 (<xref rid="bpa12994-bib-0006" ref-type="bibr">6</xref>) could result in increased CD4<sup>+&#x02212;</sup>mediated pathologies.(<xref rid="bpa12994-bib-0052" ref-type="bibr">52</xref>) In the present study, TOG had an effect on the overall number of infiltrating immune cells, indicating a decelerated activation of these cells, as seen in estrogen&#x02010;receptor deletion (<xref rid="bpa12994-bib-0059" ref-type="bibr">59</xref>). This effect appeared to be transient in the present experiment, as shown by a subsequent increase of CD4<sup>+</sup> and CD8<sup>+</sup> cell infiltration. The effect of tamoxifen on CD8<sup>+</sup> cell numbers was more pronounced than on CD4<sup>+</sup> cells and lasted up to 85 dpi in the spinal cord of mice with late TOG application (Figures <xref rid="bpa12994-fig-0002" ref-type="fig">2</xref> and <xref rid="bpa12994-fig-0003" ref-type="fig">3</xref>).</p><p>TOG had no effect on the number of TMEV positive cells as determined in immunohistochemistry in TMEV&#x02010;infected <italic toggle="yes">SJL</italic> mice. In the brain parenchyma, there was a decreased CD8<sup>+</sup> cell infiltration at 7 dpi which was followed by an increased infiltration of CD4<sup>+</sup> and CD8<sup>+</sup> cells 14 dpi, indicating a possible rebound effect. It has to be taken into account that virus clearance of <italic toggle="yes">SJL</italic> mice is insufficient (<xref rid="bpa12994-bib-0013" ref-type="bibr">13</xref>) and, as seen in studies with CD8 deficient <italic toggle="yes">SJL</italic> mice (<xref rid="bpa12994-bib-0013" ref-type="bibr">13</xref>, <xref rid="bpa12994-bib-0051" ref-type="bibr">51</xref>), less dependent on a functional CD8<sup>+</sup> T cell response. Thus, the delayed CD4<sup>+</sup> and CD8<sup>+</sup> infiltration in the early phase of TMEV&#x02010;infection does not seem to be detrimental for the course of TMEV&#x02010;IDD in <italic toggle="yes">SJL</italic> mice. Despite increased numbers of CD8<sup>+</sup> cells in the chronic spinal cord lesions, there was no effect on the amount of detectable virus antigen by immunohistochemistry.</p><p>CD8<sup>+</sup> T cells have contrary effects in TMEV&#x02010;IDD, as they contribute to viral clearance (<xref rid="bpa12994-bib-0013" ref-type="bibr">13</xref>) as well as lesion development (<xref rid="bpa12994-bib-0054" ref-type="bibr">54</xref>, <xref rid="bpa12994-bib-0055" ref-type="bibr">55</xref>, <xref rid="bpa12994-bib-0056" ref-type="bibr">56</xref>, <xref rid="bpa12994-bib-0057" ref-type="bibr">57</xref>). The increased demyelination after tamoxifen gavage 38 dpi cannot be explained by effects on infiltrating CD8<sup>+</sup> cells alone. Possible short&#x02010; and long&#x02010;term effects of tamoxifen on T&#x02010;cell activation <italic toggle="yes">in vivo</italic> should be addressed in further studies.</p><p>An important factor contributing to the lesion size and development in TMEV&#x02010;IDD is related to increased myelin loss and diminished remyelination (<xref rid="bpa12994-bib-0007" ref-type="bibr">7</xref>, <xref rid="bpa12994-bib-0024" ref-type="bibr">24</xref>). In rats with ethidium bromide (EB)&#x02010;induced spinal cord lesions, tamoxifen had a positive effect on remyelination (<xref rid="bpa12994-bib-0060" ref-type="bibr">60</xref>). The present results corroborate that tamoxifen elevates the number of oligodendrocytes and oligodendrocyte progenitors (<xref rid="bpa12994-bib-0060" ref-type="bibr">60</xref>, <xref rid="bpa12994-bib-0061" ref-type="bibr">61</xref>, <xref rid="bpa12994-bib-0062" ref-type="bibr">62</xref>), but the progression of demyelination in the present study was not diminished, as it was shown in a non&#x02010;infectious model for CNS de&#x02010; and remyelination (<xref rid="bpa12994-bib-0060" ref-type="bibr">60</xref>). The role of OPCs in remyelination is due to their multipotency, which was not easy to assess. As their name indicates, they are able to differentiate into mature, myelinating oligodendrocytes. However, they might also develop an astrocytic phenotype, and recent studies have indicated that they also might differentiate into remyelinating Schwann cells within CNS white matter lesions (<xref rid="bpa12994-bib-0063" ref-type="bibr">63</xref>). It is postulated that TMEV&#x02010;infection interferes with the differentiation of NG&#x02010;2 positive OPCs into myelinating oligodendrocytes, resulting in limited remyelination due to preferential astroglial differentiation (<xref rid="bpa12994-bib-0024" ref-type="bibr">24</xref>, <xref rid="bpa12994-bib-0064" ref-type="bibr">64</xref>). Recent studies in resistant <italic toggle="yes">C57BL</italic>/<italic toggle="yes">6</italic>&#x000a0;mice have indicated a stimulation of NG&#x02010;2 positive cells after TMEV infection, causing a reactive phenotype with increased proliferation (<xref rid="bpa12994-bib-0065" ref-type="bibr">65</xref>). It cannot be excluded that the increased inflammatory response, as shown by increased T cell infiltration in the brain of tamoxifen treated mice at 14 dpi, might had an influence on the NG&#x02010;2 positive cell proliferation in the spinal cord. However, the beneficial effect on NG&#x02010;2 positive cell proliferation appears to be spatially restricted to the hippocampus with associated high virus load and inflammation in <italic toggle="yes">C57BL</italic>/<italic toggle="yes">6</italic>&#x000a0;mice, and not in the neighboring cortex (<xref rid="bpa12994-bib-0065" ref-type="bibr">65</xref>). Higher numbers of mature oligodendrocytes in tamoxifen&#x02010;treated mice imply that differentiation of progenitor cells and progression until the expression of NoGo&#x02010;A was positively affected in this experiment. Nonetheless, remyelination during ongoing demyelination, as reported for susceptible mouse strains in chronic TMEV infection (<xref rid="bpa12994-bib-0013" ref-type="bibr">13</xref>), appears to be still insufficient.</p><p>17&#x003b2;&#x02010;estradiol (E2) is known to facilitate remyelination by promotion of Schwann cell differentiation and survival as well as induction of myelin protein expression and lysosome formation (<xref rid="bpa12994-bib-0066" ref-type="bibr">66</xref>, <xref rid="bpa12994-bib-0067" ref-type="bibr">67</xref>). Tamoxifen, as a tissue&#x02010;dependent estrogen receptor antagonist (<xref rid="bpa12994-bib-0068" ref-type="bibr">68</xref>), might interfere with the positive effect of estrogen receptor signaling in Schwann cells. However, it has to be considered that the positive effect on oligodendrocytes was most prominent in mice with tamoxifen treatment at 0 dpi. The increased oligodendrocyte&#x02010;derived remyelination in these mice could result in a reduced infiltration of Schwann cells into the lesions, since remyelinated axons are either ensheathed by oligodendrocytes or Schwann cells (<xref rid="bpa12994-bib-0069" ref-type="bibr">69</xref>), and oligodendrocytes are also able to displace Schwann cells during remyelination (<xref rid="bpa12994-bib-0022" ref-type="bibr">22</xref>). Thus, the negative effect of tamoxifen on Schwann cell&#x02010;derived remyelination might be secondary to the positive effect on oligodendrocytes and OPCs. Further, Schwann cell&#x02010;derived remyelination is highly influenced by prevention of migration as well as inhibition of differentiation in favor of oligodendrocytes by reactive astrocytes (<xref rid="bpa12994-bib-0070" ref-type="bibr">70</xref>). The present results show that in TMEV&#x02010;IDD, the phenotype of astrocytes is influenced in the progression of lesions, but not by TOG application. Reactive astrocytes are divided into cytotoxic A1 (amigo 2 positive) and neurotropic A2 (S100A10 positive) phenotypes (<xref rid="bpa12994-bib-0042" ref-type="bibr">42</xref>). After white matter damage, the A1 astrocytes are upregulated in the CNS (<xref rid="bpa12994-bib-0043" ref-type="bibr">43</xref>) and can impact oligodendrocyte maturation under non&#x02010;infectious conditions (<xref rid="bpa12994-bib-0042" ref-type="bibr">42</xref>). The present study shows a concomitant upregulation of A1 astrocytes with the occurrence of white matter lesions in the spinal cord, irrespective of TOG application. Moreover, the presence of A1 astrocytes had no impact on oligodendrocyte and Schwann cell differentiation of OPCs in this experiment. The number of neurotropic A2 astrocytes was decreased within the spinal cord white matter lesions in the present study, as seen also under non&#x02010;infectious conditions (<xref rid="bpa12994-bib-0042" ref-type="bibr">42</xref>). Aquaporin 4, a transmembrane water channel protein of astrocytes at the glia limitans, is upregulated in white matter lesion associated reactive astrocytes (<xref rid="bpa12994-bib-0071" ref-type="bibr">71</xref>). In the present study, the distribution of aquaporin 4 expression was dependent on white matter demyelination with centrally reduced expression and accumulation in the vicinity of demyelination. However, these findings were not influenced by TOG.</p><p>
+<italic toggle="yes">In vivo</italic> studies investigating traumatic or toxic damages of the CNS revealed a beneficial neuroprotective effect of tamoxifen, partially based on its anti&#x02010;inflammatory properties (<xref rid="bpa12994-bib-0060" ref-type="bibr">60</xref>, <xref rid="bpa12994-bib-0072" ref-type="bibr">72</xref>, <xref rid="bpa12994-bib-0073" ref-type="bibr">73</xref>). In rats with experimentally induced spinal cord injuries (SCI), tamoxifen facilitated the functional locomotor recovery and ameliorated fine movements (<xref rid="bpa12994-bib-0072" ref-type="bibr">72</xref>, <xref rid="bpa12994-bib-0073" ref-type="bibr">73</xref>). Effects of tamoxifen on the cytokine level (<xref rid="bpa12994-bib-0074" ref-type="bibr">74</xref>) and prevention of oxidative damage (<xref rid="bpa12994-bib-0075" ref-type="bibr">75</xref>, <xref rid="bpa12994-bib-0076" ref-type="bibr">76</xref>) had been shown to be beneficial in ischemic and traumatic CNS lesions. In chronic TMEV&#x02010;infection, CD8<sup>+</sup> T cells contribute largely to the immune&#x02010;mediated axonal damage in the demyelinated spinal cord lesions (<xref rid="bpa12994-bib-0054" ref-type="bibr">54</xref>, <xref rid="bpa12994-bib-0055" ref-type="bibr">55</xref>, <xref rid="bpa12994-bib-0056" ref-type="bibr">56</xref>, <xref rid="bpa12994-bib-0057" ref-type="bibr">57</xref>). Tamoxifen&#x02010;treated animals of the present study showed higher numbers of CD8<sup>+</sup> cells and no increased preservation of axons in the chronic spinal cord lesions. Thus, with respect to the demyelination and axonal damage, the long&#x02010;term effects of TOG seem not to be beneficial for the progression of TMEV&#x02010;IDD.</p><p>TOG has different effects on the cell types involved in TMEV&#x02010;IDD pathogenesis. It has a positive effect on oligodendrocytes and their progenitors, despite increased demyelination when applied at 38 dpi. Interestingly, axonal damage was similarly detected in TOG&#x02010;treated and untreated animals. The pathomechanisms of increased myelin damage due to tamoxifen&#x02010;induced effects during TMEV&#x02010;IDD require further investigations. Increased numbers of oligodendrocytes and their progenitors might explain the positive effect of tamoxifen on remyelination, as observed in other studies (<xref rid="bpa12994-bib-0060" ref-type="bibr">60</xref>), but it seems that it is not sufficient to compensate increased lesion size of demyelination when tamoxifen is applied after the initiation of TMEV&#x02010;induced myelin loss (38 dpi).</p><p>The finding that tamoxifen has several immunomodulatory effects can be of practical importance. As tamoxifen is often used in experimental settings of conditional induction of gene deletions in mouse models. The results underline the importance of appropriate controls and a carefully interpretation of the experimental findings and conclusions with regard to the effects of tamoxifen.</p><p>In summary, TOG has differential effects on the outcome of an infectious CNS disease. In susceptible <italic toggle="yes">SJL</italic> mice, tamoxifen administration in the late phase of the disease course was associated with increased demyelination despite positive effects on mature oligodendrocytes.</p></sec><sec sec-type="COI-statement" id="bpa12994-sec-0021"><title>CONFLICT OF INTEREST</title><p>The authors declare that they have no conflict of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="bpa12994-sup-0001" position="float" content-type="local-data"><caption><p>Supplementary Material</p><p>
+<bold>TABLE S1</bold> Scoring scheme for clinical examination. The first category includes features of posture and outward appearance with the scores: 0 = normal posture, smooth and shiny coat; 1 = normal posture, shaggy, dull coat; 2 = mild kyphosis, shaggy, dull coat; 3 = marked kyphosis, shaggy, dull, dirty coat, urinary incontinence. The second category deals with the behavior and activity level and includes the scores: 0 = attentive and courious; 1 = evidently calm: mildly reduced spontaneous movement, unimpaired induced movement; 2 = apathic: moderately reduced spontaneous movement, mildly reduced induced movement; 3 = stuporous: no spontaneous movement, hardly induced movement. The third category in the clinical scoring is focused on the gait of the animals with the scores: 0 = normal gait; 1 = low&#x02010;grade spinal ataxia: inconstantly observed mild to moderate gait uncertainties with staggering, tripping and slightly shortened steps; 2 = moderate spinal ataxia: regularly observed mild to moderate gait uncertainties with staggering, tripping, shortened steps and tail rowing; 3 = high&#x02010;grade spinal ataxia: moderate to severe gait uncertainties, delayed rightening after bringing in supine position during the clinical examination; 4 = severe spinal ataxia: spastic paresis of one or more limbs, falling over or inability to get up from recumbency</p><p>
+<bold>FIGURE S1</bold> Scheme of subdivision of brain regions for scoring of sagittal brain cuts. BO, olfactory bulb; C, cerebellum; CC, cerebral cortex; H, hippocampus; HT, hypothalamus; MB, midbrain; ME, medulla; PO, pons; ST, striatum; TH, thalamus</p><p>
+<bold>TABLE S2</bold> Mean sum scores for the evaluated brain regions separately (BO, olfactory bulb; C, cerebellum; CC, cerebral cortex; H, hippocampus; HT, hypothalamus; MB, midbrain; ME, medulla; PO, pons; ST, striatum; TH, thalamus). A score from 0&#x02013;3 was evaluated for each brain region and each feature (hypercellularity, perivascular infiltrates, vacuolation, cell death and meningitis). Depicted is the mean score of all features per brain region. Coloration of the fields go from green = lowest value to red = highest value. It should be mentioned that the lesions move over time from the site of primary infection (hippocampus) over the pons to the medulla of the brain stem in all treatment groups (n = 5 and 6)</p><p>
+<bold>FIGURE S2</bold> Overview of thoracic spinal cord 85 dpi of a mouse with tamoxifen administration on the day of infection (0 dpi) with moderate to marked demyelinating lesions in the lateral and ventral aspects of the white matter; HE&#x02010;staining, LFB&#x02010;staining and scheme of subdivision of white matter for the evaluation of demyelination score (1&#x02013;3: dorsal, lateral and ventral segment; A/B: left and right hemisphere)</p><p>
+<bold>TABLE S3</bold> Mean demyelination scores of mice 85 dpi. Demyelinated areas are more prominent in the cervical and thoracic spinal cord. Mice with tamoxifen gavage 38 dpi show the highest mean demyelination score in all spinal cord sections. CS, cervical spinal cord segment; LS, lumbar spinal cord segment; TS, thoracic spinal cord segment</p><p>
+<bold>TABLE S4</bold> Mean number of TMEV positive cells in the evaluated brain regions. The virus spreads from the infection site in the hippocampus to the caudal regions of the brain stem (pons and medulla) in all treatment groups, similarly to the main lesion sites (Table S2). BO, olfactory bulb; C, cerebellum; CC, cerebral cortex; H, hippocampus; HT, hypothalamus; MB, midbrain; ME, medulla; PO, pons; ST, striatum; TH, thalamus. Despite variations between the groups, there are no statistically significant differences between the groups (except for significantly less TMEV positive at 85 dpi in the pons of mice with tamoxifen gavage 18 dpi compared to mice with tamoxifen gavage 0 dpi; MWU: W = 0, *<italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.011)</p><p>
+<bold>TABLE S5</bold> Mean number of TMEV&#x02010;antigen positive cells in single sections of cervical, thoracic and lumbar spinal cord. The highest numbers of positive cells are seen in the cervical and thoracic spinal cord at 42 dpi. There are no significant differences between the treatment groups. CS, cervical spinal cord segment; LS, lumbar spinal cord segment; TS, thoracic spinal cord segment</p><p>
+<bold>FIGURE S3</bold> Weekly survival of 48 TMEV infected <italic toggle="yes">SJL</italic> mice 0&#x02013;85 dpi. At 7 dpi, 6 animals of the group with no tamoxifen treatment (NoTam, orange) and 6 animals of the group with TOG starting at 0 dpi (Tam0dpi, light blue) were necropsied. At 14 dpi 6 animals of the group with no tamoxifen treatment (NoTam, orange) and 6 animals of the group with TOG starting at 0 dpi (Tam0dpi, light blue) were necropsied. At 22 dpi, one mouse from the Tam18dpi group (middle blue) was euthanized for humane reasons. At 54 dpi, one mouse of the NoTam group (orange) died. At 64 dpi, one mouse from the Tam0dpi group (light blue) was euthanized for humane reasons. At 85 dpi the experiment was terminated and 5 mice of the NoTam (orange), 5 mice of the Tam0dpi, 5 mice of the Tam18dpi and 6 mice of the 38 dpi (dark blue) were necropsied</p><p>
+<bold>FIGURE S4</bold> Distribution of aquaporin 4 within the thoracic spinal cord white matter of <italic toggle="yes">SJL</italic> mice during the early (14 dpi) and late phase (85 dpi) of Theiler&#x02019;s murine encephalomyelitis virus (TMEV) infection &#x02013; IHC: Aquaporin 4 &#x02013; 40 x. The distribution of the aquaporin 4 channel is influenced by the presence of demyelinated lesions in the spinal cord white matter. (A) In the absence of lesions at 14 dpi, aquaporin 4 is evenly distributed. (B) In the late phase at 85 dpi, aquaporin 4 is less densely expressed intralesionally (*), and accumulates (arrow) in the vicinity of the demyelinated lesions. (C) Percent of aquaporin 4 positive area in the ventral thoracic spinal cord white matter of TMEV infected <italic toggle="yes">SJL</italic> mice with and without tamoxifen treatment. TOG had no influence on the aquaporin 4 positive area in the spinal cord white matter. Data are presented as box and whiskers plots (min&#x02010;max) with mean and data points. Groups: (7 dpi &#x02013; no tamoxifen; n&#x000a0;=&#x000a0;6), (7 dpi &#x02013; tamoxifen 0 dpi; n&#x000a0;=&#x000a0;6), (14 dpi &#x02013; no tamoxifen; n&#x000a0;=&#x000a0;6), (14 dpi &#x02013; tamoxifen 0 dpi; n&#x000a0;=&#x000a0;6), (85 dpi &#x02013; no tamoxifen; n&#x000a0;=&#x000a0;5), (0 dpi/85 dpi &#x02013; tamoxifen 0 dpi; n&#x000a0;=&#x000a0;5), (18 dpi/ 85 dpi &#x02013; tamoxifen 18 dpi; n&#x000a0;=&#x000a0;5), and (38 dpi/ 85 dpi &#x02013; tamoxifen 38 dpi; n&#x000a0;=&#x000a0;6)</p></caption><media xlink:href="BPA-31-e12994-s001.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="bpa12994-sec-0020"><title>ACKNOWLEDGMENTS</title><p>The authors thank Kerstin Sch&#x000f6;ne, Danuta Waschke, Petra Gr&#x000fc;nig, Caroline Sch&#x000fc;tz, Julia Baskas, Birgit Curdt and Angelika M&#x000f6;nnich for their dedicated technical support. This project was supported by the Niedersachsen&#x02010;Research Network on Neuroinfectiology (N&#x02010;RENNT) of the Ministry of Science and Culture of Lower Saxony and the &#x0201c;Gesellschaft der Freunde der Tier&#x000e4;rztlichen Hochschule Hannover e.V.&#x0201d;</p></ack><sec sec-type="data-availability" id="bpa12994-sec-0023"><title>DATA AVAILABILITY STATEMENT</title><p>The data that support the findings of this study are available from the corresponding author upon reasonable request.</p></sec><ref-list content-type="cited-references" id="bpa12994-bibl-0001"><title>REFERENCES</title><ref id="bpa12994-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="bpa12994-cit-0001">
+<string-name>
+<surname>Shagufta</surname>
+<given-names>AI</given-names>
+</string-name>. <article-title>Tamoxifen a pioneering drug: an update on the therapeutic potential of tamoxifen derivatives</article-title>. <source>Eur J Med Chem</source>. <year>2018</year>;<volume>143</volume>:<fpage>515</fpage>&#x02013;<lpage>31</lpage>.<pub-id pub-id-type="pmid">29207335</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="bpa12994-cit-0002">
+<string-name>
+<surname>Seibler</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Zevnik</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>K&#x000fc;ter&#x02010;Luks</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Andreas</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Kern</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Hennek</surname>
+<given-names>T</given-names>
+</string-name>, et al. <article-title>Rapid generation of inducible mouse mutants</article-title>. <source>Nucleic Acids Res</source>. <year>2003</year>;<volume>31</volume>(<issue>4</issue>):<elocation-id>e12</elocation-id>.<pub-id pub-id-type="pmid">12582257</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="bpa12994-cit-0003">
+<string-name>
+<surname>Baral</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Kwok</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Berczi</surname>
+<given-names>I</given-names>
+</string-name>. <article-title>Suppression of lymphocyte mitogenesis by tamoxifen</article-title>. <source>Immunopharmacology</source>. <year>1989</year>;<volume>18</volume>(<issue>1</issue>):<fpage>57</fpage>&#x02013;<lpage>62</lpage>.<pub-id pub-id-type="pmid">2767958</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="bpa12994-cit-0004">
+<string-name>
+<surname>Baral</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Nagy</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Kwok</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>McNicol</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Gerrard</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Berczi</surname>
+<given-names>I</given-names>
+</string-name>. <article-title>Suppression of lymphocyte mitogenesis by tamoxifen: studies on protein kinase C, calmodulin and calcium</article-title>. <source>Neuroimmunomodulation</source>. <year>2000</year>;<volume>7</volume>(<issue>2</issue>):<fpage>68</fpage>&#x02013;<lpage>76</lpage>.<pub-id pub-id-type="pmid">10686515</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="bpa12994-cit-0005">
+<string-name>
+<surname>Bebo</surname>
+<given-names>BF</given-names>
+<suffix>Jr</suffix>
+</string-name>, <string-name>
+<surname>Dehghani</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Foster</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Kurniawan</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Lopez</surname>
+<given-names>FJ</given-names>
+</string-name>, <string-name>
+<surname>Sherman</surname>
+<given-names>LS</given-names>
+</string-name>. <article-title>Treatment with selective estrogen receptor modulators regulates myelin specific T&#x02010;cells and suppresses experimental autoimmune encephalomyelitis</article-title>. <source>Glia</source>. <year>2009</year>;<volume>57</volume>(<issue>7</issue>):<fpage>777</fpage>&#x02013;<lpage>90</lpage>.<pub-id pub-id-type="pmid">19031437</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="bpa12994-cit-0006">
+<string-name>
+<surname>Behjati</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Frank</surname>
+<given-names>MH</given-names>
+</string-name>. <article-title>The effects of tamoxifen on immunity</article-title>. <source>Curr Med Chem</source>. <year>2009</year>;<volume>16</volume>(<issue>24</issue>):<fpage>3076</fpage>&#x02013;<lpage>80</lpage>.<pub-id pub-id-type="pmid">19689284</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="bpa12994-cit-0007">
+<string-name>
+<surname>Gerhauser</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Hansmann</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Ciurkiewicz</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>L&#x000f6;scher</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Beineke</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>Facets of Theiler's murine encephalomyelitis virus&#x02010;induced diseases: an update</article-title>. <source>Int J Mol Sci</source>. <year>2019</year>;<volume>20</volume>(<issue>2</issue>):<elocation-id>448</elocation-id>.</mixed-citation></ref><ref id="bpa12994-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="bpa12994-cit-0008">
+<string-name>
+<surname>Liang</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name>
+<surname>Kumar</surname>
+<given-names>AS</given-names>
+</string-name>, <string-name>
+<surname>Jones</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name>
+<surname>Knowles</surname>
+<given-names>NJ</given-names>
+</string-name>, <string-name>
+<surname>Lipton</surname>
+<given-names>HL</given-names>
+</string-name>. <article-title>Phylogenetic analysis of the species Theilovirus: emerging murine and human pathogens</article-title>. <source>J Virol</source>. <year>2008</year>;<volume>82</volume>(<issue>23</issue>):<fpage>11545</fpage>&#x02013;<lpage>54</lpage>.<pub-id pub-id-type="pmid">18815294</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="bpa12994-cit-0009">
+<string-name>
+<surname>Pevear</surname>
+<given-names>DC</given-names>
+</string-name>, <string-name>
+<surname>Calenoff</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Rozhon</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Lipton</surname>
+<given-names>HL</given-names>
+</string-name>. <article-title>Analysis of the complete nucleotide&#x02010;sequence of the picornavirus Theiler murine encephalomyelitis virus indicates that it is closely related to cardioviruses</article-title>. <source>J Virol</source>. <year>1987</year>;<volume>61</volume>(<issue>5</issue>):<fpage>1507</fpage>&#x02013;<lpage>16</lpage>.<pub-id pub-id-type="pmid">3033278</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="bpa12994-cit-0010">
+<string-name>
+<surname>Brinkmeyer&#x02010;Langford</surname>
+<given-names>CL</given-names>
+</string-name>, <string-name>
+<surname>Rech</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Amstalden</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Kochan</surname>
+<given-names>KJ</given-names>
+</string-name>, <string-name>
+<surname>Hillhouse</surname>
+<given-names>AE</given-names>
+</string-name>, <string-name>
+<surname>Young</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>Host genetic background influences diverse neurological responses to viral infection in mice</article-title>. <source>Sci Rep</source>. <year>2017</year>;<volume>7</volume>(<issue>1</issue>):<elocation-id>12194</elocation-id>.<pub-id pub-id-type="pmid">28939838</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="bpa12994-cit-0011">
+<string-name>
+<surname>Rodriguez</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Leibowitz</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>David</surname>
+<given-names>CS</given-names>
+</string-name>. <article-title>Susceptibility to Theiler's virus&#x02010;induced demyelination. Mapping of the gene within the H&#x02010;2D region</article-title>. <source>J Exp Med</source>. <year>1986</year>;<volume>163</volume>(<issue>3</issue>):<fpage>620</fpage>&#x02013;<lpage>31</lpage>.<pub-id pub-id-type="pmid">3005466</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="bpa12994-cit-0012">
+<string-name>
+<surname>Melvold</surname>
+<given-names>RW</given-names>
+</string-name>, <string-name>
+<surname>Jokinen</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name>
+<surname>Knobler</surname>
+<given-names>RL</given-names>
+</string-name>, <string-name>
+<surname>Lipton</surname>
+<given-names>HL</given-names>
+</string-name>. <article-title>Variations in genetic control of susceptibility to Theiler's murine encephalomyelitis virus (TMEV)&#x02010;induced demyelinating disease. Differences between susceptible SJL/J and resistant BALB/c strains map near the T cell beta&#x02010;chain constant gene on chromosome 6</article-title>. <source>J Immunol</source>. <year>1987</year>;<volume>138</volume>(<issue>5</issue>):<fpage>1429</fpage>&#x02013;<lpage>33</lpage>.<pub-id pub-id-type="pmid">3027179</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="bpa12994-cit-0013">
+<string-name>
+<surname>Oleszak</surname>
+<given-names>EL</given-names>
+</string-name>, <string-name>
+<surname>Chang</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name>
+<surname>Friedman</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Katsetos</surname>
+<given-names>CD</given-names>
+</string-name>, <string-name>
+<surname>Platsoucas</surname>
+<given-names>CD</given-names>
+</string-name>. <article-title>Theiler's virus infection: a model for multiple sclerosis</article-title>. <source>Clin Microbiol Rev</source>. <year>2004</year>;<volume>17</volume>(<issue>1</issue>):<fpage>174</fpage>&#x02013;<lpage>207</lpage>.<pub-id pub-id-type="pmid">14726460</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="bpa12994-cit-0014">
+<string-name>
+<surname>Omura</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Kawai</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Sato</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Martinez</surname>
+<given-names>NE</given-names>
+</string-name>, <string-name>
+<surname>Minagar</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Al&#x02010;Kofahi</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Theiler's virus&#x02010;mediated immunopathology in the CNS and heart: roles of organ&#x02010;specific cytokine and lymphatic responses</article-title>. <source>Front Immunol</source>. <year>2018</year>;<volume>9</volume>:<elocation-id>2870</elocation-id>.<pub-id pub-id-type="pmid">30619258</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="bpa12994-cit-0015">
+<string-name>
+<surname>Lin</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Pease</surname>
+<given-names>LR</given-names>
+</string-name>, <string-name>
+<surname>Murray</surname>
+<given-names>PD</given-names>
+</string-name>, <string-name>
+<surname>Rodriguez</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Theiler&#x02019;s virus infection of fgnetically susceptible mice induces central nervous system&#x02010;infiltrating CTLs with no apparent viral or major myelin antigenic specificity</article-title>. <source>J Immunol</source>. <year>1998</year>;<volume>160</volume>(<issue>11</issue>):<elocation-id>5661</elocation-id>.<pub-id pub-id-type="pmid">9605173</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="bpa12994-cit-0016">
+<string-name>
+<surname>Lipton</surname>
+<given-names>HL</given-names>
+</string-name>. <article-title>Persistent Theiler's murine encephalomyelitis virus infection in mice depends on plaque size</article-title>. <source>J Gen Virol</source>. <year>1980</year>;<volume>46</volume>(<issue>1</issue>):<fpage>169</fpage>&#x02013;<lpage>77</lpage>.<pub-id pub-id-type="pmid">6243340</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="bpa12994-cit-0017">
+<string-name>
+<surname>Pevear</surname>
+<given-names>DC</given-names>
+</string-name>, <string-name>
+<surname>Borkowski</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Luo</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Lipton</surname>
+<given-names>H</given-names>
+</string-name>. <article-title>Sequence comparison of a highly virulent and a less virulent strain of Theiler's virus. Amino acid differences on a three&#x02010;dimensional model identify the location of possible immunogenic sites</article-title>. <source>Ann N Y Acad Sci</source>. <year>1988</year>;<volume>540</volume>:<fpage>652</fpage>&#x02013;<lpage>3</lpage>.<pub-id pub-id-type="pmid">2462838</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="bpa12994-cit-0018">
+<string-name>
+<surname>Zheng</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Calenoff</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Dal Canto</surname>
+<given-names>MC</given-names>
+</string-name>. <article-title>Astrocytes, not microglia, are the main cells responsible for viral persistence in Theiler's murine encephalomyelitis virus infection leading to demyelination</article-title>. <source>J Neuroimmunol</source>. <year>2001</year>;<volume>118</volume>(<issue>2</issue>):<fpage>256</fpage>&#x02013;<lpage>67</lpage>.<pub-id pub-id-type="pmid">11498260</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="bpa12994-cit-0019">
+<string-name>
+<surname>Getts</surname>
+<given-names>MT</given-names>
+</string-name>, <string-name>
+<surname>Richards</surname>
+<given-names>MH</given-names>
+</string-name>, <string-name>
+<surname>Miller</surname>
+<given-names>SD</given-names>
+</string-name>. <article-title>A critical role for virus&#x02010;specific CD8(+) CTLs in protection from Theiler's virus&#x02010;induced demyelination in disease&#x02010;susceptible SJL mice</article-title>. <source>Virology</source>. <year>2010</year>;<volume>402</volume>(<issue>1</issue>):<fpage>102</fpage>&#x02013;<lpage>11</lpage>.<pub-id pub-id-type="pmid">20381109</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="bpa12994-cit-0020">
+<string-name>
+<surname>Sobottka</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Harrer</surname>
+<given-names>MD</given-names>
+</string-name>, <string-name>
+<surname>Ziegler</surname>
+<given-names>U</given-names>
+</string-name>, <string-name>
+<surname>Fischer</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Wiendl</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Hunig</surname>
+<given-names>T</given-names>
+</string-name>, et al. <article-title>Collateral bystander damage by myelin&#x02010;directed CD8+ T cells causes axonal loss</article-title>. <source>Am J Pathol</source>. <year>2009</year>;<volume>175</volume>(<issue>3</issue>):<fpage>1160</fpage>&#x02013;<lpage>6</lpage>.<pub-id pub-id-type="pmid">19700745</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="bpa12994-cit-0021">
+<string-name>
+<surname>Dal Canto</surname>
+<given-names>MC</given-names>
+</string-name>, <string-name>
+<surname>Barbano</surname>
+<given-names>RL</given-names>
+</string-name>. <article-title>Remyelination during remission in Theiler's virus infection</article-title>. <source>Am J Pathol</source>. <year>1984</year>;<volume>116</volume>(<issue>1</issue>):<fpage>30</fpage>&#x02013;<lpage>45</lpage>.<pub-id pub-id-type="pmid">6742106</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="bpa12994-cit-0022">
+<string-name>
+<surname>Jasmin</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Ohara</surname>
+<given-names>PT</given-names>
+</string-name>. <article-title>Remyelination within the CNS: do schwann cells pave the way for oligodendrocytes?</article-title>
+<source>The Neuroscientist</source>. <year>2002</year>;<volume>8</volume>(<issue>3</issue>):<fpage>198</fpage>&#x02013;<lpage>203</lpage>.<pub-id pub-id-type="pmid">12061499</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="bpa12994-cit-0023">
+<string-name>
+<surname>Shields</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name>
+<surname>Blakemore</surname>
+<given-names>WF</given-names>
+</string-name>, <string-name>
+<surname>Franklin</surname>
+<given-names>RJM</given-names>
+</string-name>. <article-title>Schwann cell remyelination is restricted to astrocyte&#x02010;deficient areas after transplantation into demyelinated adult rat brain</article-title>. <source>J Neurosci Res</source>. <year>2000</year>;<volume>60</volume>(<issue>5</issue>):<fpage>571</fpage>&#x02013;<lpage>8</lpage>.<pub-id pub-id-type="pmid">10820427</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="bpa12994-cit-0024">
+<string-name>
+<surname>Ulrich</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Seeliger</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Kreutzer</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Germann</surname>
+<given-names>PG</given-names>
+</string-name>, <string-name>
+<surname>Baumg&#x000e4;rtner</surname>
+<given-names>W</given-names>
+</string-name>. <article-title>Limited remyelination in Theiler's murine encephalomyelitis due to insufficient oligodendroglial differentiation of nerve/glial antigen 2 (NG2)&#x02010;positive putative oligodendroglial progenitor cells</article-title>. <source>Neuropathol Appl Neurobiol</source>. <year>2008</year>;<volume>34</volume>(<issue>6</issue>):<fpage>603</fpage>&#x02013;<lpage>20</lpage>.<pub-id pub-id-type="pmid">18466224</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="bpa12994-cit-0025">
+<string-name>
+<surname>Clatch</surname>
+<given-names>RJ</given-names>
+</string-name>, <string-name>
+<surname>Lipton</surname>
+<given-names>HL</given-names>
+</string-name>, <string-name>
+<surname>Miller</surname>
+<given-names>SD</given-names>
+</string-name>. <article-title>Characterization of Theiler's murine encephalomyelitis virus (TMEV)&#x02010;specific delayed&#x02010;type hypersensitivity responses in TMEV&#x02010;induced demyelinating disease: correlation with clinical signs</article-title>. <source>J Immunol</source>. <year>1986</year>;<volume>136</volume>(<issue>3</issue>):<fpage>920</fpage>&#x02013;<lpage>7</lpage>.<pub-id pub-id-type="pmid">2416841</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="bpa12994-cit-0026">
+<string-name>
+<surname>McGavern</surname>
+<given-names>DB</given-names>
+</string-name>, <string-name>
+<surname>Murray</surname>
+<given-names>PD</given-names>
+</string-name>, <string-name>
+<surname>Rivera&#x02010;Qui&#x000f1;ones</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Schmelzer</surname>
+<given-names>JD</given-names>
+</string-name>, <string-name>
+<surname>Low</surname>
+<given-names>PA</given-names>
+</string-name>, <string-name>
+<surname>Rodriguez</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Axonal loss results in spinal cord atrophy, electrophysiological abnormalities and neurological deficits following demyelination in a chronic inflammatory model of multiple sclerosis</article-title>. <source>Brain</source>. <year>2000</year>;<volume>123</volume>(<elocation-id>Pt 3</elocation-id>):<fpage>519</fpage>&#x02013;<lpage>31</lpage>.</mixed-citation></ref><ref id="bpa12994-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="bpa12994-cit-0027">
+<string-name>
+<surname>Dal Canto</surname>
+<given-names>MC</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>BS</given-names>
+</string-name>, <string-name>
+<surname>Miller</surname>
+<given-names>SD</given-names>
+</string-name>, <string-name>
+<surname>Melvold</surname>
+<given-names>RW</given-names>
+</string-name>. <article-title>Theiler's murine encephalomyelitis virus (TMEV)&#x02010;induced demyelination: A model for human multiple sclerosis</article-title>. <source>Methods</source>. <year>1996</year>;<volume>10</volume>(<issue>3</issue>):<fpage>453</fpage>&#x02013;<lpage>61</lpage>.<pub-id pub-id-type="pmid">8954856</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="bpa12994-cit-0028">
+<string-name>
+<surname>Jin</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Leitzen</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Goebbels</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Nave</surname>
+<given-names>K&#x02010;A</given-names>
+</string-name>, <string-name>
+<surname>Baumg&#x000e4;rtner</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Hansmann</surname>
+<given-names>F</given-names>
+</string-name>. <article-title>Comparison of Theiler's murine encephalomyelitis virus induced spinal cord and peripheral nerve lesions following intracerebral and intraspinal infection</article-title>. <source>Int J Mol Sci</source>. <year>2019</year>;<volume>20</volume>(<issue>20</issue>):<elocation-id>5134</elocation-id>.</mixed-citation></ref><ref id="bpa12994-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="bpa12994-cit-0029">
+<string-name>
+<surname>Grese</surname>
+<given-names>TA</given-names>
+</string-name>, <string-name>
+<surname>Pennington</surname>
+<given-names>LD</given-names>
+</string-name>, <string-name>
+<surname>Sluka</surname>
+<given-names>JP</given-names>
+</string-name>, <string-name>
+<surname>Adrian</surname>
+<given-names>MD</given-names>
+</string-name>, <string-name>
+<surname>Cole</surname>
+<given-names>HW</given-names>
+</string-name>, <string-name>
+<surname>Fuson</surname>
+<given-names>TR</given-names>
+</string-name>, et al. <article-title>Synthesis and pharmacology of conformationally restricted raloxifene analogues: highly potent selective estrogen receptor modulators</article-title>. <source>J Med Chem</source>. <year>1998</year>;<volume>41</volume>(<issue>8</issue>):<fpage>1272</fpage>&#x02013;<lpage>83</lpage>.<pub-id pub-id-type="pmid">9548817</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="bpa12994-cit-0030">
+<string-name>
+<surname>Reich</surname>
+<given-names>SD</given-names>
+</string-name>. <article-title>Tamoxifen: a brief review</article-title>. <source>Cancer Nurs</source>. <year>1981</year>;<volume>4</volume>(<issue>4</issue>):<fpage>319</fpage>&#x02013;<lpage>20</lpage>.<pub-id pub-id-type="pmid">6911059</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="bpa12994-cit-0031">
+<string-name>
+<surname>Sharma</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Zhu</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>Immunologic applications of conditional gene modification technology in the mouse</article-title>. <source>Cur Prot Immunol</source>. <year>2014</year>;<volume>105</volume>:<fpage>10.34.1</fpage>&#x02010;<lpage>10.34.13</lpage>.</mixed-citation></ref><ref id="bpa12994-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="bpa12994-cit-0032">
+<string-name>
+<surname>Iusuf</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Teunissen</surname>
+<given-names>SF</given-names>
+</string-name>, <string-name>
+<surname>Wagenaar</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Rosing</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Beijnen</surname>
+<given-names>JH</given-names>
+</string-name>, <string-name>
+<surname>Schinkel</surname>
+<given-names>AH</given-names>
+</string-name>. <article-title>P&#x02010;Glycoprotein (ABCB1) transports the primary active tamoxifen metabolites endoxifen and 4&#x02010;hydroxytamoxifen and restricts their brain penetration</article-title>. <source>J Pharmacol Exp Ther</source>. <year>2011</year>;<volume>337</volume>(<issue>3</issue>):<fpage>710</fpage>&#x02013;<lpage>7</lpage>.<pub-id pub-id-type="pmid">21378205</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="bpa12994-cit-0033">
+<string-name>
+<surname>Arantes&#x02010;Rodrigues</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Henriques</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Pinto&#x02010;Leite</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Faustino&#x02010;Rocha</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Pinho&#x02010;Oliveira</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Teixeira&#x02010;Guedes</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>The effects of repeated oral gavage on the health of male CD&#x02010;1 mice</article-title>. <source>Lab Anim</source>. <year>2012</year>;<volume>41</volume>(<issue>5</issue>):<fpage>129</fpage>&#x02013;<lpage>34</lpage>.</mixed-citation></ref><ref id="bpa12994-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="bpa12994-cit-0034">
+<string-name>
+<surname>Buynitsky</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Mostofsky</surname>
+<given-names>DI</given-names>
+</string-name>. <article-title>Restraint stress in biobehavioral research: Recent developments</article-title>. <source>Neurosci Biobehav Rev</source>. <year>2009</year>;<volume>33</volume>(<issue>7</issue>):<fpage>1089</fpage>&#x02013;<lpage>98</lpage>.<pub-id pub-id-type="pmid">19463853</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="bpa12994-cit-0035">
+<string-name>
+<surname>Katz&#x02010;Levy</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Neville</surname>
+<given-names>KL</given-names>
+</string-name>, <string-name>
+<surname>Padilla</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Rahbe</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Begolka</surname>
+<given-names>WS</given-names>
+</string-name>, <string-name>
+<surname>Girvin</surname>
+<given-names>AM</given-names>
+</string-name>, et al. <article-title>Temporal development of autoreactive Th1 responses and endogenous presentation of self myelin epitopes by central nervous system&#x02010;resident APCs in Theiler's virus&#x02010;infected mice</article-title>. <source>J Immunol</source>. <year>2000</year>;<volume>165</volume>(<issue>9</issue>):<fpage>5304</fpage>&#x02013;<lpage>14</lpage>.<pub-id pub-id-type="pmid">11046065</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="bpa12994-cit-0036">
+<string-name>
+<surname>Miller</surname>
+<given-names>SD</given-names>
+</string-name>, <string-name>
+<surname>Vanderlugt</surname>
+<given-names>CL</given-names>
+</string-name>, <string-name>
+<surname>Begolka</surname>
+<given-names>WS</given-names>
+</string-name>, <string-name>
+<surname>Pao</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Yauch</surname>
+<given-names>RL</given-names>
+</string-name>, <string-name>
+<surname>Neville</surname>
+<given-names>KL</given-names>
+</string-name>, et al. <article-title>Persistent infection with Theiler's virus leads to CNS autoimmunity via epitope spreading</article-title>. <source>Nat Med</source>. <year>1997</year>;<volume>3</volume>(<issue>10</issue>):<fpage>1133</fpage>&#x02013;<lpage>6</lpage>.<pub-id pub-id-type="pmid">9334726</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="bpa12994-cit-0037">
+<string-name>
+<surname>Rodriguez</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Leibowitz</surname>
+<given-names>JL</given-names>
+</string-name>, <string-name>
+<surname>Lampert</surname>
+<given-names>PW</given-names>
+</string-name>. <article-title>Persistent infection of oligodendrocytes in Theiler's virus&#x02010;induced encephalomyelitis</article-title>. <source>Ann Neurol</source>. <year>1983</year>;<volume>13</volume>(<issue>4</issue>):<fpage>426</fpage>&#x02013;<lpage>433</lpage>.<pub-id pub-id-type="pmid">6340596</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="bpa12994-cit-0038">
+<string-name>
+<surname>Ulrich</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Kalkuhl</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Deschl</surname>
+<given-names>U</given-names>
+</string-name>, <string-name>
+<surname>Baumg&#x000e4;rtner</surname>
+<given-names>W</given-names>
+</string-name>. <article-title>Machine learning approach identifies new pathways associated with demyelination in a viral model of multiple sclerosis</article-title>. <source>J Cell Mol Med</source>. <year>2010</year>;<volume>14</volume>(<issue>1&#x02013;2</issue>):<fpage>434</fpage>&#x02013;<lpage>48</lpage>.<pub-id pub-id-type="pmid">19183246</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="bpa12994-cit-0039">
+<string-name>
+<surname>Ulrich</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Baumg&#x000e4;rtner</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Gerhauser</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Seeliger</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Haist</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Deschl</surname>
+<given-names>U</given-names>
+</string-name>, et al. <article-title>MMP&#x02010;12, MMP&#x02010;3, and TIMP&#x02010;1 are markedly upregulated in chronic demyelinating theiler murine encephalomyelitis</article-title>. <source>J Neuropathol Exp Neurol</source>. <year>2006</year>;<volume>65</volume>(<issue>8</issue>):<fpage>783</fpage>&#x02013;<lpage>93</lpage>.<pub-id pub-id-type="pmid">16896312</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="bpa12994-cit-0040">
+<string-name>
+<surname>Kummerfeld</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Seehusen</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Klein</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Ulrich</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Kreutzer</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Gerhauser</surname>
+<given-names>I</given-names>
+</string-name>, et al. <article-title>Periventricular demyelination and axonal pathology is associated with subependymal virus spread in a murine model for multiple sclerosis</article-title>. <source>Intervirology</source>. <year>2012</year>;<volume>55</volume>(<issue>6</issue>):<elocation-id>401</elocation-id>.<pub-id pub-id-type="pmid">22538300</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="bpa12994-cit-0041">
+<string-name>
+<surname>Kummerfeld</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Meens</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Haas</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Baumg&#x000e4;rtner</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Beineke</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>Generation and characterization of a polyclonal antibody for the detection of Theiler's murine encephalomyelitis virus by light and electron microscopy</article-title>. <source>J Virol Methods</source>. <year>2009</year>;<volume>160</volume>(<issue>1</issue>):<fpage>185</fpage>&#x02013;<lpage>8</lpage>.<pub-id pub-id-type="pmid">19414033</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="bpa12994-cit-0042">
+<string-name>
+<surname>Miyamoto</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Magami</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Inaba</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Ueno</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Hira</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Kijima</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>The effects of A1/A2 astrocytes on oligodendrocyte linage cells against white matter injury under prolonged cerebral hypoperfusion</article-title>. <source>Glia</source>. <year>2020</year>;<volume>68</volume>(<issue>9</issue>):<fpage>1910</fpage>&#x02013;<lpage>24</lpage>.<pub-id pub-id-type="pmid">32108971</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="bpa12994-cit-0043">
+<string-name>
+<surname>Allnoch</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Baumg&#x000e4;rtner</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Hansmann</surname>
+<given-names>F</given-names>
+</string-name>. <article-title>Impact of astrocyte depletion upon inflammation and demyelination in a murine animal model of multiple sclerosis</article-title>. <source>Int J Mol Sci</source>. <year>2019</year>;<volume>20</volume>(<issue>16</issue>):<elocation-id>3922</elocation-id>.</mixed-citation></ref><ref id="bpa12994-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="bpa12994-cit-0044">
+<string-name>
+<surname>Mi</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Young</surname>
+<given-names>CR</given-names>
+</string-name>, <string-name>
+<surname>Storts</surname>
+<given-names>RW</given-names>
+</string-name>, <string-name>
+<surname>Steelman</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name>
+<surname>Meagher</surname>
+<given-names>MW</given-names>
+</string-name>, <string-name>
+<surname>Welsh</surname>
+<given-names>CJ</given-names>
+</string-name>. <article-title>Restraint stress facilitates systemic dissemination of Theiler's virus and alters its pathogenecity</article-title>. <source>Microb Pathog</source>. <year>2006</year>;<volume>41</volume>(<issue>4&#x02013;5</issue>):<fpage>133</fpage>&#x02013;<lpage>43</lpage>.<pub-id pub-id-type="pmid">16949789</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="bpa12994-cit-0045">
+<string-name>
+<surname>Steelman</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name>
+<surname>Dean</surname>
+<given-names>DD</given-names>
+</string-name>, <string-name>
+<surname>Young</surname>
+<given-names>CR</given-names>
+</string-name>, <string-name>
+<surname>Smith</surname>
+<given-names>R</given-names>
+<suffix>3rd</suffix>
+</string-name>, <string-name>
+<surname>Prentice</surname>
+<given-names>TW</given-names>
+</string-name>, <string-name>
+<surname>Meagher</surname>
+<given-names>MW</given-names>
+</string-name>, <string-name>
+<surname>Welsh</surname>
+<given-names>CJR</given-names>
+</string-name>. <article-title>Restraint stress modulates virus specific adaptive immunity during acute Theiler&#x02019;s virus infection</article-title>. <source>Brain Behav Immun</source>. <year>2009</year>;<volume>23</volume>(<issue>6</issue>):<fpage>830</fpage>&#x02013;<lpage>43</lpage>.<pub-id pub-id-type="pmid">19348911</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="bpa12994-cit-0046">
+<string-name>
+<surname>Campbell</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Meagher</surname>
+<given-names>MW</given-names>
+</string-name>, <string-name>
+<surname>Sieve</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Scott</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Storts</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Welsh</surname>
+<given-names>TH</given-names>
+</string-name>, et al. <article-title>The effects of restraint stress on the neuropathogenesis of Theiler's virus infection: I. Acute disease</article-title>. <source>Brain Behav Immun</source>. <year>2001</year>;<volume>15</volume>(<issue>3</issue>):<fpage>235</fpage>&#x02013;<lpage>54</lpage>.<pub-id pub-id-type="pmid">11566048</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="bpa12994-cit-0047">
+<string-name>
+<surname>Jones</surname>
+<given-names>CP</given-names>
+</string-name>, <string-name>
+<surname>Boyd</surname>
+<given-names>KL</given-names>
+</string-name>, <string-name>
+<surname>Wallace</surname>
+<given-names>JM</given-names>
+</string-name>. <article-title>Evaluation of mice undergoing serial oral gavage while awake or anesthetized</article-title>. <source>J Am Assoc Lab Anim Sci</source>. <year>2016</year>;<volume>55</volume>(<issue>6</issue>):<fpage>805</fpage>&#x02013;<lpage>10</lpage>.<pub-id pub-id-type="pmid">27931321</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="bpa12994-cit-0048">
+<string-name>
+<surname>Talbot</surname>
+<given-names>SR</given-names>
+</string-name>, <string-name>
+<surname>Biernot</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Bleich</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>van Dijk</surname>
+<given-names>RM</given-names>
+</string-name>, <string-name>
+<surname>Ernst</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>H&#x000e4;ger</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>Defining body&#x02010;weight reduction as a humane endpoint: a critical appraisal</article-title>. <source>Lab Anim</source>. <year>2019</year>;<volume>54</volume>(<issue>1</issue>):<fpage>99</fpage>&#x02013;<lpage>110</lpage>.<pub-id pub-id-type="pmid">31665969</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="bpa12994-cit-0049">
+<string-name>
+<surname>Lipton</surname>
+<given-names>HL</given-names>
+</string-name>. <article-title>Theiler's virus infection in mice: an unusual biphasic disease process leading to demyelination</article-title>. <source>Infect Immun</source>. <year>1975</year>;<volume>11</volume>(<issue>5</issue>):<fpage>1147</fpage>&#x02013;<lpage>55</lpage>.<pub-id pub-id-type="pmid">164412</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="bpa12994-cit-0050">
+<string-name>
+<surname>Jensen</surname>
+<given-names>TL</given-names>
+</string-name>, <string-name>
+<surname>Kiersgaard</surname>
+<given-names>MK</given-names>
+</string-name>, <string-name>
+<surname>Sorensen</surname>
+<given-names>DB</given-names>
+</string-name>, <string-name>
+<surname>Mikkelsen</surname>
+<given-names>LF</given-names>
+</string-name>. <article-title>Fasting of mice: a review</article-title>. <source>Lab Anim</source>. <year>2013</year>;<volume>47</volume>(<issue>4</issue>):<fpage>225</fpage>&#x02013;<lpage>40</lpage>.<pub-id pub-id-type="pmid">24025567</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="bpa12994-cit-0051">
+<string-name>
+<surname>Murray</surname>
+<given-names>PD</given-names>
+</string-name>, <string-name>
+<surname>Pavelko</surname>
+<given-names>KD</given-names>
+</string-name>, <string-name>
+<surname>Leibowitz</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Lin</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Rodriguez</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>CD4(+) and CD8(+) T cells make discrete contributions to demyelination and neurologic disease in a viral model of multiple sclerosis</article-title>. <source>J Virol</source>. <year>1998</year>;<volume>72</volume>(<issue>9</issue>):<fpage>7320</fpage>&#x02013;<lpage>9</lpage>.<pub-id pub-id-type="pmid">9696828</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0052"><label>52</label><mixed-citation publication-type="book" id="bpa12994-cit-0052">
+<string-name>
+<surname>Tsunoda</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Fujinami</surname>
+<given-names>RS</given-names>
+</string-name>. <part-title>TMEV and neuroantigens: myelin genes and proteins, molecular mimicry, epitope spreading, and autoantibody&#x02010;mediated remyelination</part-title>. In: <person-group person-group-type="editor">
+<string-name>
+<given-names>E</given-names>
+<surname>Lavi</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name>
+<given-names>CS</given-names>
+<surname>Constantinescu</surname>
+</string-name>
+</person-group>, (eds). <source>Experimental models of multiple sclerosis</source>. <publisher-loc>Boston, MA</publisher-loc>: <publisher-name>Springer</publisher-name>; <year>2005</year>. <pub-id pub-id-type="doi">10.1007/0-387-25518-4_29</pub-id>
+</mixed-citation></ref><ref id="bpa12994-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="bpa12994-cit-0053">
+<string-name>
+<surname>Olson</surname>
+<given-names>JK</given-names>
+</string-name>, <string-name>
+<surname>Miller</surname>
+<given-names>SD</given-names>
+</string-name>. <article-title>The innate immune response affects the development of the autoimmune response in Theiler's virus&#x02010;induced demyelinating disease</article-title>. <source>J Immunol</source>. <year>2009</year>;<volume>182</volume>(<issue>9</issue>):<fpage>5712</fpage>&#x02013;<lpage>22</lpage>.<pub-id pub-id-type="pmid">19380818</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="bpa12994-cit-0054">
+<string-name>
+<surname>Deb</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Lafrance&#x02010;Corey</surname>
+<given-names>RG</given-names>
+</string-name>, <string-name>
+<surname>Schmalstieg</surname>
+<given-names>WF</given-names>
+</string-name>, <string-name>
+<surname>Sauer</surname>
+<given-names>BM</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>German</surname>
+<given-names>CL</given-names>
+</string-name>, et al. <article-title>CD8+ T cells cause disability and axon loss in a mouse model of multiple sclerosis</article-title>. <source>PLoS One</source>. <year>2010</year>;<volume>5</volume>(<issue>8</issue>):<elocation-id>e12478</elocation-id>.<pub-id pub-id-type="pmid">20814579</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="bpa12994-cit-0055">
+<string-name>
+<surname>Howe</surname>
+<given-names>CL</given-names>
+</string-name>, <string-name>
+<surname>Ure</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Adelson</surname>
+<given-names>JD</given-names>
+</string-name>, <string-name>
+<surname>LaFrance&#x02010;Corey</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Johnson</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Rodriguez</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>CD8+ T cells directed against a viral peptide contribute to loss of motor function by disrupting axonal transport in a viral model of fulminant demyelination</article-title>. <source>J Neuroimmunol</source>. <year>2007</year>;<volume>188</volume>(<issue>1&#x02013;2</issue>):<fpage>13</fpage>&#x02013;<lpage>21</lpage>.<pub-id pub-id-type="pmid">17493690</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="bpa12994-cit-0056">
+<string-name>
+<surname>Rivera&#x02010;Quinones</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>McGavern</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Schmelzer</surname>
+<given-names>JD</given-names>
+</string-name>, <string-name>
+<surname>Hunter</surname>
+<given-names>SF</given-names>
+</string-name>, <string-name>
+<surname>Low</surname>
+<given-names>PA</given-names>
+</string-name>, <string-name>
+<surname>Rodriguez</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Absence of neurological deficits following extensive demyelination in a class I&#x02010;deficient murine model of multiple sclerosis</article-title>. <source>Nat Med</source>. <year>1998</year>;<volume>4</volume>(<issue>2</issue>):<fpage>187</fpage>&#x02013;<lpage>93</lpage>.<pub-id pub-id-type="pmid">9461192</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="bpa12994-cit-0057">
+<string-name>
+<surname>Sauer</surname>
+<given-names>BM</given-names>
+</string-name>, <string-name>
+<surname>Schmalstieg</surname>
+<given-names>WF</given-names>
+</string-name>, <string-name>
+<surname>Howe</surname>
+<given-names>CL</given-names>
+</string-name>. <article-title>Axons are injured by antigen&#x02010;specific CD8(+) T cells through a MHC class I&#x02010; and granzyme B&#x02010;dependent mechanism</article-title>. <source>Neurobiol Dis</source>. <year>2013</year>;<volume>59</volume>:<fpage>194</fpage>&#x02013;<lpage>205</lpage>.<pub-id pub-id-type="pmid">23899663</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="bpa12994-cit-0058">
+<string-name>
+<surname>Baez&#x02010;Jurado</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Rinc&#x000f3;n&#x02010;Benavides</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Hidalgo&#x02010;Lanussa</surname>
+<given-names>O</given-names>
+</string-name>, <string-name>
+<surname>Guio&#x02010;Vega</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Ashraf</surname>
+<given-names>GM</given-names>
+</string-name>, <string-name>
+<surname>Sahebkar</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Molecular mechanisms involved in the protective actions of Selective Estrogen Receptor Modulators in brain cells</article-title>. <source>Front Neuroendocrinol</source>. <year>2019</year>;<volume>52</volume>:<fpage>44</fpage>&#x02013;<lpage>64</lpage>.<pub-id pub-id-type="pmid">30223003</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0059"><label>59</label><mixed-citation publication-type="journal" id="bpa12994-cit-0059">
+<string-name>
+<surname>Mohammad</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Starskaia</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Nagy</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Guo</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Yatkin</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>V&#x000e4;&#x000e4;n&#x000e4;nen</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Estrogen receptor &#x003b1; contributes to T cell&#x02013;mediated autoimmune inflammation by promoting T cell activation and proliferation</article-title>. <source>Sci Signal</source>. <year>2018</year>;<volume>11</volume>(<issue>526</issue>):<elocation-id>eaap9415</elocation-id>.<pub-id pub-id-type="pmid">29666308</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0060"><label>60</label><mixed-citation publication-type="journal" id="bpa12994-cit-0060">
+<string-name>
+<surname>Gonzalez</surname>
+<given-names>GA</given-names>
+</string-name>, <string-name>
+<surname>Hofer</surname>
+<given-names>MP</given-names>
+</string-name>, <string-name>
+<surname>Syed</surname>
+<given-names>YA</given-names>
+</string-name>, <string-name>
+<surname>Amaral</surname>
+<given-names>AI</given-names>
+</string-name>, <string-name>
+<surname>Rundle</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Rahman</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Tamoxifen accelerates the repair of demyelinated lesions in the central nervous system</article-title>. <source>Sci Rep</source>. <year>2016</year>;<volume>6</volume>:<elocation-id>31599</elocation-id>.<pub-id pub-id-type="pmid">27554391</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0061"><label>61</label><mixed-citation publication-type="journal" id="bpa12994-cit-0061">
+<string-name>
+<surname>Barratt</surname>
+<given-names>HE</given-names>
+</string-name>, <string-name>
+<surname>Budnick</surname>
+<given-names>HC</given-names>
+</string-name>, <string-name>
+<surname>Parra</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Lolley</surname>
+<given-names>RJ</given-names>
+</string-name>, <string-name>
+<surname>Perry</surname>
+<given-names>CN</given-names>
+</string-name>, <string-name>
+<surname>Nesic</surname>
+<given-names>O</given-names>
+</string-name>. <article-title>Tamoxifen promotes differentiation of oligodendrocyte progenitors in vitro</article-title>. <source>Neuroscience</source>. <year>2016</year>;<volume>319</volume>:<fpage>146</fpage>&#x02013;<lpage>54</lpage>.<pub-id pub-id-type="pmid">26820594</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0062"><label>62</label><mixed-citation publication-type="journal" id="bpa12994-cit-0062">
+<string-name>
+<surname>Khalaj</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name>
+<surname>Hasselmann</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Augello</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Moore</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Tiwari&#x02010;Woodruff</surname>
+<given-names>SK</given-names>
+</string-name>. <article-title>Nudging oligodendrocyte intrinsic signaling to remyelinate and repair: Estrogen receptor ligand effects</article-title>. <source>J Steroid Biochem Mol Biol</source>. <year>2016</year>;<volume>160</volume>:<fpage>43</fpage>&#x02013;<lpage>52</lpage>.<pub-id pub-id-type="pmid">26776441</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0063"><label>63</label><mixed-citation publication-type="journal" id="bpa12994-cit-0063">
+<string-name>
+<surname>Assinck</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Duncan</surname>
+<given-names>GJ</given-names>
+</string-name>, <string-name>
+<surname>Plemel</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name>
+<surname>Lee</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name>
+<surname>Stratton</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name>
+<surname>Manesh</surname>
+<given-names>SB</given-names>
+</string-name>, et al. <article-title>Myelinogenic plasticity of oligodendrocyte precursor cells following spinal cord contusion injury</article-title>. <source>J Neurosci</source>. <year>2017</year>;<volume>37</volume>(<issue>36</issue>):<fpage>8635</fpage>&#x02013;<lpage>54</lpage>.<pub-id pub-id-type="pmid">28760862</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0064"><label>64</label><mixed-citation publication-type="journal" id="bpa12994-cit-0064">
+<string-name>
+<surname>Sun</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Lehmbecker</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Kalkuhl</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Deschl</surname>
+<given-names>U</given-names>
+</string-name>, <string-name>
+<surname>Sun</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Rohn</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>STAT3 represents a molecular switch possibly inducing astroglial instead of oligodendroglial differentiation of oligodendroglial progenitor cells in Theiler's murine encephalomyelitis</article-title>. <source>Neuropathol Appl Neurobiol</source>. <year>2015</year>;<volume>41</volume>(<issue>3</issue>):<fpage>347</fpage>&#x02013;<lpage>70</lpage>.<pub-id pub-id-type="pmid">24606160</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0065"><label>65</label><mixed-citation publication-type="journal" id="bpa12994-cit-0065">
+<string-name>
+<surname>Bell</surname>
+<given-names>LA</given-names>
+</string-name>, <string-name>
+<surname>Wallis</surname>
+<given-names>GJ</given-names>
+</string-name>, <string-name>
+<surname>Wilcox</surname>
+<given-names>KS</given-names>
+</string-name>. <article-title>Reactivity and increased proliferation of NG2 cells following central nervous system infection with Theiler&#x02019;s murine encephalomyelitis virus</article-title>. <source>J Neuroinflamm</source>. <year>2020</year>;<volume>17</volume>(<issue>1</issue>):<elocation-id>369</elocation-id>.</mixed-citation></ref><ref id="bpa12994-bib-0066"><label>66</label><mixed-citation publication-type="journal" id="bpa12994-cit-0066">
+<string-name>
+<surname>Gu</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Wu</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Su</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Xing</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Shen</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>He</surname>
+<given-names>X</given-names>
+</string-name>, et al. <article-title>17&#x003b2;&#x02010;Estradiol enhances schwann cell differentiation via the ER&#x003b2;&#x02010;ERK1/2 signaling pathway and promotes remyelination in injured sciatic nerves</article-title>. <source>Front Pharm</source>. <year>2018</year>;<volume>9</volume>:<elocation-id>1026</elocation-id>.</mixed-citation></ref><ref id="bpa12994-bib-0067"><label>67</label><mixed-citation publication-type="journal" id="bpa12994-cit-0067">
+<string-name>
+<surname>Namjoo</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name>
+<surname>Moradi</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Aryanpour</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Piryaei</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Joghataei</surname>
+<given-names>MT</given-names>
+</string-name>, <string-name>
+<surname>Abbasi</surname>
+<given-names>Y</given-names>
+</string-name>, et al. <article-title>Combined effects of rat Schwann cells and 17&#x003b2;&#x02010;estradiol in a spinal cord injury model</article-title>. <source>Metab Brain Dis</source>. <year>2018</year>;<volume>33</volume>(<issue>4</issue>):<fpage>1229</fpage>&#x02013;<lpage>42</lpage>.<pub-id pub-id-type="pmid">29658057</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0068"><label>68</label><mixed-citation publication-type="journal" id="bpa12994-cit-0068">
+<string-name>
+<surname>Watanabe</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Inoue</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Ogawa</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Ishii</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Hiroi</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Ikeda</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Agonistic effect of tamoxifen is dependent on cell type, ERE&#x02010;promoter context, and estrogen receptor subtype: functional difference between estrogen receptors &#x003b1; and &#x003b2;</article-title>. <source>Biochem Biophys Res Commun</source>. <year>1997</year>;<volume>236</volume>(<issue>1</issue>):<fpage>140</fpage>&#x02013;<lpage>5</lpage>.<pub-id pub-id-type="pmid">9223441</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0069"><label>69</label><mixed-citation publication-type="journal" id="bpa12994-cit-0069">
+<string-name>
+<surname>Dusart</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Marty</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Peschanski</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Demyelination, and remyelination by Schwann cells and oligodendrocytes after kainate&#x02010;induced neuronal depletion in the central nervous system</article-title>. <source>Neuroscience</source>. <year>1992</year>;<volume>51</volume>(<issue>1</issue>):<fpage>137</fpage>&#x02013;<lpage>48</lpage>.<pub-id pub-id-type="pmid">1465177</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0070"><label>70</label><mixed-citation publication-type="journal" id="bpa12994-cit-0070">
+<string-name>
+<surname>Garcia&#x02010;Diaz</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Baron&#x02010;Van Evercooren</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>Schwann cells: rescuers of central demyelination</article-title>. <source>Glia</source>. <year>2020</year>;<volume>68</volume>(<issue>10</issue>):<fpage>1945</fpage>&#x02013;<lpage>56</lpage>.<pub-id pub-id-type="pmid">32027054</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0071"><label>71</label><mixed-citation publication-type="journal" id="bpa12994-cit-0071">
+<string-name>
+<surname>Stokum</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name>
+<surname>Mehta</surname>
+<given-names>RI</given-names>
+</string-name>, <string-name>
+<surname>Ivanova</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Yu</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Gerzanich</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Simard</surname>
+<given-names>JM</given-names>
+</string-name>. <article-title>Heterogeneity of aquaporin&#x02010;4 localization and expression after focal cerebral ischemia underlies differences in white versus grey matter swelling</article-title>. <source>Acta Neuropathol Commun</source>. <year>2015</year>;<volume>3</volume>:<elocation-id>61</elocation-id>.<pub-id pub-id-type="pmid">26419740</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0072"><label>72</label><mixed-citation publication-type="journal" id="bpa12994-cit-0072">
+<string-name>
+<surname>Colon</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name>
+<surname>Torrado</surname>
+<given-names>AI</given-names>
+</string-name>, <string-name>
+<surname>Cajigas</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Santiago</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name>
+<surname>Salgado</surname>
+<given-names>IK</given-names>
+</string-name>, <string-name>
+<surname>Arroyo</surname>
+<given-names>Y</given-names>
+</string-name>, et al. <article-title>Tamoxifen administration immediately or 24 Hours after spinal cord injury improves locomotor recovery and reduces secondary damage in female rats</article-title>. <source>J Neurotrauma</source>. <year>2016</year>;<volume>33</volume>(<issue>18</issue>):<fpage>1696</fpage>&#x02013;<lpage>708</lpage>.<pub-id pub-id-type="pmid">26896212</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0073"><label>73</label><mixed-citation publication-type="journal" id="bpa12994-cit-0073">
+<string-name>
+<surname>Guptarak</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Wiktorowicz</surname>
+<given-names>JE</given-names>
+</string-name>, <string-name>
+<surname>Sadygov</surname>
+<given-names>RG</given-names>
+</string-name>, <string-name>
+<surname>Zivadinovic</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Paulucci&#x02010;Holthauzen</surname>
+<given-names>AA</given-names>
+</string-name>, <string-name>
+<surname>Vergara</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>The cancer drug tamoxifen: a potential therapeutic treatment for spinal cord injury</article-title>. <source>J Neurotrauma</source>. <year>2014</year>;<volume>31</volume>(<issue>3</issue>):<fpage>268</fpage>&#x02013;<lpage>83</lpage>.<pub-id pub-id-type="pmid">24004276</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0074"><label>74</label><mixed-citation publication-type="journal" id="bpa12994-cit-0074">
+<string-name>
+<surname>Ismailoglu</surname>
+<given-names>O</given-names>
+</string-name>, <string-name>
+<surname>Oral</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Gorgulu</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Sutcu</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Demir</surname>
+<given-names>N</given-names>
+</string-name>. <article-title>Neuroprotective effects of tamoxifen on experimental spinal cord injury in rats</article-title>. <source>J Clin Neurosci</source>. <year>2010</year>;<volume>17</volume>(<issue>10</issue>):<fpage>1306</fpage>&#x02013;<lpage>10</lpage>.<pub-id pub-id-type="pmid">20630763</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0075"><label>75</label><mixed-citation publication-type="journal" id="bpa12994-cit-0075">
+<string-name>
+<surname>Wakade</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Khan</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name>
+<surname>De Sevilla</surname>
+<given-names>LM</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>
+<given-names>QG</given-names>
+</string-name>, <string-name>
+<surname>Mahesh</surname>
+<given-names>VB</given-names>
+</string-name>, <string-name>
+<surname>Brann</surname>
+<given-names>DW</given-names>
+</string-name>. <article-title>Tamoxifen neuroprotection in cerebral ischemia involves attenuation of kinase activation and superoxide production and potentiation of mitochondrial superoxide dismutase</article-title>. <source>Endocrinology</source>. <year>2008</year>;<volume>149</volume>(<issue>1</issue>):<fpage>367</fpage>&#x02013;<lpage>79</lpage>.<pub-id pub-id-type="pmid">17901229</pub-id></mixed-citation></ref><ref id="bpa12994-bib-0076"><label>76</label><mixed-citation publication-type="journal" id="bpa12994-cit-0076">
+<string-name>
+<surname>Zhang</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Milatovic</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Aschner</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Feustel</surname>
+<given-names>PJ</given-names>
+</string-name>, <string-name>
+<surname>Kimelberg</surname>
+<given-names>HK</given-names>
+</string-name>. <article-title>Neuroprotection by tamoxifen in focal cerebral ischemia is not mediated by an agonist action at estrogen receptors but is associated with antioxidant activity</article-title>. <source>Exp Neurol</source>. <year>2007</year>;<volume>204</volume>(<issue>2</issue>):<fpage>819</fpage>&#x02013;<lpage>27</lpage>.<pub-id pub-id-type="pmid">17321521</pub-id></mixed-citation></ref></ref-list></back></article>

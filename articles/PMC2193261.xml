@@ -1,0 +1,412 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">J Exp Med</journal-id><journal-id journal-id-type="iso-abbrev">J. Exp. Med</journal-id><journal-title-group><journal-title>The Journal of Experimental Medicine</journal-title></journal-title-group><issn pub-type="ppub">0022-1007</issn><issn pub-type="epub">1540-9538</issn><publisher><publisher-name>The Rockefeller University Press</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">2193261</article-id><article-id pub-id-type="publisher-id">000262</article-id><article-id pub-id-type="pmid">10899916</article-id><article-categories><subj-group subj-group-type="heading"><subject>Brief Definitive Report</subject></subj-group></article-categories><title-group><article-title>Cytotoxic T Lymphocyte&#x02013;Associated Antigen 4 Plays an Essential Role in the Function of Cd25<sup>+</sup>Cd4<sup>+</sup> Regulatory Cells That Control Intestinal Inflammation</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Read</surname><given-names>Simon</given-names></name><xref ref-type="aff" rid="a">a</xref></contrib><contrib contrib-type="author"><name><surname>Malmstr&#x000f6;m</surname><given-names>Vivianne</given-names></name><xref ref-type="aff" rid="a">a</xref></contrib><contrib contrib-type="author"><name><surname>Powrie</surname><given-names>Fiona</given-names></name><address><addr-line>Oxford University, Nuffield Department of Surgery, John Radcliffe Hospital, Oxford OX3 9DU, United Kingdom.</addr-line><fax>44-1865-768876</fax><phone>44-1865-221482</phone></address><email>fiona.powrie@nds.ox.ac.uk</email><xref ref-type="aff" rid="a">a</xref></contrib><aff id="a">
+<label>a</label>From Oxford University, Nuffield Department of Surgery, John Radcliffe Hospital, Oxford OX3 9DU, United Kingdom</aff></contrib-group><pub-date pub-type="ppub"><day>17</day><month>7</month><year>2000</year></pub-date><volume>192</volume><issue>2</issue><fpage>295</fpage><lpage>302</lpage><history><date date-type="received"><day>16</day><month>2</month><year>2000</year></date><date date-type="rev-request"><day>17</day><month>4</month><year>2000</year></date><date date-type="accepted"><day>27</day><month>4</month><year>2000</year></date></history><permissions><copyright-statement>&#x000a9; 2000 The Rockefeller University Press</copyright-statement><copyright-year>2000</copyright-year><copyright-holder>The Rockefeller University Press</copyright-holder><license license-type="openaccess"><license-p>This article is distributed under the terms of an Attribution&#x02013;Noncommercial&#x02013;Share Alike&#x02013;No Mirror Sites license for the first six months after the publication date (see <ext-link ext-link-type="uri" xlink:href="http://www.rupress.org/terms">http://www.rupress.org/terms</ext-link>). After six months it is available under a Creative Commons License (Attribution&#x02013;Noncommercial&#x02013;Share Alike 4.0 Unported license, as described at <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-sa/4.0/">http://creativecommons.org/licenses/by-nc-sa/4.0/</ext-link>).</license-p></license></permissions><abstract><p>It is now clear that functionally specialized regulatory T (Treg) cells exist as part of the normal immune repertoire, preventing the development of pathogenic responses to both self- and intestinal antigens. Here, we report that the Treg cells that control intestinal inflammation express the same phenotype (CD25<sup>+</sup>CD45RB<sup>low</sup>CD4<sup>+</sup>) as those that control autoimmunity. Previous studies have failed to identify how CD25<sup>+</sup> Treg cells function in vivo. Our studies reveal that the immune-suppressive function of these cells in vivo is dependent on signaling via the negative regulator of T cell activation cytotoxic T lymphocyte&#x02013;associated antigen 4 (CTLA-4), as well as secretion of the immune-suppressive cytokine transforming growth factor &#x003b2;. Strikingly, constitutive expression of CTLA-4 among CD4<sup>+</sup> cells was restricted primarily to Treg cells, suggesting that CTLA-4 expression by these cells is involved in their immune-suppressive function. These findings raise the possibility that Treg cell function contributes to the immune suppression characteristic of CTLA-4 signaling. Identification of costimulatory molecules involved in the function of Treg cells may facilitate further characterization of these cells and development of new therapeutic strategies for the treatment of inflammatory diseases.</p></abstract><kwd-group><kwd>inflammatory bowel disease</kwd><kwd>CD4<sup>+</sup> T lymphocyte</kwd><kwd>T lymphocyte suppressor</kwd><kwd>interleukin 2 receptor</kwd><kwd>autoimmunity</kwd></kwd-group></article-meta></front><body><sec><title>Introduction</title><p>The intestine is home to a huge number of resident bacteria, estimated to be in the order 10<sup>14</sup>/g of tissue. These are a significant source of both antigens and proinflammatory molecules present in bacterial cell walls. Despite this potential immune stimulus, it is well recognized that immune responses in the intestine remain in a state of controlled inflammation <xref ref-type="bib" rid="R1">1</xref>. Recently, we have identified a phenotypically and functionally distinct population of regulatory T (Treg) cells capable of controlling intestinal inflammation, and have suggested that these cells play a pivotal role in intestinal homeostasis <xref ref-type="bib" rid="R2">2</xref>. Transfer of CD45RB<sup>high</sup>CD4<sup>+</sup> T cells from normal donors to SCID mice led to the development of an inflammatory bowel disease (IBD)-like syndrome characterized by extensive mononuclear cell infiltrates, epithelial cell hyperplasia, and ulceration <xref ref-type="bib" rid="R3">3</xref>
+<xref ref-type="bib" rid="R4">4</xref>
+<xref ref-type="bib" rid="R5">5</xref>. Colitis was the result of the differential expansion of Th1 cells driven by enteric bacteria, as disease could be prevented by strategies that inhibited the development of Th1 responses <xref ref-type="bib" rid="R6">6</xref> and did not occur in T cell reconstituted mice raised under germ-free conditions <xref ref-type="bib" rid="R7">7</xref>
+<xref ref-type="bib" rid="R8">8</xref>. Importantly, cotransfer of the reciprocal CD45RB<sup>low</sup>CD4<sup>+</sup> subset with an inoculum of potentially pathogenic CD45RB<sup>high</sup>CD4<sup>+</sup> cells inhibited disease. Immune suppression was dependent on TGF-&#x003b2; <xref ref-type="bib" rid="R9">9</xref> and production of IL-10 <xref ref-type="bib" rid="R10">10</xref> by T cells contained within the CD45RB<sup>low</sup> population. These data indicate that normal mice contain a population of IL-10&#x02013; and TGF-&#x003b2;&#x02013;dependent Treg cells that control inflammatory responses in the intestine.</p><p>Subpopulations of peripheral CD4<sup>+</sup> T cells have also been shown in several different model systems to be essential for the maintenance of tolerance to tissue-specific self-antigens <xref ref-type="bib" rid="R11">11</xref>
+<xref ref-type="bib" rid="R12">12</xref>
+<xref ref-type="bib" rid="R13">13</xref>. Further phenotypic characterization of these Treg cells has shown that they express CD25, as transfer of CD4<sup>+</sup> T cells depleted of the CD25<sup>+</sup> fraction to nude mice led to the development of autoimmune gastritis <xref ref-type="bib" rid="R14">14</xref>
+<xref ref-type="bib" rid="R15">15</xref>. Furthermore, organ-specific autoimmune disease induced by neonatal thymectomy was prevented by transfer of CD25<sup>+</sup>CD4<sup>+</sup> T cells <xref ref-type="bib" rid="R16">16</xref>. Functional analysis of CD25<sup>+</sup>CD4<sup>+</sup> T cells in vitro showed that this population failed to proliferate or secrete cytokines in response to polyclonal or antigen-specific stimulation, but rather inhibited the activation of normally responsive T cells <xref ref-type="bib" rid="R17">17</xref>
+<xref ref-type="bib" rid="R18">18</xref>. Precisely how CD25<sup>+</sup>CD4<sup>+</sup> T cells mediate immune suppression in vitro has not been elucidated, but the mechanism has been shown to be independent of IL-10 and TGF-&#x003b2; and to require cell to cell contact between responding and regulatory T cell populations.</p><p>Several factors are thought to influence the fate of T cells after encounter with antigen, including the strength of the signal delivered after TCR triggering, the balance of proinflammatory versus antiinflammatory cytokines present at the time of T cell encounter with antigen, and the integrated signals delivered by costimulatory molecules present on the T cell surface after interaction with their ligands on APCs (for reviews, see references <xref ref-type="bib" rid="R19">19</xref>, <xref ref-type="bib" rid="R20">20</xref>). Two well-characterized costimulatory molecules are Ig superfamily members CD28 and cytotoxic T lymphocyte&#x02013;associated antigen 4 (CTLA-4), both of which interact with CD80 and CD86 present on APCs. CD28 is present on naive T cells and has been shown to be important for the development of optimal primary responses <xref ref-type="bib" rid="R21">21</xref>
+<xref ref-type="bib" rid="R22">22</xref>
+<xref ref-type="bib" rid="R23">23</xref>. In contrast, detectable levels of CTLA-4 are induced only after T cell activation, and its ligation results in inhibition of T cell activation. Cross-linking of CTLA-4 concomitant with TCR signaling inhibits IL-2 gene expression and cell cycle progression <xref ref-type="bib" rid="R24">24</xref>
+<xref ref-type="bib" rid="R25">25</xref>. The significance of signaling via CTLA-4 in vivo is revealed by the fact that administration of anti&#x02013;CTLA-4 mAb was able to abrogate the induction of tolerance to specific antigens <xref ref-type="bib" rid="R26">26</xref>, enhance antitumor responses <xref ref-type="bib" rid="R27">27</xref>, and exacerbate autoimmune reactivity <xref ref-type="bib" rid="R28">28</xref>
+<xref ref-type="bib" rid="R29">29</xref>
+<xref ref-type="bib" rid="R30">30</xref>. Most strikingly, CTLA-4&#x02013;deficient mice developed a fatal lymphoproliferative disease and multiple organ immune pathology, highlighting the essential role that CTLA-4 plays in the normal homeostasis of the immune system <xref ref-type="bib" rid="R31">31</xref>
+<xref ref-type="bib" rid="R32">32</xref>. Recently, cross-linking of CTLA-4 in the presence of TCR ligation has been shown to lead to TGF-&#x003b2; secretion by purified naive CD4<sup>+</sup> T cells or CD4<sup>+</sup> T cell clones <xref ref-type="bib" rid="R33">33</xref>, providing an additional mechanism through which CTLA-4 may induce immune suppression.</p><p>In this study, we have further dissected the phenotype and mechanism of action of Treg cells that control intestinal inflammation. Here, we show a primary role for CD25<sup>+</sup>CD45RB<sup>low</sup>CD4<sup>+</sup> cells in inhibition of colitis, and present evidence that ligation of CTLA-4 and production of TGF-&#x003b2; are required for their function in vivo.</p></sec><sec sec-type="materials|methods"><title>Materials and Methods</title><sec><title>Mice.</title><p>Specific pathogen-free BALB/c, C57BL/6, C57BL/6.SJL.CD45 congenic, C57BL/6.RAG2<sup>&#x02212;/&#x02212;</sup>, and C.B-17 SCID mice were maintained in the Biomedical Services Unit at the John Radcliffe Hospital in microisolator cages with filtered air. Mice were used at 8&#x02013;12 wk of age.</p></sec><sec><title>Antibodies.</title><p>The following antibodies were used for cell purification: YTS169, anti&#x02013;mouse CD8; TIB120, anti&#x02013;mouse MHC class II (American Type Culture Collection); M1/70, anti&#x02013;mouse Mac-1 (TIB128; American Type Culture Collection); RA3-6B2, anti&#x02013;mouse B220 <xref ref-type="bib" rid="R34">34</xref>; FITC-conjugated anti&#x02013;mouse CD45RB (clone 16A; BD PharMingen); biotinylated anti&#x02013;mouse CD25 (clone 7D4; BD PharMingen); CyChrome-conjugated anti&#x02013;mouse CD4 (clone RM4-5; BD PharMingen); and PE-conjugated streptavidin (BD PharMingen). Peridinine chlorophyll protein (PerCP)-conjugated anti&#x02013;mouse CD4 (clone RM4-5; BD PharMingen), FITC-conjugated anti&#x02013;mouse CD45.2 (clone 104; BD PharMingen), and PE-conjugated anti&#x02013;mouse CTLA-4 (CD152) (clone UC10-4F10-11; BD PharMingen) were used for analysis of CTLA-4 expression. For in vivo use, anti&#x02013;mouse CTLA-4 (clone UC10-4F10-11) and anti&#x02013;mouse TGF-&#x003b2; mAb (clone 1D11.16.8) were purified from hybridoma supernatant by affinity chromatography, and were shown to contain &#x0003c;1.0 endotoxin unit/mg of protein. Purified hamster IgG was purchased from Jackson Immunoresearch Laboratories.</p></sec><sec><title>Purification of T Cell Subsets.</title><p>CD4<sup>+</sup> T cell subsets were isolated from spleens as described previously <xref ref-type="bib" rid="R3">3</xref>. In brief, single cell suspensions were depleted of CD8<sup>+</sup>, MHC class II<sup>+</sup>, Mac-1<sup>+</sup>, and B220<sup>+</sup> cells by negative selection using sheep anti&#x02013;rat coated Dynabeads (Dynal). The resulting CD4<sup>+</sup>-enriched cells were stained with CyChrome-conjugated anti-CD4, FITC-conjugated anti-CD45RB, biotinylated anti-CD25 mAb, and streptavidin-PE. Subpopulations of CD4<sup>+</sup> cells were generated by three-color sorting on a FACS Vantage&#x02122; (Becton Dickinson). All populations were &#x0003e;98.0% pure on reanalysis.</p></sec><sec><title>T Cell Reconstitution and Antibody Treatment.</title><p>C.B-17 SCID mice were injected intraperitoneally with sorted CD4<sup>+</sup> T cell subpopulations in PBS. Mice received 4 &#x000d7; 10<sup>5</sup> CD45RB<sup>high</sup> CD4<sup>+</sup> cells alone or in combination with other subpopulations. Anti&#x02013;CTLA-4 mAb (200 &#x003bc;g) was injected intraperitoneally in PBS the day after T cell reconstitution and then on alternate days for 6 wk; mice treated with anti&#x02013;TGF-&#x003b2; mAb received 2 mg weekly for up to 6 wk.</p></sec><sec><title>Histological Examination.</title><p>Colons were removed from mice 6&#x02013;8 wk after T cell reconstitution and fixed in buffered 10% formalin. 6-&#x003bc;m paraffin-embedded sections were cut and stained with hematoxylin and eosin. Inflammation was scored in a blinded fashion on a scale of 0&#x02013;4, representing no change to severe changes, as described <xref ref-type="bib" rid="R10">10</xref>.</p></sec><sec><title>Analysis of CTLA-4 Expression.</title><p>Lymphocyte populations were prepared from spleen and mesenteric lymph nodes of normal and T cell&#x02013;restored mice. Cells were stained with PerCP-conjugated anti-CD4, FITC-conjugated anti-CD45.2, and PE-conjugated anti&#x02013;CTLA-4. Before staining with anti&#x02013;CTLA-4 mAb, the cells were fixed with 2.0% paraformaldehyde and permeabilized using 0.5% saponin (Sigma-Aldrich). Samples were analyzed on a FACSort&#x02122; using CELLQuest&#x02122; software (Becton Dickinson).</p></sec><sec><title>Statistical Analysis.</title><p>Colitis scores were compared using Mann-Whitney or Student's <italic>t</italic> test, and differences were considered statistically significant with <italic>P</italic> &#x0003c; 0.05.</p></sec></sec><sec><title>Results and Discussion</title><sec><title>Inhibition of Colitis Is Mediated by CD25<italic><sup>+</sup></italic>CD4<italic><sup>+</sup></italic> T Cells.</title><p>To further analyze the relationship between Treg cells that control responses to self-antigens and those that regulate responses driven by bacteria, CD45RB<sup>low</sup>CD4<sup>+</sup> T cells were sorted into CD25<sup>+</sup> and CD25<sup>&#x02212;</sup> fractions and tested for their ability to inhibit colitis induced by transfer of CD45RB<sup>high</sup> cells. The results clearly demonstrate that control of intestinal inflammation resided predominantly within the CD25<sup>+</sup> fraction, as these cells significantly inhibited development of colitis and wasting disease even when transferred at a ratio of 1:8 (CD25<sup>+</sup>CD45RB<sup>low</sup>CD4<sup>+</sup>/CD45RB<sup>high</sup>CD4<sup>+</sup> T cells; <xref ref-type="table" rid="T1">Table </xref>). Indeed, colons from mice restored with a mixture of CD45RB<sup>high</sup>CD4<sup>+</sup> and CD25<sup>+</sup>CD45RB<sup>low</sup>CD4<sup>+</sup> cells exhibited no detectable pathological changes and were indistinguishable from colons from mice restored with CD45RB<sup>high</sup>CD4<sup>+</sup> cells and unseparated CD45RB<sup>low</sup>CD4<sup>+</sup> cells (<xref ref-type="fig" rid="F1">Fig. 1</xref>, a&#x02013;d). In contrast, CD25<sup>&#x02212;</sup>CD45RB<sup>low</sup> cells transferred incomplete protection at the highest dose and mediated no significant regulatory function at the lower dose. Despite the fact that CD25<sup>&#x02212;</sup>CD45RB<sup>low</sup> cells failed to efficiently prevent colitis, they were also not capable of transferring the disease (<xref ref-type="table" rid="T1">Table </xref>), indicating that pathogenic effector cells were not present in this population and did not account for its lack of Treg cell function.</p></sec><sec><title>Signals through CTLA-4 Are Required for the Function of Treg Cells In Vivo.</title><p>These findings indicate that Treg cells that control inflammatory responses in the intestine are enriched within the same phenotypic subset (CD25<sup>+</sup>CD4<sup>+</sup>) as those that inhibit T cell activation in vitro and prevent organ-specific autoimmune disease <xref ref-type="bib" rid="R14">14</xref>
+<xref ref-type="bib" rid="R15">15</xref>
+<xref ref-type="bib" rid="R16">16</xref>. The fact that the function of the former, at least in vitro, requires a cognate interaction between responding and regulatory populations prompted us to search for cell surface molecules that may be involved in the function of Treg cells in vivo. A potential candidate was CTLA-4, which has been clearly identified as a negative regulator of T cell activation <xref ref-type="bib" rid="R24">24</xref>
+<xref ref-type="bib" rid="R25">25</xref>. To analyze the role of CTLA-4 in the regulation of intestinal inflammation, SCID mice transferred with a mixture of CD45RB<sup>high</sup> and CD45RB<sup>low</sup> cells were treated with an anti&#x02013;CTLA-4 mAb or control hamster IgG. As expected, mice restored with a mixture of CD45RB<sup>high</sup> and CD45RB<sup>low</sup> cells and treated with control IgG were significantly protected from both wasting disease and colitis (<xref ref-type="fig" rid="F1">Fig. 1</xref> b and <xref ref-type="fig" rid="F2">Fig. 2</xref>, a and c). In contrast, mice in the anti&#x02013;CTLA-4&#x02013;treated group developed wasting disease with identical kinetics to mice restored with CD45RB<sup>high</sup> cells alone (<xref ref-type="fig" rid="F2">Fig. 2</xref>, a and c). Furthermore, intestinal inflammation occurred with a similar incidence and severity in these mice and had identical characteristics to those observed in mice restored with CD45RB<sup>high</sup> cells alone, including epithelial cell hyperplasia, mucin cell depletion, and pronounced mononuclear cell infiltrates (<xref ref-type="fig" rid="F1">Fig. 1</xref> e and <xref ref-type="fig" rid="F2">Fig. 2</xref>, a and c). Mice lacking CTLA-4 have been shown to preferentially activate Th2 responses <xref ref-type="bib" rid="R35">35</xref>; however, there was no evidence that anti&#x02013;CTLA-4 therapy induced a Th2 response in the colon, as IFN-&#x003b3; and TNF-&#x003b1; but not IL-4 or IL-10 mRNA were elevated in the colon of anti&#x02013;CTLA-4&#x02013;treated mice with colitis (data not shown). Importantly, anti&#x02013;CTLA-4 treatment also abrogated inhibition of colitis by CD25<sup>+</sup>CD45RB<sup>low</sup> cells, providing direct evidence that the immune-suppressive function of CD25<sup>+</sup> Treg cells is dependent on CTLA-4 (<xref ref-type="fig" rid="F1">Fig. 1</xref> f and <xref ref-type="fig" rid="F2">Fig. 2</xref> c).</p><p>Anti&#x02013;CTLA-4 treatment may act to enhance the pathogenicity of cells within the CD45RB<sup>high</sup> population. However, the kinetics of wasting disease (<xref ref-type="fig" rid="F2">Fig. 2</xref> b) as well as the incidence and severity of colitis induced by transfer of CD45RB<sup>high</sup>CD4<sup>+</sup> cells was indistinguishable in anti&#x02013;CTLA-4&#x02013;treated or untreated groups (<xref ref-type="fig" rid="F2">Fig. 2</xref> c). Similarly, anti&#x02013;CTLA-4 treatment did not lead to the development of a pathogenic T cell population after transfer of CD45RB<sup>low</sup>CD4<sup>+</sup> T cells, as the majority of mice in this group failed to develop wasting disease or colitis and were not significantly different from untreated mice (<xref ref-type="fig" rid="F2">Fig. 2</xref> c). The finding that anti&#x02013;CTLA-4, which inhibits the function of Treg cells, failed to reveal pathogenic cells among the CD45RB<sup>low</sup> population further supports the idea that pathogenic effector cells are not present (at least not in a physiologically relevant number) in the antigen-experienced pool. Taken together, these data suggest that anti&#x02013;CTLA-4 acts to inhibit the function of Treg cells as opposed to enhancing the pathogenicity of CD45RB<sup>high</sup> cells or revealing pathogenic T cells among the CD45RB<sup>low</sup> population.</p></sec><sec><title>CTLA-4 Is Expressed Predominantly on CD25<sup>+</sup>CD4<sup>+</sup> Cells.</title><p>The consensus of opinion on the function of CTLA-4 is that ligation of CTLA-4 uncouples TCR ligation from the downstream signaling events that lead to full T cell activation (for a review, see reference <xref ref-type="bib" rid="R36">36</xref>). However, more recently, ligation of CTLA-4 has also been shown to induce TGF-&#x003b2; secretion by both naive and effector CD4<sup>+</sup> T cells <xref ref-type="bib" rid="R33">33</xref>, suggesting that CTLA-4 may mediate positive signaling for secretion of immune-suppressive cytokines. Precisely how CTLA-4 is involved in the function of Treg cells that inhibit intestinal inflammation is not known. It may be induced on the progeny of CD45RB<sup>high</sup>CD4<sup>+</sup> T cells in the presence of Treg cells and serve to transmit a negative signal to these potentially pathogenic cells. Alternatively, it may be present on Treg cells themselves, providing a costimulatory signal required for these cells to mediate their effector function. To address this issue, we have analyzed the constitutive expression of CTLA-4 among splenic CD4<sup>+</sup> T cell subsets. Previous studies have shown that although CTLA-4 functions at the cell surface, it is located primarily in endosomal vesicles, from where it has been shown to cycle continuously to and from the cell surface <xref ref-type="bib" rid="R37">37</xref>
+<xref ref-type="bib" rid="R38">38</xref>. To measure both membrane and cytoplasmic CTLA-4 expression, antibody staining was performed on permeabilized cells. Although it has been reported that CTLA-4 is not expressed by CD4<sup>+</sup> T cells examined directly ex vivo <xref ref-type="bib" rid="R39">39</xref>
+<xref ref-type="bib" rid="R40">40</xref>, our studies revealed significant CTLA-4 expression among CD25<sup>+</sup>CD45RB<sup>low</sup>CD4<sup>+</sup> cells (46.4% &#x000b1; 1.5; representative staining shown in <xref ref-type="fig" rid="F3">Fig. 3</xref> b) and lower levels on the CD25<sup>&#x02212;</sup> subset (12.5% &#x000b1; 0.2; <xref ref-type="fig" rid="F3">Fig. 3</xref> c). Low to undetectable levels were present among CD45RB<sup>high</sup>CD4<sup>+</sup> cells (<xref ref-type="fig" rid="F3">Fig. 3</xref> a). These results suggest that CTLA-4 is expressed constitutively among CD4<sup>+</sup> T cells analyzed directly ex vivo and that this expression is restricted primarily to Treg cells. Recently, expression of CTLA-4 among CD25<sup>+</sup>CD4<sup>+</sup> cells has been noted <xref ref-type="bib" rid="R41">41</xref>. However, the significance of this was not examined.</p><p>To investigate whether inhibition of colitis by CD25<sup>+</sup> CD45RB<sup>low</sup> cells led to induction of expression of CTLA-4 among the progeny of CD45RB<sup>high</sup> cells that expand in the immunodeficient recipients, pathogenic and regulatory T cell populations were isolated from donors congenic for CD45 allotypes and transferred to immune-deficient recipients. 4 wk after T cell reconstitution, CTLA-4 expression on the progeny of CD45RB<sup>high</sup>CD4<sup>+</sup> or CD25<sup>+</sup>CD45RB<sup>low</sup> CD4<sup>+</sup> cells present in the mesenteric lymph nodes was analyzed. In mice restored with CD45RB<sup>high</sup> cells alone, which would normally develop colitis, CTLA-4 was expressed on a minority of cells (6.4 &#x000b1; 2.4%; representative staining shown in <xref ref-type="fig" rid="F3">Fig. 3</xref> d). The picture was similar in mice given a mixture of pathogenic and Treg cells, as under these circumstances only 7.6 &#x000b1; 1.8% (representative staining shown in <xref ref-type="fig" rid="F3">Fig. 3</xref> f) of the progeny of CD45RB<sup>high</sup>CD4<sup>+</sup> T cells expressed CTLA-4. The fact that the progeny of CD45RB<sup>high</sup> cells expressed similar levels of CTLA-4 whether they were able to induce colitis (transfer of CD45RB<sup>high</sup> cells alone) or when they were suppressed (transfer of CD45RB<sup>high</sup> cells plus CD25<sup>+</sup> cells) argues against the hypothesis that it is induced CTLA-4 expression on potentially pathogenic cells in the presence of Treg cells that accounts for the requirement for CTLA-4 in the mechanism of immune suppression. Consistent with this, CTLA-4 expression remained high (43.7% &#x000b1; 7.8, <xref ref-type="fig" rid="F3">Fig. 3</xref> e) on the progeny of CD25<sup>+</sup> cells as they exerted immune suppression in vivo, providing support for the idea that it is CTLA-4 signaling on Treg cells themselves that is crucial for their function. As the highest levels of CTLA-4 expression were restricted to Treg cells, it was possible that anti&#x02013;CTLA-4 treatment selectively depleted these cells. However, using the congenic transfer system, it was possible to monitor the progeny of Treg cells in mice treated with anti&#x02013;CTLA-4. Similar numbers of CD25<sup>+</sup>CD4<sup>+</sup> cells were present in anti&#x02013;CTLA-4&#x02013;treated mice, indicating that the antibody did not lead to the wholesale depletion of Treg cells (data not shown).</p></sec><sec><title>The Function of CD25<sup>+</sup> Treg Cells In Vivo Is Dependent on TGF-&#x003b2; Production.</title><p>Extensive analysis of the immune-suppressive function of CD25<sup>+</sup> Treg cells in vitro has shown no demonstrable role for the immune-suppressive cytokine TGF-&#x003b2; <xref ref-type="bib" rid="R17">17</xref>
+<xref ref-type="bib" rid="R18">18</xref>. This was somewhat at odds with our previous observations that the ability of CD45RB<sup>low</sup> cells to inhibit colitis was absolutely dependent on TGF-&#x003b2; <xref ref-type="bib" rid="R9">9</xref>. It is possible that this difference may reflect a comparison of the function of CD25<sup>+</sup> cells with unseparated CD45RB<sup>low</sup> cells. Given that we now show that Treg cells that most efficiently inhibit colitis are also CD25<sup>+</sup>, we directly tested whether TGF-&#x003b2; was required for the function of these cells in vivo. As with unseparated CD45RB<sup>low</sup> cells, administration of anti&#x02013;TGF-&#x003b2; to mice usually protected from colitis by transfer of a mixture of CD45RB<sup>high</sup> and CD25<sup>+</sup>CD45RB<sup>low</sup> cells led to abrogation of suppression and induction of severe colitis in the recipients (<xref ref-type="fig" rid="F4">Fig. 4</xref>). These data indicate that in contrast to immune suppression in vitro, immune suppression in vivo was absolutely dependent on TGF-&#x003b2;.</p><p>Data reported herein demonstrate that bacteria-driven inflammatory responses in the intestine are regulated by the same phenotypic subset of regulatory T cells (CD25<sup>+</sup>) as control autoimmune responses to tissue-specific self-antigens <xref ref-type="bib" rid="R14">14</xref>
+<xref ref-type="bib" rid="R15">15</xref>
+<xref ref-type="bib" rid="R16">16</xref> and mediate inhibition of T cell activation in vitro <xref ref-type="bib" rid="R17">17</xref>
+<xref ref-type="bib" rid="R18">18</xref>. Previous studies have failed to reveal the mechanism of action of CD25<sup>+</sup> Treg cells, which at least in vitro are thought to act via a cognate interaction between responding and regulatory T cells. Our data identify both CTLA-4 and TGF-&#x003b2; as essential components of the immune-suppressive functions of CD25<sup>+</sup>CD4<sup>+</sup> Treg cells that control intestinal inflammation. Consistent with these studies, Takahashi et al. <xref ref-type="bib" rid="R42">42</xref> have reported that signaling via CTLA-4 is also required for immune suppression in vitro and that treatment of normal mice with anti&#x02013;CTLA-4 and anti&#x02013;CD25 mAbs induces autoimmune disease. The finding that CTLA-4 plays an essential role in the function of Treg cells that control immune responses towards intestinal antigens as well as tissue specific self-antigens suggests that similar functional subsets of Treg cells mediate these diverse roles, emphasizing the central role that Treg cells and CTLA-4 signaling play in the control of the immune response.</p><p>There is now overwhelming evidence that CTLA-4 can act as a negative regulator of T cell activation. Blockade of CTLA-4 by injection of anti&#x02013;CTLA-4 mAbs has been shown to lead to increased T cell&#x02013;mediated immunity in several model systems, including antigen-specific responses <xref ref-type="bib" rid="R26">26</xref>, tumor immunity <xref ref-type="bib" rid="R27">27</xref>, parasitic infection <xref ref-type="bib" rid="R43">43</xref>, and autoimmune disease <xref ref-type="bib" rid="R28">28</xref>
+<xref ref-type="bib" rid="R29">29</xref>
+<xref ref-type="bib" rid="R30">30</xref>. The consensus of opinion is that CTLA-4 acts in a cell-autonomous fashion, and that its expression on potentially reactive T cells results in their inhibition. Our observation that CTLA-4 is required for the function of Treg cells in vivo describes a novel property of CTLA-4, which raises the possibility that the immune stimulatory consequences of CTLA-4 blockade may be in part due to the inhibition of the function of Treg cells. The findings that: (a) anti&#x02013;CTLA-4 treatment abrogates the function of Treg cells in vivo but does not enhance the pathogenicity of CD45RB<sup>high</sup> cells when transferred alone; (b) CTLA-4 is constitutively expressed by a high proportion of Treg cells; and (c) potentially pathogenic T cells whose function has been suppressed in vivo express similar levels of CTLA-4 as uninhibited pathogenic T cells capable of inducing colitis support the hypothesis that it is CTLA-4 expression on Treg cells themselves that is important for their function. However, these data do not rule out the possibility that in mixtures of pathogenic and Treg cells, expression of CTLA-4 by the progeny of pathogenic T cells plays a role in the mechanism of immune suppression. The definitive answer requires transfer of T cell subsets from CTLA-4<sup>&#x02212;/</sup>&#x02212; mice. However, this experimental approach is confounded by the fact that these mice die at 3&#x02013;4 wk with fatal immune pathology and have highly distorted T cell subsets <xref ref-type="bib" rid="R31">31</xref>
+<xref ref-type="bib" rid="R32">32</xref>. Recently, immune pathology induced in recipients after transfer of CTLA-4<sup>&#x02212;/&#x02212;</sup> bone marrow was shown to be inhibited by transfer of normal bone marrow, indicating that CTLA-4<sup>&#x02212;/&#x02212;</sup> T cells can be inhibited by normal T cells <xref ref-type="bib" rid="R44">44</xref>. These results, taken together with our own, raise the possibility that costimulation of immune-suppressive Treg cells as opposed to negative signaling of reactive T cells accounts for some of the inhibitory effects of CTLA-4 signaling.</p><p>Both cell contact&#x02013;dependent signals <xref ref-type="bib" rid="R17">17</xref>
+<xref ref-type="bib" rid="R18">18</xref>
+<xref ref-type="bib" rid="R45">45</xref> and secretion of immune-suppressive cytokines <xref ref-type="bib" rid="R9">9</xref>
+<xref ref-type="bib" rid="R10">10</xref>
+<xref ref-type="bib" rid="R46">46</xref> have been shown to be involved in the function of Treg cells. The finding that CD25<sup>+</sup> Treg cells that control intestinal inflammation are dependent on both TGF-&#x003b2; and CTLA-4 suggests that a cell surface molecule that negatively regulates T cell activation and secretion of immune-suppressive cytokines may be linked and involved in the function of the same subset of Treg cells. Cross-linking of CTLA-4 in the presence of TCR-mediated signals has been shown to induce TGF-&#x003b2; secretion, providing one possible mechanism for the linkage <xref ref-type="bib" rid="R33">33</xref>. The explanation of why TGF-&#x003b2; is involved in the in vivo function of Treg cells but not in their in vitro function is not clear. Obviously, immune suppression in vitro represents a very simplified read out of the in vivo phenomenon, and it may be that in the latter, TGF-&#x003b2; plays an important role in limiting the expansion or homing of potentially pathogenic cells.</p><p>The results of this study identify signaling via CTLA-4 as essential for the function of Treg cells, providing a new mechanism by which ligation of CTLA-4 may induce immune suppression. Induction of Treg cells is one of the host's natural mechanisms for controlling immune responses. The finding that CTLA-4 plays a nonredundant role in the functioning of these cells will open up new avenues of investigation for the development of therapeutic strategies that seek to manipulate Treg cells.</p></sec></sec></body><back><ack><p>The authors wish to thank Professor D. Mason and Professor K.J. Wood for their critical review of this manuscript. We are indebted to N. Rust for excellent technical assistance with cell sorting, S. Biddolph for processing of histological samples, and C. Hetherington and staff for care of experimental animals. We gratefully acknowledge Dr. J. Bluestone for the UC10-4F10-11 hybridoma.</p><p>S. Read and F. Powrie are funded by the Wellcome Trust. V. Malmstr&#x000f6;m is funded by the Wenner Green Foundation.</p></ack><ref-list><ref id="R1"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tlaskalova</surname><given-names>H.</given-names></name><name><surname>Kamarytova</surname><given-names>V.</given-names></name><name><surname>Mandel</surname><given-names>L.</given-names></name><name><surname>Prokesova</surname><given-names>L.</given-names></name><name><surname>Kruml</surname><given-names>J.</given-names></name><name><surname>Lanc</surname><given-names>A.</given-names></name><name><surname>Miler</surname><given-names>I.</given-names></name></person-group>
+<article-title>The immune response of germ-free piglets after peroral monocontamination with living <italic>Escherichia coli</italic> strain 086. I. The fate of antigen, dynamics and site of antibody formation, nature of antibodies and formation of heterohaemagglutinins</article-title>
+<source>Folia Biol. (Praha).</source>
+<volume>16</volume>
+<year>1970</year>
+<fpage>177</fpage>
+<lpage>187</lpage>
+<?supplied-pmid 4914735?><pub-id pub-id-type="pmid">4914735</pub-id></element-citation></ref><ref id="R2"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Powrie</surname><given-names>F.</given-names></name></person-group>
+<article-title>T cells in inflammatory bowel diseaseprotective and pathogenic roles</article-title>
+<source>Immunity.</source>
+<volume>3</volume>
+<year>1995</year>
+<fpage>171</fpage>
+<lpage>174</lpage>
+<?supplied-pmid 7648390?><pub-id pub-id-type="pmid">7648390</pub-id></element-citation></ref><ref id="R3"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Powrie</surname><given-names>F.</given-names></name><name><surname>Leach</surname><given-names>M.W.</given-names></name><name><surname>Mauze</surname><given-names>S.</given-names></name><name><surname>Caddle</surname><given-names>L.B.</given-names></name><name><surname>Coffman</surname><given-names>R.L.</given-names></name></person-group>
+<article-title>Phenotypically distinct subsets of CD4+ T cells induce or protect from chronic intestinal inflammation in C. B-17 scid mice</article-title>
+<source>Int. Immunol.</source>
+<volume>5</volume>
+<year>1993</year>
+<fpage>1461</fpage>
+<lpage>1471</lpage>
+<?supplied-pmid 7903159?><pub-id pub-id-type="pmid">7903159</pub-id></element-citation></ref><ref id="R4"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morrissey</surname><given-names>P.J.</given-names></name><name><surname>Charrier</surname><given-names>K.</given-names></name><name><surname>Braddy</surname><given-names>S.</given-names></name><name><surname>Liggitt</surname><given-names>D.</given-names></name><name><surname>Watson</surname><given-names>J.D.</given-names></name></person-group>
+<article-title>CD4<sup>+</sup> T cells that express high levels of CD45RB induce wasting disease when transferred into congenic severe combined immunodeficient mice. Disease development is prevented by cotransfer of purified CD4<sup>+</sup> T cells</article-title>
+<source>J. Exp. Med.</source>
+<volume>178</volume>
+<year>1993</year>
+<fpage>237</fpage>
+<lpage>244</lpage>
+<?supplied-pmid 8100269?><pub-id pub-id-type="pmid">8100269</pub-id></element-citation></ref><ref id="R5"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Leach</surname><given-names>M.W.</given-names></name><name><surname>Bean</surname><given-names>A.G.</given-names></name><name><surname>Mauze</surname><given-names>S.</given-names></name><name><surname>Coffman</surname><given-names>R.L.</given-names></name><name><surname>Powrie</surname><given-names>F.</given-names></name></person-group>
+<article-title>Inflammatory bowel disease in C.B-17 scid mice reconstituted with the CD45RB<sup>high</sup> subset of CD4+ T cells</article-title>
+<source>Am. J. Pathol.</source>
+<volume>148</volume>
+<year>1996</year>
+<fpage>1503</fpage>
+<lpage>1515</lpage>
+<?supplied-pmid 8623920?><pub-id pub-id-type="pmid">8623920</pub-id></element-citation></ref><ref id="R6"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Powrie</surname><given-names>F.</given-names></name><name><surname>Leach</surname><given-names>M.W.</given-names></name><name><surname>Mauze</surname><given-names>S.</given-names></name><name><surname>Menon</surname><given-names>S.</given-names></name><name><surname>Caddle</surname><given-names>L.B.</given-names></name><name><surname>Coffman</surname><given-names>R.L.</given-names></name></person-group>
+<article-title>Inhibition of Th1 responses prevents inflammatory bowel disease in scid mice reconstituted with CD45RB<sup>hi</sup> CD4+ T cells</article-title>
+<source>Immunity.</source>
+<volume>1</volume>
+<year>1994</year>
+<fpage>553</fpage>
+<lpage>562</lpage>
+<?supplied-pmid 7600284?><pub-id pub-id-type="pmid">7600284</pub-id></element-citation></ref><ref id="R7"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Powrie</surname><given-names>F.</given-names></name><name><surname>Mauze</surname><given-names>S.</given-names></name><name><surname>Coffman</surname><given-names>R.L.</given-names></name></person-group>
+<article-title>CD4+ T-cells in the regulation of inflammatory responses in the intestine</article-title>
+<source>Res. Immunol.</source>
+<volume>148</volume>
+<year>1997</year>
+<fpage>576</fpage>
+<lpage>581</lpage>
+<?supplied-pmid 9588837?><pub-id pub-id-type="pmid">9588837</pub-id></element-citation></ref><ref id="R8"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Aranda</surname><given-names>R.</given-names></name><name><surname>Sydora</surname><given-names>B.C.</given-names></name><name><surname>McAllister</surname><given-names>P.L.</given-names></name><name><surname>Binder</surname><given-names>S.W.</given-names></name><name><surname>Yang</surname><given-names>H.Y.</given-names></name><name><surname>Targan</surname><given-names>S.R.</given-names></name><name><surname>Kronenberg</surname><given-names>M.</given-names></name></person-group>
+<article-title>Analysis of intestinal lymphocytes in mouse colitis mediated by transfer of CD4+, CD45RB<sup>high</sup> T cells to SCID recipients</article-title>
+<source>J. Immunol.</source>
+<volume>158</volume>
+<year>1997</year>
+<fpage>3464</fpage>
+<lpage>3473</lpage>
+<?supplied-pmid 9120308?><pub-id pub-id-type="pmid">9120308</pub-id></element-citation></ref><ref id="R9"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Powrie</surname><given-names>F.</given-names></name><name><surname>Carlino</surname><given-names>J.</given-names></name><name><surname>Leach</surname><given-names>M.W.</given-names></name><name><surname>Mauze</surname><given-names>S.</given-names></name><name><surname>Coffman</surname><given-names>R.L.</given-names></name></person-group>
+<article-title>A critical role for transforming growth factor &#x003b2; but not interleukin 4 in the suppression of T helper type 1&#x02013;mediated colitis by CD45RB<sup>low</sup> CD4<sup>+</sup> T cells</article-title>
+<source>J. Exp. Med.</source>
+<volume>183</volume>
+<year>1996</year>
+<fpage>2669</fpage>
+<lpage>2674</lpage>
+<?supplied-pmid 8676088?><pub-id pub-id-type="pmid">8676088</pub-id></element-citation></ref><ref id="R10"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Asseman</surname><given-names>C.</given-names></name><name><surname>Mauze</surname><given-names>S.</given-names></name><name><surname>Leach</surname><given-names>M.W.</given-names></name><name><surname>Coffman</surname><given-names>R.L.</given-names></name><name><surname>Powrie</surname><given-names>F.</given-names></name></person-group>
+<article-title>An essential role for interleukin 10 in the function of regulatory T cells that inhibit intestinal inflammation</article-title>
+<source>J. Exp. Med.</source>
+<volume>190</volume>
+<year>1999</year>
+<fpage>995</fpage>
+<lpage>1004</lpage>
+<?supplied-pmid 10510089?><pub-id pub-id-type="pmid">10510089</pub-id></element-citation></ref><ref id="R11"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fowell</surname><given-names>D.</given-names></name><name><surname>Mason</surname><given-names>D.</given-names></name></person-group>
+<article-title>Evidence that the T cell repertoire of normal rats contains cells with the potential to cause diabetes. Characterization of the CD4<sup>+</sup> T cell subset that inhibits this autoimmune potential</article-title>
+<source>J. Exp. Med.</source>
+<volume>177</volume>
+<year>1993</year>
+<fpage>627</fpage>
+<lpage>636</lpage>
+<?supplied-pmid 8094734?><pub-id pub-id-type="pmid">8094734</pub-id></element-citation></ref><ref id="R12"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Saoudi</surname><given-names>A.</given-names></name><name><surname>Seddon</surname><given-names>B.</given-names></name><name><surname>Heath</surname><given-names>V.</given-names></name><name><surname>Fowell</surname><given-names>D.</given-names></name><name><surname>Mason</surname><given-names>D.</given-names></name></person-group>
+<article-title>The physiological role of regulatory T cells in the prevention of autoimmunitythe function of the thymus in the generation of the regulatory T cell subset</article-title>
+<source>Immunol. Rev.</source>
+<volume>149</volume>
+<year>1996</year>
+<fpage>195</fpage>
+<lpage>216</lpage>
+<?supplied-pmid 9005215?><pub-id pub-id-type="pmid">9005215</pub-id></element-citation></ref><ref id="R13"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sakaguchi</surname><given-names>S.</given-names></name><name><surname>Fukuma</surname><given-names>K.</given-names></name><name><surname>Kuribayashi</surname><given-names>K.</given-names></name><name><surname>Masuda</surname><given-names>T.</given-names></name></person-group>
+<article-title>Organ-specific autoimmune diseases induced in mice by elimination of T cell subset. I. Evidence for the active participation of T cells in natural self-tolerance; deficit of a T cell subset as a possible cause of autoimmune disease</article-title>
+<source>J. Exp. Med.</source>
+<volume>161</volume>
+<year>1985</year>
+<fpage>72</fpage>
+<lpage>87</lpage>
+<?supplied-pmid 3871469?><pub-id pub-id-type="pmid">3871469</pub-id></element-citation></ref><ref id="R14"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sakaguchi</surname><given-names>S.</given-names></name><name><surname>Sakaguchi</surname><given-names>N.</given-names></name><name><surname>Asano</surname><given-names>M.</given-names></name><name><surname>Itoh</surname><given-names>M.</given-names></name><name><surname>Toda</surname><given-names>M.</given-names></name></person-group>
+<article-title>Immunologic self-tolerance maintained by activated T cells expressing IL-2 receptor alpha-chains (CD25). Breakdown of a single mechanism of self-tolerance causes various autoimmune diseases</article-title>
+<source>J. Immunol.</source>
+<volume>155</volume>
+<year>1995</year>
+<fpage>1151</fpage>
+<lpage>1164</lpage>
+<?supplied-pmid 7636184?><pub-id pub-id-type="pmid">7636184</pub-id></element-citation></ref><ref id="R15"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Suri-Payer</surname><given-names>E.</given-names></name><name><surname>Amar</surname><given-names>A.Z.</given-names></name><name><surname>Thornton</surname><given-names>A.M.</given-names></name><name><surname>Shevach</surname><given-names>E.M.</given-names></name></person-group>
+<article-title>CD4+CD25+ T cells inhibit both the induction and effector function of autoreactive T cells and represent a unique lineage of immunoregulatory cells</article-title>
+<source>J. Immunol.</source>
+<volume>160</volume>
+<year>1998</year>
+<fpage>1212</fpage>
+<lpage>1218</lpage>
+<?supplied-pmid 9570536?><pub-id pub-id-type="pmid">9570536</pub-id></element-citation></ref><ref id="R16"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Asano</surname><given-names>M.</given-names></name><name><surname>Toda</surname><given-names>M.</given-names></name><name><surname>Sakaguchi</surname><given-names>N.</given-names></name><name><surname>Sakaguchi</surname><given-names>S.</given-names></name></person-group>
+<article-title>Autoimmune disease as a consequence of developmental abnormality of a T cell subpopulation</article-title>
+<source>J. Exp. Med.</source>
+<volume>184</volume>
+<year>1996</year>
+<fpage>387</fpage>
+<lpage>396</lpage>
+<?supplied-pmid 8760792?><pub-id pub-id-type="pmid">8760792</pub-id></element-citation></ref><ref id="R17"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thornton</surname><given-names>A.M.</given-names></name><name><surname>Shevach</surname><given-names>E.M.</given-names></name></person-group>
+<article-title>CD4<sup>+</sup>CD25<sup>+</sup> immunoregulatory T cells suppress polyclonal T cell activation in vitro by inhibiting interleukin 2 production</article-title>
+<source>J. Exp. Med.</source>
+<volume>188</volume>
+<year>1998</year>
+<fpage>287</fpage>
+<lpage>296</lpage>
+<?supplied-pmid 9670041?><pub-id pub-id-type="pmid">9670041</pub-id></element-citation></ref><ref id="R18"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Takahashi</surname><given-names>T.</given-names></name><name><surname>Kuniyasu</surname><given-names>Y.</given-names></name><name><surname>Toda</surname><given-names>M.</given-names></name><name><surname>Sakaguchi</surname><given-names>N.</given-names></name><name><surname>Itoh</surname><given-names>M.</given-names></name><name><surname>Iwata</surname><given-names>M.</given-names></name><name><surname>Shimizu</surname><given-names>J.</given-names></name><name><surname>Sakaguchi</surname><given-names>S.</given-names></name></person-group>
+<article-title>Immunologic self-tolerance maintained by CD25+CD4+ naturally anergic and suppressive T cellsinduction of autoimmune disease by breaking their anergic/suppressive state</article-title>
+<source>Int. Immunol.</source>
+<volume>10</volume>
+<year>1998</year>
+<fpage>1969</fpage>
+<lpage>1980</lpage>
+<?supplied-pmid 9885918?><pub-id pub-id-type="pmid">9885918</pub-id></element-citation></ref><ref id="R19"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Van Parijs</surname><given-names>L.</given-names></name><name><surname>Abbas</surname><given-names>A.K.</given-names></name></person-group>
+<article-title>Homeostasis and self-tolerance in the immune systemturning lymphocytes off</article-title>
+<source>Science.</source>
+<volume>280</volume>
+<year>1998</year>
+<fpage>243</fpage>
+<lpage>248</lpage>
+<?supplied-pmid 9535647?><pub-id pub-id-type="pmid">9535647</pub-id></element-citation></ref><ref id="R20"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lanzavecchia</surname><given-names>A.</given-names></name><name><surname>Sallusto</surname><given-names>F.</given-names></name></person-group>
+<article-title>From synapses to immunological memorythe role of sustained T cell stimulation</article-title>
+<source>Curr. Opin. Immunol.</source>
+<volume>12</volume>
+<year>2000</year>
+<fpage>92</fpage>
+<lpage>98</lpage>
+<?supplied-pmid 10679412?><pub-id pub-id-type="pmid">10679412</pub-id></element-citation></ref><ref id="R21"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shahinian</surname><given-names>A.</given-names></name><name><surname>Pfeffer</surname><given-names>K.</given-names></name><name><surname>Lee</surname><given-names>K.P.</given-names></name><name><surname>Kundig</surname><given-names>T.M.</given-names></name><name><surname>Kishihara</surname><given-names>K.</given-names></name><name><surname>Wakeham</surname><given-names>A.</given-names></name><name><surname>Kawai</surname><given-names>K.</given-names></name><name><surname>Ohashi</surname><given-names>P.S.</given-names></name><name><surname>Thompson</surname><given-names>C.B.</given-names></name><name><surname>Mak</surname><given-names>T.W.</given-names></name></person-group>
+<article-title>Differential T cell costimulatory requirements in CD28-deficient mice</article-title>
+<source>Science.</source>
+<volume>261</volume>
+<year>1993</year>
+<fpage>609</fpage>
+<lpage>612</lpage>
+<?supplied-pmid 7688139?><pub-id pub-id-type="pmid">7688139</pub-id></element-citation></ref><ref id="R22"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Allison</surname><given-names>J.P.</given-names></name></person-group>
+<article-title>CD28-B7 interactions in T-cell activation</article-title>
+<source>Curr. Opin. Immunol.</source>
+<volume>6</volume>
+<year>1994</year>
+<fpage>414</fpage>
+<lpage>419</lpage>
+<?supplied-pmid 7522466?><pub-id pub-id-type="pmid">7522466</pub-id></element-citation></ref><ref id="R23"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>June</surname><given-names>C.H.</given-names></name><name><surname>Bluestone</surname><given-names>J.A.</given-names></name><name><surname>Nadler</surname><given-names>L.M.</given-names></name><name><surname>Thompson</surname><given-names>C.B.</given-names></name></person-group>
+<article-title>The B7 and CD28 receptor families</article-title>
+<source>Immunol. Today.</source>
+<volume>15</volume>
+<year>1994</year>
+<fpage>321</fpage>
+<lpage>331</lpage>
+<?supplied-pmid 7522010?><pub-id pub-id-type="pmid">7522010</pub-id></element-citation></ref><ref id="R24"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Walunas</surname><given-names>T.L.</given-names></name><name><surname>Bakker</surname><given-names>C.Y.</given-names></name><name><surname>Bluestone</surname><given-names>J.A.</given-names></name></person-group>
+<article-title>CTLA-4 ligation blocks CD28-dependent T cell activation</article-title>
+<source>J. Exp. Med.</source>
+<volume>183</volume>
+<year>1996</year>
+<fpage>2541</fpage>
+<lpage>2550</lpage>
+<?supplied-pmid 8676075?><pub-id pub-id-type="pmid">8676075</pub-id></element-citation></ref><ref id="R25"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Krummel</surname><given-names>M.F.</given-names></name><name><surname>Allison</surname><given-names>J.P.</given-names></name></person-group>
+<article-title>CTLA-4 engagement inhibits IL-2 accumulation and cell cycle progression upon activation of resting T cells</article-title>
+<source>J. Exp. Med.</source>
+<volume>183</volume>
+<year>1996</year>
+<fpage>2533</fpage>
+<lpage>2540</lpage>
+<?supplied-pmid 8676074?><pub-id pub-id-type="pmid">8676074</pub-id></element-citation></ref><ref id="R26"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Perez</surname><given-names>V.L.</given-names></name><name><surname>Van Parijs</surname><given-names>L.</given-names></name><name><surname>Biuckians</surname><given-names>A.</given-names></name><name><surname>Zheng</surname><given-names>X.X.</given-names></name><name><surname>Strom</surname><given-names>T.B.</given-names></name><name><surname>Abbas</surname><given-names>A.K.</given-names></name></person-group>
+<article-title>Induction of peripheral T cell tolerance in vivo requires CTLA-4 engagement</article-title>
+<source>Immunity.</source>
+<volume>6</volume>
+<year>1997</year>
+<fpage>411</fpage>
+<lpage>417</lpage>
+<?supplied-pmid 9133420?><pub-id pub-id-type="pmid">9133420</pub-id></element-citation></ref><ref id="R27"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Leach</surname><given-names>D.R.</given-names></name><name><surname>Krummel</surname><given-names>M.F.</given-names></name><name><surname>Allison</surname><given-names>J.P.</given-names></name></person-group>
+<article-title>Enhancement of antitumor immunity by CTLA-4 blockade</article-title>
+<source>Science.</source>
+<volume>271</volume>
+<year>1996</year>
+<fpage>1734</fpage>
+<lpage>1736</lpage>
+<?supplied-pmid 8596936?><pub-id pub-id-type="pmid">8596936</pub-id></element-citation></ref><ref id="R28"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Karandikar</surname><given-names>N.J.</given-names></name><name><surname>Vanderlugt</surname><given-names>C.L.</given-names></name><name><surname>Walunas</surname><given-names>T.L.</given-names></name><name><surname>Miller</surname><given-names>S.D.</given-names></name><name><surname>Bluestone</surname><given-names>J.A.</given-names></name></person-group>
+<article-title>CTLA-4a negative regulator of autoimmune disease</article-title>
+<source>J. Exp. Med.</source>
+<volume>184</volume>
+<year>1996</year>
+<fpage>783</fpage>
+<lpage>788</lpage>
+<?supplied-pmid 8760834?><pub-id pub-id-type="pmid">8760834</pub-id></element-citation></ref><ref id="R29"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Perrin</surname><given-names>P.J.</given-names></name><name><surname>Maldonado</surname><given-names>J.H.</given-names></name><name><surname>Davis</surname><given-names>T.A.</given-names></name><name><surname>June</surname><given-names>C.H.</given-names></name><name><surname>Racke</surname><given-names>M.K.</given-names></name></person-group>
+<article-title>CTLA-4 blockade enhances clinical disease and cytokine production during experimental allergic encephalomyelitis</article-title>
+<source>J. Immunol.</source>
+<volume>157</volume>
+<year>1996</year>
+<fpage>1333</fpage>
+<lpage>1336</lpage>
+<?supplied-pmid 8759711?><pub-id pub-id-type="pmid">8759711</pub-id></element-citation></ref><ref id="R30"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Luhder</surname><given-names>F.</given-names></name><name><surname>Hoglund</surname><given-names>P.</given-names></name><name><surname>Allison</surname><given-names>J.P.</given-names></name><name><surname>Benoist</surname><given-names>C.</given-names></name><name><surname>Mathis</surname><given-names>D.</given-names></name></person-group>
+<article-title>Cytotoxic T lymphocyte&#x02013;associated antigen 4 (CTLA-4) regulates the unfolding of autoimmune diabetes</article-title>
+<source>J. Exp. Med.</source>
+<volume>187</volume>
+<year>1998</year>
+<fpage>427</fpage>
+<lpage>432</lpage>
+<?supplied-pmid 9449722?><pub-id pub-id-type="pmid">9449722</pub-id></element-citation></ref><ref id="R31"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Waterhouse</surname><given-names>P.</given-names></name><name><surname>Penninger</surname><given-names>J.M.</given-names></name><name><surname>Timms</surname><given-names>E.</given-names></name><name><surname>Wakeham</surname><given-names>A.</given-names></name><name><surname>Shahinian</surname><given-names>A.</given-names></name><name><surname>Lee</surname><given-names>K.P.</given-names></name><name><surname>Thompson</surname><given-names>C.B.</given-names></name><name><surname>Griesser</surname><given-names>H.</given-names></name><name><surname>Mak</surname><given-names>T.W.</given-names></name></person-group>
+<article-title>Lymphoproliferative disorders with early lethality in mice deficient in Ctla-4</article-title>
+<source>Science.</source>
+<volume>270</volume>
+<year>1995</year>
+<fpage>985</fpage>
+<lpage>988</lpage>
+<?supplied-pmid 7481803?><pub-id pub-id-type="pmid">7481803</pub-id></element-citation></ref><ref id="R32"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tivol</surname><given-names>E.A.</given-names></name><name><surname>Borriello</surname><given-names>F.</given-names></name><name><surname>Schweitzer</surname><given-names>A.N.</given-names></name><name><surname>Lynch</surname><given-names>W.P.</given-names></name><name><surname>Bluestone</surname><given-names>J.A.</given-names></name><name><surname>Sharpe</surname><given-names>A.H.</given-names></name></person-group>
+<article-title>Loss of CTLA-4 leads to massive lymphoproliferation and fatal multiorgan tissue destruction, revealing a critical negative regulatory role of CTLA-4</article-title>
+<source>Immunity.</source>
+<volume>3</volume>
+<year>1995</year>
+<fpage>541</fpage>
+<lpage>547</lpage>
+<?supplied-pmid 7584144?><pub-id pub-id-type="pmid">7584144</pub-id></element-citation></ref><ref id="R33"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>W.</given-names></name><name><surname>Jin</surname><given-names>W.</given-names></name><name><surname>Wahl</surname><given-names>S.M.</given-names></name></person-group>
+<article-title>Engagement of cytotoxic T lymphocyte&#x02013;associated antigen 4 (CTLA-4) induces transforming growth factor &#x003b2; (TGF-&#x003b2;) production by murine CD4<sup>+</sup> T cells</article-title>
+<source>J. Exp. Med.</source>
+<volume>188</volume>
+<year>1998</year>
+<fpage>1849</fpage>
+<lpage>1857</lpage>
+<?supplied-pmid 9815262?><pub-id pub-id-type="pmid">9815262</pub-id></element-citation></ref><ref id="R34"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Coffman</surname><given-names>R.L.</given-names></name></person-group>
+<article-title>Surface antigen expression and immunoglobulin gene rearrangement during mouse pre-B cell development</article-title>
+<source>Immunol. Rev.</source>
+<volume>69</volume>
+<year>1982</year>
+<fpage>5</fpage>
+<lpage>23</lpage>
+<?supplied-pmid 6984001?><pub-id pub-id-type="pmid">6984001</pub-id></element-citation></ref><ref id="R35"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Oosterwegel</surname><given-names>M.A.</given-names></name><name><surname>Mandelbrot</surname><given-names>D.A.</given-names></name><name><surname>Boyd</surname><given-names>S.D.</given-names></name><name><surname>Lorsbach</surname><given-names>R.B.</given-names></name><name><surname>Jarrett</surname><given-names>D.Y.</given-names></name><name><surname>Abbas</surname><given-names>A.K.</given-names></name><name><surname>Sharpe</surname><given-names>A.H.</given-names></name></person-group>
+<article-title>The role of CTLA-4 in regulating Th2 differentiation</article-title>
+<source>J. Immunol.</source>
+<volume>163</volume>
+<year>1999</year>
+<fpage>2634</fpage>
+<lpage>2639</lpage>
+<?supplied-pmid 10453003?><pub-id pub-id-type="pmid">10453003</pub-id></element-citation></ref><ref id="R36"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chambers</surname><given-names>C.A.</given-names></name><name><surname>Allison</surname><given-names>J.P.</given-names></name></person-group>
+<article-title>Costimulatory regulation of T cell function</article-title>
+<source>Curr. Opin. Cell Biol.</source>
+<volume>11</volume>
+<year>1999</year>
+<fpage>203</fpage>
+<lpage>210</lpage>
+<?supplied-pmid 10209159?><pub-id pub-id-type="pmid">10209159</pub-id></element-citation></ref><ref id="R37"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Linsley</surname><given-names>P.S.</given-names></name><name><surname>Bradshaw</surname><given-names>J.</given-names></name><name><surname>Greene</surname><given-names>J.</given-names></name><name><surname>Peach</surname><given-names>R.</given-names></name><name><surname>Bennett</surname><given-names>K.L.</given-names></name><name><surname>Mittler</surname><given-names>R.S.</given-names></name></person-group>
+<article-title>Intracellular trafficking of CTLA-4 and focal localization towards sites of TCR engagement</article-title>
+<source>Immunity.</source>
+<volume>4</volume>
+<year>1996</year>
+<fpage>535</fpage>
+<lpage>543</lpage>
+<?supplied-pmid 8673700?><pub-id pub-id-type="pmid">8673700</pub-id></element-citation></ref><ref id="R38"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Alegre</surname><given-names>M.L.</given-names></name><name><surname>Noel</surname><given-names>P.J.</given-names></name><name><surname>Eisfelder</surname><given-names>B.J.</given-names></name><name><surname>Chuang</surname><given-names>E.</given-names></name><name><surname>Clark</surname><given-names>M.R.</given-names></name><name><surname>Reiner</surname><given-names>S.L.</given-names></name><name><surname>Thompson</surname><given-names>C.B.</given-names></name></person-group>
+<article-title>Regulation of surface and intracellular expression of CTLA4 on mouse T cells</article-title>
+<source>J. Immunol.</source>
+<volume>157</volume>
+<year>1996</year>
+<fpage>4762</fpage>
+<lpage>4770</lpage>
+<?supplied-pmid 8943377?><pub-id pub-id-type="pmid">8943377</pub-id></element-citation></ref><ref id="R39"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Krummel</surname><given-names>M.F.</given-names></name><name><surname>Allison</surname><given-names>J.P.</given-names></name></person-group>
+<article-title>CD28 and CTLA-4 have opposing effects on the response of T cells to stimulation</article-title>
+<source>J. Exp. Med.</source>
+<volume>182</volume>
+<year>1995</year>
+<fpage>459</fpage>
+<lpage>465</lpage>
+<?supplied-pmid 7543139?><pub-id pub-id-type="pmid">7543139</pub-id></element-citation></ref><ref id="R40"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Walunas</surname><given-names>T.L.</given-names></name><name><surname>Lenschow</surname><given-names>D.J.</given-names></name><name><surname>Bakker</surname><given-names>C.Y.</given-names></name><name><surname>Linsley</surname><given-names>P.S.</given-names></name><name><surname>Freeman</surname><given-names>G.J.</given-names></name><name><surname>Green</surname><given-names>J.M.</given-names></name><name><surname>Thompson</surname><given-names>C.B.</given-names></name><name><surname>Bluestone</surname><given-names>J.A.</given-names></name></person-group>
+<article-title>CTLA-4 can function as a negative regulator of T cell activation</article-title>
+<source>Immunity.</source>
+<volume>1</volume>
+<year>1994</year>
+<fpage>405</fpage>
+<lpage>413</lpage>
+<?supplied-pmid 7882171?><pub-id pub-id-type="pmid">7882171</pub-id></element-citation></ref><ref id="R41"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Metzler</surname><given-names>B.</given-names></name><name><surname>Burkhart</surname><given-names>C.</given-names></name><name><surname>Wraith</surname><given-names>D.C.</given-names></name></person-group>
+<article-title>Phenotypic analysis of CTLA-4 and CD28 expression during transient peptide-induced T cell activation in vivo</article-title>
+<source>Int. Immunol</source>
+<volume>11</volume>
+<year>1999</year>
+<fpage>667</fpage>
+<lpage>675</lpage>
+<?supplied-pmid 10330272?><pub-id pub-id-type="pmid">10330272</pub-id></element-citation></ref><ref id="R42"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Takahashi</surname><given-names>T.</given-names></name><name><surname>Tagami</surname><given-names>T.</given-names></name><name><surname>Yamazaki</surname><given-names>S.</given-names></name><name><surname>Uede</surname><given-names>T.</given-names></name><name><surname>Shimizu</surname><given-names>J.</given-names></name><name><surname>Sakaguchi</surname><given-names>N.</given-names></name><name><surname>Mak</surname><given-names>T.W.</given-names></name><name><surname>Sakaguchi</surname><given-names>S.</given-names></name></person-group>
+<article-title>Immunologic self-tolerance maintained by CD25<sup>+</sup>CD4<sup>+</sup> regulatory T cells constitutively expressing cytotoxic T lymphocyte&#x02013;associated antigen 4</article-title>
+<source>J. Exp. Med.</source>
+<volume>192</volume>
+<year>2000</year>
+<fpage>303</fpage>
+<lpage>309</lpage>
+<?supplied-pmid 10899917?><pub-id pub-id-type="pmid">10899917</pub-id></element-citation></ref><ref id="R43"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McCoy</surname><given-names>K.</given-names></name><name><surname>Camberis</surname><given-names>M.</given-names></name><name><surname>Gros</surname><given-names>G.L.</given-names></name></person-group>
+<article-title>Protective immunity to nematode infection is induced by CTLA-4 blockade</article-title>
+<source>J. Exp. Med.</source>
+<volume>186</volume>
+<year>1997</year>
+<fpage>183</fpage>
+<lpage>187</lpage>
+<?supplied-pmid 9221747?><pub-id pub-id-type="pmid">9221747</pub-id></element-citation></ref><ref id="R44"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bachmann</surname><given-names>M.F.</given-names></name><name><surname>Kohler</surname><given-names>G.</given-names></name><name><surname>Ecabert</surname><given-names>B.</given-names></name><name><surname>Mak</surname><given-names>T.W.</given-names></name><name><surname>Kopf</surname><given-names>M.</given-names></name></person-group>
+<article-title>Cutting edgelymphoproliferative disease in the absence of CTLA-4 is not T cell autonomous</article-title>
+<source>J. Immunol.</source>
+<volume>163</volume>
+<year>1999</year>
+<fpage>1128</fpage>
+<lpage>1131</lpage>
+<?supplied-pmid 10415006?><pub-id pub-id-type="pmid">10415006</pub-id></element-citation></ref><ref id="R45"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Read</surname><given-names>S.</given-names></name><name><surname>Mauze</surname><given-names>S.</given-names></name><name><surname>Asseman</surname><given-names>C.</given-names></name><name><surname>Bean</surname><given-names>A.</given-names></name><name><surname>Coffman</surname><given-names>R.</given-names></name><name><surname>Powrie</surname><given-names>F.</given-names></name></person-group>
+<article-title>CD38+ CD45RB<sup>low</sup> CD4+ T cellsa population of T cells with immune regulatory activities in vitro</article-title>
+<source>Eur. J. Immunol.</source>
+<volume>28</volume>
+<year>1998</year>
+<fpage>3435</fpage>
+<lpage>3447</lpage>
+<?supplied-pmid 9842886?><pub-id pub-id-type="pmid">9842886</pub-id></element-citation></ref><ref id="R46"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Seddon</surname><given-names>B.</given-names></name><name><surname>Mason</surname><given-names>D.</given-names></name></person-group>
+<article-title>Regulatory T cells in the control of autoimmunitythe essential role of transforming growth factor &#x003b2; and interleukin 4 in the prevention of autoimmune thyroiditis in rats by peripheral CD4<sup>+</sup>CD45RC<sup>&#x02212;</sup> cells and CD4<sup>+</sup>CD8<sup>&#x02212;</sup> thymocytes</article-title>
+<source>J. Exp. Med.</source>
+<volume>189</volume>
+<year>1999</year>
+<fpage>279</fpage>
+<lpage>288</lpage>
+<?supplied-pmid 9892610?><pub-id pub-id-type="pmid">9892610</pub-id></element-citation></ref></ref-list></back><floats-group><table-wrap id="T1" position="float"><label>Table 1</label><caption><p>CD25<sup>+</sup>CD45RB<sup>low</sup>CD4<sup>+</sup> but Not CD25<sup>&#x02212;</sup>CD45RB<sup>low</sup>CD4<sup>+</sup> Cells Inhibit Colitis</p></caption><table frame="hsides" rules="groups"><thead><tr valign="bottom" align="center"><th colspan="2" rowspan="1">Cells injected</th><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1"/></tr><tr valign="bottom"><th align="left" rowspan="1" colspan="1">Phenotype</th><th align="center" rowspan="1" colspan="1">No.</th><th align="center" rowspan="1" colspan="1">Percentage of colitis (<italic>n</italic>)</th><th align="center" rowspan="1" colspan="1">Percentage of weight change</th></tr></thead><tbody><tr valign="bottom"><td align="left" rowspan="1" colspan="1">CD45RB<sup>high</sup>CD4<sup>+</sup> alone</td><td align="center" rowspan="1" colspan="1"/><td align="char" char="." rowspan="1" colspan="1">89 (9)</td><td align="char" char="." rowspan="1" colspan="1">78.6 &#x000b1; 4.9</td></tr><tr valign="bottom"><td align="left" rowspan="1" colspan="1">CD45RB<sup>high</sup>CD4<sup>+</sup>
+</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/></tr><tr valign="bottom"><td align="left" rowspan="1" colspan="1">Plus CD45RB<sup>low</sup>CD4<sup>+</sup>
+</td><td align="center" rowspan="1" colspan="1">2 &#x000d7; 10<sup>5</sup>
+</td><td align="char" char="." rowspan="1" colspan="1">0 (5)</td><td align="char" char="." rowspan="1" colspan="1">103.3 &#x000b1; 1.6</td></tr><tr valign="bottom"><td align="left" rowspan="1" colspan="1">Plus CD25<sup>+</sup>CD45RB<sup>low</sup>CD4<sup>+</sup>
+</td><td align="center" rowspan="1" colspan="1">2 &#x000d7; 10<sup>5</sup>
+</td><td align="char" char="." rowspan="1" colspan="1">0 (4)</td><td align="char" char="." rowspan="1" colspan="1">105.3 &#x000b1; 0.8</td></tr><tr valign="bottom"><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">1 &#x000d7; 10<sup>5</sup>
+</td><td align="char" char="." rowspan="1" colspan="1">0 (4)</td><td align="char" char="." rowspan="1" colspan="1">107.0 &#x000b1; 2.5</td></tr><tr valign="bottom"><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">5 &#x000d7; 10<sup>4</sup>
+</td><td align="char" char="." rowspan="1" colspan="1">0 (5)</td><td align="char" char="." rowspan="1" colspan="1">110.3 &#x000b1; 2.5</td></tr><tr valign="bottom"><td align="left" rowspan="1" colspan="1">Plus CD25<sup>&#x02212;</sup>CD45RB<sup>low</sup>CD4<sup>+</sup>
+</td><td align="center" rowspan="1" colspan="1">2 &#x000d7; 10<sup>5</sup>
+</td><td align="char" char="." rowspan="1" colspan="1">38 (8)</td><td align="char" char="." rowspan="1" colspan="1">98.5 &#x000b1; 5.0</td></tr><tr valign="bottom"><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">5 &#x000d7; 10<sup>5</sup>
+</td><td align="char" char="." rowspan="1" colspan="1">60 (10)</td><td align="left" rowspan="1" colspan="1">8 6.7 &#x000b1; 3.5</td></tr><tr valign="bottom"><td align="left" rowspan="1" colspan="1">CD25<sup>+</sup>CD45RB<sup>low</sup>CD4<sup>+</sup> alone</td><td align="center" rowspan="1" colspan="1">2 &#x000d7; 10<sup>5</sup>
+</td><td align="char" char="." rowspan="1" colspan="1">0 (3)</td><td align="char" char="." rowspan="1" colspan="1">114.5 &#x000b1; 6.9</td></tr><tr valign="bottom"><td align="left" rowspan="1" colspan="1">CD25<sup>&#x02212;</sup>CD45RB<sup>low</sup>CD4<sup>+</sup> alone</td><td align="center" rowspan="1" colspan="1">2 &#x000d7; 10<sup>5</sup>
+</td><td align="char" char="." rowspan="1" colspan="1">0 (3)</td><td align="char" char="." rowspan="1" colspan="1">107.0 &#x000b1; 0.6</td></tr></tbody></table><table-wrap-foot><fn><p>SCID mice received 4 &#x000d7; 10<sup>5</sup> CD45RB<sup>high</sup> cells alone or in combination with other subpopulations as indicated. 8 wk after transfer, mice were killed and tissues were taken for histological examination. Data are pooled from two independent experiments. CD45RB<sup>high</sup> versus CD45RB<sup>high</sup> plus CD25<sup>+</sup>CD45RB<sup>low</sup>: <italic>P</italic> &#x0003c; 0.001; CD45RB<sup>high</sup> versus CD45RB<sup>high</sup> plus CD25<sup>&#x02212;</sup>CD45RB<sup>low</sup>: not significant.</p></fn></table-wrap-foot></table-wrap><fig id="F1" position="float"><label>Figure 1</label><caption><p>CD4<sup>+</sup> regulatory T cells that control intestinal inflammation are CD25<sup>+</sup>CD45RB<sup>low</sup>. (a) Representative photomicrographs show severe colitis in mice that received CD45RB<sup>high</sup>CD4<sup>+</sup> cells alone. (b) Inhibition of colitis in mice given CD45RB<sup>high</sup> plus 2 &#x000d7; 10<sup>5</sup> unfractionated CD45RB<sup>low</sup>CD4<sup>+</sup> cells. (c) Regulatory T cell function is enriched within the CD25<sup>+</sup>CD45RB<sup>low</sup> subset, as 10<sup>5</sup> CD25<sup>+</sup>CD45RB<sup>low</sup> cells inhibited colitis when transferred with CD45RB<sup>high</sup>CD4<sup>+</sup> cells, whereas (d) mice restored with a mixture of 10<sup>5</sup> CD25<sup>&#x02212;</sup>CD45RB<sup>low</sup> and CD45RB<sup>high</sup>CD4<sup>+</sup> cells developed severe colitis. Severe colitis in mice restored with (e) CD45RB<sup>high</sup> and 2 &#x000d7; 10<sup>5</sup> CD45RB<sup>low</sup>CD4<sup>+</sup> cells or (f) CD45RB<sup>high</sup> and 10<sup>5</sup> CD25<sup>+</sup>CD45RB<sup>low</sup>CD4<sup>+</sup> cells and treated with anti-CTLA-4 mAb. Mice receiving CD45RB<sup>high</sup> and CD45RB<sup>low</sup>CD4<sup>+</sup> cells or CD45RB<sup>high</sup> and CD25<sup>+</sup>CD45RB<sup>low</sup>CD4<sup>+</sup> cells and treated with control hamster IgG were similar to those shown in b. Original magnification: &#x000d7;80.</p></caption><graphic xlink:href="JEM000262.f1"/></fig><fig id="F2" position="float"><label>Figure 2</label><caption><p>Anti&#x02013;CTLA-4 treatment abrogates the function of regulatory T cells. (a) SCID mice were reconstituted with CD45RB<sup>high</sup>CD4<sup>+</sup> cells alone (&#x025a1;) or in combination with 2 &#x000d7; 10<sup>5</sup> CD45RB<sup>low</sup>CD4<sup>+</sup> cells and treated with anti&#x02013;CTLA-4 mAb (&#x02022;) or purified hamster IgG (&#x025cb;). Asterisk indicates one of five mice killed on D32. Data represent the mean &#x000b1; SEM for five mice per group. For CD45RB<sup>high</sup> versus CD45RB<sup>high</sup> plus CD45RB<sup>low</sup> cells plus control IgG, <italic>P</italic> &#x0003c; 0.05. For CD45RB<sup>high</sup> versus CD45RB<sup>high</sup> plus CD45RB<sup>low</sup> cells plus anti&#x02013;CTLA-4, results were not significant (Student's <italic>t</italic> test). (b) SCID mice were reconstituted with CD45RB<sup>high</sup> cells alone and received anti&#x02013;CTLA-4 mAb (&#x025aa;) or control hamster IgG (&#x025a1;). Data represent the mean &#x000b1; SEM for six mice per group. (c) SCID mice received CD45RB<sup>high</sup>CD4<sup>+</sup> cells (&#x025a1;), 2 &#x000d7; 10<sup>5</sup> CD45RB<sup>low</sup> cells (&#x022c4;), both CD45RB<sup>high</sup>CD4<sup>+</sup> cells and 2 &#x000d7; 10<sup>5</sup> CD45RB<sup>low</sup> cells (&#x025cb;), or CD45RB<sup>high</sup>CD4<sup>+</sup> cells in combination with 10<sup>5</sup> CD25<sup>+</sup>CD45RB<sup>low</sup> CD4<sup>+</sup> cells (&#x025b5;). Mice also received either anti&#x02013;CTLA-4 (filled symbols) or control hamster IgG (open symbols). Data are pooled from three independent experiments. Significant protection was mediated by CD45RB<sup>low</sup> cells (<italic>P</italic> &#x0003c; 0.01) and CD25<sup>+</sup> cells (<italic>P</italic> &#x0003c; 0.01). Adminstration of anti&#x02013;CTLA-4 mAb abrogated protection mediated by CD45RB<sup>low</sup> cells (<italic>P</italic> &#x0003c; 0.01) and CD25<sup>+</sup> cells (<italic>P</italic> &#x0003c; 0.05).</p></caption><graphic xlink:href="JEM000262.f2a"/><graphic xlink:href="JEM000262.f2b"/><graphic xlink:href="JEM000262.f2c"/></fig><fig id="F3" position="float"><label>Figure 3</label><caption><p>CTLA-4 is expressed constitutively on CD25<sup>+</sup>CD45RB<sup>low</sup> CD4<sup>+</sup> cells. (a&#x02013;c) CTLA-4 staining on permeabilized (a) CD45RB<sup>high</sup>CD4<sup>+</sup>, (b) CD25<sup>+</sup>CD45RB<sup>low</sup>CD4<sup>+</sup>, and (c) CD25<sup>&#x02212;</sup>CD45RB<sup>low</sup>CD4<sup>+</sup> splenocytes. SSC, side scatter. (d&#x02013;f) CTLA-4 expression on the progeny of (e) CD25<sup>+</sup>CD45RB<sup>low</sup>CD4<sup>+</sup> and (d and f) CD45RB<sup>high</sup>CD4<sup>+</sup> cells after transfer into immunodeficient mice. C57BL/6 recombination activating gene (RAG)2<sup>&#x02212;/&#x02212;</sup> mice received CD45RB<sup>high</sup>CD4<sup>+</sup> cells from C57BL/6 mice (CD45.2) (d) alone or (e and f) in combination with 10<sup>5</sup> CD25<sup>+</sup>CD45RB<sup>low</sup>CD4<sup>+</sup> cells from C57BL/6.SJL.CD45 congenic mice (CD45.1). 4 wk after transfer, cells from the mesenteric lymph nodes were stained for CTLA-4 and congenic marker expression. Results are representative of four mice (CD45RB<sup>high</sup> alone) and seven mice (CD45RB<sup>high</sup> plus CD25<sup>+</sup>) from two independent experiments.</p></caption><graphic xlink:href="JEM000262.f3"/></fig><fig id="F4" position="float"><label>Figure 4</label><caption><p>Regulation of colitis by CD25<sup>+</sup>CD4<sup>+</sup> cells is TGF-&#x003b2; dependent. SCID mice received CD45RB<sup>high</sup>CD4<sup>+</sup> cells alone (&#x025a1;) or in combination with 10<sup>5</sup> CD25<sup>+</sup> cells (&#x025b5;). Mice also received either anti&#x02013;TGF-&#x003b2; (filled symbols) or PBS (open symbols). Significant protection mediated by CD25<sup>+</sup> cells (<italic>P</italic> &#x0003c; 0.01) abrogated by treatment with anti&#x02013;TGF-&#x003b2; mAb (<italic>P</italic> &#x0003c; 0.02).</p></caption><graphic xlink:href="JEM000262.f4"/></fig></floats-group></article>
