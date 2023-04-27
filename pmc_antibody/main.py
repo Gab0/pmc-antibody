@@ -27,7 +27,10 @@ def process_antibody(ab):
     print(f"Final query has {len(query)}/1500 characters.")
     print(query)
 
-    return europepmc.get_articles(query)
+    result = europepmc.get_articles(query)
+    result.expand_all(max_pages=20)
+
+    return result
 
 
 def search_antibody(antibody_identifier):

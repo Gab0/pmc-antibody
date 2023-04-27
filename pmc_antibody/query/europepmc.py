@@ -36,18 +36,22 @@ class Article():
         # NOTE: Mostly for debug purposes;
         self.article_json = article_json
 
-    def get_id(self):
+    def get_id(self) -> Optional[str]:
         for v in self.id_fields:
             try:
                 return  self.article_json[v]
             except KeyError:
                 pass
 
+        return None
+
+
 class SearchResult():
     """ Information on a single EuropePMC search result. """
-    def __init__(self, result_json):
+    def __init__(self, result_json, parameters):
         self.hit_count = result_json["hitCount"]
 
+        self.parameters = parameters
         self.results = []
 
         self.update(result_json)
@@ -59,27 +63,39 @@ class SearchResult():
         ]
 
         try:
-            next_page = result_json["nextPageUrl"]
+            next_cursor_mark = result_json["nextCursorMark"]
         except KeyError:
-            next_page = None
+            print(result_json.keys())
+            exit(1)
 
-        self.next_page_url = next_page
+            next_cursor_mark = None
+
+        self.next_cursor_mark = next_cursor_mark
 
         # NOTE: Mostly for debug purposes;
         self.result_json = result_json
 
     def next_page(self):
-        response = requests.get(self.next_page_url)
-        result_json = response.json()
-        print(self.hit_count)
+
+        self.parameters.update({
+            "cursorMark": self.next_cursor_mark
+        })
+
+        result_json = search_articles(self.parameters)
+
         self.update(result_json)
 
-        print(self.next_page_url)
+    def expand_all(self, max_pages):
+        page = 1
+        while self.next_cursor_mark is not None and page < max_pages:
 
-    def expand_all(self):
-        while self.next_page_url is not None:
+            print(f"Retrieving next page of search results... {page}/{max_pages}: {self.next_cursor_mark}")
+
             self.next_page()
-            time.sleep(1.0)
+
+            # NOTE: Rate limit to avoid bans;
+            time.sleep(0.1)
+            page += 1
 
 
 def get_annotations(query: str):
@@ -93,7 +109,7 @@ def get_annotations(query: str):
     URL = BASE_URL + "/europepmc/annotations_api/annotationsByArticleIds"
 
 
-def get_articles(query: str, pageToken=None) -> SearchResult:
+def get_articles(query: str) -> SearchResult:
     """ Do a single article search on EuropePMC. """
     parameters: Dict[str, Union[str, int]] = {
         "query": query,
@@ -101,15 +117,18 @@ def get_articles(query: str, pageToken=None) -> SearchResult:
         "pageSize": 100
     }
 
+    return SearchResult(search_articles(parameters), parameters)
+
+
+def search_articles(parameters):
     URL = BASE_URL + "/europepmc/webservices/rest/search"
     response = requests.get(
         URL,
         params=parameters
     )
 
-    content = response.json()
+    return response.json()
 
-    return SearchResult(content)
 
 
 def retrieve_article_content(article_id: str) -> Optional[str]:
