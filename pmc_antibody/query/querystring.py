@@ -33,7 +33,7 @@ $MANUFACTURER; $SKU
 
 $CLONE, $MANUFACTURER
 $CLONE; $MANUFACTURER
-($CLONE)
+#($CLONE)
 
 $SKU\\), and $TARGET
 $SKU, L3T4; $MANUFACTURER
@@ -51,7 +51,7 @@ Cat. No. $SKU
 QUERY_STYLES = [
     f'"{query}"'
     for query in _QUERY_STYLES.split("\n")
-    if query.strip()
+    if query.strip() and not query.startswith("#")
 ]
 
 
@@ -112,9 +112,6 @@ def variable_search_cues(ab: AntibodyInformation) -> Dict[str, List[Optional[str
 
 
 def replace_query_style(ab, style) -> List[str]:
-
-    if style.startswith("#"):
-        return []
 
     patterns = variable_search_cues(ab)
 
