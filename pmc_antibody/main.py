@@ -286,7 +286,8 @@ def benchmark_antibody(ab: querystring.AntibodyInformation, dataset: pd.DataFram
         "Antibody ID": ab_identifier,
         "Fulfillment Rate": percentage(fulfillment_rate),
         "False Positive Rate": percentage(false_positive_rate),
-        "Search N": search_result.hit_count,
+        "Search Hit Count": search_result.hit_count,
+        "Search N": len(search_result.results),
         "Agreement N": sum(matched_results),
         "Benchmark N (CiteAB)": len(dataset),
     }
