@@ -267,7 +267,7 @@ def benchmark_antibody(ab: querystring.AntibodyInformation, dataset: pd.DataFram
 
     verbose = False
 
-    dataset["Found"] = [False for _ in dataset.index]
+    dataset = dataset.assign(Found=False)
 
     t0 = time.time()
     for found_article in search_result.results:
@@ -280,6 +280,8 @@ def benchmark_antibody(ab: querystring.AntibodyInformation, dataset: pd.DataFram
         if not matched:
             unmatched_articles.append(found_article)
         matched_results.append(matched)
+
+    print(f"Took {time.time() - t0} seconds to evaluate metrics.")
 
     agreement_rate = sum(matched_results) / len(matched_results)
     false_positive_rate = 1 - agreement_rate
