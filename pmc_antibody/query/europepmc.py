@@ -65,9 +65,6 @@ class SearchResult():
         try:
             next_cursor_mark = result_json["nextCursorMark"]
         except KeyError:
-            print(result_json.keys())
-            exit(1)
-
             next_cursor_mark = None
 
         self.next_cursor_mark = next_cursor_mark
