@@ -224,6 +224,20 @@ def ensure_sane_dataset_index(idx: int, dataset_size: int):
     return idx - 1
 
 
+def strings_equivalent(a: str, b: str) -> bool:
+    delta = jellyfish.levenshtein_distance(a, b)
+
+    if delta < 35:
+        return True
+        # if delta > 0:
+        #     print("Not exact match:")
+        #     print(found_article.title)
+        #     print(benchmark_article.Title)
+        #     print()
+
+    return False
+
+
 def benchmark_antibody(ab: querystring.AntibodyInformation, dataset: pd.DataFrame) -> Dict[str, Any]:
     """
     Runs a search for a single antibody and compare against the benchmark.
@@ -231,28 +245,26 @@ def benchmark_antibody(ab: querystring.AntibodyInformation, dataset: pd.DataFram
 
     """
 
-    ab_identifier = f"{ab.sku}:{ab.manufacturer}"
+    ab_identifier = ab.get_identifier()
     search_result = process_antibody(ab)
 
     matched_results = []
     matched_articles = []
     unmatched_articles = []
+
+    missed_articles = []
+
     verbose = False
 
+    dataset["Found"] = [False for _ in dataset.index]
+
+    t0 = time.time()
     for found_article in search_result.results:
         matched = False
-        for benchmark_title in dataset.Title:
-            delta = jellyfish.levenshtein_distance(
-                found_article.title,
-                benchmark_title
-            )
-            if delta < 0.15:
-                if delta > 0:
-                    print("Not exact match:")
-                    print(found_article.title)
-                    print(benchmark_title)
-                    print()
+        for benchmark_article in dataset.iloc():
+            if strings_equivalent(found_article.title, benchmark_article.Title):
                 matched = True
+                benchmark_article.Found = True
                 break
         if not matched:
             unmatched_articles.append(found_article)
