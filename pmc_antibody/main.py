@@ -1,15 +1,19 @@
 #!/bin/python
 #
-from typing import Any, Dict
+from typing import Any, Dict, List
 
 import argparse
 import sys
+import os
+import time
 
 import jellyfish
 import pandas as pd
 
 from .benchmark import target
 from .query import querystring, europepmc, discover_pattern
+
+from .query.querystring import AntibodyInformation
 
 
 def process_antibody(ab):
