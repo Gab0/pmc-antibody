@@ -61,6 +61,10 @@ def write_article_list(
         articles: List[europepmc.Article]
 ) -> None:
 
+    ARTICLE_LIST_DIRECTORY = "article-list"
+    if not os.path.isdir(ARTICLE_LIST_DIRECTORY):
+        os.mkdir(ARTICLE_LIST_DIRECTORY)
+
     records = []
     for article in articles:
         record = {
@@ -70,7 +74,10 @@ def write_article_list(
         records.append(record)
 
     filepath = f"{ab_identifier}-{list_identifier}.csv"
-    pd.DataFrame(records).to_csv(filepath, index=None)
+    pd.DataFrame(records).to_csv(
+        os.path.join(ARTICLE_LIST_DIRECTORY, filepath),
+        index=None
+    )
 
 
 def parse_arguments():
