@@ -63,15 +63,17 @@ Application execution two type of files:
 
 1. A `.csv` record containing overall statistics:
 
-|Antibody ID          |Fulfillment Rate|False Positive Rate|Search Hit Count|Search N|Agreement N|Benchmark N (CiteAB)|
-|---------------------|----------------|-------------------|----------------|--------|-----------|--------------------|
-|BD Biosciences:550280|28.27%          |92.55%             |4556            |2000    |149        |527                 |
-|Invitrogen:11-0041-82|20.7%           |95.25%             |4780            |2000    |95         |459                 |
-|Abcam:ab183685       |80.42%          |16.1%              |323             |323     |271        |337                 |
-|BioLegend:100401     |40.96%          |93.2%              |5591            |2000    |136        |332                 |
-|Abcam:ab133616       |76.92%          |29.26%             |311             |311     |220        |286                 |
-|R&D Systems:AF1828   |66.67%          |4.76%              |42              |42      |40         |60                  |
-|R&D Systems:BAF1828  |71.43%          |0.0%               |20              |20      |20         |28                  |
+|Antibody ID          |Fulfillment Rate|Fulfillment rate PMC|False Positive Rate|Search Hit Count|Search N|Agreement N|Benchmark N (CiteAB)|
+|---------------------|----------------|--------------------|-------------------|----------------|--------|-----------|--------------------|
+|BD Biosciences:550280|63.76%          |78.54%              |95.13%             |6952            |6900    |336        |527                 |
+|Invitrogen:11-0041-82|35.95%          |39.77%              |96.31%             |4471            |4472    |165        |459                 |
+|Abcam:ab183685       |80.71%          |97.66%              |16.31%             |325             |325     |272        |337                 |
+|BioLegend:100401     |92.47%          |87.61%              |94.38%             |5467            |5467    |307        |332                 |
+|Abcam:ab133616       |77.62%          |93.33%              |29.75%             |316             |316     |222        |286                 |
+|R&D Systems:AF1828   |66.67%          |90.0%               |4.76%              |42              |42      |40         |60                  |
+|R&D Systems:BAF1828  |71.43%          |100.0%              |0.0%               |20              |20      |20         |28                  |
+
+
 
 2. A list of articles that were retrieved by the application but were not in the `.xlsx` records, one per antibody.
 
