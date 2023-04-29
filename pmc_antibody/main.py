@@ -197,8 +197,9 @@ def main():
             result = benchmark_antibody(ab, dataset)
             results.append(result)
 
-        df = pd.DataFrame(results).round(2)
-        df.to_csv("results.csv", index=None)
+            # Write entire results on each new row! (safer);
+            df = pd.DataFrame(results).round(2)
+            df.to_csv("results.csv", index=None)
 
     elif arguments.retrieve_patterns:
         dataset_index = ensure_sane_dataset_index(arguments.retrieve_patterns, len(antibodies))
