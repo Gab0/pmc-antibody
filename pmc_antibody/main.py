@@ -361,18 +361,24 @@ def benchmark_search_query(
         for b, benchmark_article in enumerate(benchmark_dataset.iloc()):
             if strings_equivalent(found_article.title, benchmark_article.Title):
                 matched = True
-                benchmark_article.Found = True
+                benchmark_dataset.loc[b, "Found"] = True
                 break
+
         if not matched:
             unmatched_articles.append(found_article)
         matched_results.append(matched)
 
-    print(f"Took {time.time() - t0} seconds to evaluate metrics.")
+    print(f"Took {round(time.time() - t0)} seconds to evaluate metrics.")
 
-    agreement_rate = sum(matched_results) / len(matched_results)
-    false_positive_rate = 1 - agreement_rate
+    try:
+        agreement_rate = sum(matched_results) / len(matched_results)
+        false_positive_rate = 1 - agreement_rate
+    except ZeroDivisionError:
+        agreement_rate = 0
+        false_positive_rate = 0
 
-    fulfillment_rate = sum(matched_results) / len(dataset.Title)
+    fulfillment_rate = sum(matched_results) / len(benchmark_dataset.Title)
+
     IS_PMC = benchmark_dataset[benchmark_dataset.IS_PMC]
 
     try:
