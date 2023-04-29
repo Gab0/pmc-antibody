@@ -46,10 +46,18 @@ Cat. No. $SKU
 /$SKU
 ; #$SKU
 
-""".replace("\\", "")
+"""
+
+
+def format_query_pattern(query: str) -> str:
+    if query.startswith('"') or query.startswith('("'):
+        return query
+
+    return f'"{query}"'
+
 
 QUERY_STYLES = [
-    f'"{query}"'
+    format_query_pattern(query)
     for query in _QUERY_STYLES.split("\n")
     if query.strip() and not query.startswith("#")
 ]
