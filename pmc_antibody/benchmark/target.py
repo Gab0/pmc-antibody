@@ -35,3 +35,13 @@ def extract_all_ids(df: pd.DataFrame) -> List[str]:
             ids += extract_link(link)
 
     return ids
+
+
+def is_url_pmc(url: str) -> bool:
+    if not isinstance(url, str):
+        return False
+
+    if "europepmc.org" in url:
+        return True
+
+    return False

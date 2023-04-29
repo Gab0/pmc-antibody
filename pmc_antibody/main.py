@@ -267,7 +267,8 @@ def benchmark_antibody(ab: querystring.AntibodyInformation, dataset: pd.DataFram
 
     verbose = False
 
-    dataset = dataset.assign(Found=False)
+    benchmark_dataset.loc[:, "Found"] = [False for _ in benchmark_dataset.index]
+    benchmark_dataset.loc[:, "IS_PMC"] = [target.is_url_pmc(url) for url in benchmark_dataset.URL]
 
     t0 = time.time()
     for found_article in search_result.results:
@@ -287,10 +288,17 @@ def benchmark_antibody(ab: querystring.AntibodyInformation, dataset: pd.DataFram
     false_positive_rate = 1 - agreement_rate
 
     fulfillment_rate = sum(matched_results) / len(dataset.Title)
+    IS_PMC = benchmark_dataset[benchmark_dataset.IS_PMC]
+
+    try:
+        fulfillment_pmc_rate = IS_PMC.Found.sum() / IS_PMC.shape[0]
+    except ZeroDivisionError:
+        fulfillment_pmc_rate = 0
 
     record = {
         "Antibody ID": ab_identifier,
         "Fulfillment Rate": percentage(fulfillment_rate),
+        "Fulfillment rate PMC": percentage(fulfillment_pmc_rate),
         "False Positive Rate": percentage(false_positive_rate),
         "Search Hit Count": search_result.hit_count,
         "Search N": len(search_result.results),
