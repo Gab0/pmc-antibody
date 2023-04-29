@@ -145,6 +145,60 @@ def parse_arguments():
     return parser.parse_args()
 
 
+def retrieve_patterns(arguments, antibodies):
+    dataset_index = ensure_sane_dataset_index(arguments.retrieve_patterns, len(antibodies))
+    dataset = target.load_dataset(str(arguments.retrieve_patterns))
+
+    target_article_ids = target.extract_all_ids(dataset)
+
+    ab = antibodies[dataset_index]
+
+    ab_search_cues = querystring.variable_search_cues(ab)
+
+    regex_patterns = discover_pattern.generate_regex_patterns(ab)
+    secondary_regex_patterns = discover_pattern.generate_secondary_regex_patterns(ab)
+
+    article_ids_iterable = enumerate(target_article_ids[arguments.pattern_jump_to_index:])
+
+    for idx, target_article_id in article_ids_iterable:
+
+        xml_content = europepmc.retrieve_article_content(target_article_id)
+
+        status = "Ok" if xml_content is not None else "Unreachable"
+
+        message = "\t".join([
+            f"{idx + 1}",
+            target_article_id,
+            status
+        ])
+
+        print(message)
+        print()
+
+        if xml_content is None:
+            continue
+
+        # Detect patterns;
+        detected_patterns = discover_pattern.run_patterns_on_article(
+            regex_patterns,
+            xml_content
+        )
+
+        if not detected_patterns:
+            detected_patterns = discover_pattern.run_patterns_on_article(
+                secondary_regex_patterns,
+                xml_content
+            )
+
+        for detected_pattern in detected_patterns:
+            print(
+                discover_pattern.construct_query_pattern_from_regex_match(
+                    ab_search_cues,
+                    detected_pattern
+                )
+            )
+
+
 def main():
     """
     This function compares our current search results
@@ -178,57 +232,7 @@ def main():
             df.to_csv("results.csv", index=None)
 
     elif arguments.retrieve_patterns:
-        dataset_index = ensure_sane_dataset_index(arguments.retrieve_patterns, len(antibodies))
-        dataset = target.load_dataset(str(arguments.retrieve_patterns))
-
-        target_article_ids = target.extract_all_ids(dataset)
-
-        ab = antibodies[dataset_index]
-
-        ab_search_cues = querystring.variable_search_cues(ab)
-
-        regex_patterns = discover_pattern.generate_regex_patterns(ab)
-        secondary_regex_patterns = discover_pattern.generate_secondary_regex_patterns(ab)
-
-        article_ids_iterable = enumerate(target_article_ids[arguments.pattern_jump_to_index:])
-
-        for idx, target_article_id in article_ids_iterable:
-
-            xml_content = europepmc.retrieve_article_content(target_article_id)
-
-            status = "Ok" if xml_content is not None else "Unreachable"
-
-            message = "\t".join([
-                f"{idx + 1}",
-                target_article_id,
-                status
-            ])
-
-            print(message)
-            print()
-
-            if xml_content is None:
-                continue
-
-            # Detect patterns;
-            detected_patterns = discover_pattern.run_patterns_on_article(
-                regex_patterns,
-                xml_content
-            )
-
-            if not detected_patterns:
-                detected_patterns = discover_pattern.run_patterns_on_article(
-                    secondary_regex_patterns,
-                    xml_content
-                )
-
-            for detected_pattern in detected_patterns:
-                print(
-                    discover_pattern.construct_query_pattern_from_regex_match(
-                        ab_search_cues,
-                        detected_pattern
-                    )
-                )
+        retrieve_patterns(arguments, antibodies)
 
     elif arguments.search_antibody:
         search_antibody(arguments.search_antibody)
