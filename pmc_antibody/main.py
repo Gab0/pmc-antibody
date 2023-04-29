@@ -16,7 +16,7 @@ from .query import querystring, europepmc, discover_pattern
 from .query.querystring import AntibodyInformation
 
 
-def process_antibody(ab):
+def build_antibody_query(ab):
     queries = querystring.generate_query(ab)
 
     if not queries:
@@ -31,7 +31,13 @@ def process_antibody(ab):
     print(f"Final query has {len(query)}/1500 characters.")
     print(query)
 
-    result = europepmc.get_articles(query)
+    return query
+
+
+def execute_search(search_query: str) -> europepmc.SearchResult:
+    result = europepmc.get_articles(search_query)
+    print(f"Found {result.hit_count} articles.")
+
     result.expand_all(max_pages=20)
 
     return result
@@ -56,7 +62,9 @@ def search_antibody(antibody_identifier):
 
     ab = querystring.AntibodyInformation(sku, clone_id, manufacturer, ab_target)
 
-    return process_antibody(ab)
+    search_query = build_antibody_query(ab)
+
+    return execute_search(search_query)
 
 
 def write_article_list(
@@ -250,14 +258,23 @@ def main():
     elif arguments.search_antibody:
         search_antibody(arguments.search_antibody)
 
+    elif arguments.evaluate_queries:
+        dataset_index = ensure_sane_dataset_index(arguments.evaluate_queries, len(antibodies))
+
+        ab = antibodies[dataset_index]
+
+        benchmark_dataset = target.load_dataset(str(arguments.evaluate_queries))
+
+        benchmark_individual_queries(ab, benchmark_dataset)
+
     else:
         dataset_index = ensure_sane_dataset_index(arguments.i, len(antibodies))
 
         ab = antibodies[dataset_index]
 
-        dataset = target.load_dataset(str(arguments.i))
+        benchmark_dataset = target.load_dataset(str(arguments.i))
 
-        benchmark_antibody(ab, dataset)
+        benchmark_antibody(ab, benchmark_dataset)
 
 
 def ensure_sane_dataset_index(idx: int, dataset_size: int):
@@ -283,7 +300,30 @@ def strings_equivalent(a: str, b: str) -> bool:
     return False
 
 
-def benchmark_antibody(ab: querystring.AntibodyInformation, dataset: pd.DataFrame) -> Dict[str, Any]:
+def benchmark_individual_queries(
+        ab: AntibodyInformation,
+        benchmark_dataset: pd.DataFrame
+) -> Dict[str, Any]:
+    """
+    Runs searches for PMC queries, but one small query at a time.
+
+    """
+
+    queries = list(set(querystring.generate_query(ab)))
+
+    for q, query in enumerate(queries):
+        identifier = f"{ab.get_identifier()}_Q{q + 1}"
+
+        print(f"Searching query: |{query}|")
+
+        benchmark_search_query(
+            query,
+            identifier,
+            benchmark_dataset
+        )
+
+
+def benchmark_antibody(ab: AntibodyInformation, dataset: pd.DataFrame) -> Dict[str, Any]:
     """
     Runs a search for a single antibody and compare against the benchmark.
     Returns a dict containing evaluation metrics.
@@ -291,7 +331,18 @@ def benchmark_antibody(ab: querystring.AntibodyInformation, dataset: pd.DataFram
     """
 
     ab_identifier = ab.get_identifier()
-    search_result = process_antibody(ab)
+    search_query = build_antibody_query(ab)
+
+    return benchmark_search_query(search_query, ab_identifier, dataset)
+
+
+def benchmark_search_query(
+        search_query: str,
+        search_identifier: str,
+        benchmark_dataset: pd.DataFrame
+) -> Dict[str, Any]:
+
+    search_result = execute_search(search_query)
 
     matched_results = []
     matched_articles = []
@@ -307,7 +358,7 @@ def benchmark_antibody(ab: querystring.AntibodyInformation, dataset: pd.DataFram
     t0 = time.time()
     for found_article in search_result.results:
         matched = False
-        for benchmark_article in dataset.iloc():
+        for b, benchmark_article in enumerate(benchmark_dataset.iloc()):
             if strings_equivalent(found_article.title, benchmark_article.Title):
                 matched = True
                 benchmark_article.Found = True
@@ -330,17 +381,18 @@ def benchmark_antibody(ab: querystring.AntibodyInformation, dataset: pd.DataFram
         fulfillment_pmc_rate = 0
 
     record = {
-        "Antibody ID": ab_identifier,
+        "Antibody ID": search_identifier,
         "Fulfillment Rate": percentage(fulfillment_rate),
         "Fulfillment rate PMC": percentage(fulfillment_pmc_rate),
         "False Positive Rate": percentage(false_positive_rate),
         "Search Hit Count": search_result.hit_count,
         "Search N": len(search_result.results),
         "Agreement N": sum(matched_results),
-        "Benchmark N (CiteAB)": len(dataset),
+        "Benchmark N (CiteAB)": len(benchmark_dataset),
     }
 
-    write_article_list(ab_identifier, "unmatched-articles", unmatched_articles)
+    write_article_list(search_identifier, "unmatched-articles", unmatched_articles)
+    benchmark_dataset.to_csv(f"{search_identifier}-benchmark.csv", index=None)
 
     show_statistics(record)
 
