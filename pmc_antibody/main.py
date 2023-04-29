@@ -87,19 +87,28 @@ def write_article_list(
 def parse_arguments():
     parser = argparse.ArgumentParser()
 
+    benchmark_message = "1-indexed antibody number, respecting the .xlsx table names."
+
     parser.add_argument(
         "-i",
         type=int,
         default=1,
-        help="1-indexed antibody number, respecting the .xlsx table names." +
-        " To evaluate a single antibody."
+        help=benchmark_message + " To evaluate a single antibody."
     )
 
+    parser.add_argument(
+        "-q",
+        "--evaluate-queries",
+        type=int,
+        help=benchmark_message +
+        " To evaluate individual queries for a single antibody."
+
+    )
     parser.add_argument(
         "-r",
         "--retrieve-patterns",
         type=int,
-        help="1-indexed antibody target, respecting the .xlsx table names." +
+        help=benchmark_message +
         " To scrape search patterns for a single antibody."
     )
 
