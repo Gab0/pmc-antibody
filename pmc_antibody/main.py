@@ -341,12 +341,16 @@ def benchmark_antibody(ab: querystring.AntibodyInformation, dataset: pd.DataFram
 
     write_article_list(ab_identifier, "unmatched-articles", unmatched_articles)
 
+    show_statistics(record)
+
+    return record
+
+
+def show_statistics(record: Dict[str, Any]):
     print("\n")
     for k, v in record.items():
         print(f"{k}: {v}")
     print("\n")
-
-    return record
 
 
 def percentage(rate: float) -> str:
