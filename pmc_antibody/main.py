@@ -200,7 +200,10 @@ def main():
     if arguments.evaluate_all:
         results = []
 
-        for idx, ab in enumerate(antibodies):
+        ABs = enumerate(antibodies)
+        #ABs = reversed(list(ABs))
+
+        for idx, ab in ABs:
             dataset = target.load_dataset(str(idx + 1))
             result = benchmark_antibody(ab, dataset)
             results.append(result)
@@ -212,6 +215,7 @@ def main():
     elif arguments.retrieve_patterns:
         dataset_index = ensure_sane_dataset_index(arguments.retrieve_patterns, len(antibodies))
         dataset = target.load_dataset(str(arguments.retrieve_patterns))
+
         target_article_ids = target.extract_all_ids(dataset)
 
         ab = antibodies[dataset_index]
@@ -222,6 +226,7 @@ def main():
         secondary_regex_patterns = discover_pattern.generate_secondary_regex_patterns(ab)
 
         article_ids_iterable = enumerate(target_article_ids[arguments.pattern_jump_to_index:])
+
         for idx, target_article_id in article_ids_iterable:
 
             xml_content = europepmc.retrieve_article_content(target_article_id)
@@ -253,7 +258,12 @@ def main():
                 )
 
             for detected_pattern in detected_patterns:
-                print(discover_pattern.construct_query_pattern_from_regex_match(ab_search_cues, detected_pattern))
+                print(
+                    discover_pattern.construct_query_pattern_from_regex_match(
+                        ab_search_cues,
+                        detected_pattern
+                    )
+                )
 
     elif arguments.search_antibody:
         search_antibody(arguments.search_antibody)
