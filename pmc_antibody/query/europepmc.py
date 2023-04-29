@@ -4,6 +4,7 @@ Methods to query EuropePMC search endpoints.
 """
 
 from typing import Dict, Optional, Union
+import math
 import os
 import time
 
@@ -67,7 +68,10 @@ class SearchResult():
         except KeyError:
             next_cursor_mark = None
 
-        self.next_cursor_mark = next_cursor_mark
+        try:
+            self.next_cursor_mark = next_cursor_mark if next_cursor_mark != self.next_cursor_mark else None
+        except AttributeError:
+            self.next_cursor_mark = next_cursor_mark
 
         # NOTE: Mostly for debug purposes;
         self.result_json = result_json
@@ -83,10 +87,12 @@ class SearchResult():
         self.update(result_json)
 
     def expand_all(self, max_pages):
-        page = 1
+        page = 2
         while self.next_cursor_mark is not None and page < max_pages:
 
-            print(f"Retrieving next page of search results... {page}/{max_pages}: {self.next_cursor_mark}")
+            result_max_pages = math.ceil(self.hit_count / 100)
+            current_max_pages = min(result_max_pages, max_pages)
+            print(f"Retrieving next page of search results... {page}/{current_max_pages + 1}: {self.next_cursor_mark}")
 
             self.next_page()
 
