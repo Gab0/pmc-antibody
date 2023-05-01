@@ -231,6 +231,7 @@ def main():
     antibodies = target.benchmark_antibodies()
 
     if arguments.evaluate_all:
+        OUTPUT_PATH = "results.csv"
         results = []
 
         ABs = list(enumerate(antibodies))
@@ -401,8 +402,16 @@ def benchmark_search_query(
         "Benchmark N (CiteAB)": len(benchmark_dataset),
     }
 
+    # Write output records;
     write_article_list(search_identifier, "unmatched-articles", unmatched_articles)
-    benchmark_dataset.to_csv(f"{search_identifier}-benchmark.csv", index=None)
+    BENCHMARK_DIRECTORY = "article-benchmark"
+    if not os.path.isdir(BENCHMARK_DIRECTORY):
+        os.mkdir(BENCHMARK_DIRECTORY)
+    benchmark_filepath = os.path.join(
+        BENCHMARK_DIRECTORY,
+        f"{search_identifier}-benchmark.csv"
+    )
+    benchmark_dataset.to_csv(benchmark_filepath, index=None)
 
     show_statistics(record)
 
