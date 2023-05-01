@@ -357,8 +357,10 @@ def benchmark_search_query(
 
     verbose = False
 
-    benchmark_dataset.loc[:, "Found"] = [False for _ in benchmark_dataset.index]
+    # Mark articles that are from PMC;
+    benchmark_dataset.loc[:, "Found"] = [0 for _ in benchmark_dataset.index]
     benchmark_dataset.loc[:, "IS_PMC"] = [target.is_url_pmc(url) for url in benchmark_dataset.URL]
+    benchmark_dataset.loc[:, "IS_NOT_PREPRINT"] = [not target.is_url_preprint(url) for url in benchmark_dataset.URL]
 
     t0 = time.time()
     for found_article in search_result.results:
@@ -375,6 +377,7 @@ def benchmark_search_query(
 
     print(f"Took {round(time.time() - t0)} seconds to evaluate metrics.")
 
+    # Calculate success metrics;
     try:
         agreement_rate = sum(matched_results) / len(matched_results)
         false_positive_rate = 1 - agreement_rate
@@ -382,18 +385,18 @@ def benchmark_search_query(
         agreement_rate = 0
         false_positive_rate = 0
 
-    fulfillment_rate = sum(matched_results) / len(benchmark_dataset.Title)
-
-    IS_PMC = benchmark_dataset[benchmark_dataset.IS_PMC]
-
-    try:
-        fulfillment_pmc_rate = IS_PMC.Found.sum() / IS_PMC.shape[0]
-    except ZeroDivisionError:
-        fulfillment_pmc_rate = 0
+    fulfillment_rate = calculate_fulfillment_rate(benchmark_dataset)
+    fulfillment_pmc_rate = calculate_fulfillment_rate(
+        benchmark_dataset[benchmark_dataset.IS_PMC]
+    )
+    fulfillment_no_preprint_rate = calculate_fulfillment_rate(
+        benchmark_dataset[benchmark_dataset.IS_NOT_PREPRINT]
+    )
 
     record = {
         "Antibody ID": search_identifier,
         "Fulfillment Rate": percentage(fulfillment_rate),
+        "Fulfillment rate NO-PREPRINT": percentage(fulfillment_no_preprint_rate),
         "Fulfillment rate PMC": percentage(fulfillment_pmc_rate),
         "False Positive Rate": percentage(false_positive_rate),
         "Search Hit Count": search_result.hit_count,
@@ -416,6 +419,13 @@ def benchmark_search_query(
     show_statistics(record)
 
     return record
+
+
+def calculate_fulfillment_rate(benchmark_dataset: pd.DataFrame) -> float:
+    try:
+        return sum([min(k, 1) for k in benchmark_dataset.Found]) / len(benchmark_dataset)
+    except ZeroDivisionError:
+        return 0
 
 
 def show_statistics(record: Dict[str, Any]):
