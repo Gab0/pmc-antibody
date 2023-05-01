@@ -113,7 +113,7 @@ def parse_arguments():
 
     )
     parser.add_argument(
-        "-r",
+        "-p",
         "--retrieve-patterns",
         type=int,
         help=benchmark_message +
@@ -148,6 +148,14 @@ def parse_arguments():
         type=int,
         help="How many pages of results to download when benchmarking search results."
     )
+
+    parser.add_argument(
+        "-r",
+        "--resume",
+        action="store_true",
+        help="Whether to resume a previously broken benchmark analysis."
+    )
+
     return parser.parse_args()
 
 
@@ -225,17 +233,28 @@ def main():
     if arguments.evaluate_all:
         results = []
 
-        ABs = enumerate(antibodies)
+        ABs = list(enumerate(antibodies))
         #ABs = reversed(list(ABs))
 
-        for idx, ab in ABs:
+        initial_index = 0
+        if arguments.resume:
+            try:
+                resumed_dataset = pd.read_csv(OUTPUT_PATH)
+                initial_index = len(resumed_dataset)
+            except FileNotFoundError:
+                pass
+
+        for idx, ab in ABs[initial_index:]:
             dataset = target.load_dataset(str(idx + 1))
             result = benchmark_antibody(ab, dataset)
             results.append(result)
 
             # Write entire results on each new row! (safer);
             df = pd.DataFrame(results).round(2)
-            df.to_csv("results.csv", index=None)
+            if initial_index:
+                df = pd.concat([resumed_dataset, df])
+
+            df.to_csv(OUTPUT_PATH, index=None)
 
     elif arguments.retrieve_patterns:
         retrieve_patterns(arguments, antibodies)
