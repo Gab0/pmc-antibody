@@ -34,16 +34,16 @@ def build_antibody_query(ab):
     return query
 
 
-def execute_search(search_query: str) -> europepmc.SearchResult:
+def execute_search(search_query: str, max_pages: int = 20) -> europepmc.SearchResult:
     result = europepmc.get_articles(search_query)
     print(f"Found {result.hit_count} articles.")
 
-    result.expand_all(max_pages=20)
+    result.expand_all(max_pages)
 
     return result
 
 
-def search_antibody(antibody_identifier):
+def search_antibody(antibody_identifier: str, max_pages: int = 20):
     """ This is the search function to be called if using this project as a library. """
 
     identifiers = [
@@ -64,7 +64,7 @@ def search_antibody(antibody_identifier):
 
     search_query = build_antibody_query(ab)
 
-    return execute_search(search_query)
+    return execute_search(search_query, max_pages)
 
 
 def write_article_list(
@@ -142,6 +142,12 @@ def parse_arguments():
         help="Jump to a specific reference table index when discovering search patterns."
     )
 
+    parser.add_argument(
+        "-m",
+        "--max-pages-benchmark",
+        type=int,
+        help="How many pages of results to download when benchmarking search results."
+    )
     return parser.parse_args()
 
 
@@ -321,7 +327,7 @@ def benchmark_search_query(
         benchmark_dataset: pd.DataFrame
 ) -> Dict[str, Any]:
 
-    search_result = execute_search(search_query)
+    search_result = execute_search(search_query, max_pages=40)
 
     matched_results = []
     matched_articles = []
