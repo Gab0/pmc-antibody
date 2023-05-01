@@ -90,7 +90,7 @@ class AntibodyInformation():
         return f"{manufacturer}:{self.sku}"
 
 
-def expand_term(term: Union[List[str], str]):
+def expand_term(term: Union[List[str], str, None]):
     """
     Takes a term string and create variations on it.
 
@@ -101,6 +101,9 @@ def expand_term(term: Union[List[str], str]):
     # If term is already provided as a list, leave it as it is;
     if isinstance(term, list):
         return term
+
+    if term is None:
+        return [None]
 
     term = term.replace("-", " ")
     fragments = term.split(" ")
@@ -116,11 +119,37 @@ def expand_term(term: Union[List[str], str]):
     return list(set(variations))
 
 
-def variable_search_cues(ab: AntibodyInformation) -> Dict[str, List[Optional[str]]]:
+def expand_clone_name(term: Union[List[str], str, None]):
+    """
+    Takes a clone name and create variations on it.
+
+    Example: 'RM4-5' can be represented as 'RM4.5' or even 'RM 4-5'.
+
+    """
+
+    # If term is already provided as a list, leave it as it is;
+    if isinstance(term, list):
+        return term
+
+    if term is None:
+        return [None]
+
+    variations = [
+        term,
+        term.replace("-", "."),
+        term.replace(".", "-"),
+        re.sub(r"(\w)(\d)", r"\1 \2", term),
+        re.sub(r"(\d)(\w)", r"\1 \2", term)
+    ]
+
+    return list(set(variations))
+
+
+def variable_search_cues(ab: AntibodyInformation) -> Dict[str, List[str]]:
 
     return {
         "TARGET": [ab.target],
-        "CLONE": [ab.clone_id],
+        "CLONE": expand_clone_name(ab.clone_id),
         "MANUFACTURER": expand_term(ab.manufacturer),
         "SKU": [ab.sku]
     }
