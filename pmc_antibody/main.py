@@ -368,7 +368,7 @@ def benchmark_search_query(
         for b, benchmark_article in enumerate(benchmark_dataset.iloc()):
             if strings_equivalent(found_article.title, benchmark_article.Title):
                 matched = True
-                benchmark_dataset.loc[b, "Found"] = True
+                benchmark_dataset.loc[b, "Found"] += 1
                 break
 
         if not matched:
