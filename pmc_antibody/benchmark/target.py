@@ -91,7 +91,7 @@ def benchmark_antibodies():
 
         # 17;
         AntibodyInformation("OABB00472", None, "Aviva Systems Biology", "CD68"),
-        AntibodyInformation("PA1080", None, "Boster Biological Technology", "VEGFA"),
+        AntibodyInformation("PA1080", None, ["Boster", "Boster Biological Technology"], "VEGFA"),
         AntibodyInformation("BE0146", "RMP1-14", "Bio X Cell", "PDCD1"),
         AntibodyInformation("A5862", None, "ABclonal", "XRCC5"),
 
