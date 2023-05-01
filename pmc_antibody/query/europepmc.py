@@ -121,7 +121,14 @@ def get_articles(query: str) -> SearchResult:
         "pageSize": 100
     }
 
-    return SearchResult(search_articles(parameters), parameters)
+    try:
+        result = search_articles(parameters)
+        return SearchResult(result, parameters)
+    except KeyError:
+        print("Search error! Retrying..." + json.dumps(result, indent=4))
+        print(query)
+        time.sleep(1)
+        return get_articles(query)
 
 
 def search_articles(parameters):
