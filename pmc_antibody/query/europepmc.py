@@ -118,7 +118,7 @@ def get_articles(query: str) -> SearchResult:
     parameters: Dict[str, Union[str, int]] = {
         "query": query,
         "format": "json",
-        "pageSize": 100
+        "pageSize": 1000
     }
 
     try:
