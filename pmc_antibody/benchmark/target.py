@@ -50,6 +50,16 @@ def is_url_pmc(url: str) -> bool:
     return False
 
 
+def is_url_preprint(url: str) -> bool:
+    if not isinstance(url, str):
+        return False
+
+    if "rxiv" in url:
+        return True
+
+    return False
+
+
 def benchmark_antibodies():
     invitrogen = ["Invitrogen", "eBioscience"]
 
