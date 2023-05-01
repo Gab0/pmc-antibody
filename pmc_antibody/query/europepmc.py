@@ -24,9 +24,10 @@ class Article():
             "source",
         ]
 
+        # ID Fields, in order of priority;
         self.id_fields = [
-            "pmid",
             "pmcid",
+            "pmid",
             "doi"
         ]
 
