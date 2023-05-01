@@ -1,8 +1,26 @@
-Antibody ID,Fulfillment Rate,False Positive Rate,Search Hit Count,Search N,Agreement N,Benchmark N (CiteAB)
-BD Biosciences:550280,28.27%,92.55%,4556,2000,149,527
-Invitrogen:11-0041-82,20.7%,95.25%,4780,2000,95,459
-Abcam:ab183685,80.42%,16.1%,323,323,271,337
-BioLegend:100401,40.96%,93.2%,5591,2000,136,332
-Abcam:ab133616,76.92%,29.26%,311,311,220,286
-R&D Systems:AF1828,66.67%,4.76%,42,42,40,60
-R&D Systems:BAF1828,71.43%,0.0%,20,20,20,28
+Antibody ID,Fulfillment Rate,Fulfillment rate NO-PREPRINT,Fulfillment rate PMC,False Positive Rate,Search Hit Count,Search N,Agreement N,Benchmark N (CiteAB)
+BD Biosciences:550280,69.07%,69.36%,94.74%,95.56%,9384,9384,417,527
+Invitrogen:11-0041-82,56.64%,56.29%,65.91%,97.65%,12277,12277,289,459
+Abcam:ab183685,81.31%,83.54%,98.83%,18.69%,337,337,274,337
+BioLegend:100401,84.64%,84.88%,95.13%,96.88%,12482,12482,389,332
+Abcam:ab133616,78.32%,80.38%,96.0%,33.53%,343,343,228,286
+R&D Systems:AF1828,66.67%,73.08%,90.0%,4.76%,42,42,40,60
+R&D Systems:BAF1828,71.43%,90.0%,100.0%,0.0%,20,20,20,28
+Invitrogen:MA5-12542,50.0%,42.86%,100.0%,0.0%,4,4,4,8
+MilliporeSigma:AB5054,67.2%,68.86%,94.23%,2.3%,174,174,170,250
+Miltenyi Biotec:130-095-822,80.0%,85.71%,100.0%,80.8%,125,125,24,30
+STEMCELL Technologies:60161.2,85.71%,100.0%,100.0%,99.78%,9060,9060,20,7
+Cell Signaling Technology:9102,69.31%,72.23%,82.97%,96.18%,13282,13282,507,720
+Cell Signaling Technology:3661,66.6%,66.67%,86.75%,88.93%,8015,8015,887,994
+Vector Laboratories:BA-2001,48.34%,48.75%,79.78%,18.35%,278,278,227,453
+BioVision:3533,100.0%,100.0%,100.0%,99.92%,7430,7430,6,6
+Bioworld:BS10043,87.5%,87.5%,100.0%,12.5%,8,8,7,8
+Aviva Systems Biology:OABB00472,88.89%,85.71%,100.0%,0.0%,9,9,9,9
+Boster Biological Technology:PA1080,2.15%,2.15%,14.29%,90.91%,22,22,2,93
+Bio X Cell:BE0146,82.34%,84.85%,95.76%,67.21%,1476,1476,484,572
+ABclonal:A5862,75.0%,71.43%,100.0%,77.78%,27,27,6,8
+R&D Systems:AF933,85.35%,86.85%,93.69%,18.34%,398,398,325,314
+Enzo Life Sciences:ALX-801-002-C100,64.86%,66.67%,100.0%,98.66%,1786,1786,24,37
+Novus Biologicals:NB100-165,38.46%,38.46%,60.0%,0.0%,5,5,5,13
+Cell Signaling Technology:9285,10.71%,10.71%,27.27%,99.58%,15120,15121,64,140
+Jackson ImmunoResearch:127-165-160,69.77%,69.23%,95.0%,6.25%,32,32,30,43

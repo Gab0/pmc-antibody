@@ -1,53 +1,64 @@
 Title,ID
-Antitumor Effect of Korean Red Ginseng through Blockade of PD-1/PD-L1 Interaction in a Humanized PD-L1 Knock-In MC38 Cancer Mouse Model.,36768213
-Semi-supervised analysis of myeloid and T cell behavior in <i>ex vivo</i> ovarian tumor slices reveals changes in cell motility after treatments.,37091227
-Spermidine enhances the efficacy of adjuvant in HBV vaccination in mice.,36972390
-"The effects of photobiomodulation therapy on inflammatory mediators, immune infiltration, and angiogenesis in a mouse model of rosacea.",36035005
+Spatial CRISPR genomics identifies regulators of the tumor microenvironment.,PMC8992964
+Semi-supervised analysis of myeloid and T cell behavior in <i>ex vivo</i> ovarian tumor slices reveals changes in cell motility after treatments.,PMC10119804
+Treg-Dominant Tumor Microenvironment Is Responsible for Hyperprogressive Disease after PD-1 Blockade Therapy.,PMC9627263
+CD29 targeted near-infrared photoimmunotherapy (NIR-PIT) in the treatment of a pigmented melanoma model.,PMC8741294
+Protective anti-tumor vaccination against glioblastoma expressing the MHC class II transactivator CIITA.,PMC10040613
+Antitumor Effect of Korean Red Ginseng through Blockade of PD-1/PD-L1 Interaction in a Humanized PD-L1 Knock-In MC38 Cancer Mouse Model.,PMC9915403
+Near-Infrared Photoimmunotherapy Combined with CTLA4 Checkpoint Blockade in Syngeneic Mouse Cancer Models. ,PMC7564971
+"The effects of photobiomodulation therapy on inflammatory mediators, immune infiltration, and angiogenesis in a mouse model of rosacea.",PMC9403938
+HBV Infection-Related <i>PDZK1</i> Plays an Oncogenic Role by Regulating the PI3K-Akt Pathway and Fatty Acid Metabolism and Enhances Immunosuppression.,PMC9427290
+CXCL1 promotes colon cancer progression through activation of NF-κB/P300 signaling pathway.,PMC9701058
+Low ferroptosis score predicts chemotherapy responsiveness and immune-activation in colorectal cancer.,PMC9883409
+Spermidine enhances the efficacy of adjuvant in HBV vaccination in mice.,PMC10043579
+Combined CD44- and CD25-Targeted Near-Infrared Photoimmunotherapy Selectively Kills Cancer and Regulatory T Cells in Syngeneic Mouse Cancer Models.,PMC8477607
+Combined α-programmed death-1 monoclonal antibody blockade and fractionated radiation therapy reduces tumor growth in mouse EL4 lymphoma.,PMC6605991
 Therapeutic Effect of Costunolide in Autoimmune Hepatitis: Network Pharmacology and Experimental Validation,PMC9963495
-Characterization of Inflammatory Factors and T Cell Subpopulations in a Murine Model of Kawasaki Disease Induced by Candida albicans Cell Wall Extracts (CAWS).,35526108
+Targeting the KRAS α4-α5 allosteric interface inhibits pancreatic cancer tumorigenesis.,PMC9707541
+Interleukin-15 after Near-Infrared Photoimmunotherapy (NIR-PIT) Enhances T Cell Response against Syngeneic Mouse Tumors. ,PMC7564397
 A pan-variant mRNA-LNP T cell vaccine protects HLA transgenic mice from mortality after infection with SARS-CoV-2 Beta,10.1101/2022.09.23.509206
-Protective anti-tumor vaccination against glioblastoma expressing the MHC class II transactivator CIITA.,36993983
-KRP-203 Is a Desirable Immunomodulator for Islet Allotransplantation.,34241985
-Spatial CRISPR genomics identifies regulators of the tumor microenvironment.,35290801
-HBV Infection-Related <i>PDZK1</i> Plays an Oncogenic Role by Regulating the PI3K-Akt Pathway and Fatty Acid Metabolism and Enhances Immunosuppression.,36052278
-STAT3 in tumor fibroblasts promotes an immunosuppressive microenvironment in pancreatic cancer.,35803738
-CXCL1 promotes colon cancer progression through activation of NF-κB/P300 signaling pathway.,36434686
-Low ferroptosis score predicts chemotherapy responsiveness and immune-activation in colorectal cancer.,35855531
+A Novel Approach for Determining the Critical Quality Attributes of Mesenchymal Stem Cells by Specifying Cell Population With Replication Potential.,PMC10021496
+Characterization of Inflammatory Factors and T Cell Subpopulations in a Murine Model of Kawasaki Disease Induced by Candida albicans Cell Wall Extracts (CAWS).,PMC9097462
+Circulating follicular helper T cells and subsets are associated with immune response to hepatitis B vaccination.,PMC7899680
+KRP-203 Is a Desirable Immunomodulator for Islet Allotransplantation.,PMC9038237
+FTY720 reactivates cryptococcal granulomas in mice through S1P receptor 3 on macrophages.,PMC7456236
 Immunobiology of a rationally-designed AAV2 capsid following intravitreal delivery in mice,10.21203/rs.3.rs-1991309/v1
-Biosynthetic neoantigen displayed on bacteria derived vesicles elicit systemic antitumour immunity.,36468941
-MHC class II in renal tubules plays an essential role in renal fibrosis.,34556823
-Treg-Dominant Tumor Microenvironment Is Responsible for Hyperprogressive Disease after PD-1 Blockade Therapy.,36169564
-A Novel Approach for Determining the Critical Quality Attributes of Mesenchymal Stem Cells by Specifying Cell Population With Replication Potential.,36917628
-"Analysis of a novel immune checkpoint, Siglec-15, in pancreatic ductal adenocarcinoma.",35083884
-Milk-derived extracellular vesicles protect intestinal barrier integrity in the gut-liver axis.,37043568
-Circulating follicular helper T cells and subsets are associated with immune response to hepatitis B vaccination.,32614645
-Improved intratumoral penetration of IL12 immunocytokine enhances the antitumor efficacy.,36405748
-Deconvolution of the immunological contexture of mouse tumors with multiplexed immunohistochemistry.,32122555
-CD29 targeted near-infrared photoimmunotherapy (NIR-PIT) in the treatment of a pigmented melanoma model.,35003897
-Hyperthermia by near infrared radiation induced immune cells activation and infiltration in breast tumor.,33986437
-Targeting the KRAS α4-α5 allosteric interface inhibits pancreatic cancer tumorigenesis.,33949915
-Long Noncoding RNA RP11-357H14.17 Plays an Oncogene Role in Gastric Cancer by Activating ATF2 Signaling and Enhancing Treg Cells.,34195276
-Near-Infrared Photoimmunotherapy Combined with CTLA4 Checkpoint Blockade in Syngeneic Mouse Cancer Models. ,32937841
-High-dimensional single-cell analysis delineates radiofrequency ablation induced immune microenvironmental remodeling in pancreatic cancer.,32719347
-A2AR Antagonism with DZD2269 Augments Antitumor Efficacy of Irradiation in Murine Model.,32284765
-Anti-TCRβ mAb in Combination With Neurogenin3 Gene Therapy Reverses Established Overt Type 1 Diabetes in Female NOD Mice.,28977608
-Combined CD44- and CD25-Targeted Near-Infrared Photoimmunotherapy Selectively Kills Cancer and Regulatory T Cells in Syngeneic Mouse Cancer Models.,31953245
-FTY720 reactivates cryptococcal granulomas in mice through S1P receptor 3 on macrophages.,32484801
-The Impact of Focused Ultrasound in Two Tumor Models: Temporal Alterations in the Natural History on Tumor Microenvironment and Immune Cell Response. ,32033171
-The Effect of Antibody Fragments on CD25 Targeted Regulatory T Cell Near-Infrared Photoimmunotherapy.,31498995
-Differences between immunodeficient mice generated by classical gene targeting and CRISPR/Cas9-mediated gene knockout.,29594927
-Multi-omic profiling of lung and liver tumor microenvironments of metastatic pancreatic cancer reveals site-specific immune regulatory pathways.,33985562
-Single-Cell Analysis Unveils the Role of the Tumor Immune Microenvironment and Notch Signaling in Dormant Minimal Residual Disease.,34965936
-Combined α-programmed death-1 monoclonal antibody blockade and fractionated radiation therapy reduces tumor growth in mouse EL4 lymphoma.,30572778
-"Novel Oncolytic Herpes Simplex Virus 1 VC2 Promotes Long-Lasting, Systemic Anti-melanoma Tumor Immune Responses and Increased Survival in an Immunocompetent B16F10-Derived Mouse Melanoma Model.",33177208
-Modification of the Tumor Microenvironment Enhances Anti-PD-1 Immunotherapy in Metastatic Melanoma.,36365247
-The Notch signaling pathway promotes basophil responses during helminth-induced type 2 inflammation.,30975892
-Graft-versus-host disease propagation depends on increased intestinal epithelial tight junction permeability.,30667372
-Targeting EZH2 Reprograms Intratumoral Regulatory T Cells to Enhance Cancer Immunity.,29898397
-"Overcoming high level adenosine-mediated immunosuppression by DZD2269, a potent and selective A2aR antagonist.",36229853
-Tumor-intrinsic YTHDF1 drives immune evasion and resistance to immune checkpoint inhibitors via promoting MHC-I degradation.,36650153
-Chemotherapy Coupled to Macrophage Inhibition Induces T-cell and B-cell Infiltration and Durable Regression in Triple-Negative Breast Cancer.,35442423
-A heat-shocked melanoma cell lysate vaccine enhances tumor infiltration by prototypic effector T cells inhibiting tumor growth. ,32690772
-IL-12 Gene Electrotransfer Triggers a Change in Immune Response within Mouse Tumors. ,30544810
-Disruption of thymic central tolerance by infection with murine roseolovirus induces autoimmune gastritis.,35226043
-A preclinical model of peripheral T-cell lymphoma GATA3 reveals DNA damage response pathway vulnerability.,35510955
+Long Noncoding RNA RP11-357H14.17 Plays an Oncogene Role in Gastric Cancer by Activating ATF2 Signaling and Enhancing Treg Cells.,PMC8181105
+Biosynthetic neoantigen displayed on bacteria derived vesicles elicit systemic antitumour immunity.,PMC9721206
+STAT3 in tumor fibroblasts promotes an immunosuppressive microenvironment in pancreatic cancer.,PMC9270499
+The Impact of Focused Ultrasound in Two Tumor Models: Temporal Alterations in the Natural History on Tumor Microenvironment and Immune Cell Response. ,PMC7072338
+High-dimensional single-cell analysis delineates radiofrequency ablation induced immune microenvironmental remodeling in pancreatic cancer.,PMC7385122
+A2AR Antagonism with DZD2269 Augments Antitumor Efficacy of Irradiation in Murine Model.,PMC7150468
+MHC class II in renal tubules plays an essential role in renal fibrosis.,PMC8545940
+"Novel Oncolytic Herpes Simplex Virus 1 VC2 Promotes Long-Lasting, Systemic Anti-melanoma Tumor Immune Responses and Increased Survival in an Immunocompetent B16F10-Derived Mouse Melanoma Model.",PMC7925097
+Milk-derived extracellular vesicles protect intestinal barrier integrity in the gut-liver axis.,PMC10096581
+Improved intratumoral penetration of IL12 immunocytokine enhances the antitumor efficacy.,PMC9667294
+The Effect of Antibody Fragments on CD25 Targeted Regulatory T Cell Near-Infrared Photoimmunotherapy.,PMC7413076
+Differences between immunodeficient mice generated by classical gene targeting and CRISPR/Cas9-mediated gene knockout.,PMC5986857
+"Analysis of a novel immune checkpoint, Siglec-15, in pancreatic ductal adenocarcinoma.",PMC8977273
+Graft-versus-host disease propagation depends on increased intestinal epithelial tight junction permeability.,PMC6355225
+Proteomic profile of mesothelial exosomes isolated from peritoneal dialysis effluent of children with focal segmental glomerulosclerosis.,PMC8531449
+Chemotherapy Coupled to Macrophage Inhibition Induces T-cell and B-cell Infiltration and Durable Regression in Triple-Negative Breast Cancer.,PMC9219596
+Deconvolution of the immunological contexture of mouse tumors with multiplexed immunohistochemistry.,PMC7424935
+Hyperthermia by near infrared radiation induced immune cells activation and infiltration in breast tumor.,PMC8119485
+Single-Cell Analysis Unveils the Role of the Tumor Immune Microenvironment and Notch Signaling in Dormant Minimal Residual Disease.,PMC8898263
+Anti-TCRβ mAb in Combination With Neurogenin3 Gene Therapy Reverses Established Overt Type 1 Diabetes in Female NOD Mice.,PMC5659705
+A heat-shocked melanoma cell lysate vaccine enhances tumor infiltration by prototypic effector T cells inhibiting tumor growth. ,PMC7373330
+Targeting EZH2 Reprograms Intratumoral Regulatory T Cells to Enhance Cancer Immunity.,PMC6094952
+Lipid nanoparticles that deliver IL-12 messenger RNA suppress tumorigenesis in MYC oncogene-driven hepatocellular carcinoma.,PMC6247677
+Disruption of thymic central tolerance by infection with murine roseolovirus induces autoimmune gastritis.,PMC8932538
+Multi-omic profiling of lung and liver tumor microenvironments of metastatic pancreatic cancer reveals site-specific immune regulatory pathways.,PMC8118107
+Modification of the Tumor Microenvironment Enhances Anti-PD-1 Immunotherapy in Metastatic Melanoma.,PMC9695203
+Tumor-intrinsic YTHDF1 drives immune evasion and resistance to immune checkpoint inhibitors via promoting MHC-I degradation.,PMC9845301
+EGFR Inhibition Strongly Modulates the Tumour Immune Microenvironment in EGFR-Driven Non-Small-Cell Lung Cancer.,PMC9406398
+"Overcoming high level adenosine-mediated immunosuppression by DZD2269, a potent and selective A2aR antagonist.",PMC9563815
+The Notch signaling pathway promotes basophil responses during helminth-induced type 2 inflammation.,PMC6547860
+Cholinergic stimulation with pyridostigmine modulates a heart-spleen axis after acute myocardial infarction in spontaneous hypertensive rats.,PMC8099899
+A DNA Hypomethylating Drug Alters the Tumor Microenvironment and Improves the Effectiveness of Immune Checkpoint Inhibitors in a Mouse Model of Pancreatic Cancer.,PMC9296074
+Targeting Prostate Cancer Using Intratumoral Cytotopically Modified Interleukin-15 Immunotherapy in a Syngeneic Murine Model.,PMC7394845
+IL-12 Gene Electrotransfer Triggers a Change in Immune Response within Mouse Tumors. ,PMC6315808
+IL-10 producing type 2 innate lymphoid cells prolong islet allograft survival.,PMC7645373
+Single-cell RNA sequencing reveals compartmental remodeling of tumor-infiltrating immune cells induced by anti-CD47 targeting in pancreatic cancer.,PMC6880569
+A preclinical model of peripheral T-cell lymphoma GATA3 reveals DNA damage response pathway vulnerability.,PMC9174882
+Alopecia areata susceptibility variant in MHC region impacts expressions of genes contributing to hair keratinization and is involved in hair loss.,PMC7317227
+Streamlining volumetric multi-channel image cytometry using hue-saturation-brightness-based surface creation.,PMC6127105
