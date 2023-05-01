@@ -7,7 +7,7 @@ from typing import Dict, Optional, Union
 import math
 import os
 import time
-
+import json
 import requests
 
 
@@ -34,14 +34,13 @@ class Article():
         for v in mandatory_fields:
             self.__dict__[v] = article_json[v]
 
-
         # NOTE: Mostly for debug purposes;
         self.article_json = article_json
 
     def get_id(self) -> Optional[str]:
         for v in self.id_fields:
             try:
-                return  self.article_json[v]
+                return self.article_json[v]
             except KeyError:
                 pass
 
@@ -91,9 +90,12 @@ class SearchResult():
         page = 2
         while self.next_cursor_mark is not None and page < max_pages:
 
-            result_max_pages = math.ceil(self.hit_count / 100)
+            result_max_pages = math.ceil(self.hit_count / 1000)
             current_max_pages = min(result_max_pages, max_pages)
-            print(f"Retrieving next page of search results... {page}/{current_max_pages + 1}: {self.next_cursor_mark}")
+            print(
+                "Retrieving next page of search results... "
+                + f"{page}/{current_max_pages + 1}: {self.next_cursor_mark}"
+            )
 
             self.next_page()
 
@@ -139,7 +141,6 @@ def search_articles(parameters):
     )
 
     return response.json()
-
 
 
 def retrieve_article_content(article_id: str) -> Optional[str]:
