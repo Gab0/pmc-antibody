@@ -15,24 +15,31 @@ BASE_URL = "https://www.ebi.ac.uk"
 
 
 class Article():
+
+    mandatory_fields = [
+        "title",
+        "id",
+        "source",
+    ]
+
+    # ID Fields, in order of priority;
+    id_fields = [
+        "pmcid",
+        "pmid",
+        "doi"
+    ]
+
     """ Information on a single article. """
     def __init__(self, article_json):
 
-        mandatory_fields = [
-            "title",
-            "id",
-            "source",
-        ]
-
-        # ID Fields, in order of priority;
-        self.id_fields = [
-            "pmcid",
-            "pmid",
-            "doi"
-        ]
-
-        for v in mandatory_fields:
+        for v in self.mandatory_fields:
             self.__dict__[v] = article_json[v]
+
+        for v in self.id_fields:
+            try:
+                self.__dict__[v] = article_json[v]
+            except KeyError:
+                pass
 
         # NOTE: Mostly for debug purposes;
         self.article_json = article_json

@@ -353,8 +353,6 @@ def benchmark_search_query(
     matched_articles = []
     unmatched_articles = []
 
-    missed_articles = []
-
     verbose = False
 
     # Mark articles that are from PMC;
@@ -362,8 +360,26 @@ def benchmark_search_query(
     benchmark_dataset.loc[:, "IS_PMC"] = [target.is_url_pmc(url) for url in benchmark_dataset.URL]
     benchmark_dataset.loc[:, "IS_NOT_PREPRINT"] = [not target.is_url_preprint(url) for url in benchmark_dataset.URL]
 
+    # Match search results with benchmark;
+    #
+    # This can take a while,
+    # depending on the number of results.
+    # This is mostly due to our title comparison algorithm,
     t0 = time.time()
-    for found_article in search_result.results:
+    for a, found_article in enumerate(search_result.results):
+
+        if a < 1000:
+            try:
+                if found_article.pmcid:
+                    download_result = "NO ARTICLE"
+                    if europepmc.retrieve_article_content(found_article.pmcid):
+                        download_result = "OK"
+            except AttributeError as e:
+                download_result = f"NO ID {e}"
+
+            with open(f"{search_identifier}.txt", 'a', encoding="utf-8") as f:
+                f.write(download_result + "\n")
+
         matched = False
         for b, benchmark_article in enumerate(benchmark_dataset.iloc()):
             if strings_equivalent(found_article.title, benchmark_article.Title):
